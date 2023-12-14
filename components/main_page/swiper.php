@@ -1,4 +1,4 @@
-<section id="swiper">
+<section id="swiper" class="container">
     <!-- Slider main container -->
     <div class="swiper desktop">
         <!-- Additional required wrapper -->
