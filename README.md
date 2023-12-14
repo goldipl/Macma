@@ -21,7 +21,6 @@ Used technologies:
 * HTML5
 * Bootstrap
 * SCSS
-* Bootstrap
 
 ## Gif desktop website presentation
 
