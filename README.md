@@ -19,7 +19,7 @@ Used technologies:
 * Select2
 * PHP
 * HTML5
-* Bootstrap
+* Bootstrap 5.3.2
 * SCSS
 
 ## Gif desktop website presentation
