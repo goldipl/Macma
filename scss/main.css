@@ -54,6 +54,11 @@ body {
   height: 26px;
 }
 
+@media (max-width: 991px) {
+  .topbar-links {
+    display: none !important;
+  }
+}
 nav .nav-account-cart a span {
   font-size: 18px;
   font-weight: 400;

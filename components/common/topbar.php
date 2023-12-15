@@ -14,31 +14,35 @@
                 <img src="./assets/icons/common/topbar/linkedin.svg" alt="linkedin" width="26" height="26">
             </a>
         </div>
-        <div class="d-flex flex-row align-items-center">
-            <a href="#" class="p-3">
-                O nas
-            </a>
-            <a href="#" class="p-3">
-                Newsletter
-            </a>
-            <a href="#" class="p-3">
-                Aktualności
-            </a>
-            <a href="#" class="p-3">
-                Blog
-            </a>
-            <a href="#" class="p-3">
-                FAQ
-            </a>
-            <a href="#" class="p-3">
-                Kontakt
-            </a>
-            <a href="#" class="p-1">
-                <span class="d-flex justify-content-center align-items-center bg-white rounded-circle">PL</span>
-            </a>
-            <a href="#" class="p-1">
-                <span class="d-flex justify-content-center align-items-center bg-white rounded-circle">EN</span>
-            </a>
+        <div class="d-flex">
+            <div class="topbar-links d-flex flex-row align-items-center">
+                <a href="#" class="p-3">
+                    O nas
+                </a>
+                <a href="#" class="p-3">
+                    Newsletter
+                </a>
+                <a href="#" class="p-3">
+                    Aktualności
+                </a>
+                <a href="#" class="p-3">
+                    Blog
+                </a>
+                <a href="#" class="p-3">
+                    FAQ
+                </a>
+                <a href="#" class="p-3">
+                    Kontakt
+                </a>
+            </div>
+            <div class="topbar-lang d-flex flex-row align-items-center">
+                <a href="#" class="p-1">
+                    <span class="d-flex justify-content-center align-items-center bg-white rounded-circle">PL</span>
+                </a>
+                <a href="#" class="p-1">
+                    <span class="d-flex justify-content-center align-items-center bg-white rounded-circle">EN</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
