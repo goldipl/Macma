@@ -1,0 +1,29 @@
+#topbar {
+    background-color: $macma_orange;
+    height: 50px;
+    .container {
+        height: 50px;
+        div {
+            a {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 90%; 
+                color: $white;
+                text-decoration: none;
+                &:hover {
+                    filter: brightness(0.9);
+                }
+            }
+            span {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 90%;
+                color: $text_color;
+                width: 26px;
+                height: 26px;
+            }
+        }
+    }
+}
