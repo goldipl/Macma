@@ -29,5 +29,6 @@
         <script src="./js/select2.min.js"></script>
         <script src="./js/swiper-bundle.js"></script>
         <script src="./js/swiper.js"></script>
+        <script src="./js/nested-dropdown-menu.js"></script>
     </body>
 </html>
