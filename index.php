@@ -27,8 +27,8 @@
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="./js/bootbox.min.js"></script>
         <script src="./js/select2.min.js"></script>
-        <script src="./js/swiper-bundle.js"></script>
-        <script src="./js/swiper.js"></script>
-        <script src="./js/nested-dropdown-menu.js"></script>
+        <script src="./js/swiper/swiper-bundle.js"></script>
+        <script src="./js/swiper/swiper.js"></script>
+        <script src="./js/header/nested-dropdown-menu.js"></script>
     </body>
 </html>
