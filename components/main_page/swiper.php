@@ -19,6 +19,11 @@
                     <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
                 </a>
             </div>
+            <div class="swiper-slide">
+                <a href="#welcome">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
+                </a>
+            </div>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -30,6 +35,11 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
+            <div class="swiper-slide">
+                <a href="#welcome">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile.jpg" alt="banner" width="491" height="405">
+                </a>
+            </div>
             <div class="swiper-slide">
                 <a href="#welcome">
                     <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile.jpg" alt="banner" width="491" height="405">
