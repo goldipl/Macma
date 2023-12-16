@@ -230,6 +230,14 @@ nav .nav-account-cart a:hover span {
     left: 16px;
   }
 }
+@media (max-width: 576px) {
+  #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    margin: 0 6px;
+  }
+}
 #info_section .container .row .col {
   border-right: 2px solid #F26521;
 }

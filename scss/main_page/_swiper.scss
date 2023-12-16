@@ -94,3 +94,16 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    #swiper {
+        .swiper {
+            .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+            .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                width: 15px;
+                height: 15px;
+                margin: 0 6px;
+            }
+        }
+    }  
+}
