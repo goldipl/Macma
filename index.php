@@ -18,6 +18,7 @@
         </header>
         <main id="main-wrapper">
             <?php include "./components/main_page/swiper.php"; ?> 
+            <?php include "./components/main_page/info_section.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

@@ -8,3 +8,10 @@
         max-width: 1576px;
     }
 }
+
+@media (min-width: 576px) {
+    .container, 
+    .container-sm {
+        max-width: 90vw;
+    }
+}
