@@ -1,4 +1,4 @@
-#promo_products {
+#promo_products_container {
     .container {
         position: relative;
     }
@@ -115,7 +115,7 @@
 }
 
 @media (max-width: 1199px) {
-    #promo_products {
+    #promo_products_container {
         .container {
             flex-wrap: wrap;
             .mp-check-all-btn {
@@ -188,7 +188,7 @@
 }
 
 @media (max-width: 576px) {
-    #promo_products {
+    #promo_products_container {
         .container {
             .mp-check-all-btn {
                 right: 16px;

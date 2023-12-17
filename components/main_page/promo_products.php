@@ -1,4 +1,4 @@
-<section id="promo_products">
+<section id="promo_products_container">
     <div class="container d-flex flex-row align-items-center justify-content-between">
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row">
