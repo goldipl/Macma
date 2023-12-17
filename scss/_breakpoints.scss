@@ -15,3 +15,10 @@
         max-width: 90vw;
     }
 }
+
+@media (min-width: 1640px) {
+    .container, 
+    .container-sm {
+        max-width: 1576px;
+    }
+}
