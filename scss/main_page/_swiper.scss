@@ -64,6 +64,53 @@
         }
     }
 } 
+
+.promo_products_swiper {
+    width: 100%;
+    height: 555px;
+    z-index: 0;
+    .swiper-button-next {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        background-image: url("./../assets/icons/main_page/hero_swiper/arrow-right.svg");
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        right: -80px;
+        z-index: 1;
+        &::after {
+            display: none;
+        }
+    }
+    .swiper-button-prev {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        background-image: url("./../assets/icons/main_page/hero_swiper/arrow-left.svg");
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        left: -80px;
+        z-index: 1;
+        &::after {
+            display: none;
+        }
+    }
+    .swiper-slide {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
 @media (min-width: 2560px) {
     #swiper {
         .swiper {
@@ -76,6 +123,7 @@
     }
                
 }
+
 @media (max-width: 991px) {
     #swiper {
         .swiper {
@@ -86,11 +134,19 @@
                 display: block;
             }
             .swiper-button-next {
-                right: 16px;
+                right: 8px;
             }
             .swiper-button-prev {
-                left: 16px;
+                left: 8px;
             }
+        }
+    }
+    .promo_products_swiper {
+        .swiper-button-next {
+            right: 8px;
+        }
+        .swiper-button-prev {
+            left: 8px;
         }
     }
 }

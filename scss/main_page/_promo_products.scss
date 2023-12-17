@@ -1,0 +1,20 @@
+#promo_products_swiper {
+    position: relative;
+    margin-bottom: 76px;
+    background-color: $light_grey;
+    padding: 37px 0 47px 0;
+    .promo_products_swiper {
+        overflow: hidden;
+    }
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: calc((100vw - 1576px) / 2 * -1);
+        top: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: 0;
+    }
+}
