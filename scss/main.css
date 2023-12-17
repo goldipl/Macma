@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   accent-color: #F26521;
 }
 
@@ -238,23 +238,23 @@ nav .nav-account-cart a:hover span {
     margin: 0 6px;
   }
 }
-#info_section .container .row .col {
+#info_section .container .flex-row .flex-col {
   border-right: 2px solid #F26521;
 }
-#info_section .container .row .col:last-of-type {
+#info_section .container .flex-row .flex-col:last-of-type {
   border-right: 0;
 }
-#info_section .container .row .col .info_section__top {
+#info_section .container .flex-row .flex-col .info_section__top {
   width: 80%;
   text-align: left;
 }
-#info_section .container .row .col .info_section__top img {
+#info_section .container .flex-row .flex-col .info_section__top img {
   height: 50px;
   width: auto;
   -o-object-fit: contain;
      object-fit: contain;
 }
-#info_section .container .row .col .info_section__top p {
+#info_section .container .flex-row .flex-col .info_section__top p {
   display: inline-flex;
   font-size: 20px;
   font-weight: 700;
@@ -265,10 +265,10 @@ nav .nav-account-cart a:hover span {
   width: auto;
   max-width: 180px;
 }
-#info_section .container .row .col .info_section__bottom {
+#info_section .container .flex-row .flex-col .info_section__bottom {
   text-align: center;
 }
-#info_section .container .row .col .info_section__bottom p {
+#info_section .container .flex-row .flex-col .info_section__bottom p {
   display: inline-flex;
   font-size: 16px;
   font-weight: 400;
@@ -280,23 +280,198 @@ nav .nav-account-cart a:hover span {
 }
 
 @media (max-width: 991px) {
-  #info_section .container .row .col:nth-of-type(2) {
+  #info_section .container .flex-row .flex-col:nth-of-type(2) {
     border-right: 0;
   }
-  #info_section .container .row .col .info_section__top p {
+  #info_section .container .flex-row .flex-col .info_section__top p {
     font-size: 18px;
   }
-  #info_section .container .row .col .info_section__bottom p {
+  #info_section .container .flex-row .flex-col .info_section__bottom p {
     font-size: 14px;
+    line-height: 140%;
   }
 }
 @media (max-width: 576px) {
-  #info_section .container .row .col .info_section__top {
+  #info_section .container .flex-row .flex-col .info_section__top {
     flex-direction: column;
   }
-  #info_section .container .row .col .info_section__top p {
+  #info_section .container .flex-row .flex-col .info_section__top p {
     margin-left: 0;
     margin-top: 1rem;
     text-align: center;
+  }
+}
+#promo_products .container {
+  position: relative;
+}
+
+.mp-titles {
+  width: 60%;
+}
+.mp-titles .flex-row .promo-box {
+  background-color: #E4EDFF;
+  padding: 5px 41px;
+  width: -moz-max-content;
+  width: max-content;
+  height: 34px;
+  margin-bottom: 40px;
+}
+.mp-titles .flex-row .promo-box p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 9.6px;
+  text-transform: uppercase;
+  color: #374957;
+}
+.mp-titles .flex-row h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+}
+.mp-titles .flex-row h1 span {
+  font-weight: 900;
+  color: #F26521;
+}
+
+.mp-bell-promo-box {
+  background-color: #F26521;
+  width: -moz-max-content;
+  width: max-content;
+  height: 105px;
+  margin-right: 40px;
+  margin-left: 16px;
+}
+.mp-bell-promo-box--text p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  text-align: right;
+}
+.mp-bell-promo-box--text p span {
+  display: flex;
+  font-weight: 700;
+}
+.mp-bell-promo-box--data {
+  margin-left: 32px;
+  margin-right: 24px;
+}
+.mp-bell-promo-box--data div.calendar-card-top {
+  width: 77px;
+  height: auto;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #F26521;
+}
+.mp-bell-promo-box--data div.calendar-card-top p {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #F26521;
+  margin: 0;
+}
+.mp-bell-promo-box--data div.calendar-card-bottom {
+  width: 77px;
+  height: auto;
+  background-color: #FFFFFF;
+}
+.mp-bell-promo-box--data div.calendar-card-bottom p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  color: #F26521;
+  margin: 0;
+}
+
+.mp-check-all-btn a {
+  display: flex;
+  width: 79px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: #374957;
+  text-align: right;
+  text-decoration: none;
+  margin-right: 41px;
+}
+.mp-check-all-btn a img {
+  margin: 0 0 0 11px;
+}
+
+@media (max-width: 1199px) {
+  #promo_products .container {
+    flex-wrap: wrap;
+  }
+  #promo_products .container .mp-check-all-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #promo_products .container .mp-bell-btn-box {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  #promo_products .container .mp-bell-btn-box .mp-bell-promo-box {
+    margin: auto 0;
+  }
+}
+@media (max-width: 991px) {
+  .mp-titles .flex-row.mp-title {
+    width: 93vw;
+  }
+  .mp-titles .flex-row .promo-box {
+    margin-bottom: 24px;
+    padding: 4px 24px;
+  }
+  .mp-titles .flex-row .promo-box p {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 6px;
+  }
+  .mp-titles .flex-row h1 {
+    font-size: 20px;
+    line-height: 140%;
+    width: 100vw;
+  }
+  .mp-bell-promo-box--text p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .mp-bell-promo-box--data {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .mp-bell-promo-box--data div.calendar-card-top {
+    height: 48px;
+  }
+  .mp-bell-promo-box--data div.calendar-card-top p {
+    font-size: 22px;
+  }
+  .mp-check-all-btn a {
+    font-size: 14px;
+    line-height: 125%;
+  }
+  .mp-check-all-btn a img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 576px) {
+  #promo_products .container .mp-check-all-btn {
+    right: 16px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,198 @@
+#promo_products {
+    .container {
+        position: relative;
+    }
+}
+
+.mp-titles {
+    width: 60%;
+    .flex-row {
+        .promo-box {
+            background-color: $lavender;
+            padding: 5px 41px;
+            width: max-content;
+            height: 34px;
+            margin-bottom: 40px;
+            p {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                letter-spacing: 9.6px;
+                text-transform: uppercase;
+                color: $text_color;
+            }
+        }
+        h1 {
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+            text-transform: uppercase;
+            color: $text_color;
+            span {
+                font-weight: 900;
+                color: $macma_orange;
+            }
+        }
+    }
+}
+
+.mp-bell-promo-box {
+    background-color: $macma_orange;
+    width: max-content;
+    height: 105px;
+    margin-right: 40px;
+    margin-left: 16px;
+    &--text {
+        p {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: $white;
+            margin: 0;
+            text-align: right;
+            span {
+                display: flex;
+                font-weight: 700;
+            }
+        }
+    }
+    &--data {
+        margin-left: 32px;
+        margin-right: 24px;
+        div.calendar-card-top {
+            width: 77px;
+            height: auto;
+            background-color: $white;
+            border-bottom: 1px solid $macma_orange;
+            p {
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                color: $macma_orange;
+                margin: 0;
+            }
+        }
+        div.calendar-card-bottom {
+            width: 77px;
+            height: auto;
+            background-color: $white;
+            p {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+                color: $macma_orange;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.mp-check-all-btn {
+    a {
+        display: flex;
+        width: 79px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; 
+        color: $text_color;
+        text-align: right;
+        text-decoration: none;
+        margin-right: 41px;
+        img {
+            margin: 0 0 0 11px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    #promo_products {
+        .container {
+            flex-wrap: wrap;
+            .mp-check-all-btn {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .mp-bell-btn-box {
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 24px;
+                .mp-bell-promo-box {
+                    margin: auto 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .mp-titles {
+        .flex-row {
+            &.mp-title {
+                width: 93vw;
+            }
+            .promo-box {
+                margin-bottom: 24px;
+                padding: 4px 24px;
+                p {
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 6px;
+                }
+            }
+            h1 {
+                font-size: 20px;
+                line-height: 140%;
+                width: 100vw;
+            }
+        }
+    }
+    .mp-bell-promo-box {
+        &--text {
+            p {
+                font-size: 14px;
+                line-height: 140%
+            }
+        }
+        &--data {
+            margin-left: 16px;
+            margin-right: 16px;
+            div.calendar-card-top {
+                height: 48px;
+                p {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .mp-check-all-btn {
+        a {
+            font-size: 14px;
+            line-height: 125%;
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #promo_products {
+        .container {
+            .mp-check-all-btn {
+                right: 16px;
+            }
+        }
+    }
+}

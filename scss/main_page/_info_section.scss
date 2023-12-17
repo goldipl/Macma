@@ -1,7 +1,7 @@
 #info_section {
     .container {
-        .row {
-            .col {
+        .flex-row {
+            .flex-col {
                 border-right: 2px solid $macma_orange;
                 &:last-of-type {
                     border-right: 0;
@@ -47,8 +47,8 @@
 @media (max-width: 991px) {
     #info_section {
         .container {
-            .row {
-                .col {
+            .flex-row {
+                .flex-col {
                     &:nth-of-type(2) {
                         border-right: 0;
                     }
@@ -60,6 +60,7 @@
                     .info_section__bottom {
                         p {
                             font-size: 14px;
+                            line-height: 140%;
                         }
                     }
                 }
@@ -71,8 +72,8 @@
 @media (max-width: 576px) {
     #info_section {
         .container {
-            .row {
-                .col {
+            .flex-row {
+                .flex-col {
                     .info_section__top {
                         flex-direction: column;
                         p {
