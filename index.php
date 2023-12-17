@@ -22,6 +22,7 @@
             <?php include "./components/main_page/promo_products.php"; ?> 
             <?php include "./components/main_page/promo_products_swiper.php"; ?> 
             <?php include "./components/main_page/our_products.php"; ?> 
+            <?php include "./components/main_page/our_products_swiper.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
@@ -34,6 +35,7 @@
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/swiper/swiper.js"></script>
         <script src="./js/swiper/promo-products-swiper.js"></script>
+        <script src="./js/swiper/our-products-swiper.js"></script>
         <script src="./js/header/nested-dropdown-menu.js"></script>
     </body>
 </html>

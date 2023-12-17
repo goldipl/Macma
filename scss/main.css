@@ -216,12 +216,14 @@ nav .nav-account-cart a:hover span {
   background-color: #F26521;
 }
 
-.promo_products_swiper {
+.promo_products_swiper,
+.our_products_swiper {
   width: 100%;
   height: 555px;
   z-index: 0;
 }
-.promo_products_swiper .swiper-button-next {
+.promo_products_swiper .swiper-button-next,
+.our_products_swiper .swiper-button-next {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -234,10 +236,12 @@ nav .nav-account-cart a:hover span {
   right: -80px;
   z-index: 1;
 }
-.promo_products_swiper .swiper-button-next::after {
+.promo_products_swiper .swiper-button-next::after,
+.our_products_swiper .swiper-button-next::after {
   display: none;
 }
-.promo_products_swiper .swiper-button-prev {
+.promo_products_swiper .swiper-button-prev,
+.our_products_swiper .swiper-button-prev {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -250,10 +254,12 @@ nav .nav-account-cart a:hover span {
   left: -80px;
   z-index: 1;
 }
-.promo_products_swiper .swiper-button-prev::after {
+.promo_products_swiper .swiper-button-prev::after,
+.our_products_swiper .swiper-button-prev::after {
   display: none;
 }
-.promo_products_swiper .swiper-slide img {
+.promo_products_swiper .swiper-slide img,
+.our_products_swiper .swiper-slide img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -281,10 +287,12 @@ nav .nav-account-cart a:hover span {
   #swiper .swiper .swiper-button-prev {
     left: 8px;
   }
-  .promo_products_swiper .swiper-button-next {
+  .promo_products_swiper .swiper-button-next,
+  .our_products_swiper .swiper-button-next {
     right: 8px;
   }
-  .promo_products_swiper .swiper-button-prev {
+  .promo_products_swiper .swiper-button-prev,
+  .our_products_swiper .swiper-button-prev {
     left: 8px;
   }
 }
@@ -361,12 +369,8 @@ nav .nav-account-cart a:hover span {
 }
 #promo_products_swiper {
   position: relative;
-  margin-bottom: 76px;
   background-color: #F4F4F4;
   padding: 37px 0 47px 0;
-}
-#promo_products_swiper .promo_products_swiper {
-  overflow: hidden;
 }
 #promo_products_swiper::before {
   position: absolute;
@@ -380,20 +384,67 @@ nav .nav-account-cart a:hover span {
   z-index: 0;
 }
 
+.promo_products_swiper {
+  overflow: hidden;
+}
+
+#our_products_swiper {
+  position: relative;
+  background-color: #F4F4F4;
+  padding: 37px 0 47px 0;
+  margin-bottom: 106px;
+}
+#our_products_swiper::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #F4F4F4;
+  left: calc((100vw - 1576px) / 2 * -1);
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+}
+
+#our_products_container {
+  position: relative;
+}
+#our_products_container::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #F4F4F4;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+}
+
+.our_products_swiper {
+  overflow: hidden;
+}
+
 #promo_products_container .container {
   position: relative;
 }
 
 .mp-titles {
+  position: relative;
   width: 60%;
 }
 .mp-titles .flex-row .promo-box {
-  background-color: #E4EDFF;
   padding: 5px 41px;
   width: -moz-max-content;
   width: max-content;
   height: 34px;
   margin-bottom: 40px;
+}
+.mp-titles .flex-row .promo-box.new {
+  background-color: #B5EFCC;
+}
+.mp-titles .flex-row .promo-box.promotions {
+  background-color: #E4EDFF;
 }
 .mp-titles .flex-row .promo-box p {
   font-size: 16px;
@@ -418,6 +469,7 @@ nav .nav-account-cart a:hover span {
 }
 
 .mp-bell-promo-box {
+  position: relative;
   background-color: #F26521;
   width: -moz-max-content;
   width: max-content;
@@ -474,6 +526,9 @@ nav .nav-account-cart a:hover span {
   margin: 0;
 }
 
+.mp-check-all-btn {
+  position: relative;
+}
 .mp-check-all-btn a {
   display: flex;
   width: 79px;

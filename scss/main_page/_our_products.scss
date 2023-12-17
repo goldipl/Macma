@@ -1,0 +1,36 @@
+#our_products_swiper {
+    position: relative;
+    background-color: $light_grey;
+    padding: 37px 0 47px 0;
+    margin-bottom: 106px;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: calc((100vw - 1576px) / 2 * (-1));
+        top: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: 0;
+    }
+}
+
+#our_products_container {
+    position: relative;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: 0;
+    }
+}
+
+.our_products_swiper {
+    overflow: hidden;
+}

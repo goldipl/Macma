@@ -5,14 +5,20 @@
 }
 
 .mp-titles {
+    position: relative;
     width: 60%;
     .flex-row {
         .promo-box {
-            background-color: $lavender;
             padding: 5px 41px;
             width: max-content;
             height: 34px;
             margin-bottom: 40px;
+            &.new {
+                background-color: $green_new;
+            }
+            &.promotions {
+                background-color: $lavender;
+            }
             p {
                 font-size: 16px;
                 font-style: normal;
@@ -39,6 +45,7 @@
 }
 
 .mp-bell-promo-box {
+    position: relative;
     background-color: $macma_orange;
     width: max-content;
     height: 105px;
@@ -97,6 +104,7 @@
 }
 
 .mp-check-all-btn {
+    position: relative;
     a {
         display: flex;
         width: 79px;

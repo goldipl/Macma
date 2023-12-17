@@ -65,7 +65,8 @@
     }
 } 
 
-.promo_products_swiper {
+.promo_products_swiper,
+.our_products_swiper {
     width: 100%;
     height: 555px;
     z-index: 0;
@@ -141,7 +142,8 @@
             }
         }
     }
-    .promo_products_swiper {
+    .promo_products_swiper,
+    .our_products_swiper {
         .swiper-button-next {
             right: 8px;
         }
