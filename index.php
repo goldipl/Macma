@@ -36,6 +36,5 @@
         <script src="./js/swiper/swiper.js"></script>
         <script src="./js/swiper/promo-products-swiper.js"></script>
         <script src="./js/swiper/our-products-swiper.js"></script>
-        <script src="./js/header/nested-dropdown-menu.js"></script>
     </body>
 </html>
