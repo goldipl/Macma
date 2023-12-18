@@ -67,7 +67,8 @@
 
 .promo_products_swiper,
 .our_products_swiper,
-.news_swiper {
+.news_swiper,
+.blog_swiper {
     width: 100%;
     z-index: 0;
     .swiper-button-next {
@@ -144,7 +145,8 @@
     }
     .promo_products_swiper,
     .our_products_swiper,
-    .news_swiper {
+    .news_swiper,
+    .blog_swiper {
         .swiper-button-next {
             right: 8px;
         }

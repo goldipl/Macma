@@ -26,6 +26,8 @@
             <?php include "./components/main_page/articles.php"; ?> 
             <?php include "./components/main_page/news.php"; ?> 
             <?php include "./components/main_page/news_swiper.php"; ?> 
+            <?php include "./components/main_page/blog.php"; ?> 
+            <?php include "./components/main_page/blog_swiper.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
@@ -40,5 +42,6 @@
         <script src="./js/swiper/promo-products-swiper.js"></script>
         <script src="./js/swiper/our-products-swiper.js"></script>
         <script src="./js/swiper/news-swiper.js"></script>
+        <script src="./js/swiper/blog-swiper.js"></script>
     </body>
 </html>
