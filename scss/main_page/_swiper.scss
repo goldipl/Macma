@@ -66,9 +66,9 @@
 } 
 
 .promo_products_swiper,
-.our_products_swiper {
+.our_products_swiper,
+.news_swiper {
     width: 100%;
-    height: 555px;
     z-index: 0;
     .swiper-button-next {
         position: absolute;
@@ -80,7 +80,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         top: 50%;
-        right: -80px;
+        right: -56px;
         z-index: 1;
         &::after {
             display: none;
@@ -96,7 +96,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         top: 50%;
-        left: -80px;
+        left: -56px;
         z-index: 1;
         &::after {
             display: none;
@@ -143,7 +143,8 @@
         }
     }
     .promo_products_swiper,
-    .our_products_swiper {
+    .our_products_swiper,
+    .news_swiper {
         .swiper-button-next {
             right: 8px;
         }

@@ -9,7 +9,7 @@
     width: 60%;
     .flex-row {
         .promo-box {
-            padding: 5px 41px;
+            padding: 5px 24px;
             width: max-content;
             height: 34px;
             margin-bottom: 40px;
@@ -18,6 +18,18 @@
             }
             &.promotions {
                 background-color: $lavender;
+            }
+            &.news {
+                background-color: $light_orange;
+            }
+            &.blog {
+                background-color: $blog_grey;
+            }
+            &.about-us {
+                background-color: $about_us_pink;
+            }   
+            &.our-brands {
+                background-color: $our_brands_grey;
             }
             p {
                 font-size: 16px;
