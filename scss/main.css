@@ -718,6 +718,36 @@ nav .dropdown {
   color: #F26521;
 }
 
+@media (max-width: 991px) {
+  .swiper_products_block_box__top .products-image {
+    margin: 40px auto 40px;
+  }
+  .swiper_products_block_box__top .products-title p {
+    font-size: 20px;
+  }
+  .swiper_products_block_box__top .products-code {
+    margin: 0 0 24px 0;
+  }
+  .swiper_products_block_box__top .products-code p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .swiper_products_block_box__bottom .catalog-price p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .swiper_products_block_box__bottom .catalog-price p span {
+    font-size: 18px;
+  }
+  .swiper_products_block_box__bottom .your-price p {
+    font-size: 14px;
+    line-height: 140%;
+    margin: 0 0 24px 0;
+  }
+  .swiper_products_block_box__bottom .your-price p span {
+    font-size: 20px;
+  }
+}
 .articles_container__slot {
   margin-right: 46px;
   background-color: #F4F4F4;
@@ -900,6 +930,23 @@ nav .dropdown {
   text-decoration: underline;
 }
 
+@media (max-width: 991px) {
+  .article_swiper_box__text--title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+  }
+  .article_swiper_box__text--title p {
+    font-size: 21px;
+    line-height: 120%;
+  }
+  .article_swiper_box__text--see-more a {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
 #blog {
   position: relative;
   padding-top: 64px;
@@ -945,6 +992,12 @@ nav .dropdown {
   color: #FFFFFF;
 }
 
+@media (max-width: 991px) {
+  .blog_swiper {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+  }
+}
 #about_us {
   margin-bottom: 77px;
 }
@@ -994,6 +1047,19 @@ nav .dropdown {
 }
 
 @media (max-width: 991px) {
+  #about_us .article-text-sg h1 {
+    font-size: 21px;
+    margin: 0 0 24px 0;
+  }
+  #about_us .article-text-sg p {
+    font-size: 14px;
+    line-height: 140%;
+    margin: 0 0 24px 0;
+  }
+  #about_us .article-text-sg a {
+    font-size: 14px;
+    line-height: 140%;
+  }
   #about_us .article-text-sg__content {
     flex-direction: column !important;
   }

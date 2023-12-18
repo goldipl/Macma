@@ -64,10 +64,26 @@
     }
 }
 
-@media (max-width: 1199px) {
-
-}
-
 @media (max-width: 991px) {
-
+    .article_swiper_box {
+        &__text {
+            &--title {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-align: center;
+                p {
+                    font-size: 21px;
+                    line-height: 120%;
+                }
+            }
+            &--see-more {
+                a {
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+            }
+        }
+    }
 }

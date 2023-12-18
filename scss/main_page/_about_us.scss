@@ -53,6 +53,19 @@
 @media (max-width: 991px) {
     #about_us {
         .article-text-sg {
+            h1 {
+                font-size: 21px;
+                margin: 0 0 24px 0;
+            }
+            p {
+                font-size: 14px;
+                line-height: 140%;
+                margin: 0 0 24px 0;
+            }
+            a {
+                font-size: 14px;
+                line-height: 140%;
+            }
             &__content {
                 flex-direction: column !important;
                 .left-column,
