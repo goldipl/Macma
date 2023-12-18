@@ -439,6 +439,7 @@ nav .dropdown {
   width: max-content;
   height: 34px;
   margin-bottom: 40px;
+  min-width: 234px;
 }
 .mp-titles .flex-row .promo-box.new {
   background-color: #B5EFCC;
@@ -466,6 +467,7 @@ nav .dropdown {
   letter-spacing: 9.6px;
   text-transform: uppercase;
   color: #374957;
+  text-align: center;
 }
 .mp-titles .flex-row h1 {
   font-size: 36px;

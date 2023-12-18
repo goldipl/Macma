@@ -13,6 +13,7 @@
             width: max-content;
             height: 34px;
             margin-bottom: 40px;
+            min-width: 234px;
             &.new {
                 background-color: $light_green;
             }
@@ -39,6 +40,7 @@
                 letter-spacing: 9.6px;
                 text-transform: uppercase;
                 color: $text_color;
+                text-align: center;
             }
         }
         h1 {

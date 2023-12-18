@@ -2,7 +2,7 @@
     <div class="container d-flex flex-row align-items-center justify-content-between">
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row">
-                <div class="promo-box d-flex new">
+                <div class="promo-box d-flex justify-content-center new">
                     <p>Nowości</p>
                 </div>
             </div>
