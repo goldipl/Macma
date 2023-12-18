@@ -28,6 +28,7 @@
             <?php include "./components/main_page/news_swiper.php"; ?> 
             <?php include "./components/main_page/blog.php"; ?> 
             <?php include "./components/main_page/blog_swiper.php"; ?> 
+            <?php include "./components/main_page/about_us.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
