@@ -199,14 +199,16 @@ nav .dropdown {
 .promo_products_swiper,
 .our_products_swiper,
 .news_swiper,
-.blog_swiper {
+.blog_swiper,
+.our_brands_swiper {
   width: 100%;
   z-index: 0;
 }
 .promo_products_swiper .swiper-button-next,
 .our_products_swiper .swiper-button-next,
 .news_swiper .swiper-button-next,
-.blog_swiper .swiper-button-next {
+.blog_swiper .swiper-button-next,
+.our_brands_swiper .swiper-button-next {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -222,13 +224,15 @@ nav .dropdown {
 .promo_products_swiper .swiper-button-next::after,
 .our_products_swiper .swiper-button-next::after,
 .news_swiper .swiper-button-next::after,
-.blog_swiper .swiper-button-next::after {
+.blog_swiper .swiper-button-next::after,
+.our_brands_swiper .swiper-button-next::after {
   display: none;
 }
 .promo_products_swiper .swiper-button-prev,
 .our_products_swiper .swiper-button-prev,
 .news_swiper .swiper-button-prev,
-.blog_swiper .swiper-button-prev {
+.blog_swiper .swiper-button-prev,
+.our_brands_swiper .swiper-button-prev {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -244,13 +248,15 @@ nav .dropdown {
 .promo_products_swiper .swiper-button-prev::after,
 .our_products_swiper .swiper-button-prev::after,
 .news_swiper .swiper-button-prev::after,
-.blog_swiper .swiper-button-prev::after {
+.blog_swiper .swiper-button-prev::after,
+.our_brands_swiper .swiper-button-prev::after {
   display: none;
 }
 .promo_products_swiper .swiper-slide img,
 .our_products_swiper .swiper-slide img,
 .news_swiper .swiper-slide img,
-.blog_swiper .swiper-slide img {
+.blog_swiper .swiper-slide img,
+.our_brands_swiper .swiper-slide img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -281,13 +287,15 @@ nav .dropdown {
   .promo_products_swiper .swiper-button-next,
   .our_products_swiper .swiper-button-next,
   .news_swiper .swiper-button-next,
-  .blog_swiper .swiper-button-next {
+  .blog_swiper .swiper-button-next,
+  .our_brands_swiper .swiper-button-next {
     right: 8px;
   }
   .promo_products_swiper .swiper-button-prev,
   .our_products_swiper .swiper-button-prev,
   .news_swiper .swiper-button-prev,
-  .blog_swiper .swiper-button-prev {
+  .blog_swiper .swiper-button-prev,
+  .our_brands_swiper .swiper-button-prev {
     left: 8px;
   }
 }
@@ -934,5 +942,83 @@ nav .dropdown {
 .blog_swiper .swiper-slide .article_swiper_box__text--date a, .blog_swiper .swiper-slide .article_swiper_box__text--title p,
 .blog_swiper .swiper-slide .article_swiper_box__text--title a, .blog_swiper .swiper-slide .article_swiper_box__text--see-more p,
 .blog_swiper .swiper-slide .article_swiper_box__text--see-more a {
+  color: #FFFFFF;
+}
+
+#about_us {
+  margin-bottom: 77px;
+}
+#about_us .mp-titles {
+  padding: 0 !important;
+}
+#about_us .mp-titles .flex-row .promo-box {
+  margin-bottom: 40px;
+}
+#about_us .article-text-sg h1 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+  color: #374957;
+}
+#about_us .article-text-sg h1 span {
+  color: #F26521;
+  font-weight: 900;
+}
+#about_us .article-text-sg p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0 0 30px 0;
+  color: #374957;
+}
+#about_us .article-text-sg p a {
+  text-decoration: underline;
+}
+#about_us .article-text-sg p a:hover {
+  text-decoration: none;
+}
+#about_us .article-text-sg a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #374957;
+  text-decoration: underline;
+}
+#about_us .article-text-sg a:hover {
+  text-decoration: none;
+}
+
+#our_brands .swiper-slide a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 111px;
+}
+#our_brands .swiper-slide a img {
+  height: 111px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.our_brands_swiper {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.our_brands_swiper .swiper-slide {
+  position: relative;
+}
+.our_brands_swiper .swiper-slide .article_swiper_box__text {
+  background-color: rgba(55, 73, 87, 0.7058823529);
+}
+.our_brands_swiper .swiper-slide .article_swiper_box__text--date p,
+.our_brands_swiper .swiper-slide .article_swiper_box__text--date a, .our_brands_swiper .swiper-slide .article_swiper_box__text--title p,
+.our_brands_swiper .swiper-slide .article_swiper_box__text--title a, .our_brands_swiper .swiper-slide .article_swiper_box__text--see-more p,
+.our_brands_swiper .swiper-slide .article_swiper_box__text--see-more a {
   color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

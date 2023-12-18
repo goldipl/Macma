@@ -1,0 +1,42 @@
+#our_brands {
+    .swiper-slide {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 111px;
+            img {
+                height: 111px;
+                width: auto;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.our_brands_swiper {
+    overflow: hidden;
+    margin-bottom: 70px;
+    .swiper-slide {
+        position: relative;
+        .article_swiper_box__text {
+            background-color: $blog_grey_opacity;
+            &--date,
+            &--title,
+            &--see-more {
+                p,
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
