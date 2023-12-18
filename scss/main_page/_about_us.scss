@@ -49,3 +49,19 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    #about_us {
+        .article-text-sg {
+            &__content {
+                flex-direction: column !important;
+                .left-column,
+                .right-column {
+                    width: 100% !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+}

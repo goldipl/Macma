@@ -993,6 +993,20 @@ nav .dropdown {
   text-decoration: none;
 }
 
+@media (max-width: 991px) {
+  #about_us .article-text-sg__content {
+    flex-direction: column !important;
+  }
+  #about_us .article-text-sg__content .left-column,
+  #about_us .article-text-sg__content .right-column {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+#our_brands .mp-titles {
+  padding-top: 0 !important;
+}
 #our_brands .swiper-slide a {
   display: flex;
   align-items: center;

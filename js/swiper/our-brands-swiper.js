@@ -20,13 +20,18 @@ const our_brands_swiper = new Swiper('.our_brands_swiper', {
       },
       // when window width is >= 992px
       992: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+      // when window width is >= 760px
+      760: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
       },
       // when window width is >= 200px
       200: {
-        slidesPerView: 1,
-        slidesPerGroup: 1,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
       },
     },
   
