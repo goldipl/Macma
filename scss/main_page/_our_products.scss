@@ -34,3 +34,9 @@
 .our_products_swiper {
     overflow: hidden;
 }
+
+@media (max-width: 991px) {
+    #our_products_swiper {
+        margin-bottom: 24px;
+    }
+}

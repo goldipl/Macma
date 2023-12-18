@@ -23,6 +23,7 @@
             <?php include "./components/main_page/promo_products_swiper.php"; ?> 
             <?php include "./components/main_page/our_products.php"; ?> 
             <?php include "./components/main_page/our_products_swiper.php"; ?> 
+            <?php include "./components/main_page/articles.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
