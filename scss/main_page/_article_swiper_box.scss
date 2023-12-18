@@ -27,9 +27,16 @@
                 line-height: 160%;
                 margin: 0 0 12px 0;
                 color: $text_color;
+                text-align: left;
             }
         }
         &--title {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-align: center;
+            height: 58px;
             p {
                 font-size: 24px;
                 font-style: normal;
@@ -37,6 +44,7 @@
                 line-height: 120%;
                 margin: 0 0 18px 0;
                 color: $text_color;
+                text-align: left;
             }
         }
         &--see-more {
@@ -48,6 +56,7 @@
                 margin: 0;
                 color: $text_color;
                 text-decoration: none;
+                text-align: left;
                 &:hover {
                     text-decoration: underline;
                 }

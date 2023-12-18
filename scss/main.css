@@ -811,6 +811,7 @@ nav .dropdown {
 }
 .news_swiper {
   overflow: hidden;
+  margin-bottom: 70px;
 }
 .news_swiper .swiper-slide {
   position: relative;
@@ -847,6 +848,15 @@ nav .dropdown {
   line-height: 160%;
   margin: 0 0 12px 0;
   color: #374957;
+  text-align: left;
+}
+.article_swiper_box__text--title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: center;
+  height: 58px;
 }
 .article_swiper_box__text--title p {
   font-size: 24px;
@@ -855,6 +865,7 @@ nav .dropdown {
   line-height: 120%;
   margin: 0 0 18px 0;
   color: #374957;
+  text-align: left;
 }
 .article_swiper_box__text--see-more a {
   font-size: 16px;
@@ -864,6 +875,7 @@ nav .dropdown {
   margin: 0;
   color: #374957;
   text-decoration: none;
+  text-align: left;
 }
 .article_swiper_box__text--see-more a:hover {
   text-decoration: underline;
