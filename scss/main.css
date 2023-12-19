@@ -937,6 +937,9 @@ footer .footer__container__bottom p {
 .mp-check-all-btn {
   position: relative;
 }
+.mp-check-all-btn:hover a {
+  color: #F26521;
+}
 .mp-check-all-btn a {
   display: flex;
   width: 79px;

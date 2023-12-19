@@ -119,6 +119,11 @@
 
 .mp-check-all-btn {
     position: relative;
+    &:hover {
+        a {
+            color: $macma_orange;
+        }
+    }
     a {
         display: flex;
         width: 79px;
