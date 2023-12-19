@@ -98,6 +98,43 @@ body #main-wrapper.opened-menu::after {
     display: none !important;
   }
 }
+nav #nav-searchbar {
+  position: relative;
+}
+nav #nav-searchbar input {
+  all: unset;
+  width: 568px;
+  height: 60px;
+  background-color: #F4F4F4;
+  padding: 0 38px;
+}
+nav #nav-searchbar input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 90%;
+  color: #747474;
+}
+nav #nav-searchbar input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 90%;
+  color: #747474;
+}
+nav #nav-searchbar button {
+  all: unset;
+  position: absolute;
+  top: calc(50% - 12.5px);
+  right: 30px;
+  font-size: 0;
+  content: "";
+  display: block;
+  background: url("./../assets/icons/common/header/magnifier.svg");
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
 nav .nav-account-cart a span {
   font-size: 18px;
   font-weight: 400;
@@ -113,6 +150,11 @@ nav .dropdown {
   position: static;
 }
 
+@media (max-width: 1576px) {
+  nav #nav-searchbar input {
+    width: 300px;
+  }
+}
 @media (min-width: 992px) {
   nav {
     height: 160px;
@@ -141,6 +183,15 @@ nav .dropdown {
 @media (max-width: 991px) {
   nav {
     height: auto;
+  }
+  nav #nav-searchbar {
+    margin: 16px 0 0 0;
+    width: 100%;
+  }
+  nav #nav-searchbar input {
+    width: 100%;
+    height: 48px;
+    padding: 0 16px;
   }
   nav .navbar-brand-desktop {
     display: none;

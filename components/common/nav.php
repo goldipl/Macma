@@ -12,7 +12,7 @@
                 <a class="navbar-brand navbar-brand-desktop" href="/">
                     <img src="./assets/icons/common/header/macma-logo.svg" alt="macma logo" width="180" height="36">
                 </a>
-                <form class="d-flex" role="search">
+                <form class="d-flex" role="search" id="nav-searchbar">
                     <input class="form-control mx-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
