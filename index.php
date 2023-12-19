@@ -17,7 +17,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/main_page/swiper.php"; ?> 
+            <?php include "./components/main_page/hero_swiper.php"; ?> 
             <?php include "./components/main_page/info_section.php"; ?> 
             <?php include "./components/main_page/promo_products.php"; ?> 
             <?php include "./components/main_page/promo_products_swiper.php"; ?> 
