@@ -10,4 +10,37 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     accent-color: $macma_orange;
+    #main-wrapper {
+        position: relative;
+        &.opened-menu::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: calc((100vw - 1576px) / 2 * -1);
+            background-color: $open_menu_background;
+            width: 200vw;
+            height: 100vh;
+            z-index: 9;
+        }
+    }
+}
+
+@media (max-width: 1576px) {
+    body {
+        #main-wrapper {
+            &.opened-menu::after {
+                left: -50vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        #main-wrapper {
+            &.opened-menu::after {
+                display: none;
+            }
+        }
+    }
 }
