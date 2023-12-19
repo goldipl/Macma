@@ -741,6 +741,7 @@ footer .footer__container__bottom p {
 }
 @media (max-width: 991px) {
   #our_products_swiper {
+    padding-top: 0;
     margin-bottom: 24px;
   }
 }
@@ -1314,6 +1315,9 @@ footer .footer__container__bottom p {
   }
 }
 @media (max-width: 991px) {
+  #blog {
+    padding-top: 0;
+  }
   .blog_swiper {
     margin-bottom: 24px;
     padding-bottom: 24px;

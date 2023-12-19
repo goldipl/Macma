@@ -55,6 +55,9 @@
 }
 
 @media (max-width: 991px) {
+    #blog {
+        padding-top: 0;
+    }
     .blog_swiper {
         margin-bottom: 24px;
         padding-bottom: 24px;
