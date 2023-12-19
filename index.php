@@ -47,5 +47,6 @@
         <script src="./js/swiper/news-swiper.js"></script>
         <script src="./js/swiper/blog-swiper.js"></script>
         <script src="./js/swiper/our-brands-swiper.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
