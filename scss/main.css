@@ -236,6 +236,13 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   nav .navbar-bottom .main-nav-item {
     width: 100%;
   }
+  nav .navbar-bottom .main-nav-item .dropdown-toggle,
+  nav .navbar-bottom .main-nav-item > a {
+    font-size: 16px;
+  }
+  nav .navbar-bottom .main-nav-item .dropdown-item {
+    font-size: 14px;
+  }
   nav .navbar-bottom .main-nav-item .dropdown-menu {
     border: 0;
     border-radius: 0;

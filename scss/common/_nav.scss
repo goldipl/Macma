@@ -145,6 +145,13 @@ nav {
             align-items: flex-start !important;
             .main-nav-item {
                 width: 100%;
+                .dropdown-toggle,
+                > a {
+                    font-size: 16px;
+                }
+                .dropdown-item {
+                    font-size: 14px;
+                }
                 .dropdown-menu {
                     border: 0;
                     border-radius: 0;
