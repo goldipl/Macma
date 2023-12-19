@@ -34,12 +34,12 @@
             </ul>
             <ul class="navbar-bottom d-flex align-items-center justify-content-between navbar-nav me-auto mb-2 mb-lg-0 w-100">
                 <!-- Nav Dropdown Item -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"> Dropdown </a>
+                <li class="nav-item dropdown main-nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Oferta</a>
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Artykuły biurowe</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -51,7 +51,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Długopisy i artykuły piśmienne</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -72,7 +72,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -100,12 +100,12 @@
                     </ul>
                 </li>
                 <!-- Nav Dropdown Item -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"> Dropdown </a>
+                <li class="nav-item dropdown main-nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Marki</a>
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 11</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -117,7 +117,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 22</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -138,7 +138,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 33</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -166,12 +166,12 @@
                     </ul>
                 </li>
                 <!-- Nav Dropdown Item -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"> Dropdown </a>
+                <li class="nav-item dropdown main-nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Tematyczne</a>
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 111</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -183,7 +183,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 222</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -204,7 +204,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 333</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -232,12 +232,12 @@
                     </ul>
                 </li>
                 <!-- Nav Dropdown Item -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"> Dropdown </a>
+                <li class="nav-item dropdown main-nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Promocje</a>
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 1234</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -249,7 +249,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 2234</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -270,7 +270,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown item 3444</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Submenu item 1</a>
@@ -298,16 +298,16 @@
                     </ul>
                 </li>
                 <!-- Nav Item -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item main-nav-item">
+                    <a class="nav-link" href="#">Znakowanie</a>
                 </li>
                 <!-- Nav Item -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item main-nav-item">
+                    <a class="nav-link" href="#">Katalogi</a>
                 </li>
                 <!-- Nav Item -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item main-nav-item">
+                    <a class="nav-link" href="#">Import</a>
                 </li>
             </ul>
         </div>
