@@ -390,6 +390,7 @@ footer .footer__container__bottom p {
   }
   footer .footer__container__top .second-column h2 {
     font-size: 20px;
+    margin: 0 0 24px 0;
   }
   footer .footer__container__top .second-column a {
     font-size: 14px;
@@ -397,6 +398,7 @@ footer .footer__container__bottom p {
   }
   footer .footer__container__top .third-column h2 {
     font-size: 20px;
+    margin: 0 0 24px 0;
   }
   footer .footer__container__top .third-column a {
     font-size: 11px;
