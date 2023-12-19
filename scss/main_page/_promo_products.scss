@@ -18,3 +18,12 @@
 .promo_products_swiper {
     overflow: hidden;
 }
+
+@media (max-width: 1639px) {
+    #promo_products_swiper {
+        &::before {
+            left: -50vw;
+            width: 200vw;
+        }
+    }
+}

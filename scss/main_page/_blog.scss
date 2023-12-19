@@ -45,6 +45,15 @@
     }
 }
 
+@media (max-width: 1639px) {
+    .blog_swiper {
+        &::before {
+            left: -50vw;
+            width: 200vw;
+        }
+    }
+}
+
 @media (max-width: 991px) {
     .blog_swiper {
         margin-bottom: 24px;

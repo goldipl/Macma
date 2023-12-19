@@ -66,6 +66,10 @@
 
 @media (max-width: 991px) {
     .article_swiper_box {
+        &__image {
+            width: 100%;
+            height: auto;
+        }
         &__text {
             &--title {
                 display: -webkit-box;
