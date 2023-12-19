@@ -143,6 +143,21 @@ nav {
         }
         .navbar-bottom {
             align-items: flex-start !important;
+            .main-nav-item {
+                width: 100%;
+                .dropdown-menu {
+                    border: 0;
+                    border-radius: 0;
+                    &.show {
+                        background-color: $light_grey;
+                        .dropdown-menu {
+                            &.show {
+                                background-color: $white;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

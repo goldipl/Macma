@@ -233,6 +233,19 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   nav .navbar-bottom {
     align-items: flex-start !important;
   }
+  nav .navbar-bottom .main-nav-item {
+    width: 100%;
+  }
+  nav .navbar-bottom .main-nav-item .dropdown-menu {
+    border: 0;
+    border-radius: 0;
+  }
+  nav .navbar-bottom .main-nav-item .dropdown-menu.show {
+    background-color: #F4F4F4;
+  }
+  nav .navbar-bottom .main-nav-item .dropdown-menu.show .dropdown-menu.show {
+    background-color: #FFFFFF;
+  }
 }
 footer {
   background-color: #F4F4F4;
