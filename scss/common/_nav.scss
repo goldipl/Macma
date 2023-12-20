@@ -53,7 +53,7 @@ nav {
     .dropdown-item:focus, 
     .dropdown-item:hover {
         background-color: $menu_hover_color;
-        font-weight: 700;
+        text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
     }
     .dropdown-toggle::after {
         border-top: 0.3em solid $menu_arrows_color;
@@ -120,6 +120,48 @@ nav {
             display: flex;
             height: 60px;
         }
+        .dropend .dropdown-menu[data-bs-popper] {
+            top: -1px !important;
+        }
+        .dropdown-menu {
+            margin: 0 !important;
+            border-radius: 0 !important;
+            --bs-dropdown-spacer: 0 !important;
+            --bs-dropdown-padding-y: 0 !important;
+            min-height: 36px;
+            padding: 21px 39px;                  
+            background-color: $light_grey;
+            li {
+                margin-left: -39px;
+                margin-right: -39px;
+                margin-bottom: 6px;
+                a {
+                    padding-left: 39px;
+                    padding-right: 39px;
+                }
+            }
+            &.second-lvl-menu {
+                padding: 21px 60px 21px 0;
+                background-color: $white;
+                &.show {
+                    display: flex;
+                    .list-unstyled {
+                        padding-left: 64px;
+                        li {
+                            min-height: 42px;
+                            a {
+                                &:hover {
+                                    background-color: unset;
+                                }
+                                img {
+                                    margin-right: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -160,6 +202,24 @@ nav {
                         .dropdown-menu {
                             &.show {
                                 background-color: $white;
+                            }
+                        }
+                    }
+                    &.second-lvl-menu {
+                        &.show {
+                            .list-unstyled {
+                                li {
+                                    a {
+                                        &:hover {
+                                            background-color: unset;
+                                        }
+                                        img {
+                                            width: 25px;
+                                            height: 25px;
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

@@ -40,61 +40,199 @@
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
                             <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Artykuły biurowe</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Spinacze</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Teczki</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
                             <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Długopisy i artykuły piśmienne</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Długopisy metalowe</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Długopisy plastikowe</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Długopisy drewniane</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Drobiazgi</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Drobiazg 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Drobiazg 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Gotowanie i picie</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Butelki 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Butelki 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Elektronika</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/computer_accessories.svg" alt="menu icon" width="35" height="35">Akcesoria do komputerów</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/mobiles_accessories.svg" alt="menu icon" width="35" height="35">Akcesoria do telefonów</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/bluetooth_loadspeakers.svg" alt="menu icon" width="35" height="35">Głośniki bluetooth</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/charge_transfer_cables.svg" alt="menu icon" width="35" height="35">Kable do ładowania i transferu</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/calculators.svg" alt="menu icon" width="35" height="35">Kalkulatory</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/chargers.svg" alt="menu icon" width="35" height="35">Ładowarki</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/mobiles_accessories.svg" alt="usb_memory.svg" width="35" height="35">Pamięci USB</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/power_banks.svg" alt="menu icon" width="35" height="35">Power banki</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/headphones.svg" alt="menu icon" width="35" height="35">Słuchawki</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/clocks_smartwatches.svg" alt="menu icon" width="35" height="35">Zegarki i smartwatche</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/desk_clocks.svg" alt="menu icon" width="35" height="35">Zegary biurkowe</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/wall_clocks.svg" alt="menu icon" width="35" height="35">Zegary ścienne</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Kosmetyki i pielęgnacja</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Krem 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Krem 03</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Krem 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Latarki i narzędzia</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Latarka 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Latarka 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Parasole i płaszcze</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Sport i podróże</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Rakieta tenisowa 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Piłeczki 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Torby, worki, plecaki</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Plecak 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Plecak 02</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                     </ul>
@@ -105,62 +243,34 @@
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Znane marki</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Znane marki 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Znane marki 02</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- 2nd Level Nav Dropdown Item -->
-                        <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Nowe marki</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Submenu Item 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Submenu Item 02</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                     </ul>
@@ -171,62 +281,34 @@
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Kubki</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Zielone kubki</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Czerwone kubki</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- 2nd Level Nav Dropdown Item -->
-                        <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Zeszyty</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Zeszyty A4</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Zeszyty A5</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                     </ul>
@@ -237,62 +319,34 @@
                     <ul class="dropdown-menu">
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 1</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Black Week</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Black Week 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Black Week 02</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 2</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- 2nd Level Nav Dropdown Item -->
-                        <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Dropdown item 3</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 1</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                                </li>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Nowe Promocje</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Promocja 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Promocja 02</a>
+                                    </li>
+                                </ul>
                             </ul>
                         </li>
                     </ul>
