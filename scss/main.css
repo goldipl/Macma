@@ -145,8 +145,7 @@ nav .nav-account-cart a span {
 nav .nav-account-cart a:hover span {
   color: #F26521;
 }
-nav .dropend,
-nav .dropdown {
+nav .dropend {
   position: static;
 }
 nav .dropdown-item:focus,
@@ -210,6 +209,9 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     display: flex;
     height: 60px;
   }
+  nav .navbar-bottom .main-nav-item {
+    height: 60px;
+  }
   nav .dropend .dropdown-menu[data-bs-popper] {
     top: -1px !important;
   }
@@ -268,7 +270,14 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     display: none;
   }
   nav .nav-account-cart {
-    padding: 16px;
+    padding: 16px 0 0 0;
+  }
+  nav .nav-account-cart a span {
+    font-size: 15px;
+  }
+  nav .nav-account-cart a svg {
+    width: 30px;
+    height: 30px;
   }
   nav .navbar-bottom {
     align-items: flex-start !important;

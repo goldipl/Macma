@@ -46,8 +46,7 @@ nav {
             }
         }
     }
-    .dropend,
-    .dropdown {
+    .dropend {
         position: static;
     }
     .dropdown-item:focus, 
@@ -119,6 +118,9 @@ nav {
             left: 0;
             display: flex;
             height: 60px;
+            .main-nav-item {
+                height: 60px;
+            }
         }
         .dropend .dropdown-menu[data-bs-popper] {
             top: -1px !important;
@@ -181,7 +183,16 @@ nav {
             display: none;
         }
         .nav-account-cart {
-            padding: 16px;
+            padding: 16px 0 0 0;
+            a {
+                span {
+                    font-size: 15px;
+                }
+                svg {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
         }
         .navbar-bottom {
             align-items: flex-start !important;
