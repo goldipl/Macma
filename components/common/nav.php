@@ -13,8 +13,8 @@
                     <img src="./assets/icons/common/header/macma-logo.svg" alt="macma logo" width="180" height="36">
                 </a>
                 <form class="d-flex" role="search" id="nav-searchbar">
-                    <input class="form-control mx-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input class="form-control mx-2" type="search" placeholder="Szukaj" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Szukaj</button>
                 </form>
                 <div class="nav-account-cart d-flex align-items-center">
                     <a href="#" class="d-flex align-items-center text-decoration-none">
@@ -90,7 +90,7 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Gotowanie i picie</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Jedzenie i picie</a>
                             <ul class="dropdown-menu second-lvl-menu">
                                 <ul class="list-unstyled">
                                     <li>
@@ -152,7 +152,23 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Kosmetyki i pielęgnacja</a>
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Latarki i narzędzia</a>
+                            <ul class="dropdown-menu second-lvl-menu">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Latarka 01</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Latarka 02</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <!-- 2nd Level Nav Dropdown Item -->
+                        <li class="dropend">
+                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Podróże i rekreacja</a>
                             <ul class="dropdown-menu second-lvl-menu">
                                 <ul class="list-unstyled">
                                     <li>
@@ -173,22 +189,6 @@
                         </li>
                         <!-- 2nd Level Nav Dropdown Item -->
                         <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Latarki i narzędzia</a>
-                            <ul class="dropdown-menu second-lvl-menu">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Latarka 01</a>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Latarka 02</a>
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-                        <!-- 2nd Level Nav Dropdown Item -->
-                        <li class="dropend">
                             <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Parasole i płaszcze</a>
                             <ul class="dropdown-menu second-lvl-menu">
                                 <ul class="list-unstyled">
@@ -199,22 +199,6 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 02</a>
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-                        <!-- 2nd Level Nav Dropdown Item -->
-                        <li class="dropend">
-                            <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Sport i podróże</a>
-                            <ul class="dropdown-menu second-lvl-menu">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Rakieta tenisowa 01</a>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Piłeczki 02</a>
                                     </li>
                                 </ul>
                             </ul>

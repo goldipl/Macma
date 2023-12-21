@@ -62,6 +62,6 @@
         </div>
     </div>
     <div class="footer__container__bottom d-flex justify-content-center align-items-center">
-        <p>© 2009 - <span></span> Macma Sp. z o. o.</p>
+        <p>© 2009 - <span></span> Macma Sp. z o. o.</p><p class="contip">Realizacja <a href="https://www.contip.net/"><img src="./assets/img/common/footer/contip-logo.png" height="24" alt="Contip logo"></a></p>
     </div>
 </div>

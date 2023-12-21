@@ -488,6 +488,14 @@ footer .footer__container__bottom p {
   margin: 0;
   z-index: 1;
 }
+footer .footer__container__bottom .contip {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+}
+footer .footer__container__bottom .contip img {
+  margin-left: 8px;
+}
 
 @media (max-width: 1640px) {
   footer .footer__container__top, footer .footer__container__bottom {
