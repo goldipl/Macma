@@ -145,6 +145,9 @@ nav .nav-account-cart a span {
 nav .nav-account-cart a:hover span {
   color: #F26521;
 }
+nav .nav-account-cart a:hover svg {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+}
 nav .nav-account-cart a.nav-cart-icon {
   position: relative;
 }
@@ -1088,6 +1091,9 @@ footer .footer__container__bottom .contip img {
 }
 .mp-check-all-btn:hover a {
   color: #F26521;
+}
+.mp-check-all-btn:hover img {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
 }
 .mp-check-all-btn a {
   display: flex;
