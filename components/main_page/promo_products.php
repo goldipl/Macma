@@ -2,9 +2,9 @@
     <div class="container d-flex flex-row align-items-center justify-content-between">
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row">
-                <div class="promo-box d-flex justify-content-center promotions">
-                    <a href="#">Promocje</a>
-                </div>
+                <a href="#" class="promo-box d-flex justify-content-center promotions">
+                    <p>Promocje</p>
+                </a>
             </div>
             <a href="#" class="d-flex flex-row mp-title text-decoration-none">
                 <h1 class="p-0">

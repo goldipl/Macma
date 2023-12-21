@@ -985,6 +985,7 @@ footer .footer__container__bottom .contip img {
   height: 34px;
   margin-bottom: 40px;
   min-width: 234px;
+  text-decoration: none;
 }
 .mp-titles .flex-row .promo-box.new {
   background-color: #B5EFCC;
@@ -1138,8 +1139,9 @@ footer .footer__container__bottom .contip img {
     margin-bottom: 24px;
     padding: 4px 24px;
   }
-  .mp-titles .flex-row .promo-box p {
-    font-size: 14px;
+  .mp-titles .flex-row .promo-box p,
+  .mp-titles .flex-row .promo-box a {
+    font-size: 13px;
     line-height: 28px;
     letter-spacing: 6px;
   }

@@ -14,6 +14,7 @@
             height: 34px;
             margin-bottom: 40px;
             min-width: 234px;
+            text-decoration: none;
             &.new {
                 background-color: $light_green;
             }
@@ -176,8 +177,9 @@
             .promo-box {
                 margin-bottom: 24px;
                 padding: 4px 24px;
-                p {
-                    font-size: 14px;
+                p,
+                a {
+                    font-size: 13px;
                     line-height: 28px;
                     letter-spacing: 6px;
                 }
