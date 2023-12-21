@@ -881,6 +881,7 @@ footer .footer__container__bottom .contip img {
   #info_section .container .flex-row .flex-col .info_section__bottom p {
     font-size: 14px;
     line-height: 140%;
+    width: 77%;
   }
 }
 @media (max-width: 576px) {
