@@ -45,18 +45,18 @@
                 <h2>Kontakt</h2>
                 <div class="footer-contact-box">
                     <strong>Biuro</strong>
-                    <p>tel. <a href="tel:+48 71 330 54 60">+48 71 330 54 60</a></p>
-                    <p>e-mail: <a href="mailto:biuro@macma.pl">biuro@macma.pl</a></p>
+                    <p>tel. <a class="gtm-phone" href="tel:+48 71 330 54 60">+48 71 330 54 60</a></p>
+                    <p>e-mail: <a class="gtm-mail" href="mailto:biuro@macma.pl">biuro@macma.pl</a></p>
                 </div>
                 <div class="footer-contact-box">
                     <strong>Drukarnia</strong>
-                    <p>tel. <a href="tel:+48 71 397 87 00">+48 71 397 87 00</a></p>
-                    <p>e-mail: <a href="mailto:drukarnia@macma.pl">drukarnia@macma.pl</a></p>
+                    <p>tel. <a class="gtm-phone" href="tel:+48 71 397 87 00">+48 71 397 87 00</a></p>
+                    <p>e-mail: <a class="gtm-mail" href="mailto:drukarnia@macma.pl">drukarnia@macma.pl</a></p>
                 </div>
                 <div class="footer-contact-box">
                     <strong>Magazyn</strong>
-                    <p>tel. <a href="tel:+48 71 397 87 18">+48 71 397 87 18</a></p>
-                    <p>e-mail: <a href="mailto:magazyn2@macma.pl">magazyn2@macma.pl</a></p>
+                    <p>tel. <a class="gtm-phone" href="tel:+48 71 397 87 18">+48 71 397 87 18</a></p>
+                    <p>e-mail: <a class="gtm-mail" href="mailto:magazyn2@macma.pl">magazyn2@macma.pl</a></p>
                 </div>
             </div>
         </div>
