@@ -6,11 +6,11 @@
                     <p>Promocje</p>
                 </div>
             </div>
-            <div class="d-flex flex-row mp-title">
+            <a href="#" class="d-flex flex-row mp-title text-decoration-none">
                 <h1 class="p-0">
                     <span>Zatrzymaj czas!</span> Najlepsze ceny w styczniu!
                 </h1>
-            </div>
+            </a>
         </div>
         <div class="d-flex flex-row mp-bell-btn-box">
             <div class="d-flex flex-row py-4 align-items-center justify-content-between mp-bell-promo-box">
