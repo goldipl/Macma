@@ -44,6 +44,31 @@ nav {
                     color: $macma_orange;
                 }
             }
+            &.nav-cart-icon {
+                position: relative;
+                .cart-quantity {
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    top: -6px;
+                    right: -6px;
+                    background-color: $macma_orange;
+                    border-radius: 100%;
+                    z-index: 10;
+                    width: 22px;
+                    height: 22px;
+                    padding: 2px;
+                    p {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 14px;
+                        color: $white;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
         }
     }
     .dropend {
@@ -124,6 +149,17 @@ nav {
         }
         .dropend .dropdown-menu[data-bs-popper] {
             top: -1px !important;
+        }
+        .nav-account-cart {
+            a {
+                &.nav-cart-icon {
+                    .cart-quantity {
+                        p {
+                            margin: 2px 0 0 0;
+                        }
+                    }
+                }
+            }
         }
         .dropdown-menu {
             margin: 0 !important;

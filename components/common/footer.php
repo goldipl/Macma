@@ -37,7 +37,7 @@
                 <a href="#"><img src="./assets/icons/common/footer/youtube.svg" alt="youtube logo" width="26" height="26">YouTube</a>
                 <a href="#"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram Macma</a>
                 <a href="#"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram M-Collection</a>
-                <a href="#"><img src="./assets/icons/common/footer/linkedin.svg" alt="linkedin logo" width="26" height="26">Linkedin</a>
+                <a href="#"><img src="./assets/icons/common/footer/linkedin.svg" alt="linkedin logo" width="26" height="26">LinkedIn</a>
             </div>
         </div>
         <div class="d-flex flex-column align-items-center col-3 fourth-column">

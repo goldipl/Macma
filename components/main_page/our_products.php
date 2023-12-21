@@ -3,7 +3,7 @@
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row">
                 <div class="promo-box d-flex justify-content-center new">
-                    <p>Nowości</p>
+                    <a href="#">Nowości</a>
                 </div>
             </div>
             <div class="d-flex flex-row mp-title">

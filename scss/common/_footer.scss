@@ -57,6 +57,9 @@ footer {
                         color: $white;
                         background-color: $text_color;
                         cursor: pointer;
+                        &:hover {
+                            background-color: $macma_orange;
+                        }
                     }
                 }
             }

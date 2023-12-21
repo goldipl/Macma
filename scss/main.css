@@ -145,6 +145,31 @@ nav .nav-account-cart a span {
 nav .nav-account-cart a:hover span {
   color: #F26521;
 }
+nav .nav-account-cart a.nav-cart-icon {
+  position: relative;
+}
+nav .nav-account-cart a.nav-cart-icon .cart-quantity {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: -6px;
+  right: -6px;
+  background-color: #F26521;
+  border-radius: 100%;
+  z-index: 10;
+  width: 22px;
+  height: 22px;
+  padding: 2px;
+}
+nav .nav-account-cart a.nav-cart-icon .cart-quantity p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+}
 nav .dropend {
   position: static;
 }
@@ -214,6 +239,9 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   }
   nav .dropend .dropdown-menu[data-bs-popper] {
     top: -1px !important;
+  }
+  nav .nav-account-cart a.nav-cart-icon .cart-quantity p {
+    margin: 2px 0 0 0;
   }
   nav .dropdown-menu {
     margin: 0 !important;
@@ -375,6 +403,9 @@ footer .footer__container__top .first-column .newsletter-form button {
   color: #FFFFFF;
   background-color: #374957;
   cursor: pointer;
+}
+footer .footer__container__top .first-column .newsletter-form button:hover {
+  background-color: #F26521;
 }
 footer .footer__container__top .second-column h2 {
   font-size: 24px;
@@ -969,7 +1000,8 @@ footer .footer__container__bottom .contip img {
 .mp-titles .flex-row .promo-box.our-brands {
   background-color: #ACBFDB;
 }
-.mp-titles .flex-row .promo-box p {
+.mp-titles .flex-row .promo-box p,
+.mp-titles .flex-row .promo-box a {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -978,6 +1010,7 @@ footer .footer__container__bottom .contip img {
   text-transform: uppercase;
   color: #374957;
   text-align: center;
+  text-decoration: none;
 }
 .mp-titles .flex-row h1 {
   font-size: 36px;
