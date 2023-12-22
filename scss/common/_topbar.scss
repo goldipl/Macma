@@ -14,6 +14,10 @@
                 &:hover {
                     filter: brightness(0.9);
                 }
+                &.active {
+                    color: $text_color;
+                    text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+                }
             }
             span {
                 font-size: 12px;
