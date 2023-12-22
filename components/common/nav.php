@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-top d-flex align-items-center justify-content-between navbar-nav me-auto mb-2 mb-lg-0 w-100">
-                <a class="navbar-brand navbar-brand-desktop" href="/">
+                <a class="navbar-brand navbar-brand-desktop" href="./index.php">
                     <img src="./assets/icons/common/header/macma-logo.svg" alt="macma logo" width="180" height="36">
                 </a>
                 <form class="d-flex" role="search" id="nav-searchbar">
