@@ -13,9 +13,6 @@ nav {
                 line-height: 90%;
                 color: $grey2;
             }
-            &:hover {
-                
-            }
         }
         button {
             all: unset;
@@ -102,8 +99,10 @@ nav {
             line-height: 177.023%;
             text-transform: uppercase;
             color: $text_color;
-            &:hover {
+            &:hover,
+            &.active {
                 color: $macma_orange;
+                text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
                 &::after {
                     border-top: 0.3em solid $macma_orange !important;
                 }

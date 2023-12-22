@@ -787,15 +787,15 @@
                     </ul>
                 </li>
                 <!-- Nav Item -->
-                <li class="nav-item main-nav-item">
+                <li class="nav-item main-nav-item branding">
                     <a class="nav-link" href="#">Znakowanie</a>
                 </li>
                 <!-- Nav Item -->
-                <li class="nav-item main-nav-item">
+                <li class="nav-item main-nav-item catalogs">
                     <a class="nav-link" href="#">Katalogi</a>
                 </li>
                 <!-- Nav Item -->
-                <li class="nav-item main-nav-item">
+                <li class="nav-item main-nav-item import">
                     <a class="nav-link" href="#">Import</a>
                 </li>
             </ul>

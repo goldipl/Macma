@@ -198,10 +198,11 @@ nav .navbar-bottom .main-nav-item > a {
   text-transform: uppercase;
   color: #374957;
 }
-nav .navbar-bottom .main-nav-item > a:hover {
+nav .navbar-bottom .main-nav-item > a:hover, nav .navbar-bottom .main-nav-item > a.active {
   color: #F26521;
+  text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
-nav .navbar-bottom .main-nav-item > a:hover::after {
+nav .navbar-bottom .main-nav-item > a:hover::after, nav .navbar-bottom .main-nav-item > a.active::after {
   border-top: 0.3em solid #F26521 !important;
 }
 nav .navbar-bottom .main-nav-item > a.show::after {
