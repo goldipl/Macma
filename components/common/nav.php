@@ -788,15 +788,15 @@
                 </li>
                 <!-- Nav Item -->
                 <li class="nav-item main-nav-item branding">
-                    <a class="nav-link" href="#">Znakowanie</a>
+                    <a class="nav-link" href="./branding.php">Znakowanie</a>
                 </li>
                 <!-- Nav Item -->
                 <li class="nav-item main-nav-item catalogs">
-                    <a class="nav-link" href="#">Katalogi</a>
+                    <a class="nav-link" href="./catalogs.php">Katalogi</a>
                 </li>
                 <!-- Nav Item -->
                 <li class="nav-item main-nav-item import">
-                    <a class="nav-link" href="#">Import</a>
+                    <a class="nav-link" href="./import.php">Import</a>
                 </li>
             </ul>
         </div>
