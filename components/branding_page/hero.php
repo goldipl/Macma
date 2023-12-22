@@ -9,4 +9,7 @@
     <div class="hero_image">
         <img src="./assets/img/branding_page/hero_img.jpg" alt="hero img" width="1928" height="638">
     </div>
+    <div class="hero_video">
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/ykCKd1cVvyU" frameborder="0" allowfullscreen></iframe>
+    </div>
 </section>

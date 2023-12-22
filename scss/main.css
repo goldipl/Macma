@@ -1726,7 +1726,7 @@ footer .footer__container__bottom .contip img {
   position: absolute;
   top: 100px;
   left: 0;
-  width: 45vw;
+  width: 35vw;
   z-index: 1;
 }
 #hero .hero_content h1 {
@@ -1780,4 +1780,14 @@ footer .footer__container__bottom .contip img {
 }
 #hero .hero_content--btn:hover a img {
   content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
+}
+#hero .hero_video {
+  position: absolute;
+  top: 100px;
+  right: 2vw;
+  z-index: 1;
+}
+#hero .hero_video iframe {
+  border-radius: 10px;
+  box-shadow: -33px 45px 50px 24px rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=main.css.map */
