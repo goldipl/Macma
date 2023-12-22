@@ -90,6 +90,46 @@
     }
 }
 
+@media (max-width: 1380px) {
+    .swiper_products_block_box {
+        &__top {
+            .products-title {
+                p {
+                    font-size: 22px;
+                }
+            }
+            .products-code {
+                margin: 0 0 24px 0;
+                p {
+                    font-size: 15px;
+                    line-height: 140%;
+                }
+            }
+        }
+        &__bottom {
+            .catalog-price {
+                p {
+                    font-size: 15px;
+                    line-height: 140%;
+                    span {
+                        font-size: 19px;
+                    }
+                }
+            }
+            .your-price {
+                p {
+                    font-size: 15px;
+                    line-height: 140%;
+                    margin: 0 0 24px 0;
+                    span {
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 991px) {
     .swiper_products_block_box {
         &__top {

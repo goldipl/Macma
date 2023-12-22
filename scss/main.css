@@ -1265,6 +1265,33 @@ footer .footer__container__bottom .contip img {
   color: #F26521;
 }
 
+@media (max-width: 1380px) {
+  .swiper_products_block_box__top .products-title p {
+    font-size: 22px;
+  }
+  .swiper_products_block_box__top .products-code {
+    margin: 0 0 24px 0;
+  }
+  .swiper_products_block_box__top .products-code p {
+    font-size: 15px;
+    line-height: 140%;
+  }
+  .swiper_products_block_box__bottom .catalog-price p {
+    font-size: 15px;
+    line-height: 140%;
+  }
+  .swiper_products_block_box__bottom .catalog-price p span {
+    font-size: 19px;
+  }
+  .swiper_products_block_box__bottom .your-price p {
+    font-size: 15px;
+    line-height: 140%;
+    margin: 0 0 24px 0;
+  }
+  .swiper_products_block_box__bottom .your-price p span {
+    font-size: 21px;
+  }
+}
 @media (max-width: 991px) {
   .swiper_products_block_box__top .products-image {
     margin: 40px auto 40px;
