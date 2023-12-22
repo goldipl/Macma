@@ -1863,7 +1863,7 @@ footer .footer__container__bottom .contip img {
 }
 @media (max-width: 760px) {
   #hero .hero_content h1 {
-    font-size: 26px;
+    font-size: 30px;
   }
   #hero .hero_video iframe {
     height: 300px;
