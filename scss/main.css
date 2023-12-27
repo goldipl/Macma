@@ -659,6 +659,7 @@ footer .footer__container__bottom .contip img {
 }
 .breadcrumbs {
   margin-top: 16px;
+  margin-bottom: 40px;
 }
 .breadcrumbs ul {
   display: inline-flex;
@@ -702,6 +703,9 @@ footer .footer__container__bottom .contip img {
 }
 
 @media (max-width: 1260px) {
+  .breadcrumbs {
+    margin-bottom: 24px;
+  }
   .breadcrumbs ul li.breadcrumb-item {
     margin-right: 24px;
   }

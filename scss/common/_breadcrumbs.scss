@@ -1,5 +1,6 @@
 .breadcrumbs {
     margin-top: 16px;
+    margin-bottom: 40px;
     ul {
         display: inline-flex;
         flex-wrap: wrap;
@@ -44,6 +45,7 @@
 
 @media (max-width: 1260px) {
     .breadcrumbs {
+        margin-bottom: 24px;
         ul {
             li.breadcrumb-item {
                 margin-right: 24px;
