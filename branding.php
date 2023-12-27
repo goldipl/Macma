@@ -20,6 +20,7 @@
             <?php include "./components/branding_page/hero.php"; ?> 
             <?php include "./components/branding_page/title.php"; ?> 
             <?php include "./components/branding_page/branding_articles.php"; ?> 
+            <?php include "./components/branding_page/branding_seo.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
