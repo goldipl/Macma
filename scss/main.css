@@ -1787,6 +1787,28 @@ footer .footer__container__bottom .contip img {
   width: 100vw;
   margin-bottom: 72px;
 }
+#hero.import-yellow::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #ecd553;
+  top: 0;
+  left: -50vw;
+  height: 100%;
+  width: 60vw;
+  z-index: -1;
+}
+#hero.import-yellow::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #faf385;
+  top: 0;
+  right: -50vw;
+  height: 100%;
+  width: 60vw;
+  z-index: -1;
+}
 #hero::before {
   position: absolute;
   display: block;
