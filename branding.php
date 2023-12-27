@@ -7,7 +7,6 @@
         <title>MACMA - Znakowanie</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./css/select2.min.css" />
         <link rel="stylesheet" href="./scss/main.css">
     </head>
