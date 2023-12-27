@@ -1,5 +1,15 @@
 <section id="hero" class="hero container">
     <div class="hero_content">
+        <div class="breadcrumbs container">
+            <ul>
+                <li class="breadcrumb-item">
+                    <a href="./index.php">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">Znakowanie</a>
+                </li>
+            </ul>
+        </div>
         <h1 class="hero_content--title">Znakowanie</h1>
         <p class="hero_content--text">Aby upominek w pełni spełniał funkcje reklamowe koniecznie powinien zostać spersonalizowany. Idealnym rozwiązaniem jest trwały logotyp wykonany na gadżecie, który gwarantuje skuteczną reklamę na lata! Dbając o wygodę naszych Klientów świadczymy kompleksowe usługi w zakresie znakowania upominków reklamowych. Zajmujemy się znakowaniem artykułów własnych oraz powierzonych.</p>
         <div class="hero_content--btn">

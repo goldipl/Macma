@@ -657,6 +657,87 @@ footer .footer__container__bottom .contip img {
     line-height: 140%;
   }
 }
+.breadcrumbs {
+  margin-top: 16px;
+}
+.breadcrumbs ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.breadcrumbs ul li.breadcrumb-item {
+  position: relative;
+  list-style: none;
+  margin-right: 40px;
+}
+.breadcrumbs ul li.breadcrumb-item:nth-child(1)::after {
+  display: none;
+}
+.breadcrumbs ul li.breadcrumb-item::before {
+  display: none;
+}
+.breadcrumbs ul li.breadcrumb-item::after {
+  position: absolute;
+  margin-right: 10px;
+  top: 8px;
+  left: -24px;
+  background-size: contain;
+  width: 8px;
+  height: 8px;
+  content: "";
+  background-image: url("./../assets/icons/common/breadcrumbs/breadcrumb_icon.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.breadcrumbs ul li.breadcrumb-item a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #374957;
+  text-decoration: none;
+}
+.breadcrumbs ul li.breadcrumb-item a:hover {
+  color: #F26521;
+}
+
+@media (max-width: 1260px) {
+  .breadcrumbs ul li.breadcrumb-item {
+    margin-right: 24px;
+  }
+  .breadcrumbs ul li.breadcrumb-item::after {
+    margin-right: 10px;
+    left: -16px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumbs {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .breadcrumbs ul {
+    padding-left: 16px;
+    margin: 0;
+  }
+  .breadcrumbs ul li.breadcrumb-item {
+    margin-right: 16px;
+  }
+  .breadcrumbs ul li.breadcrumb-item::after {
+    margin-right: 8px;
+    top: 10px;
+    left: -12px;
+    width: 8px;
+    height: 8px;
+  }
+  .breadcrumbs ul li.breadcrumb-item:first-of-type {
+    margin-left: -12px;
+  }
+  .breadcrumbs ul li.breadcrumb-item a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+  }
+}
 #swiper {
   width: 100vw;
   max-width: unset;
@@ -1729,6 +1810,11 @@ footer .footer__container__bottom .contip img {
   width: 35vw;
   z-index: 1;
 }
+#hero .hero_content .breadcrumbs {
+  position: absolute;
+  top: -80px;
+  left: -10px;
+}
 #hero .hero_content h1 {
   font-size: 72px;
   font-style: normal;
@@ -1831,6 +1917,11 @@ footer .footer__container__bottom .contip img {
     left: 0;
     width: 100%;
   }
+  #hero .hero_content .breadcrumbs {
+    position: absolute;
+    top: -48px;
+    left: -10px;
+  }
   #hero .hero_content h1 {
     font-size: 36px;
     margin: 0 0 24px 0;
@@ -1861,7 +1952,12 @@ footer .footer__container__bottom .contip img {
     display: none;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 991px) {
+  #hero .hero_content .breadcrumbs {
+    position: absolute;
+    top: -32px;
+    left: -16px;
+  }
   #hero .hero_content h1 {
     font-size: 30px;
   }

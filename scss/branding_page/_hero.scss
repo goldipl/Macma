@@ -30,6 +30,11 @@
         left: 0;
         width: 35vw;
         z-index: 1;
+        .breadcrumbs {
+            position: absolute;
+            top: -80px;
+            left: -10px;
+        }
         h1 {
             font-size: 72px;
             font-style: normal;
@@ -137,6 +142,11 @@
             top: 40px;
             left: 0;
             width: 100%;
+            .breadcrumbs {
+                position: absolute;
+                top: -48px;
+                left: -10px;
+            }
             h1 {
                 font-size: 36px;
                 margin: 0 0 24px 0;
@@ -170,9 +180,14 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 991px) {
     #hero {
         .hero_content {
+            .breadcrumbs {
+                position: absolute;
+                top: -32px;
+                left: -16px;
+            }
             h1 {
                 font-size: 30px;
             }

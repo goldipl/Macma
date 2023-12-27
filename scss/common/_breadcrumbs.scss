@@ -1,0 +1,86 @@
+.breadcrumbs {
+    margin-top: 16px;
+    ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        li.breadcrumb-item {
+            position: relative;
+            list-style: none;
+            margin-right: 40px;
+            &:nth-child(1)::after {
+                display: none;
+            }
+            &::before {
+                display: none;
+            }
+            &::after {
+                position: absolute;
+                margin-right: 10px;
+                top: 8px;
+                left: -24px;
+                background-size: contain;
+                width: 8px;
+                height: 8px;
+                content: "";
+                background-image: url('./../assets/icons/common/breadcrumbs/breadcrumb_icon.svg');
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            a {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                color: $text_color;
+                text-decoration: none;
+                &:hover {
+                    color: $macma_orange;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .breadcrumbs {
+        ul {
+            li.breadcrumb-item {
+                margin-right: 24px;
+                &::after {
+                    margin-right: 10px;
+                    left: -16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .breadcrumbs {
+        margin-top: 0;
+        margin-bottom: 8px;
+        ul {
+            padding-left: 16px;
+            margin: 0;
+            li.breadcrumb-item {
+                margin-right: 16px;
+                &::after {
+                    margin-right: 8px;
+                    top: 10px;
+                    left: -12px;
+                    width: 8px;
+                    height: 8px;
+                }
+                &:first-of-type {
+                    margin-left: -12px;
+                }
+                a {
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+}
