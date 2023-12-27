@@ -1931,6 +1931,14 @@ footer .footer__container__bottom .contip img {
     width: 100vw;
     margin-bottom: 148px;
   }
+  #hero.import-yellow {
+    background-color: #faf385;
+    padding-bottom: 80px;
+    margin-bottom: 24px;
+  }
+  #hero.import-yellow::before {
+    background-color: #faf385;
+  }
   #hero::after {
     display: none;
   }

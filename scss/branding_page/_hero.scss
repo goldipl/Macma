@@ -151,6 +151,14 @@
         position: relative;
         width: 100vw;
         margin-bottom: 148px;
+        &.import-yellow {
+            background-color: #faf385;
+            padding-bottom: 80px;
+            margin-bottom: 24px;
+            &::before {
+                background-color: #faf385;
+            }
+        }
         &::after {
             display: none;
         }
