@@ -1906,6 +1906,9 @@ footer .footer__container__bottom .contip img {
   border-radius: 10px;
   box-shadow: -33px 45px 50px 24px rgba(0, 0, 0, 0.25);
 }
+#hero .hero_image img {
+  margin-left: -160px;
+}
 
 @media (max-width: 1399px) {
   #hero .hero_content h1 {
