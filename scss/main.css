@@ -665,6 +665,7 @@ footer .footer__container__bottom .contip img {
   display: inline-flex;
   flex-wrap: wrap;
   padding-left: 0;
+  margin-bottom: 0;
 }
 .breadcrumbs ul li.breadcrumb-item {
   position: relative;
@@ -2494,5 +2495,89 @@ footer .footer__container__bottom .contip img {
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-phone a img {
     margin-right: 10px;
+  }
+}
+.branding-table {
+  margin-bottom: 75px;
+}
+.branding-table h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0 0 40px 0;
+}
+.branding-table table {
+  width: 100%;
+}
+.branding-table table tbody tr {
+  height: 75px;
+}
+.branding-table table tbody tr:nth-of-type(even) {
+  background-color: #F4F4F4;
+}
+.branding-table table tbody tr th {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 177.023%;
+  margin: 0;
+  color: #374957;
+  background-color: #FFD3BE;
+  padding: 8px 0;
+}
+.branding-table table tbody tr th:first-of-type {
+  min-width: 300px;
+  padding-left: 68px;
+}
+.branding-table table tbody tr td {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 177.023%;
+  margin: 0;
+  padding: 8px 0;
+  color: #374957;
+}
+.branding-table table tbody tr td:first-of-type {
+  min-width: 300px;
+  padding-left: 68px;
+}
+
+@media (max-width: 1399px) {
+  .branding-table h1 {
+    font-size: 50px;
+    margin: 0 0 24px 0;
+  }
+}
+@media (max-width: 1199px) {
+  .branding-table h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 991px) {
+  .branding-table h1 {
+    font-size: 30px;
+  }
+  .branding-table table {
+    width: 100%;
+  }
+  .branding-table table tbody tr {
+    height: 40px;
+  }
+  .branding-table table tbody tr th {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .branding-table table tbody tr th:first-of-type {
+    min-width: 140px;
+    padding-left: 16px;
+  }
+  .branding-table table tbody tr td {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .branding-table table tbody tr td:first-of-type {
+    min-width: 140px;
+    padding-left: 16px;
   }
 }/*# sourceMappingURL=main.css.map */
