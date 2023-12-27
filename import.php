@@ -19,6 +19,7 @@
         <main id="main-wrapper">
             <?php include "./components/import_page/hero.php"; ?> 
             <?php include "./components/import_page/import_title.php"; ?> 
+            <?php include "./components/import_page/text_teasers.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

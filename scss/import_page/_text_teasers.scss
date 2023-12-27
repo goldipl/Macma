@@ -1,0 +1,95 @@
+.text_teasers {
+    margin: 40px auto 60px auto;
+    flex-wrap: wrap;
+    &__slot {
+        position: relative;
+        border: 1px solid $grey;
+        background-color: $light_grey;
+        width: 31%;
+        margin-right: 2%; 
+        margin-bottom: 2%;
+        &:nth-of-type(3n) {
+            margin-right: 0;
+        }
+        &--title {
+            height: 80px;
+            width: 100%;
+            border-bottom: 1px solid $grey;
+            text-align: center;
+            p {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 80px;
+                color: $text-color;
+            }
+        }
+        &--text {
+            padding: 39px 57px;
+            p {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 160%;
+                color: $text-color;
+                text-align: center;
+            }
+            ul {
+                text-align: center;
+                list-style-position: inside;
+                li {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 160%;
+                    color: $text-color;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .text_teasers {
+        &__slot {
+            width: 48%;
+            margin-right: 2%; 
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+            &--title {
+                height: 60px;
+                p {
+                    font-size: 20px;
+                    line-height: 60px;
+                }
+            }
+            &--text {
+                padding: 24px 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .text_teasers {
+        margin: 24px auto 24px auto;
+        &__slot {
+            width: 100%;
+            margin-right: 0; 
+            margin-bottom: 16px;
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+            &--text {
+                padding: 24px;
+            }
+        }
+    }
+}
