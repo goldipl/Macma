@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg container">
     <div class="navbar-first-row"></div>
     <div class="container-fluid">
-        <a class="navbar-brand navbar-brand-mobile" href="/">
+        <a class="navbar-brand navbar-brand-mobile" href="./index.php">
             <img src="./assets/icons/common/header/macma-logo.svg" alt="macma logo" width="180" height="36">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
