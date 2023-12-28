@@ -24,6 +24,7 @@
         </footer>
         <script>
             document.querySelector('#topbar .container .topbar-links a:nth-of-type(2)').classList.add('active')
+            document.querySelector('.hero.newsletter-pink').classList.add('incorrect-mail')
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>

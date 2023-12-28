@@ -16,7 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-        <?php include "./components/newsletter/newsletter_correct_modal.php"; ?> 
+            <?php include "./components/newsletter/newsletter_correct_modal.php"; ?> 
             <?php include "./components/newsletter/hero.php"; ?> 
         </main>
         <footer> 
@@ -24,6 +24,7 @@
         </footer>
         <script>
             document.querySelector('#topbar .container .topbar-links a:nth-of-type(2)').classList.add('active')
+            document.querySelector('.hero.newsletter-pink').classList.add('correct-mail')
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>

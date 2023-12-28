@@ -1,6 +1,9 @@
 .hero.newsletter-pink {
     margin-bottom: 0 !important;
-    margin-top: -100px;
+    &.correct-mail,
+    &.incorrect-mail {
+        margin-top: -100px;
+    }
     &::before {
         position: absolute;
         display: block;
@@ -73,6 +76,9 @@
 
 @media (max-width: 991px) {
     .hero.newsletter-pink {
-        margin-top: -72px;
+        &.correct-mail,
+        &.incorrect-mail {
+            margin-top: -72px;
+        }
     }
 }

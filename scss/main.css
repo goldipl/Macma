@@ -2886,6 +2886,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .hero.newsletter-pink {
   margin-bottom: 0 !important;
+}
+.hero.newsletter-pink.correct-mail, .hero.newsletter-pink.incorrect-mail {
   margin-top: -100px;
 }
 .hero.newsletter-pink::before {
@@ -2966,7 +2968,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
-  .hero.newsletter-pink {
+  .hero.newsletter-pink.correct-mail, .hero.newsletter-pink.incorrect-mail {
     margin-top: -72px;
   }
 }
