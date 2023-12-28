@@ -21,6 +21,7 @@
             <?php include "./components/import_page/import_title.php"; ?> 
             <?php include "./components/import_page/text_teasers.php"; ?> 
             <?php include "./components/import_page/import_form_title.php"; ?> 
+            <?php include "./components/import_page/import_form.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

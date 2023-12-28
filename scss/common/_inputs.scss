@@ -1,0 +1,53 @@
+input.form-input {
+    width: max-content;
+    height: 50px;
+    border: 1px solid $grey;
+    background-color: $light_grey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%; 
+    color: $small_text_color;
+    padding: 0 32px;
+    margin: 16px 0 0 0;
+    &:focus,
+    &:hover {
+        border: 0;
+        outline: 1px solid $macma_orange;
+    }
+}
+
+textarea.form-textarea {
+    width: max-content;
+    height: 160px;
+    border: 1px solid $grey;
+    background-color: $light_grey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%; 
+    color: $small_text_color;
+    padding: 16px 32px;
+    margin: 16px 0 0 0;
+    &:focus,
+    &:hover {
+        border: 0;
+        outline: 1px solid $macma_orange;
+    }    
+}
+
+label.add-files {
+    width: max-content;
+    height: 160px;
+    border: 1px solid $grey;
+    background-color: $light_grey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%; 
+    color: $small_text_color;
+    padding: 16px 32px;
+    margin: 16px 0 0 0;
+    &:focus,
+    &:hover {
+        border: 0;
+        outline: 1px solid $macma_orange;
+    }    
+}

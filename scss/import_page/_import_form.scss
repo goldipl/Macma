@@ -1,0 +1,103 @@
+.import_form {
+    .title {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        color: $text_color;
+        margin-top: 16px;
+        .form-number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            color: $macma_orange;
+            border: 1px solid $macma_orange;
+            background-color: $light_grey;
+            border-radius: 100%;
+            margin-right: 15px;
+        }
+    }
+    .form-input {
+        width: calc(33% - 26px);
+        margin-right: 26px;
+        &:nth-of-type(3n) {
+            margin-right: 0;
+        }
+    }
+    label.add-files {
+        width: calc(33% - 26px);
+        margin-right: 26px;
+        .add-files-img {
+            margin: 8px auto 8px;
+            width: 100%;
+        }
+        .add-files-text {
+            text-align: center;
+        }
+        .file-block {
+            margin-left: 30%;
+            font-size: 12px;
+        }
+    }
+    textarea.form-textarea {
+        width: calc(33% - 26px);
+        margin-right: 0;
+    }
+    button {
+        margin-bottom: 132px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .import_form {
+        .form-input {
+            width: calc(50% - 26px);
+            margin-right: 26px;
+            &:nth-of-type(3n) {
+                margin-right: 26px;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+        }
+        label.add-files {
+            width: calc(50% - 26px);
+            margin-right: 26px;
+        }
+        textarea.form-textarea {
+            width: calc(50% - 26px);
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .import_form {
+        .form-input {
+            width: 100%;
+            margin-right: 0;
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+        }
+        label.add-files {
+            width: 100%;
+            margin-right: 0;
+        }
+        textarea.form-textarea {
+            width: 100%;
+            margin-right: 0;
+        }
+        button {
+            margin-bottom: 40px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.orange-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border: 1px solid $macma_orange;
+    background-color: $macma_orange;
+    color: $white;
+    width: max-content;
+    height: 54px;
+    padding: 15px 20px;
+    img {
+        margin-left: 10px;
+    }
+    &:hover {
+        background-color: $white;
+        color: $macma_orange;
+        img {
+            content: url('./../assets/icons/common/buttons/button_orange_arrow.svg');
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+ 
+}
+
+@media (max-width: 991px) {
+
+}
