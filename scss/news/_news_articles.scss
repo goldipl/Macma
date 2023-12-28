@@ -17,11 +17,11 @@
         position: relative;
         border: 1px solid $grey;
         background-color: $white;
-        width: 22%;
-        margin-right: 3%;
-        margin-bottom: 3%;
+        width: 23%;
+        margin-right: 2%;
+        margin-bottom: 2%;
         padding-bottom: 57px;
-        &:nth-of-type(3n) {
+        &:nth-of-type(4n) {
             margin-right: 0;
         }
         &:hover {
@@ -33,6 +33,7 @@
                 width: 100%;
                 height: 242px;
                 object-fit: cover;
+                border: 1px solid $macma_orange;
             }
         }
         &--date {
@@ -96,6 +97,75 @@
                 width: 100%;
                 height: 100%;
                 border-top: 1px solid $grey;
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .news_articles {
+        &__slot {
+            width: 31%;
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(4n) {
+                margin-right: 2%;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .news_articles {
+        &__slot {
+            width: 47%;
+            padding-bottom: 48px;
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(3n) {
+                margin-right: 2%;
+            }
+            &--date {
+                p {
+                    line-height: 140%;
+                }    
+            }
+            &--title {
+                h2 {
+                    font-size: 20px;
+                }
+            }
+            &--text {
+                p {
+                    line-height: 140%;
+                }
+            }
+            &--link {
+                height: 48px;
+                a {
+                    line-height: 140%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .news_articles {
+        &__slot {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 24px;
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+            &--img {
+                width: 100%;
             }
         }
     }
