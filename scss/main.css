@@ -3273,4 +3273,14 @@ label.add-files:focus, label.add-files:hover {
   .news_articles__slot--img {
     width: 100%;
   }
+}
+.news_article_hero img {
+  margin-left: -200px;
+  margin-top: -16px;
+}
+
+@media (max-width: 991px) {
+  .news_article_hero img {
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
