@@ -2886,12 +2886,13 @@ label.add-files:focus, label.add-files:hover {
 }
 .hero.newsletter-pink {
   margin-bottom: 0 !important;
+  margin-top: -100px;
 }
 .hero.newsletter-pink::before {
   position: absolute;
   display: block;
   content: "";
-  background-color: #fadedb;
+  background-color: #fadedb !important;
   top: 0;
   left: -50vw;
   height: 100%;
@@ -2902,7 +2903,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   display: block;
   content: "";
-  background-color: #fadedb;
+  background-color: #fadedb !important;
   top: 0;
   right: -50vw;
   height: 100%;
@@ -2935,5 +2936,69 @@ label.add-files:focus, label.add-files:hover {
   }
   .hero.newsletter-pink::before {
     background-color: #fadedb !important;
+  }
+}
+@media (max-width: 991px) {
+  .hero.newsletter-pink {
+    margin-top: -72px;
+  }
+}
+.newsletter_correct_modal {
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  background-color: #BEFFC1;
+  padding: 21px 65px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.newsletter_correct_modal strong {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.023%;
+  color: #374957;
+}
+.newsletter_correct_modal img {
+  margin: 0 31px 0 0;
+}
+
+.newsletter_incorrect_modal {
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  background-color: #FFF1BE;
+  padding: 21px 65px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.newsletter_incorrect_modal strong {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.023%;
+  color: #374957;
+}
+.newsletter_incorrect_modal img {
+  margin: 0 31px 0 0;
+}
+
+@media (max-width: 991px) {
+  .newsletter_incorrect_modal,
+  .newsletter_correct_modal {
+    padding: 16px;
+  }
+  .newsletter_incorrect_modal strong,
+  .newsletter_correct_modal strong {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .newsletter_incorrect_modal img,
+  .newsletter_correct_modal img {
+    width: 40px;
+    height: 40px;
+    margin: 0 16px 0 0;
   }
 }/*# sourceMappingURL=main.css.map */
