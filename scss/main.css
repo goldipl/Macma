@@ -2925,6 +2925,9 @@ label.add-files:focus, label.add-files:hover {
 .hero.newsletter-pink input.newsletter-hero:focus, .hero.newsletter-pink input.newsletter-hero:hover {
   outline: 0;
 }
+.hero.newsletter-pink button {
+  align-items: center;
+}
 
 @media (max-width: 1199px) {
   .hero.newsletter-pink {
@@ -2933,6 +2936,10 @@ label.add-files:focus, label.add-files:hover {
   }
   .hero.newsletter-pink input.newsletter-hero {
     width: 60vw;
+    font-size: 14px;
+  }
+  .hero.newsletter-pink button {
+    font-size: 14px;
   }
   .hero.newsletter-pink::before {
     background-color: #fadedb !important;

@@ -39,6 +39,9 @@
             outline: 0;
         }    
     }
+    button {
+        align-items: center;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -47,6 +50,10 @@
         padding-bottom: 120px !important;
         input.newsletter-hero {
             width: 60vw;
+            font-size: 14px;
+        }
+        button {
+            font-size: 14px;
         }
         &::before {
             background-color: $newsletter_pink !important;    
