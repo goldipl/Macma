@@ -28,6 +28,7 @@
             </div>
             <?php include "./components/news/news_title.php"; ?> 
             <?php include "./components/news/news_articles.php"; ?> 
+            <?php include "./components/common/pagination.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

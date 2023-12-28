@@ -827,6 +827,64 @@ label.add-files:focus, label.add-files:hover {
   outline: 1px solid #F26521;
 }
 
+.pagination {
+  width: 100%;
+  background-color: #F4F4F4;
+  padding-bottom: 59px;
+  border-bottom: 1px solid #A6A6A6;
+}
+.pagination_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pagination_container .dots {
+  margin: 24px 13px 0 0;
+}
+.pagination_container .element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #EEEEEE;
+  background-color: #FFFFFF;
+  margin-right: 13px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.pagination_container .element p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #374957;
+  text-decoration: none;
+  margin: 0;
+}
+.pagination_container .element.prev img {
+  transform: rotate(180deg);
+}
+.pagination_container .element.active {
+  background-color: #F26521;
+  border-color: #F26521;
+}
+.pagination_container .element.active p {
+  color: #FFFFFF;
+}
+.pagination_container .element:hover {
+  border: 1px solid #F26521;
+}
+.pagination_container .element.last img {
+  width: 35px;
+  height: 35px;
+}
+.pagination_container .element.last img:hover {
+  border: 1px solid #F26521;
+}
+
 #swiper {
   width: 100vw;
   max-width: unset;
