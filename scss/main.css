@@ -2925,6 +2925,20 @@ label.add-files:focus, label.add-files:hover {
 .hero.newsletter-pink input.newsletter-hero:focus, .hero.newsletter-pink input.newsletter-hero:hover {
   outline: 0;
 }
+.hero.newsletter-pink input.newsletter-hero::-moz-placeholder {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #374957;
+}
+.hero.newsletter-pink input.newsletter-hero::placeholder {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #374957;
+}
 .hero.newsletter-pink button {
   align-items: center;
 }
@@ -2936,6 +2950,12 @@ label.add-files:focus, label.add-files:hover {
   }
   .hero.newsletter-pink input.newsletter-hero {
     width: 60vw;
+    font-size: 14px;
+  }
+  .hero.newsletter-pink input.newsletter-hero::-moz-placeholder {
+    font-size: 14px;
+  }
+  .hero.newsletter-pink input.newsletter-hero::placeholder {
     font-size: 14px;
   }
   .hero.newsletter-pink button {

@@ -38,6 +38,13 @@
         &:hover {
             outline: 0;
         }    
+        &::placeholder {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $text_color;
+        }
     }
     button {
         align-items: center;
@@ -51,6 +58,9 @@
         input.newsletter-hero {
             width: 60vw;
             font-size: 14px;
+            &::placeholder {
+                font-size: 14px;
+            }
         }
         button {
             font-size: 14px;
