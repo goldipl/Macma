@@ -1097,6 +1097,9 @@ footer .footer__container__bottom .contip img {
 .mp-titles .flex-row .promo-box.our-brands {
   background-color: #ACBFDB;
 }
+.mp-titles .flex-row .promo-box.light-green {
+  background-color: #ACDBD5;
+}
 .mp-titles .flex-row .promo-box p,
 .mp-titles .flex-row .promo-box a {
   font-size: 16px;
@@ -2615,7 +2618,7 @@ footer .footer__container__bottom .contip img {
   }
 }
 .text_teasers {
-  margin: 40px auto 60px auto;
+  margin: 40px auto 35px auto;
   flex-wrap: wrap;
 }
 .text_teasers__slot {

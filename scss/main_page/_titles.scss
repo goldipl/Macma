@@ -33,6 +33,9 @@
             &.our-brands {
                 background-color: $our_brands_grey;
             }
+            &.light-green {
+                background-color: $label_green_color;
+            }
             p,
             a {
                 font-size: 16px;
