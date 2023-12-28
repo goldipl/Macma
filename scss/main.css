@@ -2823,6 +2823,7 @@ label.add-files:focus, label.add-files:hover {
 .import_form label.add-files {
   width: calc(33% - 26px);
   margin-right: 26px;
+  cursor: pointer;
 }
 .import_form label.add-files .add-files-img {
   margin: 8px auto 8px;
