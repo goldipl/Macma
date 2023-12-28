@@ -26,6 +26,7 @@
                     </li>
                 </ul>
             </div>
+            <?php include "./components/news/news_title.php"; ?> 
             <?php include "./components/news/news_articles.php"; ?> 
         </main>
         <footer> 
