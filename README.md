@@ -38,10 +38,10 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ## Screenshots
 * Desktop & mobile version :desktop_computer: :iphone:       
  
- ![screenshot](./screenshots/macma_screenshot_01.jpg)  
+![screenshot](./screenshots/macma_screenshot_01.jpg)  
  
- ![screenshot](./screenshots/macma_screenshot_02.jpg)  
+![screenshot](./screenshots/macma_screenshot_02.jpg)  
 
- ![screenshot](./screenshots/macma_screenshot_03.jpg)  
+![screenshot](./screenshots/macma_screenshot_03.jpg)  
 
- ![screenshot](./screenshots/macma_screenshot_04.jpg)  
+![screenshot](./screenshots/macma_screenshot_04.jpg)  
