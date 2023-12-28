@@ -2883,4 +2883,57 @@ label.add-files:focus, label.add-files:hover {
   .import_form button {
     margin-bottom: 40px;
   }
+}
+.hero.newsletter-pink {
+  margin-bottom: 0 !important;
+}
+.hero.newsletter-pink::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #fadedb;
+  top: 0;
+  left: -50vw;
+  height: 100%;
+  width: 60vw;
+  z-index: -1;
+}
+.hero.newsletter-pink::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #fadedb;
+  top: 0;
+  right: -50vw;
+  height: 100%;
+  width: 60vw;
+  z-index: -1;
+}
+.hero.newsletter-pink input.newsletter-hero {
+  width: 324px;
+  height: 54px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #374957;
+  border: 1px solid #F26521;
+  margin-right: -5px;
+}
+.hero.newsletter-pink input.newsletter-hero:focus, .hero.newsletter-pink input.newsletter-hero:hover {
+  outline: 0;
+}
+
+@media (max-width: 1199px) {
+  .hero.newsletter-pink {
+    background-color: #fadedb !important;
+    padding-bottom: 120px !important;
+  }
+  .hero.newsletter-pink input.newsletter-hero {
+    width: 60vw;
+  }
+  .hero.newsletter-pink::before {
+    background-color: #fadedb !important;
+  }
 }/*# sourceMappingURL=main.css.map */
