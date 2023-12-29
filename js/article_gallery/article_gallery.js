@@ -15,7 +15,7 @@ let gallery_top = new Swiper(".article-gallery", {
 
 let gallery_thumbs = new Swiper(".gallery-thumbs", {
   slidesPerView: "auto",
-  // centeredSlides: true,
+  centeredSlides: true,
   spaceBetween: 20,
   loop: false,
   slideToClickedSlide: true,
