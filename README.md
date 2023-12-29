@@ -51,3 +51,5 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ![screenshot](./screenshots/macma_screenshot_06.jpg)  
 
 ![screenshot](./screenshots/macma_screenshot_07.jpg)  
+
+![screenshot](./screenshots/macma_screenshot_08.jpg)  
