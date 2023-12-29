@@ -3679,6 +3679,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 25px;
   left: 25px;
+  z-index: 1;
 }
 .product_card_gallery_info .product-gallery .slider-one .product-icons {
   position: absolute;
