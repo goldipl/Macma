@@ -30,6 +30,7 @@
                 </ul>
             </div>
             <?php include "./components/news_article/news_article_hero.php"; ?>
+            <?php include "./components/news_article/news_article_content.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
