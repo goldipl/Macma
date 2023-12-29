@@ -885,6 +885,47 @@ label.add-files:focus, label.add-files:hover {
   border: 1px solid #F26521;
 }
 
+.number-title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  color: #374957;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+.number-title .form-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #F26521;
+  border: 1px solid #F26521;
+  background-color: #F4F4F4;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+@media (max-width: 991px) {
+  .number-title {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .number-title .form-number {
+    min-width: 26px;
+    width: 26px;
+    height: 26px;
+    font-size: 16px;
+  }
+}
 #swiper {
   width: 100vw;
   max-width: unset;
@@ -3559,5 +3600,56 @@ label.add-files:focus, label.add-files:hover {
   }
   .blog_news_articles__slot--img {
     width: 100%;
+  }
+}
+.accordion {
+  border-radius: 0 !important;
+}
+.accordion-item {
+  border-radius: 0 !important;
+  border: 0;
+  border-bottom: 3px solid #FFFFFF;
+  border-top: 3px solid #FFFFFF;
+}
+.accordion-header button {
+  border-radius: 0 !important;
+}
+.accordion-button,
+.accordion .accordion-button:not(.collapsed) {
+  background-color: #F4F4F4;
+  border-radius: 0;
+}
+.accordion .accordion-button:focus {
+  box-shadow: none;
+}
+.accordion .accordion-button::after {
+  background-image: url("./../assets/icons/accordion/accordion-plus.svg");
+}
+.accordion .accordion-button:not(.collapsed)::after {
+  background-image: url("./../assets/icons/accordion/accordion-minus.svg");
+}
+
+.faq_content {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 991px) {
+  .faq_content {
+    margin-bottom: 40px;
+  }
+  .faq_content .faq-row {
+    flex-direction: column !important;
+  }
+  .faq_content .faq-row .faq-col {
+    width: 100% !important;
+  }
+  .faq_content .faq-row .faq-col .accordion {
+    margin: 0 !important;
+  }
+  .faq_content .accordion-button {
+    font-size: 14px;
+  }
+  .faq_content .accordion-body {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */
