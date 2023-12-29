@@ -31,6 +31,7 @@
             </div>
             <?php include "./components/news_article/news_article_hero.php"; ?>
             <?php include "./components/news_article/news_article_content.php"; ?>
+            <?php include "./components/news_article/news_article_more_news.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

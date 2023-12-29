@@ -1,0 +1,16 @@
+.more-news-title {
+    position: relative;
+    background-color: $light_grey;
+    padding-top: 25px;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: -50vw;
+        top: 0;
+        width: 200vw;
+        height: 100%;
+        z-index: 0;
+    }
+}
