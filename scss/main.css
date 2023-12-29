@@ -3668,6 +3668,27 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-gallery .gallery .swiper-slide {
   height: auto;
 }
+.product_card_gallery_info .product-gallery .slider-one {
+  border: 1px solid #F4F4F4;
+}
+.product_card_gallery_info .product-gallery .slider-one .product-label {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.product_card_gallery_info .product-gallery .slider-one .product-icons {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1;
+}
+.product_card_gallery_info .product-gallery .slider-one .product-icons .download-icon {
+  cursor: pointer;
+  margin-left: 11px;
+}
+.product_card_gallery_info .product-gallery .slider-one .product-icons .zoom-icon {
+  cursor: pointer;
+}
 .product_card_gallery_info .product-gallery .gallery img {
   width: 100%;
   height: auto;

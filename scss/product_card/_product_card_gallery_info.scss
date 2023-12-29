@@ -13,6 +13,28 @@
             }
         }
 
+        .slider-one {
+            border: 1px solid $light_grey;
+            .product-label {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+            }
+            .product-icons {
+                position: absolute;
+                bottom: 24px;
+                right: 24px;
+                z-index: 1;
+                .download-icon {
+                    cursor: pointer;
+                    margin-left: 11px;
+                }
+                .zoom-icon {
+                    cursor: pointer;
+                }
+            }
+        }
+
         .gallery img {
             width: 100%;
             height: auto;

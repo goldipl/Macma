@@ -20,6 +20,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- Product label -->
+                <img class="product-label" src="./assets/icons/labels/label-promo.svg" alt="label">
+                <!-- Product icons -->
+                <div class="product-icons">
+                    <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                    <img class="download-icon"src="./assets/icons/product_page/download.svg" alt="download icon">
+                </div>
             </div>
             <!-- thumbs -->
             <div class="swiper gallery-thumbs slider-two">
@@ -40,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="product-info">
 
-    </div class="product-info">
+    </div>
 </div>
