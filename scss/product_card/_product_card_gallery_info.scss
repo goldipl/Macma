@@ -1,6 +1,7 @@
 .product_card_gallery_info {
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
     .product-gallery {
         display: flex;
         width: 50%;
@@ -139,37 +140,6 @@
         &_availability-colors {
             margin-bottom: 40px;
             .color {
-                position: relative;
-                display: inline-flex;
-                width: 32px;
-                height: 32px;
-                background: #D9D9D9;
-                margin-right: 6px;
-                border: 2px solid $white;
-                &.red {
-                    background-color: #FD0000;
-                }
-                &.yellow {
-                    background-color: #FFC700;
-                }
-                &.lightblue {
-                    background-color: #00A3FF;
-                }
-                &.blue {
-                    background-color: #30F;
-                }
-                &.pink {
-                    background-color: #F09;
-                }
-                &.purple {
-                    background-color: #BD00FF;
-                }
-                &.green {
-                    background-color: #5CDA47;
-                }
-                &.black {
-                    background-color: $black;
-                }
                 &.checked {
                     outline: 1px solid $black;
                     background-image: url(./../assets/icons/product_page/checked.svg);
