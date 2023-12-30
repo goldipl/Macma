@@ -117,7 +117,247 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-branding" role="tabpanel" aria-labelledby="nav-branding-tab" tabindex="0">
-
+            <div class="table-container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Grupa znakowania</th>
+                            <th>Rozmiar znakowania</th>
+                            <th>Wizualizacja</th>
+                        </tr>
+                        <tr>
+                            <td>L0 (grawer laserowy)</td>
+                            <td>4 x 0,6 cm</td>
+                            <td>
+                                <div class="two-lines">
+                                    <a class="mail-contact" href="#">
+                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>T1 (tampodruk)</td>
+                            <td>4 x 0,5 cm</td>
+                            <td>
+                                <div class="two-lines">
+                                    <a class="mail-contact" href="#">
+                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DC1 (druk UV)</td>
+                            <td>3 x 2 cm</td>
+                            <td>
+                                <div class="two-lines">
+                                    <a class="mail-contact" href="#">
+                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>S1 (sitodruk)</td>
+                            <td>3 x 2 cm</td>
+                            <td>
+                                <div class="two-lines">
+                                    <a class="mail-contact" href="#">
+                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex flex-row branding-row-elements">
+                <div class="d-flex flex-column branding-col-card">
+                    <div class="title">
+                        <p>L0 (grawer laserowy)</p>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
+                    </div>
+                    <div class="details">
+                        <p>Cała długość korpusu:</p>
+                        <div class="details-slots">
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/width.svg" alt="width icon" width="23" height="15">
+                                <p>4 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/height.svg" alt="height icon" width="15" height="23">
+                                <p>0,6 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/rgb.svg" alt="rgb icon" width="26" height="23">
+                                <p>max .: 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p>Informacje:</p>
+                        <div class="info-slots">
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Odporny na ścieranie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Czyste krawędzie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Szczegółowość</p>
+                            </div>
+                            <div class="info-slot uncheck">
+                                <img src="./assets/icons/product_page/x-circle.svg" alt="uncheck icon" width="15" height="15">
+                                <p>Kolor zależny od podłoża</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column branding-col-card">
+                    <div class="title">
+                        <p>T1 (tampodruk)</p>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
+                    </div>
+                    <div class="details">
+                        <p>Cała długość korpusu:</p>
+                        <div class="details-slots">
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/width.svg" alt="width icon" width="23" height="15">
+                                <p>4 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/height.svg" alt="height icon" width="15" height="23">
+                                <p>0,6 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/rgb.svg" alt="rgb icon" width="26" height="23">
+                                <p>max .: 4</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p>Informacje:</p>
+                        <div class="info-slots">
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Odporny na ścieranie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Czyste krawędzie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Szczegółowość</p>
+                            </div>
+                            <div class="info-slot uncheck">
+                                <img src="./assets/icons/product_page/x-circle.svg" alt="uncheck icon" width="15" height="15">
+                                <p>Kolor zależny od podłoża</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column branding-col-card">
+                    <div class="title">
+                        <p>DC1 (druk UV)</p>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
+                    </div>
+                    <div class="details">
+                        <p>Cała długość korpusu:</p>
+                        <div class="details-slots">
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/width.svg" alt="width icon" width="23" height="15">
+                                <p>4 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/height.svg" alt="height icon" width="15" height="23">
+                                <p>0,6 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/rgb.svg" alt="rgb icon" width="26" height="23">
+                                <p>full color</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p>Informacje:</p>
+                        <div class="info-slots">
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Odporny na ścieranie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Czyste krawędzie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Szczegółowość</p>
+                            </div>
+                            <div class="info-slot uncheck">
+                                <img src="./assets/icons/product_page/x-circle.svg" alt="uncheck icon" width="15" height="15">
+                                <p>Kolor zależny od podłoża</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column branding-col-card">
+                    <div class="title">
+                        <p>S1 (sitodruk)</p>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
+                    </div>
+                    <div class="details">
+                        <p>Cała długość korpusu:</p>
+                        <div class="details-slots">
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/width.svg" alt="width icon" width="23" height="15">
+                                <p>3 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/height.svg" alt="height icon" width="15" height="23">
+                                <p>2 cm</p>
+                            </div>
+                            <div class="detail-slot">
+                                <img src="./assets/icons/product_page/rgb.svg" alt="rgb icon" width="26" height="23">
+                                <p>max .: 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p>Informacje:</p>
+                        <div class="info-slots">
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Odporny na ścieranie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Czyste krawędzie</p>
+                            </div>
+                            <div class="info-slot check">
+                                <img src="./assets/icons/product_page/check-circle.svg" alt="check icon" width="15" height="15">
+                                <p>Szczegółowość</p>
+                            </div>
+                            <div class="info-slot uncheck">
+                                <img src="./assets/icons/product_page/x-circle.svg" alt="uncheck icon" width="15" height="15">
+                                <p>Kolor zależny od podłoża</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-specification" role="tabpanel" aria-labelledby="nav-specification-tab" tabindex="0">
 
