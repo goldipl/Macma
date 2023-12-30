@@ -468,7 +468,20 @@
             </p>
         </div>
         <div class="tab-pane fade" id="nav-todownload" role="tabpanel" aria-labelledby="nav-todownload-tab" tabindex="0">
-
+            <div class="table-container short-rows-table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Nazwa</th>
+                            <th>Pobierz</th>
+                        </tr>
+                        <tr>
+                            <td>Zdjęcie.jpg</td>
+                            <td><a href="#"><img src="./assets/icons/product_page/download.svg" alt="download icon" width="22" height="18"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-movies" role="tabpanel" aria-labelledby="nav-movies-tab" tabindex="0">
 
