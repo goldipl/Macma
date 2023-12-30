@@ -269,6 +269,56 @@
                     }
                 }
             }
+            .movies-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                &_slot {
+                    width: 31%;
+                    margin-right: 2%;
+                    margin-bottom: 2%;
+                    height: 320px;
+                    background-color: $white;
+                    &__top {
+                        iframe {
+                            width: 100%;
+                        }
+                    }
+                    &__bottom {
+                        position: relative;
+                        background-color: $white;
+                        height: 68px;
+                        .desc_left {
+                            height: 68px;
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                color: $text_color;
+                                margin: 0;
+                                padding-left: 29px;
+                                padding-right: 140px;
+                            }
+                        }
+                        .desc_right {
+                            position: absolute;
+                            top: 18px;
+                            right: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img {
+                                object-fit: contain;
+                                margin-left: 26px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -380,6 +430,39 @@
                                         color: $text_color;
                                         margin: 0;
                                     }
+                                }
+                            }
+                        }
+                    }
+                }
+                .movies-container {
+                    &_slot {
+                        width: 48%;
+                        margin-right: 2%;
+                        margin-bottom: 2%;
+                        height: 320px;
+                        background-color: $white;
+                        &__top {
+                            iframe {
+                                width: 100%;
+                            }
+                        }
+                        &__bottom {
+                            height: 48px;
+                            .desc_left {
+                                height: 48px;
+                                p {
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                }
+                            }
+                            .desc_right {
+                                top: 12px;
+                                right: 30px;
+                                img {
+                                    width: 24px;
+                                    height: 24px;
+                                    margin-left: 16px;
                                 }
                             }
                         }
@@ -508,7 +591,48 @@
                         }
                     }
                 }
+                .movies-container {
+                    &_slot {
+                        width: 100%;
+                        margin-right: 0;
+                        margin-bottom: 24px;
+                        height: 300px;
+                        &__bottom {
+                            height: 40px;
+                            .desc_left {
+                                height: 40px;
+                                p {
+                                    padding-left: 16px;
+                                    padding-right: 16px;
+                                }
+                            }
+                            .desc_right {
+                                top: 6px;
+                                right: 16px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }       
+}
+
+@media (max-width: 600px) {
+    .product_card_tabs {
+        .tab-content {
+            .tab-pane {
+                .movies-container {
+                    &_slot {
+                        height: 240px;
+                        &__top {
+                            iframe {
+                                height: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

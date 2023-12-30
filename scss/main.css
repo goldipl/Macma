@@ -4497,6 +4497,55 @@ label.add-files:focus, label.add-files:hover {
   color: #374957;
   margin: 0;
 }
+.product_card_tabs .tab-content .tab-pane .movies-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot {
+  width: 31%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  height: 320px;
+  background-color: #FFFFFF;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__top iframe {
+  width: 100%;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom {
+  position: relative;
+  background-color: #FFFFFF;
+  height: 68px;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_left {
+  height: 68px;
+  display: flex;
+  align-items: center;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_left p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #374957;
+  margin: 0;
+  padding-left: 29px;
+  padding-right: 140px;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right {
+  position: absolute;
+  top: 18px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 26px;
+  cursor: pointer;
+}
 
 @media (max-width: 1199px) {
   .product_card_tabs .tab-content .tab-pane .branding-row-elements {
@@ -4609,6 +4658,35 @@ label.add-files:focus, label.add-files:hover {
     color: #374957;
     margin: 0;
   }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    height: 320px;
+    background-color: #FFFFFF;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__top iframe {
+    width: 100%;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom {
+    height: 48px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_left {
+    height: 48px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_left p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right {
+    top: 12px;
+    right: 30px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right img {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+  }
 }
 @media (max-width: 991px) {
   .product_card_tabs nav {
@@ -4706,5 +4784,33 @@ label.add-files:focus, label.add-files:hover {
   }
   .product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card .info-slots .info-slot p {
     line-height: 140%;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+    height: 300px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom {
+    height: 40px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_left {
+    height: 40px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_left p {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right {
+    top: 6px;
+    right: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot {
+    height: 240px;
+  }
+  .product_card_tabs .tab-content .tab-pane .movies-container_slot__top iframe {
+    height: 200px;
   }
 }/*# sourceMappingURL=main.css.map */

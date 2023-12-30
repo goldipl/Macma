@@ -484,7 +484,80 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-movies" role="tabpanel" aria-labelledby="nav-movies-tab" tabindex="0">
-
+            <div class="movies-container">
+                <div class="movies-container_slot">
+                    <div class="movies-container_slot__top">
+                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="movies-container_slot__bottom">
+                        <div class="desc_left">
+                            <p>Film długopis</p>
+                        </div>
+                        <div class="desc_right">
+                            <a href="#">
+                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movies-container_slot">
+                    <div class="movies-container_slot__top">
+                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="movies-container_slot__bottom">
+                        <div class="desc_left">
+                            <p>Film długopis</p>
+                        </div>
+                        <div class="desc_right">
+                            <a href="#">
+                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movies-container_slot">
+                    <div class="movies-container_slot__top">
+                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="movies-container_slot__bottom">
+                        <div class="desc_left">
+                            <p>Film długopis</p>
+                        </div>
+                        <div class="desc_right">
+                            <a href="#">
+                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movies-container_slot">
+                    <div class="movies-container_slot__top">
+                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="movies-container_slot__bottom">
+                        <div class="desc_left">
+                            <p>Film długopis</p>
+                        </div>
+                        <div class="desc_right">
+                            <a href="#">
+                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
