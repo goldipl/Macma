@@ -53,6 +53,15 @@
                 margin: 0 0 36px 0;
                 color: $text_color;
             }
+            h1 {
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+                text-transform: uppercase;
+                margin: 0 0 36px 0;
+                color: $text_color;             
+            }
             h2 {
                 font-size: 18px;
                 font-style: normal;
@@ -402,6 +411,10 @@
                     font-size: 14px;
                     line-height: 140%;
                     margin: 0 0 16px 0;
+                }
+                h1 {
+                    font-size: 20px; 
+                    margin: 0 0 22px 0;           
                 }
                 h2 {
                     font-size: 16px;
