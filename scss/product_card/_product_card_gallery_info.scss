@@ -31,12 +31,17 @@
                 bottom: 24px;
                 right: 24px;
                 z-index: 1;
-                .download-icon {
-                    cursor: pointer;
-                    margin-left: 11px;
+                a {
+                    text-decoration: none;
+                    .download-icon {
+                        cursor: pointer;
+                        margin-left: 11px;
+                    }
                 }
-                .zoom-icon {
-                    cursor: pointer;
+                a {
+                    .zoom-icon {
+                        cursor: pointer;
+                    }
                 }
             }
         }

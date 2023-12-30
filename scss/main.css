@@ -3732,11 +3732,14 @@ label.add-files:focus, label.add-files:hover {
   right: 24px;
   z-index: 1;
 }
-.product_card_gallery_info .product-gallery .slider-one .product-icons .download-icon {
+.product_card_gallery_info .product-gallery .slider-one .product-icons a {
+  text-decoration: none;
+}
+.product_card_gallery_info .product-gallery .slider-one .product-icons a .download-icon {
   cursor: pointer;
   margin-left: 11px;
 }
-.product_card_gallery_info .product-gallery .slider-one .product-icons .zoom-icon {
+.product_card_gallery_info .product-gallery .slider-one .product-icons a .zoom-icon {
   cursor: pointer;
 }
 .product_card_gallery_info .product-gallery .gallery img {

@@ -24,8 +24,12 @@
                 <img class="product-label" src="./assets/icons/labels/label-promo.svg" alt="label">
                 <!-- Product icons -->
                 <div class="product-icons">
-                    <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                    <img class="download-icon"src="./assets/icons/product_page/download.svg" alt="download icon">
+                    <a class="product-zoom-in" href="#">
+                        <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                    </a>
+                    <a class="product-download" href="#">
+                        <img class="download-icon"src="./assets/icons/product_page/download.svg" alt="download icon">
+                    </a>
                 </div>
             </div>
             <!-- thumbs -->
