@@ -400,7 +400,60 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-packing" role="tabpanel" aria-labelledby="nav-packing-tab" tabindex="0">
-
+            <div class="table-container short-rows-table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Pakowanie</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Rodzaj opakowania</td>
+                            <td>woreczek foliowy</td>
+                        </tr>
+                        <tr>
+                            <td>Małe opakowanie</td>
+                            <td>50 szt.</td>
+                        </tr>
+                        <tr>
+                            <td>Duże opakowanie</td>
+                            <td>500 szt.</td>
+                        </tr>
+                        <tr>
+                            <td>Ilość sztuk na palecie</td>
+                            <td>30000</td>
+                        </tr>
+                        <tr>
+                            <td>Małe opakowanie zbiorcze (długość) cm</td>
+                            <td>10 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Małe opakowanie zbiorcze (szerokość) cm</td>
+                            <td>10 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Małe opakowanie zbiorcze (wysokość) cm</td>
+                            <td>10 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Duże opakowanie zbiorcze (długość) cm</td>
+                            <td>35,5 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Duże opakowanie zbiorcze (szerokość) cm</td>
+                            <td>35 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Duże opakowanie zbiorcze (wysokość) cm</td>
+                            <td>13 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Waga dużego opakowania zbiorczego kg</td>
+                            <td>7,9 kg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-detdesc" role="tabpanel" aria-labelledby="nav-detdesc-tab" tabindex="0">
 
