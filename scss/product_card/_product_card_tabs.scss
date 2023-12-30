@@ -62,72 +62,74 @@
                 margin: 0 0 16px 0;
                 color: $text_color;
             }
-            table {
-                width: 100%;
+            .table-container {
                 margin-bottom: 200px;
-                tbody {
-                    tr:first-of-type {
-                        background-color: $small_text_color;
-                        width: 100%;
-                        height: 41px;
-                        th {
-                            padding-left: 48px;
-                            font-size: 18px;
-                            font-weight: 700;
-                            line-height: 177.023%;
-                            color: $white;
-                            margin: 0;
-                            border-collapse: collapse;
-                        }
-                    }
-                    tr {
-                        &.active {
-                            border: 2px solid $macma_orange;
-                        }
-                        td {
-                            height: 70px;
-                            padding-left: 48px;
-                            border-bottom: 1px solid $table-grey;
-                            background-color: $white;
-                            a {
-                                display: flex;
-                                justify-content: flex-start;
-                                align-items: center;
-                                font-size: 16px;
-                                font-weight: 400;
+                table {
+                    width: 100%;
+                    tbody {
+                        tr:first-of-type {
+                            background-color: $small_text_color;
+                            width: 100%;
+                            height: 41px;
+                            th {
+                                padding-left: 48px;
+                                font-size: 18px;
+                                font-weight: 700;
                                 line-height: 177.023%;
-                                color: $small_text_color;
-                                text-decoration: none;
-                                .color {
-                                    margin-right: 10px;
-                                }
-                                &:hover {
-                                    color: $macma_orange;
-                                }
+                                color: $white;
+                                margin: 0;
+                                border-collapse: collapse;
                             }
-                            .two-lines {
-                                p {
-                                    font-size: 16px;
-                                    font-weight: 400;
-                                    line-height: 80%;
-                                    color: $small_text_color;
-                                    margin: 0;
-                                }
-                                span {
-                                    font-size: 12px;
-                                    font-weight: 300;
-                                    line-height: 160%;
-                                    color: $text_color;
-                                    margin: 0;
-                                }
-                                .mail-contact {
+                        }
+                        tr {
+                            &.active {
+                                border: 2px solid $macma_orange;
+                            }
+                            td {
+                                height: 70px;
+                                padding-left: 48px;
+                                border-bottom: 1px solid $table-grey;
+                                background-color: $white;
+                                a {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
                                     font-size: 16px;
                                     font-weight: 400;
                                     line-height: 177.023%;
-                                    margin: 0;
-                                    color: $macma_orange;
-                                    img {
-                                        margin-right: 7px;
+                                    color: $small_text_color;
+                                    text-decoration: none;
+                                    .color {
+                                        margin-right: 10px;
+                                    }
+                                    &:hover {
+                                        color: $macma_orange;
+                                    }
+                                }
+                                .two-lines {
+                                    p {
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 100%;
+                                        color: $small_text_color;
+                                        margin: 0;
+                                    }
+                                    span {
+                                        font-size: 12px;
+                                        font-weight: 300;
+                                        line-height: 160%;
+                                        color: $text_color;
+                                        margin: 0;
+                                    }
+                                    .mail-contact {
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 177.023%;
+                                        margin: 0;
+                                        color: $macma_orange;
+                                        img {
+                                            margin-right: 7px;
+                                        }
                                     }
                                 }
                             }
@@ -137,4 +139,75 @@
             }
         }
     }
+}
+
+@media (max-width: 991px) {
+    .product_card_tabs {
+        nav {
+            height: unset;
+            .nav-tabs {
+                border-bottom: 0;
+                .nav-link {
+                    padding: 8px 16px;
+                    height: 40px;
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+            }
+        }
+        .tab-content {
+            .tab-pane {
+                padding: 24px 0;
+                p {
+                    font-size: 14px;
+                    line-height: 140%;
+                    margin: 0 0 16px 0;
+                }
+                h2 {
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+                .table-container {
+                    overflow-x: scroll;
+                    margin-bottom: 40px;
+                    table {
+                        width: 150%;
+                        tbody {
+                            tr:first-of-type {
+                                background-color: $small_text_color;
+                                width: 100%;
+                                height: 40px;
+                                th {
+                                    padding-left: 16px;
+                                    font-size: 14px;
+                                    line-height: 140%;
+                                    white-space: pre;
+                                }
+                            }
+                            tr {
+                                td {
+                                    height: 40px;
+                                    padding-left: 16px;
+                                    font-size: 13px;
+                                    a {
+                                        font-size: 13px;
+                                        line-height: 140%;
+                                    }
+                                    .two-lines {
+                                        p {
+                                            font-size: 13px;
+                                        }
+                                        .mail-contact {
+                                            font-size: 13px;
+                                            line-height: 140%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }       
 }
