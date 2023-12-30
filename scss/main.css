@@ -4664,6 +4664,7 @@ label.add-files:focus, label.add-files:hover {
     margin-bottom: 2%;
     height: 320px;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #B8B8B8;
   }
   .product_card_tabs .tab-content .tab-pane .movies-container_slot__top iframe {
     width: 100%;
