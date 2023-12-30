@@ -360,7 +360,44 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-specification" role="tabpanel" aria-labelledby="nav-specification-tab" tabindex="0">
-
+            <div class="table-container short-rows-table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Specyfikacja</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Marka</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td>Kolor</td>
+                            <td>jasnozielony</td>
+                        </tr>
+                        <tr>
+                            <td>Materiał</td>
+                            <td>aluminium, metal</td>
+                        </tr>
+                        <tr>
+                            <td>Rozmiar produktu</td>
+                            <td>13,6 x Ø 1 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Waga</td>
+                            <td>0,016 kg</td>
+                        </tr>
+                        <tr>
+                            <td>Kraj pochodzenia</td>
+                            <td>Chiny</td>
+                        </tr>
+                        <tr>
+                            <td>Numer celny</td>
+                            <td>96081092000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-packing" role="tabpanel" aria-labelledby="nav-packing-tab" tabindex="0">
 

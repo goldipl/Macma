@@ -4309,6 +4309,9 @@ label.add-files:focus, label.add-files:hover {
 .product_card_tabs .tab-content .tab-pane .table-container {
   margin-bottom: 48px;
 }
+.product_card_tabs .tab-content .tab-pane .table-container.short-rows-table table tbody tr td:first-of-type {
+  width: 20%;
+}
 .product_card_tabs .tab-content .tab-pane .table-container table {
   width: 100%;
 }
