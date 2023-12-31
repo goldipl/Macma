@@ -5253,6 +5253,9 @@ label.add-files:focus, label.add-files:hover {
     font-size: 12px;
     min-width: 100px;
   }
+  .cart_container .cart-table_box .cart-products-table tbody tr td.table-number-col {
+    min-width: 40px;
+  }
   .cart_container .cart-table_box .cart-products-table tbody tr td.table-product-col {
     width: 25%;
   }

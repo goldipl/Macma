@@ -304,6 +304,9 @@
                             padding: 10px;
                             font-size: 12px;
                             min-width: 100px;
+                            &.table-number-col {
+                                min-width: 40px;
+                            }
                             &.table-product-col {
                                 width: 25%;
                             }
