@@ -775,6 +775,31 @@ footer .footer__container__bottom .contip img {
   content: url("./../assets/icons/common/buttons/button_orange_arrow.svg");
 }
 
+.white-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid #F26521;
+  background-color: #FFFFFF;
+  color: #F26521;
+  width: -moz-max-content;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.white-btn img {
+  margin-left: 10px;
+}
+.white-btn:hover {
+  background-color: #F26521;
+  color: #FFFFFF;
+}
+.white-btn:hover img {
+  content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
+}
+
 input.form-input {
   width: -moz-max-content;
   width: max-content;

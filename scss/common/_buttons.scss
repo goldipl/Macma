@@ -22,6 +22,30 @@
     }
 }
 
+.white-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border: 1px solid $macma_orange;
+    background-color: $white;
+    color: $macma_orange;
+    width: max-content;
+    height: 54px;
+    padding: 15px 20px;
+    text-decoration: none;
+    img {
+        margin-left: 10px;
+    }
+    &:hover {
+        background-color: $macma_orange;
+        color: $white;
+        img {
+            content: url('./../assets/icons/common/buttons/button_white_arrow.svg');
+        }
+    }
+}
+
 @media (max-width: 1199px) {
  
 }
