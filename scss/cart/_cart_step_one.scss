@@ -214,8 +214,10 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 70px;
+            min-height: 70px;
+            height: auto;
             border-bottom: 1px solid $light_grey;
+            padding: 16px 24px;
             p {
                 font-size: 18px;
                 font-style: normal;
