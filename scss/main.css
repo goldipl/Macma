@@ -5320,11 +5320,21 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0;
   }
   .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box {
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+  }
+  .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text {
+    padding: 8px 0;
   }
   .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p {
     font-size: 14px;
     line-height: 140%;
+  }
+  .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input {
+    padding: 0 0 16px 0;
   }
   .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input {
     padding: 0 0 0 12px;
