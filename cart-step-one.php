@@ -17,7 +17,26 @@
         </header>
         <main id="main-wrapper">
             <div class="progress cart-progress-bar">
-                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="cart-steps-container">
+                <div class="container">
+                    <div class="cart-steps-container-slot">
+                        <p class="active">1. Produkty</p>
+                    </div>
+                    <div class="cart-steps-container-slot">
+                        <p>2. Znakowanie</p>
+                    </div>
+                    <div class="cart-steps-container-slot">
+                        <p>3. Wysyłka</p>
+                    </div>
+                    <div class="cart-steps-container-slot">
+                        <p>4. Twoje dane</p>
+                    </div>
+                    <div class="cart-steps-container-slot">
+                        <p>5. Finalizacja</p>
+                    </div>
+                </div>
             </div>
             <?php include "./components/cart/cart_step_one_content.php"; ?> 
         </main>
