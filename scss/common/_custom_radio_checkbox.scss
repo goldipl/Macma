@@ -65,10 +65,14 @@
     background: $macma_orange;
 }
 
+.custom_input {
+    all: unset !important;
+}
+
 //   Example
 
 // <label class="custom-radio-container">One
-//   <input type="radio" name="radio">
+//   <input type="radio" name="radio" class="custom_input">
 //   <span class="custom-radio-checkmark"></span>
 // </label>
 
@@ -145,6 +149,6 @@
 // Example
 
 // <label class="custom-checkbox-container">One
-//   <input type="checkbox">
+//   <input type="checkbox" class="custom_input">
 //   <span class="custom-checkbox-checkmark"></span>
 // </label>
