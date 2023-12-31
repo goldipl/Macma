@@ -1,4 +1,4 @@
-<div class="cart_container step_one">
+<div class="cart_container step_two">
     <div class="container">
         <h1>Znakowanie</h1>
         <div class="cart-table_full_box d-flex flex-row">
@@ -6,7 +6,31 @@
                 <div class="cart-step-table-container">
                     <table class="cart-products-table">
                         <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <div class="cart-branding-product-box">
+                                        <div class="cart-branding-product-box__top">
+                                            <div class="cart-branding-product-box__top__left">
+                                                <p class="title">Długopis metalowy</p>
+                                                <p class="code">Kod: <span>1333903</span></p>
+                                            </div>
+                                            <div class="cart-branding-product-box__top__right">
+                                                <label class="custom-checkbox-container">Ze znakowaniem
+                                                    <input type="checkbox" class="custom_input">
+                                                    <span class="custom-checkbox-checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cart-branding-product-box__middle">
 
+                                        </div>
+                                        <div class="cart-branding-product-box__bottom">
+
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

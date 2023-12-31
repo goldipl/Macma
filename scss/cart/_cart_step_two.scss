@@ -1,0 +1,75 @@
+.cart_container.step_two {
+    .cart-products-table {
+        tr {
+            td {
+                padding: 0 !important;
+                &:first-of-type {
+                    width: 40px;
+                }
+                .cart-branding-product-box {
+                    &__top {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 24px 44px;
+                        border-bottom: 1px solid $light_grey;
+                        &__left {
+                            .title {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 120%;
+                                text-transform: uppercase;
+                                color: $text_color;
+                                margin: 0;
+                                text-align: left;
+                            }
+                            .code {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                margin: 0;
+                                color: $grey5;
+                                text-align: left;
+                                span {
+                                    color: $text_color;
+                                }
+                            }
+                        }
+                        &__right {
+                            display: flex;
+                            label {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 177.023%;
+                                margin: 0;
+                                color: $text_color;
+                                padding-left: 50px;
+                                .custom-checkbox-checkmark {
+                                    top: -2px;
+                                    width: 35px;
+                                    height: 35px;
+                                    &::after {
+                                        left: 12px;
+                                        top: 6px;
+                                        width: 9px;
+                                        height: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &__middle {
+
+                    }
+                    &__bottom {
+
+                    }
+                }
+            }
+        }
+    }
+}
