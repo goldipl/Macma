@@ -764,6 +764,11 @@ footer .footer__container__bottom .contip img {
   padding: 15px 20px;
   text-decoration: none;
 }
+.orange-btn.left-btn img {
+  transform: rotate(180deg);
+  margin-left: 0;
+  margin-right: 10px;
+}
 .orange-btn img {
   margin-left: 10px;
 }
@@ -788,6 +793,11 @@ footer .footer__container__bottom .contip img {
   height: 54px;
   padding: 15px 20px;
   text-decoration: none;
+}
+.white-btn.left-btn img {
+  transform: rotate(180deg);
+  margin-left: 0;
+  margin-right: 10px;
 }
 .white-btn img {
   margin-left: 10px;

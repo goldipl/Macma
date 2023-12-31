@@ -10,6 +10,11 @@
     height: 54px;
     padding: 15px 20px;
     text-decoration: none;
+    &.left-btn img {
+        transform: rotate(180deg); 
+        margin-left: 0; 
+        margin-right: 10px;
+    }
     img {
         margin-left: 10px;
     }
@@ -34,6 +39,11 @@
     height: 54px;
     padding: 15px 20px;
     text-decoration: none;
+    &.left-btn img {
+        transform: rotate(180deg); 
+        margin-left: 0; 
+        margin-right: 10px;
+    }
     img {
         margin-left: 10px;
     }
