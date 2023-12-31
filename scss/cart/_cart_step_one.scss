@@ -337,10 +337,10 @@
                     }
                 }
             }
-            .quantity-cart-box-with-btn {
+            .bottom-cart-box-with-btn {
                 flex-direction: column;
                 margin-right: 0;
-                .quantity-cart-box {
+                .bottom-cart-box {
                     width: 100%;
                     &--text {
                         p {
@@ -356,12 +356,16 @@
                         }
                     }
                 }
-                .quantity-cart-button {
+                .bottom-cart-button {
                     position: absolute;
                     left: 0;
                     bottom: 0;
                     .next {
                         margin: 96px 0 10px 0;
+                    }
+                    &.right-btn {
+                        left: unset;
+                        right: 0;
                     }
                 }
             }
