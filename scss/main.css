@@ -5063,14 +5063,14 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
   margin: 0;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn {
+.cart_container .cart-table_box .bottom-cart-box-with-btn {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   margin-right: 30px;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn .quantity-cart-box {
+.cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -5080,7 +5080,7 @@ label.add-files:focus, label.add-files:hover {
   padding: 0 27px;
   box-sizing: border-box;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn .quantity-cart-box--text p {
+.cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -5089,7 +5089,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 16px 0 0;
   white-space: pre;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn .quantity-cart-box--input input {
+.cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input {
   all: unset;
   width: 108px;
   height: 35px;
@@ -5104,7 +5104,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
   margin: 0 24px 0 0;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn .quantity-cart-box--btn button {
+.cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button {
   all: unset;
   box-sizing: border-box;
   background-color: #FFFFFF;
@@ -5120,11 +5120,11 @@ label.add-files:focus, label.add-files:hover {
   height: 35px;
   cursor: pointer;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn .quantity-cart-box--btn button:hover {
+.cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button:hover {
   background-color: #F26521;
   color: #FFFFFF;
 }
-.cart_container .cart-table_box .quantity-cart-box-with-btn .quantity-cart-button .next {
+.cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-button .next {
   margin: 19px 0 0 0;
 }
 .cart_container .cart-table_box .add-product-box {

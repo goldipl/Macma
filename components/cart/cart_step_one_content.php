@@ -86,19 +86,19 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="quantity-cart-box-with-btn">
-                    <div class="quantity-cart-box">
-                        <div class="quantity-cart-box--text">
+                <div class="bottom-cart-box-with-btn">
+                    <div class="bottom-cart-box">
+                        <div class="bottom-cart-box--text">
                             <p>Wpisz ilość dla wszystkich pozycji:</p>
                         </div>
-                        <div class="quantity-cart-box--input">
+                        <div class="bottom-cart-box--input">
                             <input type="number" name="all-quantity" id="all-quantity">
                         </div>
-                        <div class="quantity-cart-box--btn">
+                        <div class="bottom-cart-box--btn">
                             <button class="confirm-btn">Zatwierdź</button>
                         </div>
                     </div>
-                    <div class="quantity-cart-button">
+                    <div class="bottom-cart-button">
                     <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                     </div>
                 </div>

@@ -105,13 +105,13 @@
                 }
             }
         }
-        .quantity-cart-box-with-btn {
+        .bottom-cart-box-with-btn {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
             justify-content: space-between;
             margin-right: 30px;
-            .quantity-cart-box {
+            .bottom-cart-box {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -171,7 +171,7 @@
                     }
                 }
             }
-            .quantity-cart-button {
+            .bottom-cart-button {
                 .next {
                     margin: 19px 0 0 0;
                 }
