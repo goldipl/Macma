@@ -1,3 +1,6 @@
 .cart-progress-bar {
-    
+    border-radius: 0;
+    .progress-bar {
+        background-color: $macma_orange;
+    }
 }
