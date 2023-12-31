@@ -115,7 +115,7 @@
                     <p class="netto-text">Suma netto</p>
                 </div>
                 <div class="sumary_box--brutto">
-                    <p class="brutto-value">21.99 PLN</p>
+                    <p class="brutto-value">21,99 PLN</p>
                     <p class="brutto-text">Suma brutto</p>
                 </div>
             </aside>
