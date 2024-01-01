@@ -5602,6 +5602,15 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 10px 0;
   text-align: center;
 }
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .desc-info-logo {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #A4A4A4;
+  margin: 6px 0 4px 0;
+  text-align: left;
+}
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .upload-files-box {
   background-color: #F4F4F4;
   border: 1px dashed #F26521;

@@ -91,12 +91,14 @@
                                             <div class="cart-branding-product-box__middle__files">
                                                 <p class="title">Wgraj pliki:</p>
                                                 <p class="desc-info">Wymagamy plik w wektorach, format pliku zapisany<br> w krzywych (czcionka i obiekty).</p>
-                                                <label for="files" class="upload-files-box">
-                                                    <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                                                    <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                    <input class="file file-block" type="file" id="files01">
-                                                </label>
-                                                <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
+                                                <div class="first-logo-box">
+                                                    <label for="files" class="upload-files-box">
+                                                        <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
+                                                        <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
+                                                        <input class="file file-block" type="file" id="files01">
+                                                    </label>
+                                                    <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="cart-branding-product-box__bottom">
@@ -235,12 +237,24 @@
                                             <div class="cart-branding-product-box__middle__files">
                                                 <p class="title">Wgraj pliki:</p>
                                                 <p class="desc-info">Wymagamy plik w wektorach, format pliku zapisany<br> w krzywych (czcionka i obiekty).</p>
-                                                <label for="files" class="upload-files-box">
-                                                    <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                                                    <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                    <input class="file file-block" type="file" id="files02">
-                                                </label>
-                                                <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
+                                                <div class="first-logo-box">
+                                                    <p class="desc-info-logo">Pierwszy logotyp:</p>
+                                                    <label for="files" class="upload-files-box">
+                                                        <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
+                                                        <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
+                                                        <input class="file file-block" type="file" id="files02">
+                                                    </label>
+                                                    <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
+                                                </div>
+                                                <div class="second-logo-box">
+                                                    <p class="desc-info-logo">Drugi logotyp:</p>
+                                                    <label for="files" class="upload-files-box">
+                                                        <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
+                                                        <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
+                                                        <input class="file file-block" type="file" id="files03">
+                                                    </label>
+                                                    <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="cart-branding-product-box__bottom">

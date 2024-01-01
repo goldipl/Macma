@@ -166,6 +166,15 @@
                                 margin: 0 0 10px 0;
                                 text-align: center;
                             }
+                            .desc-info-logo {
+                                font-size: 8px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                color: $grey7;
+                                margin: 6px 0 4px 0;
+                                text-align: left; 
+                            }
                             .upload-files-box {
                                 background-color: $light_grey;
                                 border: 1px dashed $macma_orange;
