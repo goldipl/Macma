@@ -6,6 +6,7 @@
                 <div class="cart-step-table-container">
                     <table class="cart-products-table">
                         <tbody>
+                            <!-- === Product 01 === -->
                             <tr>
                                 <td><b>1</b></td>
                                 <td>
@@ -51,7 +52,7 @@
                                                             <p>Grupa znakowania:</p>
                                                         </div>
                                                         <div class="types-col select">
-                                                            <select name="branding-group" id="branding-group">
+                                                            <select name="product01-branding-group" id="product01-branding-group">
                                                                 <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
                                                                 <option value="T1 (tampodruk)">T1 (tampodruk)</option>
                                                                 <option value="DC1 (druk UV)">DC1 (druk UV)</option>
@@ -64,7 +65,7 @@
                                                             <p>Liczba miejsc:</p>
                                                         </div>
                                                         <div class="types-col">
-                                                            <select name="loc-quantity" id="loc-quantity">
+                                                            <select name="product01-loc-quantity" id="product01-loc-quantity">
                                                                 <option value="1">1</option>
                                                                 <option value="2">2</option>
                                                                 <option value="3">3</option>
@@ -77,75 +78,7 @@
                                                             <p>Liczba kolorów:</p>
                                                         </div>
                                                         <div class="types-col">
-                                                            <select name="colors-quantity" id="colors-quantity">
-                                                            <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="branding-select-types version-two-logo hide">
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p></p>
-                                                        </div>
-                                                        <div class="types-col select-name">
-                                                            <p>Pierwszy logotyp:</p>
-                                                        </div>
-                                                        <div class="types-col select-name">
-                                                            <p>Drugi logotyp:</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Grupa znakowania:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="branding-group" id="branding-group">
-                                                                <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
-                                                                <option value="T1 (tampodruk)">T1 (tampodruk)</option>
-                                                                <option value="DC1 (druk UV)">DC1 (druk UV)</option>
-                                                                <option value="S1 (sitodruk)">S1 (sitodruk)</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="branding-group-second" id="branding-group-second">
-                                                                <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
-                                                                <option value="T1 (tampodruk)">T1 (tampodruk)</option>
-                                                                <option value="DC1 (druk UV)">DC1 (druk UV)</option>
-                                                                <option value="S1 (sitodruk)">S1 (sitodruk)</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba miejsc:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="loc-quantity" id="loc-quantity">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="loc-quantity-second" id="loc-quantity-second">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba kolorów:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="colors-quantity" id="colors-quantity">
+                                                            <select name="product01-colors-quantity" id="product01-colors-quantity">
                                                             <option value="1">1</option>
                                                                 <option value="2">2</option>
                                                                 <option value="3">3</option>
@@ -190,6 +123,7 @@
                                     </div>
                                 </td>
                             </tr>
+                            <!-- === Product 02 === -->
                             <tr>
                                 <td><b>2</b></td>
                                 <td>
@@ -221,55 +155,6 @@
                                                         <span class="custom-radio-checkmark"></span>
                                                     </label>
                                                 </div>
-                                                <div class="branding-select-types version-one-logo hide">
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p></p>
-                                                        </div>
-                                                        <div class="types-col select-name">
-                                                            <p>Pierwszy logotyp:</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Grupa znakowania:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="branding-group" id="branding-group">
-                                                                <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
-                                                                <option value="T1 (tampodruk)">T1 (tampodruk)</option>
-                                                                <option value="DC1 (druk UV)">DC1 (druk UV)</option>
-                                                                <option value="S1 (sitodruk)">S1 (sitodruk)</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba miejsc:</p>
-                                                        </div>
-                                                        <div class="types-col">
-                                                            <select name="loc-quantity" id="loc-quantity">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba kolorów:</p>
-                                                        </div>
-                                                        <div class="types-col">
-                                                            <select name="colors-quantity" id="colors-quantity">
-                                                            <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                                 <div class="branding-select-types version-two-logo">
                                                     <div class="branding-select-types__row">
                                                         <div class="types-col">
@@ -287,7 +172,7 @@
                                                             <p>Grupa znakowania:</p>
                                                         </div>
                                                         <div class="types-col select">
-                                                            <select name="branding-group" id="branding-group">
+                                                            <select name="product02-branding-group" id="product02-branding-group">
                                                                 <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
                                                                 <option value="T1 (tampodruk)">T1 (tampodruk)</option>
                                                                 <option value="DC1 (druk UV)">DC1 (druk UV)</option>
@@ -295,7 +180,7 @@
                                                             </select>
                                                         </div>
                                                         <div class="types-col select">
-                                                            <select name="branding-group-second" id="branding-group-second">
+                                                            <select name="product02-branding-group-second" id="product02-branding-group-second">
                                                                 <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
                                                                 <option value="T1 (tampodruk)">T1 (tampodruk)</option>
                                                                 <option value="DC1 (druk UV)">DC1 (druk UV)</option>
@@ -308,7 +193,7 @@
                                                             <p>Liczba miejsc:</p>
                                                         </div>
                                                         <div class="types-col select">
-                                                            <select name="loc-quantity" id="loc-quantity">
+                                                            <select name="product02-loc-quantity" id="product02-loc-quantity">
                                                                 <option value="1">1</option>
                                                                 <option value="2">2</option>
                                                                 <option value="3">3</option>
@@ -316,7 +201,7 @@
                                                             </select>
                                                         </div>
                                                         <div class="types-col select">
-                                                            <select name="loc-quantity-second" id="loc-quantity-second">
+                                                            <select name="product02-loc-quantity-second" id="product02-loc-quantity-second">
                                                                 <option value="1">1</option>
                                                                 <option value="2">2</option>
                                                                 <option value="3">3</option>
@@ -329,7 +214,15 @@
                                                             <p>Liczba kolorów:</p>
                                                         </div>
                                                         <div class="types-col select">
-                                                            <select name="colors-quantity" id="colors-quantity">
+                                                            <select name="product02-colors-quantity" id="product02-colors-quantity">
+                                                            <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="types-col select">
+                                                            <select name="product02-colors-quantity-second" id="product02-colors-quantity-second">
                                                             <option value="1">1</option>
                                                                 <option value="2">2</option>
                                                                 <option value="3">3</option>
