@@ -97,6 +97,9 @@
                             .branding-select-types {
                                 display: flex;
                                 flex-direction: column;
+                                &.hide {
+                                    display: none;
+                                }
                                 &__row {
                                     display: flex;
                                     flex-direction: row;

@@ -5540,6 +5540,9 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: column;
 }
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__branding .branding-select-types.hide {
+  display: none;
+}
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__branding .branding-select-types__row {
   display: flex;
   flex-direction: row;
