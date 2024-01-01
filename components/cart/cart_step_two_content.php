@@ -94,7 +94,7 @@
                                                 <label for="files" class="upload-files-box">
                                                     <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
                                                     <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                    <input class="file file-block" type="file" id="files">
+                                                    <input class="file file-block" type="file" id="files01">
                                                 </label>
                                                 <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
                                             </div>
@@ -238,7 +238,7 @@
                                                 <label for="files" class="upload-files-box">
                                                     <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
                                                     <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                    <input class="file file-block" type="file" id="files">
+                                                    <input class="file file-block" type="file" id="files02">
                                                 </label>
                                                 <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
                                             </div>
