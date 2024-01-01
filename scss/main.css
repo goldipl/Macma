@@ -5507,6 +5507,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  border-bottom: 1px solid #F4F4F4;
   padding: 15px 30px;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__img {
@@ -5654,7 +5655,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__bottom--col {
   display: flex;
