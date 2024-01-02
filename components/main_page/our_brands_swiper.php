@@ -35,31 +35,7 @@
             <!-- Slide 06 -->
             <div class="swiper-slide">
                 <a href="#" class="d-flex flex-column align-items-center justify-content-center text-decoration-none">
-                    <img src="./assets/img/main_page/our_brands/Schwarzwolf.jpg" alt="brand img" width="222" height="111">
-                </a>
-            </div>
-            <!-- Slide 07 -->
-            <div class="swiper-slide">
-                <a href="#" class="d-flex flex-column align-items-center justify-content-center text-decoration-none">
-                    <img src="./assets/img/main_page/our_brands/Schwarzwolf.jpg" alt="brand img" width="222" height="111">
-                </a>
-            </div>
-            <!-- Slide 08 -->
-            <div class="swiper-slide">
-                <a href="#" class="d-flex flex-column align-items-center justify-content-center text-decoration-none">
-                    <img src="./assets/img/main_page/our_brands/Schwarzwolf.jpg" alt="brand img" width="222" height="111">
-                </a>
-            </div>
-            <!-- Slide 09 -->
-            <div class="swiper-slide">
-                <a href="#" class="d-flex flex-column align-items-center justify-content-center text-decoration-none">
-                    <img src="./assets/img/main_page/our_brands/Schwarzwolf.jpg" alt="brand img" width="222" height="111">
-                </a>
-            </div>
-            <!-- Slide 10 -->
-            <div class="swiper-slide">
-                <a href="#" class="d-flex flex-column align-items-center justify-content-center text-decoration-none">
-                    <img src="./assets/img/main_page/our_brands/Schwarzwolf.jpg" alt="brand img" width="222" height="111">
+                    <img src="./assets/img/main_page/our_brands/pierre_cardin.jpg" alt="brand img" width="222" height="111">
                 </a>
             </div>
         </div>
