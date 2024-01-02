@@ -18,7 +18,7 @@
                                 <th>Usuń</th>
                             </tr>
                             <tr>
-                                <td class="table-number-col">1</td>
+                                <td class="table-number-col"><b>1</b></td>
                                 <td class="table-product-col">
                                     <div class="table-product-box">
                                         <div class="table-product-box__top">
@@ -51,7 +51,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="table-number-col">2</td>
+                                <td class="table-number-col"><b>2</b></td>
                                 <td class="table-product-col">
                                     <div class="table-product-box">
                                         <div class="table-product-box__top">
