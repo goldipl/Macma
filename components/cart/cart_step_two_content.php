@@ -286,7 +286,7 @@
                 </div>
                 <div class="bottom-cart-box-with-btn">
                     <div class="bottom-cart-button">
-                        <a href="#" class="white-btn next left-btn"><img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
+                        <a href="#" class="white-btn prev left-btn"><img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
                     </div>
                     <div class="bottom-cart-button right-btn">
                         <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>

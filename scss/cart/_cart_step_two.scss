@@ -4,7 +4,8 @@
             td {
                 padding: 0 !important;
                 &:first-of-type {
-                    width: 40px;
+                    width: 40px !important;
+                    min-width: 40px !important;
                 }
                 .cart-branding-product-box {
                     margin-bottom: 6px;
