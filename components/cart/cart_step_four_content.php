@@ -3,8 +3,8 @@
         <h1>Twoje Dane</h1>
         <div class="cart-table_full_box d-flex flex-row">
             <div class="cart-table_box d-flex flex-column">
-                <div class="cart-your-data-container">
-                    <form class="cart-your-data-container__col">
+                <form class="cart-your-data-container">
+                    <div class="cart-your-data-container__col">
                         <div class="title">
                             <p>Dane do faktury</p>
                         </div>
@@ -34,8 +34,8 @@
                                 <input class="form-input" type="number" name="nip">
                             </div>
                         </div>
-                    </form>
-                    <form class="cart-your-data-container__col">
+                    </div>
+                    <div class="cart-your-data-container__col">
                         <div class="title email">
                             <p>Adres email</p>
                             <p class="subtitle">na który zostanie wysłane potwierdzenia zamówienia</p>
@@ -50,8 +50,8 @@
                                 <textarea class="form-textarea" name="comments" id="comments"></textarea>
                             </div>
                         </div>
-                    </form>
-                    <form class="cart-your-data-container__col">
+                    </div>
+                    <div class="cart-your-data-container__col">
                         <div class="title send-address">
                             <div class="title-top">
                                 <p>Adres wysyłki</p>
@@ -93,8 +93,8 @@
                                 <input class="form-input" type="text" name="address-contact-person">
                             </div>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
                 <div class="bottom-cart-box-with-btn">
                     <div class="bottom-cart-button">
                         <a href="#" class="white-btn prev left-btn"><img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
