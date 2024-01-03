@@ -18,22 +18,28 @@
 
         .slider-one {
             border: 1px solid $light_grey;
-            .product-label {
+            .product-label-box {
                 position: absolute;
                 top: 25px;
                 left: 25px;
+                display: inline-flex;
+                flex-wrap: wrap;
                 z-index: 1;
-                width: 96px;
-                height: 27px;
-                p {
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 27px;
-                    text-transform: uppercase;
-                    color: $text_color;
-                    margin: 0;
-                    text-align: center;
+                .product-label {
+                    width: auto;
+                    padding: 0 6px;
+                    height: 27px;
+                    margin-right: 5px;
+                    p {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 27px;
+                        text-transform: uppercase;
+                        color: $text_color;
+                        margin: 0;
+                        text-align: center;
+                    }
                 }
             }
             .product-icons {
@@ -470,15 +476,17 @@
             margin-bottom: 24px;
             .slider-one {
                 height: 35vh;
-                .product-label {
+                .product-label-box {
                     top: 12px;
                     left: 12px;
-                    width: auto;
-                    height: 20px;
-                    padding: 0 6px;
-                    p {
-                        font-size: 12px;
-                        line-height: 20px;
+                    .product-label {
+                        width: auto;
+                        height: 20px;
+                        padding: 0 6px;
+                        p {
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
                     }
                 }
                 .swiper-slide {

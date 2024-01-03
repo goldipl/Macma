@@ -24,6 +24,15 @@
                             <p class="text-center">Twoja cena <span>100,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
+                        </div>
+                        <div class="product-label" style="background-color: #A8DF0C;">
+                            <p>2023</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 02 -->
@@ -46,6 +55,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>16,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
                         </div>
                     </div>
                 </a>
@@ -72,6 +87,12 @@
                             <p class="text-center">Twoja cena <span>80,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
+                        </div>
+                    </div>
                 </a>
             </div>
              <!-- Slide 04 -->
@@ -94,6 +115,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>110,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
                         </div>
                     </div>
                 </a>
@@ -120,6 +147,12 @@
                             <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 06 -->
@@ -142,6 +175,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>110,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
                         </div>
                     </div>
                 </a>
@@ -168,6 +207,12 @@
                             <p class="text-center">Twoja cena <span>110,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 08 -->
@@ -190,6 +235,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
                         </div>
                     </div>
                 </a>
@@ -216,6 +267,12 @@
                             <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 10 -->
@@ -238,6 +295,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #B5EFCC;">
+                            <p>Nowość</p>
                         </div>
                     </div>
                 </a>

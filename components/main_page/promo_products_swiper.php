@@ -24,6 +24,12 @@
                             <p class="text-center">Twoja cena <span>100,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 02 -->
@@ -46,6 +52,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>70,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
                         </div>
                     </div>
                 </a>
@@ -72,6 +84,12 @@
                             <p class="text-center">Twoja cena <span>70,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
+                        </div>
+                    </div>
                 </a>
             </div>
              <!-- Slide 04 -->
@@ -94,6 +112,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>30,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
                         </div>
                     </div>
                 </a>
@@ -120,6 +144,12 @@
                             <p class="text-center">Twoja cena <span>20,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 06 -->
@@ -142,6 +172,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>20,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
                         </div>
                     </div>
                 </a>
@@ -168,6 +204,12 @@
                             <p class="text-center">Twoja cena <span>70,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 08 -->
@@ -190,6 +232,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>20,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
                         </div>
                     </div>
                 </a>
@@ -216,6 +264,12 @@
                             <p class="text-center">Twoja cena <span>20,88 PLN</span></p>
                         </div>
                     </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <!-- Slide 10 -->
@@ -238,6 +292,12 @@
                         </div>
                         <div class="your-price">
                             <p class="text-center">Twoja cena <span>70,88 PLN</span></p>
+                        </div>
+                    </div>
+                    <!-- Product label -->
+                    <div class="product-label-box">
+                        <div class="product-label" style="background-color: #E4EDFF;">
+                            <p>Promocja</p>
                         </div>
                     </div>
                 </a>
