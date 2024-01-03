@@ -1,8 +1,8 @@
-<div class="cart_container step_one">
+<div class="calculator_container">
     <div class="container">
         <h1>Kalkulator</h1>
         <div class="d-flex flex-row">
-            <div class="d-flex flex-column w-75">
+            <div class="d-flex flex-column">
                 <div class="accordion me-2" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading11">
