@@ -6391,4 +6391,11 @@ label.add-files:focus, label.add-files:hover {
   .cart_container.step_four .cart-table_box .bottom-cart-box-with-btn .prev {
     margin-bottom: 24px;
   }
+}
+.cart_container.step_five .cart-table_box {
+  width: 100%;
+}
+.cart_container.step_five .cart-table_box .bottom-cart-box-with-btn {
+  margin-right: 0;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
