@@ -1,3 +1,100 @@
 .calculator_container {
-    
+    .accordion-container {
+        width: calc(80% - 27px);
+        margin-right: 27px;
+        .accordion-button, 
+        .accordion .accordion-button:not(.collapsed) {
+            background-color: $white;
+            border-bottom: 1px solid $light_grey;
+        }
+        .accordion {
+            &-item {
+                border: 0;
+                margin-bottom: 15px;
+            }
+            &-button {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 120%;
+                text-transform: uppercase;
+                color: $text_color;
+                &::after {
+                    position: absolute;
+                    top: 22px;
+                    right: 22px;
+                    background-image: url('./../assets/icons/common/grey-arrow-down.svg');
+                    background-size: 12px;
+                    background-position: center;
+                    margin-left: 16px;
+                }
+                .number {
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                    color: $macma_orange;
+                    margin: 0 16px 0 0;
+                }
+                .code {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 177.023%;
+                    color: $grey5;
+                    margin: 0 0 0 16px;
+                    text-transform: none;
+                    span {
+                        color: $text_color;
+                        margin: 0 0 0 6px;
+                    }
+                }
+                img {
+                    margin-left: 16px;
+                }
+            }
+            .quantity {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 177.023%;
+                color: $grey5;
+                margin: 0 40px 0 auto;
+                text-transform: none;
+                span {
+                    color: $text_color;
+                    margin: 0 0 0 6px;
+                }
+            }
+        }
+    }
+    .sumary_box {
+        width: 20%;
+        &--netto {
+            .netto-value {
+                margin-bottom: 0;
+                line-height: 36px;
+                &.small {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+            .netto-text {
+                margin-top: 7px;
+            }
+        }
+        &--brutto {
+            .brutto-value {
+                margin-bottom: 0;
+                line-height: 36px;
+                &.small {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+            .brutto-text {
+                margin-top: 7px;
+            }
+        }
+    }
 }

@@ -6794,4 +6794,96 @@ label.add-files:focus, label.add-files:hover {
   .cart_container.step_five .cart-table_box .cart-final-container__col .col-container button {
     font-size: 14px;
   }
+}
+.calculator_container .accordion-container {
+  width: calc(80% - 27px);
+  margin-right: 27px;
+}
+.calculator_container .accordion-container .accordion-button,
+.calculator_container .accordion-container .accordion .accordion-button:not(.collapsed) {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #F4F4F4;
+}
+.calculator_container .accordion-container .accordion-item {
+  border: 0;
+  margin-bottom: 15px;
+}
+.calculator_container .accordion-container .accordion-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+}
+.calculator_container .accordion-container .accordion-button::after {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  background-image: url("./../assets/icons/common/grey-arrow-down.svg");
+  background-size: 12px;
+  background-position: center;
+  margin-left: 16px;
+}
+.calculator_container .accordion-container .accordion-button .number {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: #F26521;
+  margin: 0 16px 0 0;
+}
+.calculator_container .accordion-container .accordion-button .code {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #8A8A8A;
+  margin: 0 0 0 16px;
+  text-transform: none;
+}
+.calculator_container .accordion-container .accordion-button .code span {
+  color: #374957;
+  margin: 0 0 0 6px;
+}
+.calculator_container .accordion-container .accordion-button img {
+  margin-left: 16px;
+}
+.calculator_container .accordion-container .accordion .quantity {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #8A8A8A;
+  margin: 0 40px 0 auto;
+  text-transform: none;
+}
+.calculator_container .accordion-container .accordion .quantity span {
+  color: #374957;
+  margin: 0 0 0 6px;
+}
+.calculator_container .sumary_box {
+  width: 20%;
+}
+.calculator_container .sumary_box--netto .netto-value {
+  margin-bottom: 0;
+  line-height: 36px;
+}
+.calculator_container .sumary_box--netto .netto-value.small {
+  font-size: 14px;
+  line-height: 18px;
+}
+.calculator_container .sumary_box--netto .netto-text {
+  margin-top: 7px;
+}
+.calculator_container .sumary_box--brutto .brutto-value {
+  margin-bottom: 0;
+  line-height: 36px;
+}
+.calculator_container .sumary_box--brutto .brutto-value.small {
+  font-size: 14px;
+  line-height: 18px;
+}
+.calculator_container .sumary_box--brutto .brutto-text {
+  margin-top: 7px;
 }/*# sourceMappingURL=main.css.map */
