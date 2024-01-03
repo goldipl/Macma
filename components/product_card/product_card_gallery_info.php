@@ -21,7 +21,9 @@
                     </div>
                 </div>
                 <!-- Product label -->
-                <img class="product-label" src="./assets/icons/labels/label-promo.svg" alt="label">
+                <div class="product-label" style="background-color: #E4EDFF;">
+                    <p>Promocja</p>
+                </div>
                 <!-- Product icons -->
                 <div class="product-icons">
                     <a class="product-zoom-in" href="#">

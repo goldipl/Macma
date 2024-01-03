@@ -3902,6 +3902,16 @@ label.add-files:focus, label.add-files:hover {
   width: 96px;
   height: 27px;
 }
+.product_card_gallery_info .product-gallery .slider-one .product-label p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0;
+  text-align: center;
+}
 .product_card_gallery_info .product-gallery .slider-one .product-icons {
   position: absolute;
   bottom: 24px;
@@ -4323,6 +4333,11 @@ label.add-files:focus, label.add-files:hover {
     left: 12px;
     width: auto;
     height: 20px;
+    padding: 0 6px;
+  }
+  .product_card_gallery_info .product-gallery .slider-one .product-label p {
+    font-size: 12px;
+    line-height: 20px;
   }
   .product_card_gallery_info .product-gallery .slider-one .swiper-slide {
     height: 100% !important;

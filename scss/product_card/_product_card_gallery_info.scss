@@ -25,6 +25,16 @@
                 z-index: 1;
                 width: 96px;
                 height: 27px;
+                p {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 27px;
+                    text-transform: uppercase;
+                    color: $text_color;
+                    margin: 0;
+                    text-align: center;
+                }
             }
             .product-icons {
                 position: absolute;
@@ -465,6 +475,11 @@
                     left: 12px;
                     width: auto;
                     height: 20px;
+                    padding: 0 6px;
+                    p {
+                        font-size: 12px;
+                        line-height: 20px;
+                    }
                 }
                 .swiper-slide {
                     height: 100% !important;
