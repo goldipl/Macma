@@ -35,12 +35,12 @@
                         </div>
                         <div class="col-container middle">
                             <div class="final-radios-types">
-                                <label class="custom-radio-container one-logo">Dostawa kurierem
-                                    <input type="radio" name="radio" class="custom_input">
+                                <label class="custom-radio-container">Dostawa kurierem
+                                    <input type="radio" name="radio" class="custom_input" checked>
                                     <span class="custom-radio-checkmark"></span>
                                 </label>
-                                <label class="custom-radio-container two-logos">Odbiór osobisty
-                                    <input type="radio" name="radio" class="custom_input" checked>
+                                <label class="custom-radio-container">Odbiór osobisty
+                                    <input type="radio" name="radio" class="custom_input">
                                     <span class="custom-radio-checkmark"></span>
                                 </label>
                             </div>
@@ -58,8 +58,8 @@
                         <div class="col-container">
                             <div class="final-radios-types">
                                 <div class="final-radios-types_slot">
-                                    <label class="custom-radio-container one-logo">Przelew tradycyjny
-                                        <input type="radio" name="radio2" class="custom_input">
+                                    <label class="custom-radio-container">Przelew tradycyjny
+                                        <input type="radio" name="radio2" class="custom_input" checked>
                                         <span class="custom-radio-checkmark"></span>
                                     </label>
                                     <div class="pay-images">
@@ -67,7 +67,7 @@
                                     </div>
                                 </div>
                                 <div class="final-radios-types_slot">
-                                    <label class="custom-radio-container one-logo">Płatność online
+                                    <label class="custom-radio-container">Płatność online
                                         <input type="radio" name="radio2" class="custom_input">
                                         <span class="custom-radio-checkmark"></span>
                                     </label>
