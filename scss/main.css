@@ -5496,10 +5496,13 @@ label.add-files:focus, label.add-files:hover {
   line-height: 177.023%;
   margin: 0;
   color: #374957;
-  padding-left: 50px;
+  padding-left: 0;
+  padding-right: 50px;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__right label .custom-checkbox-checkmark {
   top: -2px;
+  left: unset;
+  right: 0;
   width: 35px;
   height: 35px;
 }
@@ -5735,7 +5738,7 @@ label.add-files:focus, label.add-files:hover {
   .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__right label {
     font-size: 14px;
     line-height: 140%;
-    padding-left: 30px;
+    padding-right: 30px;
   }
   .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__right label .custom-checkbox-checkmark {
     top: 0;

@@ -50,9 +50,12 @@
                                 line-height: 177.023%;
                                 margin: 0;
                                 color: $text_color;
-                                padding-left: 50px;
+                                padding-left: 0;
+                                padding-right: 50px;
                                 .custom-checkbox-checkmark {
                                     top: -2px;
+                                    left: unset;
+                                    right: 0;
                                     width: 35px;
                                     height: 35px;
                                     &::after {
@@ -307,7 +310,7 @@
                                     label {
                                         font-size: 14px;
                                         line-height: 140%;
-                                        padding-left: 30px;
+                                        padding-right: 30px;
                                         .custom-checkbox-checkmark {
                                             top: 0;
                                             width: 20px;
