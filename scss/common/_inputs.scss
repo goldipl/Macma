@@ -1,4 +1,5 @@
-input.form-input {
+input.form-input,
+select.form-select {
     width: max-content;
     height: 50px;
     border: 1px solid $grey;
@@ -9,6 +10,8 @@ input.form-input {
     color: $small_text_color;
     padding: 0 32px;
     margin: 16px 0 0 0;
+    border: 0;
+    border-radius: 0;
     &:focus,
     &:hover {
         border: 0;
