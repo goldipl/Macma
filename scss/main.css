@@ -1695,6 +1695,7 @@ label.add-files:focus, label.add-files:hover {
   padding: 0 6px;
   height: 27px;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 .swiper_products_block_box .product-label-box .product-label p {
   font-size: 14px;
@@ -3945,6 +3946,7 @@ label.add-files:focus, label.add-files:hover {
   padding: 0 6px;
   height: 27px;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 .product_card_gallery_info .product-gallery .slider-one .product-label-box .product-label p {
   font-size: 14px;
