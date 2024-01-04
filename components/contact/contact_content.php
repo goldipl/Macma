@@ -76,7 +76,7 @@
                     </div>
                     <div class="input-slot">
                         <label for="telephone">Telefon</label>
-                        <input class="form-input" type="text" name="telephone" id="telephone" required>
+                        <input class="form-input" type="number" name="telephone" id="telephone" required>
                     </div>
                     <div class="input-slot">
                         <label for="msgarea">Wiadomość</label>
