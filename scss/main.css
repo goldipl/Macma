@@ -7452,6 +7452,7 @@ label.add-files:focus, label.add-files:hover {
   padding: 44px 0;
   background-color: #F4F4F4;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .contact-container .contact-wrapper::before {
@@ -7470,6 +7471,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: column;
   width: calc(33.3% - 23px);
   margin-right: 23px;
+  margin-bottom: 23px;
   background-color: #FFFFFF;
 }
 .contact-container .contact-wrapper_col:nth-of-type(3) {
@@ -7494,4 +7496,296 @@ label.add-files:focus, label.add-files:hover {
 }
 .contact-container .contact-wrapper_col__content {
   padding: 18px 46px;
+}
+.contact-container .contact-wrapper_col__content.map {
+  padding: 15px;
+  border-top: 15px solid #F4F4F4;
+}
+.contact-container .contact-wrapper_col__content.map iframe {
+  width: 100%;
+  height: 272px;
+}
+.contact-container .contact-wrapper_col__content .horizontal-line {
+  position: relative;
+  display: block;
+  width: calc(100% + 92px);
+  left: -46px;
+  height: 1px;
+  background-color: #F4F4F4;
+  margin: 35px 0 25px 0;
+}
+.contact-container .contact-wrapper_col__content .contact-box h3 {
+  position: relative;
+  padding-left: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 177.023%;
+  margin: 0 0 18px 0;
+  color: #374957;
+}
+.contact-container .contact-wrapper_col__content .contact-box h3.office::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("./../assets/icons/contact/office.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 25px;
+  height: 25px;
+}
+.contact-container .contact-wrapper_col__content .contact-box h3.print::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background: url("./../assets/icons/contact/print.svg");
+  background-repeat: no-repeat;
+  background-size: 27px;
+  width: 27px;
+  height: 25px;
+}
+.contact-container .contact-wrapper_col__content .contact-box h3.storage::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("./../assets/icons/contact/storage.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 25px;
+  height: 25px;
+}
+.contact-container .contact-wrapper_col__content .contact-box p {
+  position: relative;
+  padding-left: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 177.023%;
+  margin: 0 0 9px 0;
+  color: #374957;
+}
+.contact-container .contact-wrapper_col__content .contact-box p.phone::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/telephone.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .contact-box p.mail::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/envelope.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .contact-box p.hours::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/clock.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .contact-box p a {
+  color: #374957;
+  text-decoration: none;
+}
+.contact-container .contact-wrapper_col__content .contact-box p a:hover {
+  color: #F26521;
+}
+.contact-container .contact-wrapper_col__content .data-box {
+  position: relative;
+  padding-left: 44px;
+  margin: 0 0 25px 0;
+}
+.contact-container .contact-wrapper_col__content .data-box.location::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background: url("./../assets/icons/contact/pin-map.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .data-box.data::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background: url("./../assets/icons/contact/data.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .data-box b {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.023%;
+  margin: 0;
+}
+.contact-container .contact-wrapper_col__content .data-box p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  margin: 0;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot {
+  display: flex;
+  flex-direction: column;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 177.023%;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot input {
+  margin: 0 0 10px 0;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot textarea {
+  margin: 0 0 10px 0;
+  width: 100%;
+  padding: 20px;
+}
+.contact-container .contact-wrapper_col__content .send-form .checkbox-button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.contact-container .contact-wrapper_col__content .send-form .checkbox-button-box label {
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167.023%;
+  color: #8A8A8A;
+  margin: 0;
+}
+.contact-container .contact-wrapper_col__content .send-form .checkbox-button-box label a {
+  color: #F26521;
+  text-decoration: none;
+}
+.contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button {
+  margin: 0 0 0 12px;
+}
+
+@media (max-width: 1200px) {
+  .contact-container h1 {
+    font-size: 40px;
+  }
+  .contact-container h4 {
+    font-size: 16px;
+  }
+  .contact-container .contact-wrapper_col {
+    width: calc(50% - 23px);
+  }
+  .contact-container .contact-wrapper_col:nth-of-type(2) {
+    width: 50%;
+    margin-right: 0;
+  }
+  .contact-container .contact-wrapper_col:nth-of-type(3) {
+    width: calc(50% - 23px);
+    margin-right: 23px;
+  }
+}
+@media (max-width: 860px) {
+  .contact-container h1 {
+    font-size: 32px;
+  }
+  .contact-container h4 {
+    font-size: 15px;
+  }
+  .contact-container .contact-wrapper {
+    padding: 24px 0;
+    flex-direction: column;
+  }
+  .contact-container .contact-wrapper_col {
+    width: 100%;
+    margin-right: 0;
+  }
+  .contact-container .contact-wrapper_col:nth-of-type(2) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .contact-container .contact-wrapper_col:nth-of-type(3) {
+    width: 100%;
+    margin-right: 0;
+  }
+  .contact-container .contact-wrapper_col .title {
+    height: 40px;
+  }
+  .contact-container .contact-wrapper_col .title p {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .contact-container .contact-wrapper_col__content {
+    padding: 16px 24px;
+  }
+  .contact-container .contact-wrapper_col__content .horizontal-line {
+    position: relative;
+    display: block;
+    width: calc(100% + 92px);
+    left: -46px;
+    height: 1px;
+    background-color: #F4F4F4;
+    margin: 35px 0 25px 0;
+  }
+  .contact-container .contact-wrapper_col__content .contact-box h3 {
+    font-size: 15px;
+  }
+  .contact-container .contact-wrapper_col__content .data-box {
+    padding-left: 38px;
+  }
+  .contact-container .contact-wrapper_col__content .data-box b {
+    font-size: 14px;
+  }
+  .contact-container .contact-wrapper_col__content .data-box p {
+    font-size: 14px;
+  }
+  .contact-container .contact-wrapper_col__content .send-form .input-slot label {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .contact-container .contact-wrapper_col__content .send-form .input-slot input {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+  .contact-container .contact-wrapper_col__content .send-form .input-slot textarea {
+    font-size: 14px;
+    padding: 16px;
+  }
+  .contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button {
+    font-size: 14px;
+  }
+  .contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button img {
+    width: 16px;
+    height: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -22,6 +22,7 @@
         padding: 44px 0;
         background-color: $light_grey;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         &::before {
             position: absolute;
@@ -39,6 +40,7 @@
             flex-direction: column;
             width: calc(33.3% - 23px);
             margin-right: 23px;
+            margin-bottom: 23px;
             background-color: $white;
             &:nth-of-type(3) {
                 width: 33.3%;
@@ -62,6 +64,317 @@
             }
             &__content {
                 padding: 18px 46px;
+                &.map {
+                    padding: 15px;
+                    border-top: 15px solid $light_grey;
+                    iframe {
+                        width: 100%;
+                        height: 272px;
+                    }
+                }
+                .horizontal-line {
+                    position: relative;
+                    display: block;
+                    width: calc(100% + 92px);
+                    left: -46px;
+                    height: 1px;
+                    background-color: $light_grey;
+                    margin: 35px 0 25px 0;
+                }
+                .contact-box {
+                    h3 {
+                        position: relative;
+                        padding-left: 44px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 177.023%;
+                        margin: 0 0 18px 0;
+                        color: $text_color;
+                        &.office::before {
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background: url('./../assets/icons/contact/office.svg');
+                            background-repeat: no-repeat;
+                            background-size: 25px;
+                            width: 25px;
+                            height: 25px;
+                        }
+                        &.print::before {
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            top: 2px;
+                            left: 0;
+                            background: url('./../assets/icons/contact/print.svg');
+                            background-repeat: no-repeat;
+                            background-size: 27px;
+                            width: 27px;
+                            height: 25px;
+                        }
+                        &.storage::before {
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background: url('./../assets/icons/contact/storage.svg');
+                            background-repeat: no-repeat;
+                            background-size: 25px;
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                    p {
+                        position: relative;
+                        padding-left: 44px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 177.023%;
+                        margin: 0 0 9px 0;
+                        color: $text_color;
+                        &.phone::before {
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            top: 4px;
+                            left: 0;
+                            background: url('./../assets/icons/contact/telephone.svg');
+                            background-repeat: no-repeat;
+                            background-size: 18px;
+                            width: 18px;
+                            height: 18px;
+                        }
+                        &.mail::before  {
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            top: 4px;
+                            left: 0;
+                            background: url('./../assets/icons/contact/envelope.svg');
+                            background-repeat: no-repeat;
+                            background-size: 18px;
+                            width: 18px;
+                            height: 18px;
+                        }
+                        &.hours::before  {
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            top: 4px;
+                            left: 0;
+                            background: url('./../assets/icons/contact/clock.svg');
+                            background-repeat: no-repeat;
+                            background-size: 18px;
+                            width: 18px;
+                            height: 18px;
+                        }
+                        a {
+                            color: $text_color;
+                            text-decoration: none;
+                            &:hover {
+                                color: $macma_orange;
+                            }
+                        }
+                    }
+                }
+                .data-box {
+                    position: relative;
+                    padding-left: 44px;
+                    margin: 0 0 25px 0;
+                    &.location::before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        top: 6px;
+                        left: 0;
+                        background: url('./../assets/icons/contact/pin-map.svg');
+                        background-repeat: no-repeat;
+                        background-size: 18px;
+                        width: 18px;
+                        height: 18px;
+                    }
+                    &.data::before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        top: 6px;
+                        left: 0;
+                        background: url('./../assets/icons/contact/data.svg');
+                        background-repeat: no-repeat;
+                        background-size: 18px;
+                        width: 18px;
+                        height: 18px;
+                    }
+                    b {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 177.023%;
+                        margin: 0;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 177.023%;
+                        margin: 0;
+                    }
+                }
+                .send-form {
+                    .input-slot {
+                        display: flex;
+                        flex-direction: column;
+                        label {
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 177.023%;
+                        }
+                        input {
+                            margin: 0 0 10px 0;
+                            width: 100%;
+                            height: 40px;
+                            padding: 0 20px;
+                        }
+                        textarea {
+                            margin: 0 0 10px 0;
+                            width: 100%;
+                            padding: 20px;
+                        }
+                    }
+                    .checkbox-button-box {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        label {
+                            font-size: 6px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 167.023%;
+                            color: $grey5;
+                            margin: 0;
+                            a {
+                                color: $macma_orange;
+                                text-decoration: none;
+                            }
+                        }
+                        button {
+                            margin: 0 0 0 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-container {
+        h1 {
+            font-size: 40px;
+        }
+        h4 {
+            font-size: 16px;
+        }
+        .contact-wrapper {
+            &_col {
+                width: calc(50% - 23px);
+                &:nth-of-type(2) {
+                    width: 50%;
+                    margin-right: 0;
+                }
+                &:nth-of-type(3) {
+                    width: calc(50% - 23px);
+                    margin-right: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .contact-container {
+        h1 {
+            font-size: 32px;
+        }
+        h4 {
+            font-size: 15px;
+        }
+        .contact-wrapper {
+            padding: 24px 0;
+            flex-direction: column;
+            &_col {
+                width: 100%;
+                margin-right: 0;
+                &:nth-of-type(2) {
+                    width: 100%;
+                    margin-right: 0;
+                }
+                &:nth-of-type(3) {
+                    width: 100%;
+                    margin-right: 0;
+                }
+                .title {
+                    height: 40px;
+                    p {
+                        font-size: 15px;
+                        padding-left: 20px;
+                    }
+                }
+                &__content {
+                    padding: 16px 24px;
+                    .horizontal-line {
+                        position: relative;
+                        display: block;
+                        width: calc(100% + 92px);
+                        left: -46px;
+                        height: 1px;
+                        background-color: $light_grey;
+                        margin: 35px 0 25px 0;
+                    }
+                    .contact-box {
+                        h3 {
+                            font-size: 15px;
+                        }
+                    }
+                    .data-box {
+                        padding-left: 38px;
+                        b {
+                            font-size: 14px;
+                        }
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                    .send-form {
+                        .input-slot {
+                            label {
+                                font-size: 14px;
+                                line-height: 140%;
+                            }
+                            input {
+                                font-size: 14px;
+                                padding: 0 16px;
+                            }
+                            textarea {
+                                font-size: 14px;
+                                padding: 16px;
+                            }
+                        }
+                        .checkbox-button-box {
+                            button {
+                                font-size: 14px;
+                                img {
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
