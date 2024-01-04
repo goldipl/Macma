@@ -7428,4 +7428,70 @@ label.add-files:focus, label.add-files:hover {
   .calculator_container .sumary_box--netto .netto-value {
     font-size: 30px;
   }
+}
+.contact-container h1 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0;
+}
+.contact-container h4 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #8A8A8A;
+  margin: 6px 0 16px 0;
+}
+.contact-container .contact-wrapper {
+  position: relative;
+  padding: 44px 0;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-direction: row;
+}
+.contact-container .contact-wrapper::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #F4F4F4;
+  left: -50vw;
+  top: 0;
+  width: 200vw;
+  height: 100%;
+  z-index: -1;
+}
+.contact-container .contact-wrapper_col {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.3% - 23px);
+  margin-right: 23px;
+  background-color: #FFFFFF;
+}
+.contact-container .contact-wrapper_col:nth-of-type(3) {
+  width: 33.3%;
+  margin-right: 0;
+}
+.contact-container .contact-wrapper_col .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #F4F4F4;
+}
+.contact-container .contact-wrapper_col .title p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #374957;
+  padding-left: 46px;
+  margin: 0;
+}
+.contact-container .contact-wrapper_col__content {
+  padding: 18px 46px;
 }/*# sourceMappingURL=main.css.map */
