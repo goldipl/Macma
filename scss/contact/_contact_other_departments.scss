@@ -1,0 +1,201 @@
+.other-department-box {
+    position: relative;
+    background-color: $light_grey;
+    padding-bottom: 217px;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: -50vw;
+        top: 0;
+        width: 200vw;
+        height: 100%;
+        z-index: -1;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $white;
+        width: 100%;
+        height: 70px;
+        border-bottom: 1px solid $light_grey;
+        p {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            text-transform: uppercase;
+            color: $text_color;
+            margin: 0;
+            padding-left: 46px;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: $white;
+        &__col {
+            display: flex;
+            flex-direction: column;
+            width: 24%;
+            justify-content: space-between;
+            padding: 38px 63px;
+            b {
+                position: relative;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 177.023%;
+                color: $text_color;
+                margin: 0 0 18px 0;
+                padding-left: 46px;
+                &.graphic-department::before {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 2px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/graphic-department.svg');
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    width: 25px;
+                    height: 25px;
+                }
+                &.accountancy::before {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 2px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/accountancy.svg');
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    width: 25px;
+                    height: 25px;
+                }
+                &.marketing-department::before {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 2px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/marketing-department.svg');
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    width: 25px;
+                    height: 25px;
+                }
+                &.import-department::before {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 2px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/telephone2.svg');
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            p {
+                position: relative;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 177.023%;
+                color: $text_color;
+                margin: 0 0 9px 0;
+                padding-left: 46px;
+                &.phone::before {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 4px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/telephone.svg');
+                    background-repeat: no-repeat;
+                    background-size: 18px;
+                    width: 18px;
+                    height: 18px;
+                }
+                &.mail::before  {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 4px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/envelope.svg');
+                    background-repeat: no-repeat;
+                    background-size: 18px;
+                    width: 18px;
+                    height: 18px;
+                }
+                &.hours::before  {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 4px;
+                    left: 0;
+                    background: url('./../assets/icons/contact/clock.svg');
+                    background-repeat: no-repeat;
+                    background-size: 18px;
+                    width: 18px;
+                    height: 18px;
+                }
+                a {
+                    text-decoration: none;
+                    color: $text_color;
+                    &:hover {
+                        color: $macma_orange;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .other-department-box {
+        &__row {
+            &__col {
+                width: 33%;
+            }
+        }
+    } 
+}
+
+@media (max-width: 1080px) {
+    .other-department-box {
+        &__row {
+            &__col {
+                width: 50%;
+            }
+        }
+    }  
+}
+
+@media (max-width: 760px) {
+    .other-department-box {
+        padding-bottom: 40px;
+        &__title {
+            height: 40px;
+            p {
+                font-size: 15px;
+                padding-left: 20px;
+            }
+        }
+        &__row {
+            &__col {
+                width: 100%;
+                padding: 25px 22px;
+                b {
+                    font-size: 15px;
+                }
+            }
+        }
+    }  
+}

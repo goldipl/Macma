@@ -1,0 +1,238 @@
+.sales-department-box {
+    position: relative;
+    background-color: $light_grey;
+    margin-top: -15px;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: -50vw;
+        top: 0;
+        width: 200vw;
+        height: 100%;
+        z-index: -1;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $white;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 16px;
+        p {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            text-transform: uppercase;
+            color: $text_color;
+            margin: 0;
+            padding-left: 46px;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__col {
+            display: flex;
+            flex-direction: column;
+            width: calc(94%/6);
+            margin-right: 1%;
+            justify-content: space-between;
+            background-color: $white;
+            margin-bottom: 16px;
+            &:last-of-type {
+                width: 16.6%;
+                margin-right: 0;
+            }
+            &__top {
+                img {
+                    object-fit: contain;
+                    width: 100%;
+                }
+            }
+            &__middle {
+                padding: 14px 22px;
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 177.023%;
+                    color: $text_color;
+                    margin: 0;
+                }
+                span {
+                    position: relative;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 160%;
+                    color: $text_color;
+                    margin: 0;
+                    padding-left: 23px;
+                    &::before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        top: 2px;
+                        left: 0;
+                        background: url('./../assets/icons/contact/handshake.svg');
+                        background-repeat: no-repeat;
+                        background-size: 16px;
+                        width: 16px;
+                        height: 12px;
+                    }
+                }
+            }
+            .horizontal-line {
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: $light_grey;
+            }
+            &__bottom {
+                padding: 25px 22px;
+                p {
+                    position: relative;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 177.023%;
+                    color: $text_color;
+                    margin: 0;
+                    padding-left: 23px;
+                    &.tel1::before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        top: 5px;
+                        left: 0;
+                        background: url('./../assets/icons/contact/telephone2.svg');
+                        background-repeat: no-repeat;
+                        background-size: 14px;
+                        width: 14px;
+                        height: 14px;
+                    }
+                    &.tel2::before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        top: 5px;
+                        left: 0;
+                        background: url('./../assets/icons/contact/telephone.svg');
+                        background-repeat: no-repeat;
+                        background-size: 14px;
+                        width: 14px;
+                        height: 14px;
+                    }
+                    &.mail::before {
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        top: 5px;
+                        left: 0;
+                        background: url('./../assets/icons/contact/envelope.svg');
+                        background-repeat: no-repeat;
+                        background-size: 14px;
+                        width: 14px;
+                        height: 14px;
+                    }
+                    a {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 177.023%;
+                        color: $text_color;
+                        margin: 0 0 10px 0;
+                        text-decoration: none;
+                        &:hover {
+                            color: $macma_orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .sales-department-box {
+        &__row {
+            &__col {
+                width: calc(94%/4);
+                &:last-of-type {
+                    width: calc(94%/4);
+                }
+            }
+        }
+    }   
+}
+
+@media (max-width: 1400px) {
+    .sales-department-box {
+        &__row {
+            &__col {
+                width: 32%;
+                &:nth-of-type(3) {
+                    width: 34%;
+                    margin-right: 0;
+                }
+                &:last-of-type {
+                    width: 34%;
+                }
+            }
+        }
+    }  
+}
+
+@media (max-width: 1080px) {
+    .sales-department-box {
+        &__row {
+            &__col {
+                width: 49%;
+                &:nth-of-type(3) {
+                    width: 49%;
+                    margin-right: 1%;
+                }
+                &:nth-of-type(2n) {
+                    width: 50%;
+                    margin-right: 0;
+                }
+                &:last-of-type {
+                    width: 50%;
+                }
+            }
+        }
+    }  
+}
+
+@media (max-width: 760px) {
+    .sales-department-box {
+        &__title {
+            height: 40px;
+            p {
+                font-size: 15px;
+                padding-left: 20px;
+            }
+        }
+        &__row {
+            &__col {
+                width: 100%;
+                &:nth-of-type(3) {
+                    width: 100%;
+                    margin-right: 0;
+                }
+                &:nth-of-type(2n) {
+                    width: 100%;
+                    margin-right: 0;
+                }
+                &:last-of-type {
+                    width: 100%;
+                }
+            }
+        }
+    }  
+}
