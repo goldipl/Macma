@@ -8344,8 +8344,15 @@ label.add-files:focus, label.add-files:hover {
   padding-left: 40px;
   text-decoration: none;
 }
-.dashboard-menu .menu-links-container .menu-links-box .menu-link:hover, .dashboard-menu .menu-links-container .menu-links-box .menu-link.active {
+.dashboard-menu .menu-links-container .menu-links-box .menu-link:hover {
   color: #F26521;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link.active {
+  color: #F26521;
+  border-bottom: 1px solid #F26521;
+  margin-left: -26px;
+  padding-left: 66px;
+  width: calc(100% + 52px);
 }
 .dashboard-menu .menu-links-container button {
   all: unset;
@@ -8393,6 +8400,10 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 860px) {
   .dashboard-menu .header {
     min-height: 48px;
+  }
+  .dashboard-menu .expand-menu {
+    border-left: 0;
+    border-right: 0;
   }
   .dashboard-menu .expand-menu p {
     font-size: 16px;
