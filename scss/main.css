@@ -8250,6 +8250,68 @@ label.add-files:focus, label.add-files:hover {
   color: #FFFFFF;
   margin: 0;
 }
+.dashboard-menu .menu-links-container {
+  padding: 17px 26px 55px 26px;
+}
+.dashboard-menu .menu-links-container .menu-links-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link-big {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0 0 10px 0;
+  padding-left: 40px;
+  text-decoration: none;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link-big:hover, .dashboard-menu .menu-links-container .menu-links-box .menu-link-big.active {
+  color: #F26521;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link-big:hover img, .dashboard-menu .menu-links-container .menu-links-box .menu-link-big.active img {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link-big img {
+  margin-left: -36px;
+  margin-right: 16px;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 0 0 10px 0;
+  padding-left: 40px;
+  text-decoration: none;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link:hover, .dashboard-menu .menu-links-container .menu-links-box .menu-link.active {
+  color: #F26521;
+}
+.dashboard-menu .menu-links-container button {
+  all: unset;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #374957;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.dashboard-menu .menu-links-container button:hover {
+  border: 1px solid #F26521;
+  background-color: #F26521;
+  color: #FFFFFF;
+}
 
 .dashboard-main-title {
   background-color: #FFFFFF;

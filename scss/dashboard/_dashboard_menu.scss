@@ -19,4 +19,68 @@
             margin: 0;
         }
     }
+    .menu-links-container {
+        padding: 17px 26px 55px 26px;
+        .menu-links-box {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            .menu-link-big {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                text-transform: uppercase;
+                color: $text_color;
+                margin: 0 0 10px 0;
+                padding-left: 40px;
+                text-decoration: none;
+                &:hover,
+                &.active {
+                    color: $macma_orange;
+                    img {
+                        filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                    }
+                }
+                img {
+                    margin-left: -36px;
+                    margin-right: 16px;
+                }
+            }
+            .menu-link {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                color: $text_color;
+                margin: 0 0 10px 0;
+                padding-left: 40px;
+                text-decoration: none;
+                &:hover,
+                &.active {
+                    color: $macma_orange;
+                }
+            }
+        }
+        button {
+            all: unset;
+            width: 100%;
+            height: 35px;
+            box-sizing: border-box;
+            background-color: $white;
+            border: 1px solid $text_color;
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 10px;
+            &:hover {
+                border: 1px solid $macma_orange;
+                background-color: $macma_orange;
+                color: $white;
+            }
+        }
+    }
 }
