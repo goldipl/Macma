@@ -1,6 +1,7 @@
 .dashboard-menu {
     background-color: $white;
     margin-bottom: 112px;
+    min-width: 260px;
     .header {
         background-color: $macma_orange;
         height: 65px;
@@ -19,7 +20,39 @@
             margin: 0;
         }
     }
+    .expand-menu {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background-color: $white;
+        height: 40px;
+        cursor: pointer;
+        border: 1px solid $macma_orange;
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            text-transform: uppercase;
+            color: $macma_orange;
+            margin: 0;
+            img {
+                transition: 0.6s;
+                margin: 0 8px;
+            }
+        }
+        &.active {
+            img {
+                transform: rotate(180deg);
+            }
+        }  
+    }
     .menu-links-container {
+        flex-direction: column;
         padding: 17px 26px 55px 26px;
         .menu-links-box {
             display: flex;
@@ -76,6 +109,7 @@
             font-weight: 400;
             line-height: normal;
             margin-top: 10px;
+            max-width: 300px;
             &:hover {
                 border: 1px solid $macma_orange;
                 background-color: $macma_orange;
@@ -83,4 +117,42 @@
             }
         }
     }
+}
+
+@media (max-width: 1260px) {
+    .dashboard-menu {
+        margin-bottom: 24px;
+        .header {
+            p {
+                justify-content: center;
+                padding-left: 0;
+            }
+        }
+        .expand-menu {
+            display: flex; 
+        }
+        .menu-links-container { 
+            display: none;
+            &.active {
+                display: flex;
+            }
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .dashboard-menu {
+        .header {
+            height: 48px;
+        }
+        .expand-menu {
+            p {
+                font-size: 16px;
+                img {
+                    width: 10px;
+                    height: auto;
+                }
+            }
+        }
+    }    
 }

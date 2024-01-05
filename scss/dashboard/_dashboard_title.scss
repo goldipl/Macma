@@ -19,3 +19,15 @@
         }
     }
 }
+
+@media (max-width: 860px) {
+    .dashboard-main-title {
+        .header {
+            height: 48px;
+            p {
+                font-size: 24px;
+                padding-left: 24px;
+            }
+        }
+    }    
+}

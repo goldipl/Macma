@@ -3,7 +3,6 @@
     padding: 35px 0 112px 0;
     background-color: $light_grey;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     &::before {
@@ -22,10 +21,34 @@
         flex-direction: column;
         width: calc(20% - 24px);
         margin-right: 24px;
+        min-width: 260px;
     }
     &__right {
         display: flex;
         flex-direction: column;
         width: 80%;
+    }
+}
+
+@media (max-width: 1260px) {
+    .dashboard-container {
+        flex-wrap: wrap;
+        &__left {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-right: 0;
+        }
+        &__right {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .dashboard-container {
+        padding: 0;
     }
 }

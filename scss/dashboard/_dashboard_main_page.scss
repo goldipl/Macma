@@ -1,0 +1,400 @@
+.dashboard-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    &-box-large {
+        background-color: $white;
+        margin-bottom: 24px;
+        width: 100%;
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 70px;
+            border-bottom: 1px solid $light_grey;
+            p {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                color: $text_color;
+                margin: 0;
+                padding-left: 40px;
+                span {
+                    font-weight: 800;
+                }
+                img {
+                    margin-right: 10px;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+        .bottom-boxes {
+            display: flex;
+            flex-direction: row;
+            .value-box {
+                padding: 25px 30px;
+                border-right: 1px solid $light_grey;
+                &:last-of-type {
+                    border-left: 1px solid $light_grey;
+                }
+                p {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    color: $text_color;
+                    margin: 0 0 10px 0;
+                }
+                b {
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    color: $text_color;
+                    margin: 0;
+                    &.green {
+                        color: $dashboard_green;
+                    }
+                    &.orange {
+                        color: $dashboard_orange;
+                    }
+                    &.red {
+                        color: $dashboard_red;
+                    }
+                }
+            }
+            .progress-box {
+                padding: 4px;
+                border: 1px solid $dashboard_grey;
+                box-sizing: border-box;
+                width: 100%;
+                height: 36px;
+                margin: 50px 16px;
+                .progress {
+                    border-radius: 0;
+                    --bs-progress-bg: #54BF00;
+                    height: 26px;
+                    .progress-bar {
+                        background-color: $dashboard_red;
+                    }
+                }
+            }
+        }
+    }
+    &-box {
+        background-color: $white;
+        margin-bottom: 24px;
+        margin-right: 24px;
+        width: calc(50% - 12px);
+        &:nth-of-type(2n) {
+            margin-right: 0;
+        }
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 70px;
+            border-bottom: 1px solid $light_grey;
+            p {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                color: $text_color;
+                margin: 0;
+                padding-left: 40px;
+                img {
+                    margin-right: 10px;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+        .box-content {
+            padding: 25px 45px;
+            &.lines {
+                padding: 0;
+            }
+            &.big-arrow {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    padding: 25px 45px;
+                    width: auto;
+                    max-height: 194px;
+                }
+            }
+            span {
+                &.orange {
+                    color: $macma_orange;
+                }
+            }
+            .catalog-offert {
+                p {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 130%;
+                    color: $text_color;
+                    margin: 0 0 9px 0;
+                    &.catalog-p {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin: 0 0 34px 0;
+                    }
+                    &.orange {
+                        color: $macma_orange;
+                    }
+                }
+            }
+            img {
+                width: 100%;
+                height: auto;
+                &.arrows {
+                    margin-top: 10px;
+                }
+            }
+            .supervisor-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                &__left {
+                    h3 {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 177.023%;
+                        color: $text_color;
+                        margin: 0 0 16px 0;
+                    }
+                    p {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        color: $text_color;
+                        margin: 0 0 9px 0;
+                        a {
+                            color: $text_color;
+                            text-decoration: none;
+                            &:hover {
+                                color: $macma_orange;
+                            }
+                        }
+                    }
+                    button {
+                        all: unset;
+                        width: 100%;
+                        height: 35px;
+                        box-sizing: border-box;
+                        background-color: $white;
+                        border: 1px solid $text_color;
+                        cursor: pointer;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        color: $text_color;
+                        a {
+                            text-decoration: none;
+                            color: $text_color;
+                        }
+                        &:hover {
+                            border: 1px solid $macma_orange;
+                            background-color: $macma_orange;
+                            a {
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+                &__right {
+                    img {
+                        margin-left: 16px;
+                    }
+                }
+            }
+            .lines-box {
+                display: flex;
+                flex-direction: column;
+                &__row {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    border-bottom: 1px solid $light_grey;
+                    &:last-of-type {
+                        border-bottom: 0;
+                    }
+                    &__left {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        p {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $text_color;
+                            margin: 0;
+                            padding: 12px 0 12px 40px;
+                            display: inline-flex;
+                            width: 220px;
+                            margin-right: 18px;
+                            box-sizing: border-box;
+                            &.desc {
+                                font-size: 8px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 100%;
+                                margin: -12px 0 8px 0;
+                                padding: 4px 0 0 30px;
+                                color: $dashboard_grey;
+                            }
+                        }
+                    }
+                    &__right {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        p {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $text_color;
+                            margin: 0;
+                            padding: 12px 0 12px 0;
+                            display: inline-flex;
+                            width: 220px;
+                            margin-right: 18px;
+                            box-sizing: border-box;
+                            span {
+                                font-size: 18px;
+                                margin-right: 5px;
+                            }
+                            &.green {
+                                color: $dashboard_green;
+                                align-items: flex-end;
+                            }
+                            &.red {
+                                color: $dashboard_red;
+                                align-items: flex-end;
+                            }
+                        }
+                    }
+                    .long {
+                        width: 100%;
+                        padding: 12px 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .dashboard-main {
+        &-box-large {
+            margin-bottom: 16px;
+            .title {
+                height: 40px;
+                p {
+                    font-size: 16px;
+                    padding-left: 16px;
+                }
+            }
+            .bottom-boxes {
+                flex-direction: column;
+                .value-box {
+                    padding: 16px;
+                    border-right: 0;
+                    border-bottom: 1px solid $light_grey;
+                    &:last-of-type {
+                        border-left: 0;
+                        border-top: 1px solid $light_grey;
+                    }
+                }
+                .progress-box {
+                    margin: 16px;
+                    width: 90%;
+                }
+            }
+        }
+        &-box {
+            margin-bottom: 16px;
+            margin-right: 0;
+            width: 100%;
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            .title {
+                height: 40px;
+                p {
+                    font-size: 16px;
+                    padding-left: 16px;
+                }
+            }
+            .box-content {
+                padding: 16px;
+                &.big-arrow {
+                    img {
+                        padding: 16px;
+                        max-height: 180px;
+                    }
+                }
+                .catalog-offert {
+                    p {
+                        &.catalog-p {
+                            font-size: 16px;
+                            margin: 0 0 28px 0;
+                        }
+                    }
+                }
+                .supervisor-box {
+                    flex-direction: column;
+                    justify-content: center;
+                    &__left {
+                        order: 1;
+                        h3 {
+                            font-size: 17px;
+                        }
+                        button {
+                            font-size: 14px;
+                        }
+                    }
+                    &__right {
+                        order: 0;
+                        img {
+                            margin-left: 0;
+                            margin-bottom: 16px;
+                        }
+                    }
+                }
+                .lines-box {
+                    &__row {
+                        &__left {
+                            p {
+                                padding: 12px 0 12px 16px;
+                            }
+                        }
+                        .long {
+                            padding: 12px 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

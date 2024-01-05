@@ -2,6 +2,9 @@
     <div class="header">
         <p>Menu</p>
     </div>
+    <div class="expand-menu">
+        <p><img src="./assets/icons/common/grey-arrow-down.svg" alt="arrow down icon" width="12" height="8">Rozwiń menu<img src="./assets/icons/common/grey-arrow-down.svg" alt="arrow down icon" width="12" height="8"></p>
+    </div>
     <div class="menu-links-container">
         <div class="menu-links-box">
             <a class="menu-link-big" href="#"><img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Profil</a>
