@@ -1,0 +1,21 @@
+.dashboard-main-title {
+    background-color: $white;
+    margin-bottom: 20px;
+    .header {
+        height: 107px;
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100%;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 120%;
+            text-transform: uppercase;
+            padding-left: 42px;
+            color: $text_color;
+            margin: 0;
+        }
+    }
+}

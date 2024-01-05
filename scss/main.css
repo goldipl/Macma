@@ -8195,4 +8195,80 @@ label.add-files:focus, label.add-files:hover {
   .other-department-box__row__col b {
     font-size: 15px;
   }
+}
+.dashboard-container {
+  position: relative;
+  padding: 35px 0 112px 0;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+.dashboard-container::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #F4F4F4;
+  left: -50vw;
+  top: 0;
+  width: 200vw;
+  height: 100%;
+  z-index: -1;
+}
+.dashboard-container__left {
+  display: flex;
+  flex-direction: column;
+  width: calc(20% - 24px);
+  margin-right: 24px;
+}
+.dashboard-container__right {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.dashboard-menu {
+  background-color: #FFFFFF;
+  margin-bottom: 112px;
+}
+.dashboard-menu .header {
+  background-color: #F26521;
+  height: 65px;
+}
+.dashboard-menu .header p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding-left: 69px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.dashboard-main-title {
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.dashboard-main-title .header {
+  height: 107px;
+}
+.dashboard-main-title .header p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+  padding-left: 42px;
+  color: #374957;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */

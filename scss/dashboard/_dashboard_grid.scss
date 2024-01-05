@@ -1,0 +1,31 @@
+.dashboard-container {
+    position: relative;
+    padding: 35px 0 112px 0;
+    background-color: $light_grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: $light_grey;
+        left: -50vw;
+        top: 0;
+        width: 200vw;
+        height: 100%;
+        z-index: -1;
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+        width: calc(20% - 24px);
+        margin-right: 24px;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}

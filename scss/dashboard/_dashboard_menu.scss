@@ -1,0 +1,22 @@
+.dashboard-menu {
+    background-color: $white;
+    margin-bottom: 112px;
+    .header {
+        background-color: $macma_orange;
+        height: 65px;
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100%;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            text-transform: uppercase;
+            padding-left: 69px;
+            color: $white;
+            margin: 0;
+        }
+    }
+}
