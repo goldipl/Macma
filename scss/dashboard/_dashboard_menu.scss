@@ -3,6 +3,9 @@
     margin-bottom: 112px;
     min-width: 260px;
     .header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
         background-color: $macma_orange;
         min-height: 65px;
         p {
@@ -123,6 +126,7 @@
     .dashboard-menu {
         margin-bottom: 24px;
         .header {
+            justify-content: center;
             p {
                 justify-content: center;
                 padding-left: 0;

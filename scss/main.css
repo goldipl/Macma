@@ -8255,6 +8255,9 @@ label.add-files:focus, label.add-files:hover {
   min-width: 260px;
 }
 .dashboard-menu .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   background-color: #F26521;
   min-height: 65px;
 }
@@ -8369,6 +8372,9 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 1260px) {
   .dashboard-menu {
     margin-bottom: 24px;
+  }
+  .dashboard-menu .header {
+    justify-content: center;
   }
   .dashboard-menu .header p {
     justify-content: center;
