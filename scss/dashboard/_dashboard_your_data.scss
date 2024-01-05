@@ -1,5 +1,6 @@
 .dashboard-wrapper {
     background-color: $white;
+    height: 100%;
     .title {
         display: flex;
         align-items: center;
@@ -62,6 +63,13 @@
             flex-direction: column;
             width: 31%;
             margin-right: 1%;
+            &.newsletter {
+                width: 100%;
+                input {
+                    width: 400px;
+                    margin-bottom: -8px;
+                }
+            }
             &:nth-of-type(3n) {
                 margin-right: 0;
             }
