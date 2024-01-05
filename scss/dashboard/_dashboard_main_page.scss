@@ -11,7 +11,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            height: 70px;
+            min-height: 70px;
             border-bottom: 1px solid $light_grey;
             p {
                 font-size: 18px;
@@ -96,7 +96,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            height: 70px;
+            min-height: 70px;
             border-bottom: 1px solid $light_grey;
             p {
                 font-size: 18px;
@@ -306,7 +306,7 @@
         &-box-large {
             margin-bottom: 16px;
             .title {
-                height: 40px;
+                min-height: 40px;
                 p {
                     font-size: 16px;
                     padding-left: 16px;
@@ -340,7 +340,7 @@
                 margin-bottom: 0;
             }
             .title {
-                height: 40px;
+                min-height: 40px;
                 p {
                     font-size: 16px;
                     padding-left: 16px;

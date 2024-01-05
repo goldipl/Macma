@@ -8256,7 +8256,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .dashboard-menu .header {
   background-color: #F26521;
-  height: 65px;
+  min-height: 65px;
 }
 .dashboard-menu .header p {
   display: flex;
@@ -8277,7 +8277,7 @@ label.add-files:focus, label.add-files:hover {
   align-items: center;
   justify-content: center;
   background-color: #FFFFFF;
-  height: 40px;
+  min-height: 40px;
   cursor: pointer;
   border: 1px solid #F26521;
 }
@@ -8386,7 +8386,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 860px) {
   .dashboard-menu .header {
-    height: 48px;
+    min-height: 48px;
   }
   .dashboard-menu .expand-menu p {
     font-size: 16px;
@@ -8411,7 +8411,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 70px;
+  min-height: 70px;
   border-bottom: 1px solid #F4F4F4;
 }
 .dashboard-main-box-large .title p {
@@ -8496,7 +8496,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 70px;
+  min-height: 70px;
   border-bottom: 1px solid #F4F4F4;
 }
 .dashboard-main-box .title p {
@@ -8696,7 +8696,7 @@ label.add-files:focus, label.add-files:hover {
     margin-bottom: 16px;
   }
   .dashboard-main-box-large .title {
-    height: 40px;
+    min-height: 40px;
   }
   .dashboard-main-box-large .title p {
     font-size: 16px;
@@ -8730,7 +8730,7 @@ label.add-files:focus, label.add-files:hover {
     margin-bottom: 0;
   }
   .dashboard-main-box .title {
-    height: 40px;
+    min-height: 40px;
   }
   .dashboard-main-box .title p {
     font-size: 16px;

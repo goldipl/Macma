@@ -4,7 +4,7 @@
     min-width: 260px;
     .header {
         background-color: $macma_orange;
-        height: 65px;
+        min-height: 65px;
         p {
             display: flex;
             align-items: center;
@@ -25,7 +25,7 @@
         align-items: center;
         justify-content: center;
         background-color: $white;
-        height: 40px;
+        min-height: 40px;
         cursor: pointer;
         border: 1px solid $macma_orange;
         p {
@@ -143,7 +143,7 @@
 @media (max-width: 860px) {
     .dashboard-menu {
         .header {
-            height: 48px;
+            min-height: 48px;
         }
         .expand-menu {
             p {
