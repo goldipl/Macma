@@ -6,14 +6,14 @@
         <p><img src="./assets/icons/common/grey-arrow-down.svg" alt="arrow down icon" width="12" height="8">Rozwiń menu<img src="./assets/icons/common/grey-arrow-down.svg" alt="arrow down icon" width="12" height="8"></p>
     </div>
     <div class="menu-links-container">
-        <div class="menu-links-box">
-            <a class="menu-link-big big-profile" href="#"><img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Profil</a>
+        <div class="menu-links-box big-profile">
+            <a class="menu-link-big" href="#"><img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Profil</a>
             <a class="menu-link" href="#">Twoje dane</a>
             <a class="menu-link" href="#">Newsletter</a>
             <a class="menu-link" href="#">Program Rozwoju</a>
         </div>
-        <div class="menu-links-box">
-            <a class="menu-link-big big-orders" href="#"><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Zamówienia</a>
+        <div class="menu-links-box big-orders">
+            <a class="menu-link-big" href="#"><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Zamówienia</a>
             <a class="menu-link" href="#">Zamówienia</a>
             <a class="menu-link" href="#">FV i listy przewozowe</a>
             <a class="menu-link" href="#">Adresy dostaw</a>
