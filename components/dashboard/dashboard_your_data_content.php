@@ -63,9 +63,9 @@
     </div>
     <div class="inputs-wrapper">
         <div class="inputs-wrapper__slot">
-            <label class="label-logo" for="logo">Logo<span class="orange">*</span></label>
+            <label class="label-logo" for="logo">Logo</label>
             <img class="your-logo" src="./assets/img/dashboard/logo-box.jpg" alt="Twoje logo" name="logo" id="logo" width="382" height="120"/>
-            <input type='file' onchange="readURL(this);" />
+            <input type='file' onchange="readURL(this);"/>
         </div>
     </div>
     <div class="button-box">
