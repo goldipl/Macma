@@ -1,0 +1,36 @@
+.dashboard-calculations {
+    table {
+        tr {
+            td {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                .info-desc {
+                    p {
+                        margin: 0;
+                    }
+                    .desc {
+                        font-size: 9px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%;
+                        margin: 5px 0 5px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .dashboard-calculations table tr th, 
+    .dashboard-calculations table tr td {
+        white-space: inherit;
+        white-space: pre;
+        &:nth-of-type(2) {
+            white-space: inherit;
+            p {
+                white-space: pre;
+            }
+        }
+    }
+}

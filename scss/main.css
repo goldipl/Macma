@@ -9818,4 +9818,35 @@ label.add-files:focus, label.add-files:hover {
 }
 .dashboard-table td a {
   display: flex;
+}
+
+.dashboard-calculations table tr td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.dashboard-calculations table tr td .info-desc p {
+  margin: 0;
+}
+.dashboard-calculations table tr td .info-desc .desc {
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 5px 0 5px 0;
+}
+
+@media (max-width: 1200px) {
+  .dashboard-calculations table tr th,
+  .dashboard-calculations table tr td {
+    white-space: inherit;
+    white-space: pre;
+  }
+  .dashboard-calculations table tr th:nth-of-type(2),
+  .dashboard-calculations table tr td:nth-of-type(2) {
+    white-space: inherit;
+  }
+  .dashboard-calculations table tr th:nth-of-type(2) p,
+  .dashboard-calculations table tr td:nth-of-type(2) p {
+    white-space: pre;
+  }
 }/*# sourceMappingURL=main.css.map */
