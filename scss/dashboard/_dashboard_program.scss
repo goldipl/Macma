@@ -1,0 +1,193 @@
+.dashboard-wrapper {
+    .dashboard-program {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%;
+            margin: 14px 0 18px 0;
+            color: $macma_orange;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            color: $text_color;
+            margin: 16px 0 8px 0;
+            span {
+                color: $macma_orange;
+            }
+        }
+    }
+    .progress-box {
+        padding: 4px;
+        border: 1px solid $dashboard_grey;
+        box-sizing: border-box;
+        width: 505px;
+        height: 36px;
+        margin: 0 auto;
+        .progress {
+            border-radius: 0;
+            --bs-progress-bg: #F4F4F4;
+            height: 26px;
+            .progress-bar {
+                background-color: $macma_orange;
+            }
+        }
+    }
+    .program-benefits-box {
+        display: flex;
+        flex-direction: row;
+        padding: 50px 78px;
+        &__left {
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+            margin-right: 5%;
+            .benefit-row-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: $light_grey;
+                border: 1px solid $grey8;
+                margin: 0 0 10px 0;
+                padding: 0 27px;
+                min-height: 50px;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+                &__left {
+                    width: 80%;
+                    p {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%;
+                        color: $small_text_color;
+                        margin: 0;
+                        &.desc {
+                            font-size: 8px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 100%;
+                            color: $dashboard_grey;
+                            margin: 0;
+                        }
+                    }
+                }
+                &__right {
+                    p {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 140%;
+                        color: $dashboard_green;
+                        margin: 0;
+                        white-space: pre;
+                        text-align: left;
+                        padding-left: 24px;
+                    }
+                }
+            }
+        }
+        &__right {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding: 15px 60px;
+            background-color: $light_grey;
+            border: 1px solid $grey8;
+            p {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+                color: $small_text_color;
+                margin: 0 0 24px 0;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                margin: 0 0 10px 0;
+            }
+            .download-leaflet-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 181px;
+                height: 35px;
+                border: 1px solid $small_text_color;
+                background-color: $white;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                color: $small_text_color;
+                text-decoration: none;
+                margin: 0 auto;
+                &:hover {
+                    border: 1px solid $macma_orange;
+                    color: $white;
+                    background-color: $macma_orange;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .dashboard-wrapper {
+        .dashboard-program {
+            h2 {
+                font-size: 30px;
+                margin: 10px 0 10px 0;
+            }
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+        .progress-box {
+            width: 90%;
+            margin: 0 auto 24px;
+        }
+        .program-benefits-box {
+            flex-direction: column;
+            padding: 16px;
+            &__left {
+                width: 100%;
+                margin-right: 0;
+                .benefit-row-box {
+                    &__right {
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            &__right {
+                padding: 16px;
+                margin-top: 24px;
+                width: 100%;
+                p {
+                    font-size: 14px;
+                    margin: 0 0 16px 0;
+                }
+                .download-leaflet-btn {
+                    font-size: 14px;
+                }
+                img {
+                    margin: 4px auto 24px;
+                }
+            }
+        }
+    }   
+}

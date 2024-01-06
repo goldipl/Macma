@@ -9004,4 +9004,185 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-wrapper .inputs-wrapper__slot .your-logo {
     max-width: 100%;
   }
+}
+.dashboard-wrapper .dashboard-program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-wrapper .dashboard-program h2 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 14px 0 18px 0;
+  color: #F26521;
+  text-transform: uppercase;
+}
+.dashboard-wrapper .dashboard-program p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 16px 0 8px 0;
+}
+.dashboard-wrapper .dashboard-program p span {
+  color: #F26521;
+}
+.dashboard-wrapper .progress-box {
+  padding: 4px;
+  border: 1px solid #8C8C8C;
+  box-sizing: border-box;
+  width: 505px;
+  height: 36px;
+  margin: 0 auto;
+}
+.dashboard-wrapper .progress-box .progress {
+  border-radius: 0;
+  --bs-progress-bg: #F4F4F4;
+  height: 26px;
+}
+.dashboard-wrapper .progress-box .progress .progress-bar {
+  background-color: #F26521;
+}
+.dashboard-wrapper .program-benefits-box {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 78px;
+}
+.dashboard-wrapper .program-benefits-box__left {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+.dashboard-wrapper .program-benefits-box__left .benefit-row-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F4F4;
+  border: 1px solid #DFDFDF;
+  margin: 0 0 10px 0;
+  padding: 0 27px;
+  min-height: 50px;
+}
+.dashboard-wrapper .program-benefits-box__left .benefit-row-box:last-of-type {
+  margin-bottom: 0;
+}
+.dashboard-wrapper .program-benefits-box__left .benefit-row-box__left {
+  width: 80%;
+}
+.dashboard-wrapper .program-benefits-box__left .benefit-row-box__left p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #4A6375;
+  margin: 0;
+}
+.dashboard-wrapper .program-benefits-box__left .benefit-row-box__left p.desc {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: #8C8C8C;
+  margin: 0;
+}
+.dashboard-wrapper .program-benefits-box__left .benefit-row-box__right p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: #54BF00;
+  margin: 0;
+  white-space: pre;
+  text-align: left;
+  padding-left: 24px;
+}
+.dashboard-wrapper .program-benefits-box__right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 15px 60px;
+  background-color: #F4F4F4;
+  border: 1px solid #DFDFDF;
+}
+.dashboard-wrapper .program-benefits-box__right p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: #4A6375;
+  margin: 0 0 24px 0;
+}
+.dashboard-wrapper .program-benefits-box__right img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+.dashboard-wrapper .program-benefits-box__right .download-leaflet-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+  height: 35px;
+  border: 1px solid #4A6375;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #4A6375;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.dashboard-wrapper .program-benefits-box__right .download-leaflet-btn:hover {
+  border: 1px solid #F26521;
+  color: #FFFFFF;
+  background-color: #F26521;
+}
+
+@media (max-width: 992px) {
+  .dashboard-wrapper .dashboard-program h2 {
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+  }
+  .dashboard-wrapper img {
+    max-width: 80%;
+    height: auto;
+  }
+  .dashboard-wrapper .progress-box {
+    width: 90%;
+    margin: 0 auto 24px;
+  }
+  .dashboard-wrapper .program-benefits-box {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .dashboard-wrapper .program-benefits-box__left {
+    width: 100%;
+    margin-right: 0;
+  }
+  .dashboard-wrapper .program-benefits-box__left .benefit-row-box__right p {
+    font-size: 14px;
+  }
+  .dashboard-wrapper .program-benefits-box__right {
+    padding: 16px;
+    margin-top: 24px;
+    width: 100%;
+  }
+  .dashboard-wrapper .program-benefits-box__right p {
+    font-size: 14px;
+    margin: 0 0 16px 0;
+  }
+  .dashboard-wrapper .program-benefits-box__right .download-leaflet-btn {
+    font-size: 14px;
+  }
+  .dashboard-wrapper .program-benefits-box__right img {
+    margin: 4px auto 24px;
+  }
 }/*# sourceMappingURL=main.css.map */
