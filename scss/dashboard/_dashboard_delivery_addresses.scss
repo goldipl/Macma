@@ -100,10 +100,6 @@
 
 @media (max-width: 1640px) {
     .dashboard-delivery-addresses {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 25px 40px;
         &__slot {
             display: flex;
             flex-direction: column;
