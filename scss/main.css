@@ -9313,4 +9313,89 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
     font-size: 14px;
   }
+}
+.dashboard-fv-delivery-letters {
+  padding: 20px 40px;
+}
+.dashboard-fv-delivery-letters table {
+  width: 100%;
+}
+.dashboard-fv-delivery-letters table tr {
+  border: 1px solid #DFDFDF;
+  background-color: #FFFFFF;
+  height: 50px;
+}
+.dashboard-fv-delivery-letters table tr:first-of-type {
+  border: 1px solid #F4F4F4;
+  background-color: #F4F4F4;
+}
+.dashboard-fv-delivery-letters table tr.spacer15 {
+  height: 15px;
+  border: 0;
+}
+.dashboard-fv-delivery-letters table tr.spacer10 {
+  height: 10px;
+  border: 0;
+}
+.dashboard-fv-delivery-letters table tr th {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  color: #374957;
+  margin: 0;
+  height: 50px;
+  min-width: 100px;
+  padding: 0 25px;
+}
+.dashboard-fv-delivery-letters table tr td {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  height: 50px;
+  min-width: 100px;
+  padding: 0 25px;
+}
+.dashboard-fv-delivery-letters table tr td.download-icon {
+  white-space: inherit;
+}
+.dashboard-fv-delivery-letters table tr td.status {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  color: #374957;
+}
+.dashboard-fv-delivery-letters table tr td.status.green {
+  color: #54BF00;
+}
+.dashboard-fv-delivery-letters table tr td.status.orange {
+  color: #FD4C00;
+}
+.dashboard-fv-delivery-letters table tr td.status.red {
+  color: #FD0000;
+}
+.dashboard-fv-delivery-letters table tr td.delivery-number {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+  color: #F26521;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .dashboard-fv-delivery-letters {
+    padding: 16px;
+    overflow-x: scroll;
+  }
+  .dashboard-fv-delivery-letters table tr th,
+  .dashboard-fv-delivery-letters table tr td {
+    white-space: pre;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */

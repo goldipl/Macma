@@ -1,0 +1,89 @@
+.dashboard-fv-delivery-letters {
+    padding: 20px 40px;
+    table {
+        width: 100%;
+        tr {
+            border: 1px solid $grey8;
+            background-color: $white;
+            height: 50px;
+            &:first-of-type {
+                border: 1px solid $light_grey;
+                background-color: $light_grey;
+            }
+            &.spacer15 {
+                height: 15px;
+                border: 0;
+            }
+            &.spacer10 {
+                height: 10px;
+                border: 0;
+            }
+            th {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                color: $text_color;
+                margin: 0;
+                height: 50px;
+                min-width: 100px;
+                padding: 0 25px;
+            }
+            td {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                height: 50px;
+                min-width: 100px;
+                padding: 0 25px;
+                &.download-icon {
+                    white-space: inherit;
+                }
+                &.status {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 0;
+                    color: $text_color;
+                    &.green {
+                        color: $dashboard_green;
+                    }
+                    &.orange {
+                        color: $dashboard_orange;
+                    }
+                    &.red {
+                        color: $dashboard_red;
+                    }
+                }
+                &.delivery-number {
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    margin: 0;
+                    color: $macma_orange;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .dashboard-fv-delivery-letters {
+        padding: 16px;
+        overflow-x: scroll;
+        table {
+            tr {
+                th,
+                td {
+                    white-space: pre;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
