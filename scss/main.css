@@ -9185,4 +9185,132 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-wrapper .program-benefits-box__right img {
     margin: 4px auto 24px;
   }
+}
+.dashboard-orders {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 40px;
+}
+.dashboard-orders__month p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  color: #374957;
+  margin: 0 0 15px 0;
+}
+.dashboard-orders__slot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 1px solid #DFDFDF;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.dashboard-orders__slot--left {
+  margin-right: 45px;
+}
+.dashboard-orders__slot--left img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 128px;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+}
+.dashboard-orders__slot--middle {
+  margin-right: 45px;
+}
+.dashboard-orders__slot--middle p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 0 0 8px 0;
+}
+.dashboard-orders__slot--middle p.product-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 11px 0;
+}
+.dashboard-orders__slot--right {
+  margin-top: 45px;
+}
+.dashboard-orders__slot--right p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 0 0 21px 0;
+}
+.dashboard-orders__slot--right p.status {
+  font-weight: 700;
+}
+.dashboard-orders__slot--right p span {
+  display: inline-flex;
+  margin-left: 8px;
+}
+.dashboard-orders__slot--right p span.send {
+  font-weight: 700;
+  color: #54BF00;
+}
+.dashboard-orders__slot--right p span.in-progress {
+  font-weight: 700;
+  color: #FD4C00;
+}
+.dashboard-orders__slot--right .dashboard-product-details-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 35px;
+  border: 1px solid #4A6375;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #4A6375;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.dashboard-orders__slot--right .dashboard-product-details-btn:hover {
+  border: 1px solid #F26521;
+  color: #FFFFFF;
+  background-color: #F26521;
+}
+
+@media (max-width: 992px) {
+  .dashboard-orders {
+    padding: 16px;
+  }
+  .dashboard-orders__month p {
+    font-size: 16px;
+  }
+  .dashboard-orders__slot {
+    flex-direction: column;
+    border: 1px solid #DFDFDF;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  .dashboard-orders__slot--left {
+    margin-right: 0;
+  }
+  .dashboard-orders__slot--middle {
+    margin-right: 0;
+  }
+  .dashboard-orders__slot--right {
+    margin-top: 16px;
+  }
+  .dashboard-orders__slot--right p {
+    font-size: 15px;
+  }
+  .dashboard-orders__slot--right .dashboard-product-details-btn {
+    width: 100%;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
