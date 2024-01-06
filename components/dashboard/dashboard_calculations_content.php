@@ -1,6 +1,6 @@
 <form class="dashboard-wrapper">
     <div class="title">
-        <p><img src="./assets/icons/dashboard/offerts.svg" alt="menu icon" width="20" height="20">Twój ofertownik</p>
+        <p><img src="./assets/icons/dashboard/offerts.svg" alt="menu icon" width="20" height="20">Twoje kalkulacje</p>
     </div>
     <div class="dashboard-calculations dashboard-table">
         <table>
