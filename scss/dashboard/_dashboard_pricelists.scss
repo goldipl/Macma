@@ -1,0 +1,15 @@
+.dashboard-pricelists {
+    table {
+        tr {
+            &:first-of-type {
+                background-color: $white;
+                border-color: $grey8;
+            }
+            td {
+                a {
+                    color: $text_color;
+                }
+            }
+        }
+    }
+}

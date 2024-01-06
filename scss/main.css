@@ -9849,4 +9849,11 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-calculations table tr td:nth-of-type(2) p {
     white-space: pre;
   }
+}
+.dashboard-pricelists table tr:first-of-type {
+  background-color: #FFFFFF;
+  border-color: #DFDFDF;
+}
+.dashboard-pricelists table tr td a {
+  color: #374957;
 }/*# sourceMappingURL=main.css.map */
