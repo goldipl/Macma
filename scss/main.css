@@ -9816,6 +9816,7 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0;
   }
 }
-.dashboard-commercial-offers td a {
+.dashboard-commercial-offers td a,
+.dashboard-your-offers td a {
   display: flex;
 }/*# sourceMappingURL=main.css.map */
