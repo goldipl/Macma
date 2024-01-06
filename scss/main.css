@@ -9398,4 +9398,163 @@ label.add-files:focus, label.add-files:hover {
     white-space: pre;
     font-size: 14px;
   }
+}
+.dashboard-delivery-addresses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 25px 40px;
+}
+.dashboard-delivery-addresses__slot {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 20px 0;
+  border: 1px solid #DFDFDF;
+  background-color: #FFFFFF;
+  min-width: 270px;
+  width: calc(25% - 20px);
+  margin-right: 20px;
+  min-height: 272px;
+}
+.dashboard-delivery-addresses__slot:nth-of-type(4n) {
+  margin-right: 0;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content {
+  padding: 25px 25px 10px 25px;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0 0 7px 0;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 0 0 5px 0;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content .default-address {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 10px 0 0 0;
+  height: 20px;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content .default-address img {
+  margin-right: 14px;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content.add-address {
+  cursor: pointer;
+  padding: 0;
+  height: 100%;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box img {
+  margin-bottom: 12px;
+}
+.dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box span {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #F26521;
+  margin: 0;
+}
+.dashboard-delivery-addresses__slot .delivery-box-bottom {
+  border-top: 1px solid #DFDFDF;
+}
+.dashboard-delivery-addresses__slot .delivery-box-bottom .bottom-icons {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.dashboard-delivery-addresses__slot .delivery-box-bottom .bottom-icons .edit {
+  -o-object-fit: contain;
+     object-fit: contain;
+  text-decoration: none;
+}
+.dashboard-delivery-addresses__slot .delivery-box-bottom .bottom-icons .delete {
+  margin-left: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  text-decoration: none;
+  margin-right: 11px;
+}
+
+@media (max-width: 1640px) {
+  .dashboard-delivery-addresses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 40px;
+  }
+  .dashboard-delivery-addresses__slot {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 0;
+    border: 1px solid #DFDFDF;
+    background-color: #FFFFFF;
+    min-width: 270px;
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    min-height: 272px;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(4n) {
+    margin-right: 20px;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1348px) {
+  .dashboard-delivery-addresses__slot {
+    width: calc(50% - 20px);
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(4n) {
+    margin-right: 0;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(3n) {
+    margin-right: 20px;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 860px) {
+  .dashboard-delivery-addresses {
+    padding: 16px;
+  }
+  .dashboard-delivery-addresses__slot {
+    width: 100%;
+    margin-right: 0;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(4n) {
+    margin-right: 0;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .dashboard-delivery-addresses__slot:nth-of-type(2n) {
+    margin-right: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

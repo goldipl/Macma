@@ -1,0 +1,161 @@
+.dashboard-delivery-addresses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 40px;
+    &__slot {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 20px 0;
+        border: 1px solid $grey8;
+        background-color: $white;
+        min-width: 270px;
+        width: calc(25% - 20px);
+        margin-right: 20px;
+        min-height: 272px;
+        &:nth-of-type(4n) {
+            margin-right: 0;
+        }
+        .delivery-box-content {
+            padding: 25px 25px 10px 25px;
+            h4 {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                color: $text_color;
+                margin: 0 0 7px 0;
+            }
+            p {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                color: $text_color;
+                margin: 0 0 5px 0;
+            }
+            .default-address {
+                display: inline-flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                color: $text_color;
+                margin: 10px 0 0 0;
+                height: 20px;
+                img {
+                    margin-right: 14px;
+                }
+            }
+            &.add-address {
+                cursor: pointer;
+                padding: 0;
+                height: 100%;
+                .add-address-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    height: 100%;
+                    img {
+                        margin-bottom: 12px;
+                    }
+                    span {
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $macma_orange;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .delivery-box-bottom {
+            border-top: 1px solid $grey8;
+            .bottom-icons {
+                padding: 12px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                .edit {
+                    object-fit: contain;
+                    text-decoration: none;
+                }
+                .delete {
+                    margin-left: 15px;
+                    object-fit: contain;
+                    text-decoration: none;
+                    margin-right: 11px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1640px) {
+    .dashboard-delivery-addresses {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px 40px;
+        &__slot {
+            display: flex;
+            flex-direction: column;
+            margin: 0 20px 20px 0;
+            border: 1px solid $grey8;
+            background-color: $white;
+            min-width: 270px;
+            width: calc(25% - 20px);
+            margin-right: 20px;
+            min-height: 272px;
+            &:nth-of-type(4n) {
+                margin-right: 20px;
+            }
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+        }
+    }  
+}
+
+@media (max-width: 1348px) {
+    .dashboard-delivery-addresses {
+        &__slot {
+            width: calc(50% - 20px);
+            &:nth-of-type(4n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(3n) {
+                margin-right: 20px;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+        }
+    }  
+}
+
+@media (max-width: 860px) {
+    .dashboard-delivery-addresses {
+        padding: 16px;
+        &__slot {
+            width: 100%;
+            margin-right: 0;
+            &:nth-of-type(4n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+        }
+    }  
+}
