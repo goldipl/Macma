@@ -2,7 +2,7 @@
     <div class="title">
         <p><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Twoje Faktury i LISTY PRZEWOZOWE</p>
     </div>
-    <div class="dashboard-fv-delivery-letters">
+    <div class="dashboard-table dashboard-fv-delivery-letters">
         <table>
             <tbody>
                 <tr>

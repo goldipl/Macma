@@ -1,4 +1,4 @@
-.dashboard-fv-delivery-letters {
+.dashboard-table {
     padding: 20px 40px;
     table {
         width: 100%;
@@ -37,6 +37,9 @@
                 height: 50px;
                 min-width: 100px;
                 padding: 0 25px;
+                a {
+                    text-decoration: none;
+                }
                 &.download-icon {
                     white-space: inherit;
                 }
@@ -73,7 +76,7 @@
 }
 
 @media (max-width: 1200px) {
-    .dashboard-fv-delivery-letters {
+    .dashboard-table {
         padding: 16px;
         overflow-x: scroll;
         table {
