@@ -1,6 +1,6 @@
 <div class="offertspage_container step_two">
     <div class="container">
-        <h1>Znakowanie</h1>
+        <h1>Ofertownik</h1>
         <div class="offertspage-table_full_box d-flex flex-row">
             <div class="offertspage-table_box d-flex flex-column">
                 <div class="offertspage-step-table-container">
