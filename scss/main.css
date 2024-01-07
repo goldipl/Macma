@@ -10078,6 +10078,15 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container {
   background-color: #F4F4F4;
 }
+.offertspage_container h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  padding: 42px 0 50px 0;
+  margin: 0;
+}
 .offertspage_container .top-title-box {
   display: flex;
   flex-direction: row;
@@ -10410,6 +10419,10 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1260px) {
+  .offertspage_container h1 {
+    font-size: 24px;
+    padding: 24px 0 24px 0;
+  }
   .offertspage_container .offertspage-table_full_box {
     position: relative;
     flex-direction: column !important;
