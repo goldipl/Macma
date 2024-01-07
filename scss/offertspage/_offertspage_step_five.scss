@@ -1,7 +1,7 @@
-.cart_container.step_five {
-    .cart-table_box {
+.offertspage_container.step_five {
+    .offertspage-table_box {
         width: 100%;
-        .cart-final-container {
+        .offertspage-final-container {
             display: flex;
             flex-wrap: wrap;
             &__col {
@@ -240,7 +240,7 @@
                 }
             }
         }
-        .bottom-cart-box-with-btn {
+        .bottom-offertspage-box-with-btn {
             margin-right: 0;
             margin-bottom: 15px;
         }
@@ -248,10 +248,10 @@
 }
 
 @media (max-width: 1260px) {
-    .cart_container.step_five {
-        .cart-table_box {
-            .bottom-cart-box-with-btn {
-                .bottom-cart-button {
+    .offertspage_container.step_five {
+        .offertspage-table_box {
+            .bottom-offertspage-box-with-btn {
+                .bottom-offertspage-button {
                     position: relative;
                 }
             }
@@ -260,9 +260,9 @@
 }
 
 @media (max-width: 991px) {
-    .cart_container.step_five {
-        .cart-table_box {
-            .cart-final-container {
+    .offertspage_container.step_five {
+        .offertspage-table_box {
+            .offertspage-final-container {
                 &__col {
                     width: 100%;
                     .title {

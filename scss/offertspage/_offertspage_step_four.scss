@@ -1,7 +1,7 @@
-.cart_container.step_four {
-    .cart-table_box {
+.offertspage_container.step_four {
+    .offertspage-table_box {
         width: 100%;
-        .cart-your-data-container {
+        .offertspage-your-data-container {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
@@ -123,7 +123,7 @@
                 }
             }
         }
-        .bottom-cart-box-with-btn {
+        .bottom-offertspage-box-with-btn {
             margin-right: 0;
             margin-bottom: 15px;
         }
@@ -131,9 +131,9 @@
 }
 
 @media (max-width: 1260px) {
-    .cart_container.step_four {
-        .cart-table_box {
-            .cart-your-data-container {
+    .offertspage_container.step_four {
+        .offertspage-table_box {
+            .offertspage-your-data-container {
                 margin-bottom: 40px;
                 &__col {
                     width: calc(50% - 26px);
@@ -147,7 +147,7 @@
                     }
                 }
             }
-            .bottom-cart-box-with-btn {
+            .bottom-offertspage-box-with-btn {
                 margin-bottom: 40px;
                 .next,
                 .prev {
@@ -159,9 +159,9 @@
 }
 
 @media (max-width: 860px) {
-    .cart_container.step_four {
-        .cart-table_box {
-            .cart-your-data-container {
+    .offertspage_container.step_four {
+        .offertspage-table_box {
+            .offertspage-your-data-container {
                 &__col {
                     width: 100%;
                     margin-right: 0;
@@ -184,7 +184,7 @@
                     }
                 }
             }
-            .bottom-cart-box-with-btn {
+            .bottom-offertspage-box-with-btn {
                 margin-bottom: 40px;
                 .next,
                 .prev {

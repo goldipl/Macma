@@ -1,5 +1,4 @@
-.cart_container,
-.calculator_container {
+.offertspage_container {
     background-color: $light_grey;
     h1 {
         font-size: 40px;
@@ -10,9 +9,9 @@
         padding: 42px 0 50px 0;
         margin: 0;
     }
-    .cart-table_box {
+    .offertspage-table_box {
         width: 80%;
-        .cart-products-table {
+        .offertspage-products-table {
             border-collapse: collapse;
             border: 1px solid $light_grey;
             width: calc(100% - 30px);
@@ -106,13 +105,13 @@
                 }
             }
         }
-        .bottom-cart-box-with-btn {
+        .bottom-offertspage-box-with-btn {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
             justify-content: space-between;
             margin-right: 30px;
-            .bottom-cart-box {
+            .bottom-offertspage-box {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -172,7 +171,7 @@
                     }
                 }
             }
-            .bottom-cart-button {
+            .bottom-offertspage-button {
                 .next {
                     margin: 19px 0 0 0;
                 }
@@ -279,21 +278,21 @@
 }
 
 @media (max-width: 1260px) {
-    .cart_container {
+    .offertspage_container {
         h1 {
             font-size: 24px;
             padding: 24px 0 24px 0;
         }
-        .cart-table_full_box {
+        .offertspage-table_full_box {
             position: relative;
             flex-direction: column !important;
         }
-        .cart-step-table-container {
+        .offertspage-step-table-container {
             overflow-x: scroll;
         }
-        .cart-table_box {
+        .offertspage-table_box {
             width: 100%;
-            .cart-products-table {
+            .offertspage-products-table {
                 width: 100%;
                 margin-right: 0;
                 tbody {
@@ -338,10 +337,10 @@
                     }
                 }
             }
-            .bottom-cart-box-with-btn {
+            .bottom-offertspage-box-with-btn {
                 flex-direction: column;
                 margin-right: 0;
-                .bottom-cart-box {
+                .bottom-offertspage-box {
                     flex-direction: column;
                     align-items: flex-start;
                     width: 100%;
@@ -363,7 +362,7 @@
                         }
                     }
                 }
-                .bottom-cart-button {
+                .bottom-offertspage-button {
                     position: absolute;
                     left: 0;
                     bottom: 0;
