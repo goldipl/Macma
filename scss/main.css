@@ -10078,13 +10078,78 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container {
   background-color: #F4F4F4;
 }
-.offertspage_container h1 {
+.offertspage_container .top-title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.offertspage_container .top-title-box__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(80% - 30px);
+  margin-right: 30px;
+}
+.offertspage_container .top-title-box__left h1 {
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
   padding: 42px 0 50px 0;
+  margin: 0;
+}
+.offertspage_container .top-title-box__left .exclamation-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 394px;
+  height: 75px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding-right: 25px;
+}
+.offertspage_container .top-title-box__left .exclamation-box img {
+  margin-right: 20px;
+  margin-left: 25px;
+}
+.offertspage_container .top-title-box__left .exclamation-box span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0;
+}
+.offertspage_container .top-title-box__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20%;
+}
+.offertspage_container .top-title-box__right .help-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 109px;
+  height: 32px;
+  background-color: #FFFFFF;
+}
+.offertspage_container .top-title-box__right .help-box img {
+  margin-right: 8px;
+}
+.offertspage_container .top-title-box__right .help-box span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #374957;
   margin: 0;
 }
 .offertspage_container .offertspage-table_box {
@@ -10345,10 +10410,6 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1260px) {
-  .offertspage_container h1 {
-    font-size: 24px;
-    padding: 24px 0 24px 0;
-  }
   .offertspage_container .offertspage-table_full_box {
     position: relative;
     flex-direction: column !important;
@@ -10471,6 +10532,24 @@ label.add-files:focus, label.add-files:hover {
   .offertspage_container .sumary_box--brutto .brutto-text {
     font-size: 13px;
     line-height: 140%;
+  }
+}
+@media (max-width: 992px) {
+  .offertspage_container .top-title-box {
+    flex-direction: column;
+  }
+  .offertspage_container .top-title-box__left {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+  }
+  .offertspage_container .top-title-box__left h1 {
+    font-size: 24px;
+    padding: 24px 0 24px 0;
+  }
+  .offertspage_container .top-title-box__right .help-box {
+    padding: 0 16px;
+    margin: 16px 0;
   }
 }
 .offertspage_container.step_two .offertspage-products-table tr td {

@@ -1,6 +1,20 @@
 <div class="offertspage_container step_one">
     <div class="container">
-        <h1>Produkty</h1>
+        <div class="top-title-box">
+            <div class="top-title-box__left">
+                <h1>Ofertownik</h1>
+                <div class="exclamation-box">
+                    <img src="./assets/icons/offertspage/exclamation-octagon-fill.svg" alt="exclamation icon" width="24" height="24">
+                    <span>W ofertowniku może znajdować się max. 30 produktów</span>
+                </div>
+            </div>
+            <div class="top-title-box__right">
+                <a href="#" class="help-box">
+                    <img src="./assets/icons/offertspage/question-octagon.svg" alt="question icon" width="14" height="14">
+                    <span>Pomoc</span>
+                </a>
+            </div>
+        </div>
         <div class="offertspage-table_full_box d-flex flex-row">
             <div class="offertspage-table_box d-flex flex-column">
                 <div class="offertspage-step-table-container">
