@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MACMA - Koszyk - Znakowanie</title>
+        <title>MACMA - Ofertownik - Produkty</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -16,29 +16,32 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="progress common-progress-bar">
-                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress offertspage-progress-bar">
+                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 16.6%" aria-valuenow="16.6" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="common-steps-container">
+            <div class="offertspage-steps-container">
                 <div class="container">
-                    <div class="common-steps-container-slot">
-                        <p>1. Produkty</p>
+                    <div class="offertspage-steps-container-slot">
+                        <p class="active">1. Produkty</p>
                     </div>
-                    <div class="common-steps-container-slot">
-                        <p class="active">2. Znakowanie</p>
+                    <div class="offertspage-steps-container-slot">
+                        <p>2. Znakowanie</p>
                     </div>
-                    <div class="common-steps-container-slot">
-                        <p>3. Wysyłka</p>
+                    <div class="offertspage-steps-container-slot">
+                        <p>3. Ustal ceny</p>
                     </div>
-                    <div class="common-steps-container-slot">
-                        <p>4. Twoje dane</p>
+                    <div class="offertspage-steps-container-slot">
+                        <p>4. Ustal opisy</p>
                     </div>
-                    <div class="common-steps-container-slot">
-                        <p>5. Finalizacja</p>
+                    <div class="offertspage-steps-container-slot">
+                        <p>5. Szczegóły oferty</p>
+                    </div>
+                    <div class="offertspage-steps-container-slot">
+                        <p>6. Podusmowanie</p>
                     </div>
                 </div>
             </div>
-            <?php include "./components/cart/cart_step_two_content.php"; ?> 
+            <?php include "./components/offertspage/offertspage_step_one_content.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

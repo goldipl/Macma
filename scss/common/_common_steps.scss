@@ -1,4 +1,4 @@
-.cart-steps-container {
+.common-steps-container {
     width: 100vw;
     height: 60px;
     border-bottom: 1px solid $grey6;
@@ -8,7 +8,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        .cart-steps-container-slot {
+        .common-steps-container-slot {
             display: inline-flex;
             align-items: center;
             height: 60px;
@@ -29,13 +29,13 @@
 }
 
 @media (max-width: 991px) {
-    .cart-steps-container {
+    .common-steps-container {
         height: auto;
         padding: 10px 0;
         .container {
             flex-direction: column;
             justify-content: center;
-            .cart-steps-container-slot {
+            .common-steps-container-slot {
                 height: 32px;
                 p {
                     font-size: 15px;

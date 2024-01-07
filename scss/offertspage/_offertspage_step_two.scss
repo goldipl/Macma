@@ -1,0 +1,413 @@
+.cart_container.step_two {
+    .cart-products-table {
+        tr {
+            td {
+                padding: 0 !important;
+                &:first-of-type {
+                    width: 40px !important;
+                    min-width: 40px !important;
+                }
+                .cart-branding-product-box {
+                    margin-bottom: 6px;
+                    &__top {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 24px 44px;
+                        border-bottom: 1px solid $light_grey;
+                        &__left {
+                            .title {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 120%;
+                                text-transform: uppercase;
+                                color: $text_color;
+                                margin: 0;
+                                text-align: left;
+                                text-decoration: none;
+                            }
+                            .code {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                margin: 0;
+                                color: $grey5;
+                                text-align: left;
+                                span {
+                                    color: $text_color;
+                                }
+                            }
+                        }
+                        &__right {
+                            display: flex;
+                            label {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 177.023%;
+                                margin: 0;
+                                color: $text_color;
+                                padding-left: 0;
+                                padding-right: 50px;
+                                .custom-checkbox-checkmark {
+                                    top: -2px;
+                                    left: unset;
+                                    right: 0;
+                                    width: 35px;
+                                    height: 35px;
+                                    &::after {
+                                        left: 12px;
+                                        top: 6px;
+                                        width: 9px;
+                                        height: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &__middle {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        border-bottom: 1px solid $light_grey;
+                        padding: 15px 30px;
+                        &__img {
+                            margin-right: 40px;
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+                        &__branding {
+                            width: 68%;
+                            .branding-radios-types {
+                                display: flex;
+                                flex-direction: row;
+                                height: 30px;
+                                margin-bottom: 16px;
+                                label {
+                                    white-space: pre;
+                                    text-align: left;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 160%;
+                                    color: $text_color;
+                                }
+                                .custom-radio-checkmark {
+                                    top: 5px;
+                                }
+                            }
+                            .branding-select-types {
+                                display: flex;
+                                flex-direction: column;
+                                &.hide {
+                                    display: none;
+                                }
+                                &__row {
+                                    display: flex;
+                                    flex-direction: row;
+                                    &:first-of-type {
+                                        .types-col {
+                                            p {
+                                                margin-bottom: 6px;
+                                            }
+                                        }
+                                    }
+                                    .types-col {
+                                        min-width: 180px;
+                                        &.select {
+                                            min-width: 220px;
+                                            margin-right: 22px;
+                                        }
+                                        &.select-name {
+                                            min-width: 262px;
+                                        }
+                                        p {
+                                            font-size: 18px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 177.023%;
+                                            color: $grey5;
+                                            margin: 0;
+                                            text-align: left;
+                                            margin-bottom: 16px;
+                                        }
+                                        select {
+                                            display: flex;
+                                            align-items: center;
+                                            width: 238px;
+                                            height: 35px;
+                                            box-sizing: border-box;
+                                            background-color: $light_grey;
+                                            padding: 0 17px;
+                                            margin-bottom: 16px;
+                                            text-align: left;
+                                            border: 0;
+                                            outline: 0;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &__files {
+                            .title {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                color: $text_color;
+                                margin: 16px 0 7px 0;
+                                text-align: center;
+                            }
+                            .desc-info {
+                                font-size: 8px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                color: $grey7;
+                                margin: 0 0 10px 0;
+                                text-align: center;
+                            }
+                            .desc-info-logo {
+                                font-size: 8px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                color: $grey7;
+                                margin: 6px 0 4px 0;
+                                text-align: left; 
+                            }
+                            .upload-files-box {
+                                background-color: $light_grey;
+                                border: 1px dashed $macma_orange;
+                                padding: 7px 0 0 0;
+                                width: 242px;
+                                height: auto;
+                                cursor: pointer;
+                                img {
+                                    object-fit: contain;
+                                }
+                                p {
+                                    font-size: 10px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    margin: 0;
+                                    color: $grey_main;
+                                }
+                                .file-block {
+                                    font-size: 10px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    margin: 0 0 0 16px;
+                                    width: 100%;
+                                    background-color: unset;
+                                }
+                            }
+                            .error-info {
+                                font-size: 8px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                margin: 4px 0 0 0;
+                                color: $red;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    &__bottom {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-around;
+                        padding: 10px 0;
+                        &--col {
+                            display: flex;
+                            flex-direction: column;
+                            .title {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 120%;
+                                color: $text_color;
+                                margin: 0;
+                            }
+                            .price {
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                color: $text_color;
+                                margin: 0 0 6px 0;
+                                &.orange {
+                                    color: $macma_orange;
+                                }
+                            }
+                            .price-info {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 160%;
+                                color: $grey5;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom-cart-box-with-btn {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1640px) {
+    .cart_container.step_two {
+        .cart-table_full_box {
+            flex-direction: column !important;
+            .cart-table_box {
+                width: 100%;
+            }
+            .sumary_box {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .cart_container.step_two {
+        .cart-table_full_box {
+            .sumary_box {
+                margin: 0 0 80px 0;
+            }
+            .cart-products-table {
+                tr {
+                    td {
+                        padding: 0 !important;
+                        &:first-of-type {
+                            width: 35px;
+                            min-width: 35px;
+                        }
+                        .cart-branding-product-box {
+                            margin-bottom: 6px;
+                            &__top {
+                                padding: 16px;
+                                &__left {
+                                    .title {
+                                        font-size: 16px;
+                                    }
+                                    .code {
+                                        font-size: 11px;
+                                    }
+                                }
+                                &__right {
+                                    label {
+                                        font-size: 14px;
+                                        line-height: 140%;
+                                        padding-right: 30px;
+                                        .custom-checkbox-checkmark {
+                                            top: 0;
+                                            width: 20px;
+                                            height: 20px;
+                                            &::after {
+                                                left: 7px;
+                                                top: 3px;
+                                                width: 6px;
+                                                height: 12px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &__middle {
+                                padding: 15px;
+                                &__img {
+                                    margin-right: 20px;
+                                }
+                                &__branding {
+                                    width: 68%;
+                                    .branding-radios-types {
+                                        height: 28px;
+                                        margin-bottom: 10px;
+                                        label {
+                                            font-size: 14px;
+                                            line-height: 140%;
+                                        }
+                                        .custom-radio-checkmark {
+                                            top: 1px;
+                                        }
+                                    }
+                                    .branding-select-types {
+                                        &__row {
+                                            .types-col {
+                                                min-width: 180px;
+                                                &.select {
+                                                    min-width: 220px;
+                                                    margin-right: 22px;
+                                                }
+                                                &.select-name {
+                                                    min-width: 262px;
+                                                }
+                                                p {
+                                                    font-size: 14px;
+                                                    line-height: 140%;
+                                                }
+                                                select {
+                                                    font-size: 14px;
+                                                    line-height: 140%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &__files {
+                                    .title {
+                                        font-size: 15px;
+                                        line-height: 140%;
+                                        margin: 10px 0 5px 0;
+                                    }
+                                    .upload-files-box {
+                                        background-color: $light_grey;
+                                        border: 1px dashed $macma_orange;
+                                        padding: 7px 0 0 0;
+                                        width: 200px;
+                                        height: auto;
+                                        cursor: pointer;
+                                        img {
+                                            object-fit: contain;
+                                        }
+                                        p {
+                                            margin: 6px 0 0 0;
+                                        }
+                                        .file-block {
+                                            margin: 10px 0 0 16px;
+                                        }
+                                    }
+                                }
+                            }
+                            &__bottom {
+                                &--col {
+                                    .title {
+                                        font-size: 15px;
+                                    }
+                                    .price {
+                                        font-size: 17px;
+                                    }
+                                    .price-info {
+                                        line-height: 140%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

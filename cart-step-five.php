@@ -16,24 +16,24 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="progress cart-progress-bar">
+            <div class="progress common-progress-bar">
                 <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="cart-steps-container">
+            <div class="common-steps-container">
                 <div class="container">
-                    <div class="cart-steps-container-slot">
+                    <div class="common-steps-container-slot">
                         <p>1. Produkty</p>
                     </div>
-                    <div class="cart-steps-container-slot">
+                    <div class="common-steps-container-slot">
                         <p>2. Znakowanie</p>
                     </div>
-                    <div class="cart-steps-container-slot">
+                    <div class="common-steps-container-slot">
                         <p>3. Wysyłka</p>
                     </div>
-                    <div class="cart-steps-container-slot">
+                    <div class="common-steps-container-slot">
                         <p>4. Twoje dane</p>
                     </div>
-                    <div class="cart-steps-container-slot">
+                    <div class="common-steps-container-slot">
                         <p class="active">5. Finalizacja</p>
                     </div>
                 </div>

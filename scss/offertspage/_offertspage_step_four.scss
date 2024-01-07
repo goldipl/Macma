@@ -1,0 +1,196 @@
+.cart_container.step_four {
+    .cart-table_box {
+        width: 100%;
+        .cart-your-data-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            &__col {
+                display: flex;
+                flex-direction: column;
+                background-color: $white;
+                width: calc(33.3% - 26px);
+                margin-right: 26px;
+                margin-bottom: 26px;
+                &:nth-of-type(3) {
+                    width: 33.3%;
+                    margin-right: 0;
+                }
+                .title {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    height: 70px;
+                    border-bottom: 1px solid $light_grey;
+                    padding: 0 43px;
+                    p {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 120%;
+                        text-transform: uppercase;
+                        color: $text_color;
+                        margin: 0;
+                    }
+                    &.email {
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        .subtitle {
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 120%;
+                            color: $grey5;
+                            text-transform: unset;
+                        }
+                    }
+                    &.send-address {
+                        display: flex;
+                        flex-direction: column;
+                        height: 155px;
+                        .title-top {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 100%;
+                            margin-top: 22px;
+                        }
+                        .title-bottom {
+                            width: 100%;
+                            label {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 120%;
+                                color: $text_color;
+                                margin: 17px 0 0 0;
+                            }
+                            select {
+                                margin: 0 0 16px 0;
+                                width: 100%;
+                                height: 40px;
+                                padding: 0 20px;
+                            }
+                        }
+                        p {
+                            white-space: pre;
+                        }
+                        label {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 120%;
+                            color: $text_color;
+                            margin: 0 0 0 10px;
+                            padding: 0 35px 0 0;
+                            text-align: right;
+                            .custom-checkbox-checkmark {
+                                top: -2px;
+                                left: unset;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+                .inputs-container {
+                    padding: 15px 43px;
+                    .input-slot {
+                        display: flex;
+                        flex-direction: column;
+                        label {
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 177.023%;
+                            color: $text_color;
+                            margin: 0;
+                        }
+                        input,
+                        select {
+                            margin: 0 0 16px 0;
+                            width: 100%;
+                            height: 40px;
+                            padding: 0 20px;
+                        }
+                        textarea {
+                            margin: 0 0 16px 0;
+                            width: 100%;
+                            height: 380px;
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-cart-box-with-btn {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .cart_container.step_four {
+        .cart-table_box {
+            .cart-your-data-container {
+                margin-bottom: 40px;
+                &__col {
+                    width: calc(50% - 26px);
+                    margin-right: 26px;
+                    &:nth-of-type(2) {
+                        margin-right: 26px;
+                    }
+                    &:nth-of-type(3) {
+                        width: calc(50% - 26px);
+                        margin-right: 0;
+                    }
+                }
+            }
+            .bottom-cart-box-with-btn {
+                margin-bottom: 40px;
+                .next,
+                .prev {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .cart_container.step_four {
+        .cart-table_box {
+            .cart-your-data-container {
+                &__col {
+                    width: 100%;
+                    margin-right: 0;
+                    &:nth-of-type(2) {
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(3) {
+                        width: 100%;
+                    }
+                    .title {
+                        padding: 0 16px;
+                    }
+                    .inputs-container {
+                        padding: 16px;
+                    }
+                    label,
+                    input,
+                    select {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+            .bottom-cart-box-with-btn {
+                margin-bottom: 40px;
+                .next,
+                .prev {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}
