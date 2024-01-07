@@ -88,7 +88,7 @@
 }
 
 @media (max-width: 1640px) {
-    .dashboard-catalogs {
+    .dashboard-img-boxes {
         &__slot {
             display: flex;
             flex-direction: column;
@@ -110,7 +110,7 @@
 }
 
 @media (max-width: 1348px) {
-    .dashboard-catalogs {
+    .dashboard-img-boxes {
         &__slot {
             width: calc(50% - 20px);
             &:nth-of-type(4n) {
@@ -127,7 +127,7 @@
 }
 
 @media (max-width: 860px) {
-    .dashboard-catalogs {
+    .dashboard-img-boxes {
         padding: 16px;
         &__slot {
             width: 100%;
