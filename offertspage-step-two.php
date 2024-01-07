@@ -17,7 +17,7 @@
         </header>
         <main id="main-wrapper">
             <div class="progress common-progress-bar">
-                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 16.6%" aria-valuenow="16.6" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 33.2%" aria-valuenow="33.2" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="common-steps-container">
                 <div class="container">
