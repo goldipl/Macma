@@ -1,447 +1,493 @@
 .offertspage_container.step_three {
-    .offertspage-table_box {
+    background-color: $light_grey;
+    h1 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        text-transform: uppercase;
+        padding: 42px 0 50px 0;
+        margin: 0;
+    }
+    .top-title-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         width: 100%;
-        position: relative;
-        .bottom-offertspage-box-with-btn {
-            width: 80%;
-            border-right: 27px solid $light_grey;
-            .next {
-                position: absolute;
-                bottom: 410px;
-                left: calc(80% - 121px);
+        &__left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: calc(80% - 30px);
+            margin-right: 30px;
+            h1 {
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+                text-transform: uppercase;
+                padding: 42px 0 50px 0;
                 margin: 0;
             }
-            .prev {
-                margin: 0 0 320px 0;
+        }
+        &__right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            width: 20%;
+            .help-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                width: 109px;
+                height: 32px;
+                background-color: $white;
+                img {
+                    margin-right: 8px;
+                }
+                span {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                    color: $text_color;
+                    margin: 0;
+                }
             }
         }
     }
-    .offertspage-products-table {
-        tr {
-            border-bottom: 18px solid $light_grey;
-            &:last-of-type {
-                background-color: $light_grey;
-            }
-            td {
-                padding: 0 !important;
-                &:first-of-type {
-                    width: 40px !important;
-                    min-width: 40px !important;
-                }
-                &.send-info-td {
-                    width: 290px;
-                    border-left: 27px solid $light_grey;
-                    .offertspage-delivery-time-box {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: flex-start;
-                        margin-top: -52px;
-                        &--title {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            width: 100%;
-                            height: 70px;
-                            border-bottom: 1px solid $light_grey;
-                            p {
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 600;
-                                line-height: 120%;
-                                text-transform: uppercase;
-                                text-align: center;
-                                margin: 0;
-                            }
-                        }
-                        &--info {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            padding: 40px 0;
-                            p {
-                                font-size: 20px;
-                                font-style: normal;
-                                font-weight: 600;
-                                line-height: 120%;
-                                text-transform: uppercase;
-                                color: $macma_orange;
-                                margin: 0;
-                            }
-                        }
+    .offertspage-table_box {
+        width: 80%;
+        .offertspage-products-table {
+            border-collapse: collapse;
+            border: 1px solid $light_grey;
+            width: calc(100% - 30px);
+            margin-right: 30px;
+            tbody {
+                background-color: $white;
+                tr {
+                    th {
+                        border-collapse: collapse;
+                        border: 1px solid $light_grey;
+                        border-bottom: 3px solid $light_grey;
+                        min-height: 70px;
+                        height: auto;
+                        width: auto;
+                        text-align: center;
+                        padding: 12px;
                     }
-                }
-                .offertspage-delivery-product-box {
-                    width: 100%;
-                    margin-bottom: 6px;
-                    &__top {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        align-items: center;
-                        padding: 24px 44px;
-                        border-bottom: 1px solid $light_grey;
-                        &__left {
-                            .title {
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 600;
-                                line-height: 120%;
-                                text-transform: uppercase;
-                                color: $text_color;
-                                margin: 0;
-                                text-align: left;
-                                text-decoration: none;
-                            }
-                            .code {
-                                font-size: 12px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: 177.023%;
-                                margin: 0;
-                                color: $grey5;
-                                text-align: left;
-                                span {
+                    td {
+                        border-collapse: collapse;
+                        border: 1px solid $light_grey;
+                        border-bottom: 3px solid $light_grey;
+                        height: auto;
+                        width: auto;
+                        text-align: center;
+                        padding: 12px;
+                        &.table-product-col {
+                            width: 25%;
+                        }
+                        .table-product-box {
+                            &__top {
+                                margin-bottom: 16px;
+                                p {
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 120%;
+                                    text-transform: uppercase;
                                     color: $text_color;
+                                    margin: 0;
                                 }
                             }
-                        }
-                    }
-                    &__bottom {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-around;
-                        padding: 16px 0;
-                        .offertspage-delivery__col {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
-                            h3 {
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: 177.023%;
-                                color: $text_color;
-                                margin: 0 0 4px 0;
-                                text-transform: uppercase;
-                            }
-                            p {
-                                font-size: 14px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: 177.023%;
-                                color: $grey5;
-                                margin: 0;
-                                text-align: left;
-                                span {
-                                    color: $text_color;
-                                }
-                            }
-                            .horizontal-line {
-                                display: block;
-                                height: 1px;
-                                width: calc(100% - 64px);
-                                background-color: $grey5;
-                                margin: 6px 0 9px 0;
-                            }
-                            &__two {
+                            &__bottom {
                                 display: flex;
                                 flex-direction: row;
-                                justify-content: space-between;
-                                align-items: center;
-                                width: 100%;
-                                p {
-                                    &:first-of-type {
-                                        font-size: 14px;
-                                        line-height: 177.023%;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        margin: 0;
-                                        margin-right: 24px;
-                                        text-align: left;
+                                justify-content: center;
+                                &--left {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    margin-right: 40px;
+                                    img {
+                                        object-fit: contain;
                                     }
-                                    &:last-of-type {
-                                        font-size: 14px;
-                                        line-height: 177.023%;
+                                }
+                                &--right {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    p {
+                                        font-size: 10px;
                                         font-style: normal;
                                         font-weight: 400;
+                                        line-height: 177.023%;
                                         margin: 0;
-                                        margin-right: 64px;
-                                        text-align: right;
-                                        &.summary-price {
-                                            font-size: 18px;
-                                            line-height: 18px;
-                                            color: $macma_orange;
-                                        }
-                                        &.price {
-                                            font-size: 18px;
-                                            line-height: 18px;
+                                        color: $grey5;
+                                        span {
                                             color: $text_color;
                                         }
                                     }
                                 }
                             }
                         }
-                    }
-                }
-                .offertspage-delivery-checkboxes-box {
-                    display: flex;
-                    flex-direction: row;
-                    background-color: $light_grey;
-                    &__col {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        border-right: 12px solid $light_grey;
-                        background-color: $white;
-                        padding: 0 27px;
-                        height: 70px;
-                        label {
-                            margin: 0;
+                        input {
+                            all: unset;
+                            width: 108px;
+                            height: 35px;
+                            box-sizing: border-box;
+                            background-color: $light_grey;
+                            padding: 0 0 0 17px;
                             font-size: 16px;
-                            font-weight: 600;
-                            line-height: 120%;
-                            text-align: left;
-                            padding-left: 40px;
-                        }
-                        .custom-checkbox-checkmark {
-                            top: -4px;
-                        }
-                        .delivery-cost {
-                            display: inline-flex;
-                            margin: 0;
-                            font-size: 16px;
-                            font-weight: 600;
-                            line-height: 120%;
-                            color: $text_color;
-                            text-transform: uppercase;
-                            text-align: left;
-                            white-space: pre;
-                            span {
-                                display: inline-flex;
-                                font-size: 18px;
-                                font-weight: 400;
-                                color: $macma_orange;
-                                margin: 0 0 0 6px;
-                                text-align: left;
-                                white-space: pre;
-                            }
-                        }
-                        &.courier {
-                            .custom-checkbox-checkmark {
-                                top: 6px;
-                            }
-                        }
-                    }
-                }
-                .delivery-price-info-box {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    border-left: 17px solid $light_grey;
-                    background-color: $white;
-                    &__info {
-                        img {
-                            object-fit: contain;
-                            margin: 16px;
-                        }
-                    }
-                    &__text {
-                        padding: 20px 0;
-                        margin: 8px;
-                        .text {
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 600;
-                            line-height: 120%;
-                            text-transform: uppercase;
-                            color: $text_color;
-                            margin: 0;
-                            text-align: center;
-                        }
-                        .price {
-                            font-size: 18px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: 177.023%;
-                            color: $red;
-                            margin: 8px 0 0 0;
-                            text-align: center;
+                            color: $text_color;
+                            text-align: left;
+                            margin: 0;
                         }
                     }
                 }
             }
         }
-    }
-}
-
-@media (max-width: 1640px) {
-    .offertspage_container.step_three {
-        .offertspage-table_box {
-            .bottom-offertspage-box-with-btn {
-                border-right: 0;
-                .right-btn {
-                    .next {
-                        position: relative;
-                        right: 0;
-                        bottom: 0;
-                        left: unset;
+        .bottom-offertspage-box-with-btn {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-right: 30px;
+            .bottom-offertspage-box {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background-color: $white;
+                width: 572px;
+                height: 74px;
+                padding: 0 27px;
+                box-sizing: border-box;
+                &--text {
+                    p {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 120%;
+                        color: $text_color;
+                        margin: 0 16px 0 0;
+                        white-space: pre;
                     }
+                }
+                &--input {
+                    input {
+                        all: unset;
+                        width: 108px;
+                        height: 35px;
+                        box-sizing: border-box;
+                        background-color: $light_grey;
+                        padding: 0 0 0 17px;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 177.023%;
+                        color: $text_color;
+                        text-align: left;
+                        margin: 0 24px 0 0;
+                    }
+                }
+                &--btn {
+                    button {
+                        all: unset;
+                        box-sizing: border-box;
+                        background-color: $white;
+                        border: 1px solid $macma_orange;
+                        color: $macma_orange;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin: 0;
+                        padding: 6px 20px;
+                        width: auto;
+                        height: 35px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: $macma_orange;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .bottom-offertspage-button {
+                .next {
+                    margin: 19px 0 0 0;
+                }
+            }
+        }
+        .add-product-box {
+            margin: 9px 0 250px 0;
+            button.add-product {
+                all: unset;
+                box-sizing: border-box;
+                background-color: $white;
+                border: 1px solid $macma_orange;
+                color: $macma_orange;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin: 0;
+                padding: 6px 20px;
+                width: auto;
+                height: 35px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $macma_orange;
+                    color: $white;
                 }
             }
         }
     }
-    .offertspage-products-table {
-        tr {
-            td {
-                .offertspage-delivery-product-box {
-                    &__bottom {
-                        .offertspage-delivery__col {
-                            &__two {
-                                p {
-                                    &:last-of-type {
-                                        margin-right: 8px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                &.send-info-td {
-                    min-width: 230px !important;
-                    width: 230px !important;
-                }
+    .sumary_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: max-content;
+        background-color: $white;
+        &--title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 70px;
+            height: auto;
+            border-bottom: 1px solid $light_grey;
+            padding: 16px 24px;
+            p {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+                text-transform: uppercase;
+                margin: 0;
+                color: $text_color;
+                text-align: center;
+            }
+        }
+        &--netto {
+            border-bottom: 1px solid $light_grey;
+            width: 100%;
+            padding: 26px 8px;
+            .netto-value {
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 177.023%;
+                margin: 0;
+                color: $macma_orange;
+                text-align: center;
+            }
+            .netto-text {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                margin: 0;
+                color: $grey5;
+                text-align: center;
+            }
+        }
+        &--brutto {
+            width: 100%;
+            padding: 26px 0;
+            .brutto-value {
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 177.023%;
+                margin: 0;
+                color: $text_color;
+                text-align: center;
+            }
+            .brutto-text {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                margin: 0;
+                color: $grey5;
+                text-align: center;
             }
         }
     }
 }
 
 @media (max-width: 1260px) {
-    .offertspage_container.step_three {
-        .offertspage-table_box {
-            .bottom-offertspage-box-with-btn {
-                width: 100%;
-                .prev,
-                .next {
-                    margin-bottom: 50px;
-                }
-            }
+    .offertspage_container {
+        h1 {
+            font-size: 24px;
+            padding: 24px 0 24px 0;
         }
-        .offertspage-products-table {
-            margin-bottom: 100px;
-            tr {
-                td {
-                    padding: 0 !important;
-                    &:first-of-type {
-                        width: 40px !important;
-                        min-width: 40px !important;
-                    }
-                    &.send-info-td {
-                        width: 290px;
-                        .offertspage-delivery-time-box {
-                            margin-top: -140px;
-                            &--title {
-                                height: 40px;
-                                p {
-                                    font-size: 14px;
-                                }
-                            }
-                            &--info {
-                                padding: 16px 0;
-                                p {
-                                    font-size: 15px;
-                                }
-                            }
+        .offertspage-table_full_box {
+            position: relative;
+            flex-direction: column !important;
+        }
+        .offertspage-step-table-container {
+            overflow-x: scroll;
+        }
+        .offertspage-table_box {
+            width: 100%;
+            .offertspage-products-table {
+                width: 100%;
+                margin-right: 0;
+                tbody {
+                    tr {
+                        th {
+                            min-height: 40px;
+                            padding: 10px;
+                            font-size: 12px;
                         }
-                    }
-                    .offertspage-delivery-product-box {
-                        &__top {
-                            padding: 16px;
-                            &__left {
-                                .title {
-                                    font-size: 16px;
-                                }
-                                .code {
-                                    font-size: 11px;
-                                }
+                        td {
+                            padding: 10px;
+                            font-size: 12px;
+                            min-width: 100px;
+                            &.table-number-col {
+                                min-width: 40px;
                             }
-                        }
-                        &__bottom {
-                            .offertspage-delivery__col {
-                                width: 100%;
-                                margin: 12px 16px;
-                                h3 {
-                                    font-size: 15px;
-                                }
-                                .horizontal-line {
-                                    width: calc(100% - 16px);
-                                }
-                                &__two {
+                            &.table-product-col {
+                                width: 25%;
+                            }
+                            .table-product-box {
+                                &__top {
                                     p {
-                                        &:first-of-type {
-                                            font-size: 13px;
-                                            white-space: pre !important;
-                                        }
-                                        &:last-of-type {
-                                            font-size: 14px !important;
-                                            white-space: pre !important;
-                                            margin-right: 16px !important;
-                                        }
+                                        font-size: 12px;
+                                        line-height: 140%;
+                                    }
+                                }
+                                &__bottom {
+                                    &--left {
+                                        margin-right: 24px;
+                                    }
+                                    &--right {
+                                        white-space: pre;
                                     }
                                 }
                             }
-                        }
-                    }
-                    .offertspage-delivery-checkboxes-box {
-                        &__col {
-                            padding: 0 16px;
-                            height: 72px;
-                            align-items: center;
-                            label {
-                                height: auto;
-                                font-size: 14px;
-                            }
-                            .custom-checkbox-checkmark {
-                                top: -4px;
-                            }
-                            .delivery-cost {
-                                font-size: 14px;
-                                text-align: center;
-                                span {
-                                    font-size: 18px;
-                                }
-                            }
-                            &.courier {
-                                .custom-checkbox-checkmark {
-                                    top: 6px;
-                                }
+                            input {
+                                padding: 0 0 0 12px;
+                                font-size: 12px;
+                                line-height: 140%;
                             }
                         }
                     }
-                    .delivery-price-info-box {
-                        &__text {
-                            padding: 16px 0;
-                            .text {
-                                font-size: 14px;
-                            }
-                            .price {
-                                font-size: 18px;
-                            }
+                }
+            }
+            .bottom-offertspage-box-with-btn {
+                flex-direction: column;
+                margin-right: 0;
+                .bottom-offertspage-box {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 24px;
+                    &--text {
+                        padding: 8px 0;
+                        p {
+                            font-size: 14px;
+                            line-height: 140%;
                         }
                     }
+                    &--input {
+                        padding: 0 0 16px 0;
+                        input {
+                            padding: 0 0 0 12px;
+                            font-size: 14px;
+                            line-height: 140%;
+                        }
+                    }
+                }
+                .bottom-offertspage-button {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    .next {
+                        margin: 96px 0 10px 0;
+                    }
+                    &.right-btn {
+                        left: unset;
+                        right: 0;
+                    }
+                }
+            }
+            .add-product-box {
+                margin: 0;
+                button.add-product {
+                    position: absolute;
+                    bottom: 76px;
+                    left: 0;
+                }
+            }
+        }
+        .sumary_box {
+            width: 100%;
+            margin: 16px 0 120px 0;
+            &--title {
+                height: 40px;
+                p {
+                    font-size: 15px;
+                }
+            }
+            &--netto {
+                padding: 16px 0;
+                .netto-value {
+                    font-size: 18px;
+                    line-height: 140%;
+                }
+                .netto-text {
+                    font-size: 13px;
+                    line-height: 140%;
+                }
+            }
+            &--brutto {
+                padding: 16px 0;
+                .brutto-value {
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+                .brutto-text {
+                    font-size: 13px;
+                    line-height: 140%;
                 }
             }
         }
     }
 }
 
-@media (max-width: 760px) {
-    .offertspage_container.step_three {
-        .offertspage-table_box {
-            .bottom-offertspage-box-with-btn {
-                width: 100vw;
+@media (max-width: 992px) {
+        .offertspage_container {
+        .top-title-box {
+            flex-direction: column;
+            &__left {
+                flex-direction: column;
+                width: 100%;
+                margin-right: 0;
+                h1 {
+                    font-size: 24px;
+                    padding: 24px 0 24px 0;
+                }
+            }
+            &__right {
+                .help-box {
+                    padding: 0 16px;
+                    margin: 16px 0;
+                }
             }
         }
     }
