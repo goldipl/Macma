@@ -1,4 +1,4 @@
-.dashboard-catalogs {
+.dashboard-img-boxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,7 +26,6 @@
             img {
                 width: auto;
                 padding: 15px;
-                max-height: 160px;
             }
         }
         .product-content {

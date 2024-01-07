@@ -2,8 +2,8 @@
     <div class="title">
         <p><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Katalogi</p>
     </div>
-    <div class="dashboard-catalogs">
-        <div class="dashboard-catalogs__slot">
+    <div class="dashboard-img-boxes">
+        <div class="dashboard-img-boxes__slot">
             <div class="product-img">
                 <img src="./assets/img/dashboard/catalog01.jpg" alt="catalog img" width="180" height="180">
             </div>
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class="dashboard-catalogs__slot">
+        <div class="dashboard-img-boxes__slot">
             <div class="product-img">
                 <img src="./assets/img/dashboard/catalog02.jpg" alt="catalog img" width="180" height="180">
             </div>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="dashboard-catalogs__slot">
+        <div class="dashboard-img-boxes__slot">
             <div class="add-catalog">
                 <div class="add-catalog-box">
                     <img src="./assets/icons/dashboard/add_orange.svg" alt="menu icon" width="18" height="18">
