@@ -37,7 +37,7 @@
                         <p>5. Szczegóły oferty</p>
                     </div>
                     <div class="common-steps-container-slot">
-                        <p>6. Podusmowanie</p>
+                        <p>6. Podsumowanie</p>
                     </div>
                 </div>
             </div>
