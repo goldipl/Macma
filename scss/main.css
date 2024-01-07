@@ -10554,6 +10554,7 @@ label.add-files:focus, label.add-files:hover {
     flex-direction: column;
   }
   .offertspage_container .top-title-box__left {
+    align-items: flex-start;
     flex-direction: column;
     width: 100%;
     margin-right: 0;
@@ -10561,6 +10562,10 @@ label.add-files:focus, label.add-files:hover {
   .offertspage_container .top-title-box__left h1 {
     font-size: 24px;
     padding: 24px 0 24px 0;
+  }
+  .offertspage_container .top-title-box__right {
+    justify-content: flex-start;
+    width: 100%;
   }
   .offertspage_container .top-title-box__right .help-box {
     padding: 0 16px;
@@ -11380,13 +11385,18 @@ label.add-files:focus, label.add-files:hover {
     flex-direction: column;
   }
   .offertspage_container.step_three .top-title-box__left {
+    align-items: flex-start;
     flex-direction: column;
     width: 100%;
     margin-right: 0;
   }
   .offertspage_container.step_three .top-title-box__left h1 {
     font-size: 24px;
-    padding: 24px 0 24px 0;
+    padding: 24px 0 0 0;
+  }
+  .offertspage_container.step_three .top-title-box__right {
+    justify-content: flex-start;
+    width: 100%;
   }
   .offertspage_container.step_three .top-title-box__right .help-box {
     padding: 0 16px;

@@ -499,6 +499,7 @@
         .top-title-box {
             flex-direction: column;
             &__left {
+                align-items: flex-start;
                 flex-direction: column;
                 width: 100%;
                 margin-right: 0;
@@ -508,6 +509,8 @@
                 }
             }
             &__right {
+                justify-content: flex-start;
+                width: 100%;
                 .help-box {
                     padding: 0 16px;
                     margin: 16px 0;
