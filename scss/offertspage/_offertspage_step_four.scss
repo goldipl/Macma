@@ -1,10 +1,230 @@
 .offertspage_container.step_four {
-
+    padding-bottom: 150px;
+    .offertspage-set-prices {
+        .offertspage-step-table-container {
+            .offertspage-products-table {
+                border-collapse: collapse;
+                border: 1px solid $light_grey;
+                width: 100%;
+                tbody {
+                    background-color: $white;
+                    tr {
+                        th {
+                            border-collapse: collapse;
+                            border: 1px solid $light_grey;
+                            border-bottom: 3px solid $light_grey;
+                            min-height: 70px;
+                            height: auto;
+                            width: auto;
+                            text-align: center;
+                            padding: 12px;
+                        }
+                        td {
+                            border-collapse: collapse;
+                            border: 1px solid $light_grey;
+                            border-bottom: 3px solid $light_grey;
+                            height: auto;
+                            width: auto;
+                            text-align: center;
+                            padding: 12px;
+                            &:first-of-type {
+                                width: 50px !important;
+                                min-width: 50px !important;
+                            }
+                            .table-product-box {
+                                &__top {
+                                    margin-bottom: 16px;
+                                    p {
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        line-height: 120%;
+                                        text-transform: uppercase;
+                                        color: $text_color;
+                                        margin: 0;
+                                    }
+                                }
+                                &__bottom {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    &--left {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        margin-right: 40px;
+                                        img {
+                                            object-fit: contain;
+                                            margin: 25px 0 45px 0;
+                                        }
+                                    }
+                                    &--right {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        p {
+                                            font-size: 10px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 100%;
+                                            margin: 0;
+                                            color: $grey5;
+                                            white-space: pre;
+                                            span {
+                                                color: $text_color;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .table-middle-box {
+                                display: flex;
+                                flex-direction: row;
+                                padding-top: 25px;
+                                .table-middle-buttons {
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin-right: 52px;
+                                    margin-left: 20px;
+                                    width: 400px;
+                                    &__slot {
+                                        display: flex;
+                                        flex-direction: column;
+                                        button {
+                                            margin: 0;
+                                            width: 100%;
+                                            white-space: pre;
+                                            height: 35px;
+                                        }
+                                        input,
+                                        textarea {
+                                            margin: 12px 0;
+                                            width: 100%;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                                .table-middle-checkboxes {
+                                    align-items: flex-start;
+                                    margin-right: 40px;
+                                    &__slot {
+                                        label {
+                                            text-align: left;
+                                            margin-left: 5px;
+                                            font-size: 14px;
+                                            .custom-checkbox-checkmark {
+                                                width: 18px;
+                                                height: 18px;
+                                                top: 2px;
+                                                &::after {
+                                                    left: 6px;
+                                                    top: 4px;
+                                                    width: 5px;
+                                                    height: 9px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            input {
+                                all: unset;
+                                width: 108px;
+                                height: 35px;
+                                box-sizing: border-box;
+                                background-color: $light_grey;
+                                padding: 0 0 0 17px;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                color: $text_color;
+                                text-align: left;
+                                margin: 0;
+                            }
+                            .orange-btn {
+                                margin: 0 10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-offertspage-box-with-btn {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding-bottom: 24px;
+        }
+    }
 }
 
 @media (max-width: 1260px) {
     .offertspage_container.step_four {
-
+        h1 {
+            font-size: 24px;
+            padding: 24px 0 24px 0;
+        }
+        .offertspage-step-table-container {
+            overflow-x: scroll;
+        }
+        .offertspage-products-table {
+            width: 100%;
+            margin-right: 0;
+            tbody {
+                tr {
+                    th {
+                        min-height: 40px;
+                        padding: 10px;
+                        font-size: 12px;
+                    }
+                    td {
+                        padding: 10px;
+                        font-size: 12px;
+                        min-width: 100px;
+                        &.table-number-col {
+                            min-width: 40px;
+                        }
+                        &.table-product-col {
+                            width: 25%;
+                        }
+                        .table-product-box {
+                            &__top {
+                                p {
+                                    font-size: 12px;
+                                    line-height: 140%;
+                                }
+                            }
+                            &__bottom {
+                                &--left {
+                                    margin-right: 24px;
+                                }
+                                &--right {
+                                    white-space: pre;
+                                }
+                            }
+                        }
+                        input {
+                            padding: 0 0 0 12px;
+                            font-size: 12px;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-offertspage-box  {
+            flex-direction: row !important;
+            p, button {
+                font-size: 13px !important;
+            }
+        }
     }
 }
 

@@ -354,6 +354,9 @@
 
 @media (max-width: 1260px) {
     .offertspage_container {
+        &.step_one {
+            padding-bottom: 24px;
+        }
         h1 {
             font-size: 24px;
             padding: 24px 0 24px 0;
@@ -442,7 +445,7 @@
                     left: 0;
                     bottom: 0;
                     .next {
-                        margin: 96px 0 10px 0;
+                        margin: 96px 0 0 0;
                     }
                     &.right-btn {
                         left: unset;

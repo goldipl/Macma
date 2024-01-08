@@ -10421,6 +10421,9 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1260px) {
+  .offertspage_container.step_one {
+    padding-bottom: 24px;
+  }
   .offertspage_container h1 {
     font-size: 24px;
     padding: 24px 0 24px 0;
@@ -10502,7 +10505,7 @@ label.add-files:focus, label.add-files:hover {
     bottom: 0;
   }
   .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-button .next {
-    margin: 96px 0 10px 0;
+    margin: 96px 0 0 0;
   }
   .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-button.right-btn {
     left: unset;
@@ -11014,7 +11017,6 @@ label.add-files:focus, label.add-files:hover {
 }
 .offertspage_container.step_three .offertspage-table_box {
   width: 80%;
-  margin-right: 30px;
 }
 .offertspage_container.step_three .offertspage-table_box .offertspage-products-table {
   border-collapse: collapse;
@@ -11050,12 +11052,12 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   padding: 12px;
 }
-.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-offertspage-box-with-btn .bottom-offertspage-box {
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-quantity-box-with-btn .bottom-quantity-box {
   display: flex;
   align-items: center;
   padding: 0 0 0 20px;
 }
-.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-offertspage-box-with-btn .bottom-offertspage-box p {
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-quantity-box-with-btn .bottom-quantity-box p {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -11063,10 +11065,10 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   color: #374957;
 }
-.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-offertspage-box-with-btn .bottom-offertspage-box input {
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-quantity-box-with-btn .bottom-quantity-box input {
   margin: 0 15px;
 }
-.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-offertspage-box-with-btn .bottom-offertspage-box button {
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-quantity-box-with-btn .bottom-quantity-box button {
   all: unset;
   box-sizing: border-box;
   background-color: #FFFFFF;
@@ -11082,7 +11084,7 @@ label.add-files:focus, label.add-files:hover {
   height: 35px;
   cursor: pointer;
 }
-.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-offertspage-box-with-btn .bottom-offertspage-box button:hover {
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .bottom-quantity-box-with-btn .bottom-quantity-box button:hover {
   background-color: #F26521;
   color: #FFFFFF;
 }
@@ -11153,7 +11155,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
   margin: 0;
 }
-.offertspage_container.step_three .offertspage-table_box .bottom-cart-box-with-btn {
+.offertspage_container.step_three .offertspage-table_box .bottom-offertspage-box-with-btn {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11271,7 +11273,7 @@ label.add-files:focus, label.add-files:hover {
     margin-top: 23px !important;
     margin-bottom: 120px !important;
   }
-  .offertspage_container.step_three .bottom-cart-box-with-btn {
+  .offertspage_container.step_three .bottom-offertspage-box-with-btn {
     position: absolute;
     bottom: 24px;
     left: 0;
@@ -11401,5 +11403,213 @@ label.add-files:focus, label.add-files:hover {
   .offertspage_container.step_three .top-title-box__right .help-box {
     padding: 0 16px;
     margin: 16px 0;
+  }
+}
+.offertspage_container.step_four {
+  padding-bottom: 150px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table {
+  border-collapse: collapse;
+  border: 1px solid #F4F4F4;
+  width: 100%;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody {
+  background-color: #FFFFFF;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr th {
+  border-collapse: collapse;
+  border: 1px solid #F4F4F4;
+  border-bottom: 3px solid #F4F4F4;
+  min-height: 70px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding: 12px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td {
+  border-collapse: collapse;
+  border: 1px solid #F4F4F4;
+  border-bottom: 3px solid #F4F4F4;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding: 12px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td:first-of-type {
+  width: 50px !important;
+  min-width: 50px !important;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__top {
+  margin-bottom: 16px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__top p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 40px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--left img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 25px 0 45px 0;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--right p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 0;
+  color: #8A8A8A;
+  white-space: pre;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--right p span {
+  color: #374957;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 52px;
+  margin-left: 20px;
+  width: 400px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-buttons__slot {
+  display: flex;
+  flex-direction: column;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-buttons__slot button {
+  margin: 0;
+  width: 100%;
+  white-space: pre;
+  height: 35px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-buttons__slot input,
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-buttons__slot textarea {
+  margin: 12px 0;
+  width: 100%;
+  font-weight: 400;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-checkboxes {
+  align-items: flex-start;
+  margin-right: 40px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-checkboxes__slot label {
+  text-align: left;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-checkboxes__slot label .custom-checkbox-checkmark {
+  width: 18px;
+  height: 18px;
+  top: 2px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-checkboxes__slot label .custom-checkbox-checkmark::after {
+  left: 6px;
+  top: 4px;
+  width: 5px;
+  height: 9px;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td input {
+  all: unset;
+  width: 108px;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: #F4F4F4;
+  padding: 0 0 0 17px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #374957;
+  text-align: left;
+  margin: 0;
+}
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .orange-btn {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.offertspage_container.step_four .offertspage-set-prices .bottom-offertspage-box-with-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 1260px) {
+  .offertspage_container.step_four h1 {
+    font-size: 24px;
+    padding: 24px 0 24px 0;
+  }
+  .offertspage_container.step_four .offertspage-step-table-container {
+    overflow-x: scroll;
+  }
+  .offertspage_container.step_four .offertspage-products-table {
+    width: 100%;
+    margin-right: 0;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr th {
+    min-height: 40px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td {
+    padding: 10px;
+    font-size: 12px;
+    min-width: 100px;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td.table-number-col {
+    min-width: 40px;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td.table-product-col {
+    width: 25%;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td .table-product-box__top p {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td .table-product-box__bottom--left {
+    margin-right: 24px;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td .table-product-box__bottom--right {
+    white-space: pre;
+  }
+  .offertspage_container.step_four .offertspage-products-table tbody tr td input {
+    padding: 0 0 0 12px;
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .offertspage_container.step_four .bottom-offertspage-box {
+    flex-direction: row !important;
+  }
+  .offertspage_container.step_four .bottom-offertspage-box p, .offertspage_container.step_four .bottom-offertspage-box button {
+    font-size: 13px !important;
   }
 }/*# sourceMappingURL=main.css.map */

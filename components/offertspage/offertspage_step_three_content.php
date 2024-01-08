@@ -89,8 +89,8 @@
                             </tr>
                             <tr>
                                 <td colspan="5">
-                                    <div class="bottom-offertspage-box-with-btn">
-                                        <div class="bottom-offertspage-box">
+                                    <div class="bottom-quantity-box-with-btn">
+                                        <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich produktów</p>
                                             <input class="form-input" type="number" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
@@ -98,8 +98,8 @@
                                     </div>
                                 </td>
                                 <td colspan="5">
-                                    <div class="bottom-offertspage-box-with-btn">
-                                        <div class="bottom-offertspage-box">
+                                    <div class="bottom-quantity-box-with-btn">
+                                        <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich pozycji znakowania</p>
                                             <input class="form-input" type="number" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
@@ -196,8 +196,8 @@
                             </tr>
                             <tr>
                                 <td colspan="5">
-                                    <div class="bottom-offertspage-box-with-btn">
-                                        <div class="bottom-offertspage-box">
+                                    <div class="bottom-quantity-box-with-btn">
+                                        <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich produktów</p>
                                             <input class="form-input" type="number" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
@@ -205,8 +205,8 @@
                                     </div>
                                 </td>
                                 <td colspan="5">
-                                    <div class="bottom-offertspage-box-with-btn">
-                                        <div class="bottom-offertspage-box">
+                                    <div class="bottom-quantity-box-with-btn">
+                                        <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich pozycji znakowania</p>
                                             <input class="form-input" type="number" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
@@ -217,11 +217,11 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="bottom-cart-box-with-btn">
-                    <div class="bottom-cart-button">
+                <div class="bottom-offertspage-box-with-btn">
+                    <div class="bottom-offertspage-button">
                         <a href="#" class="white-btn prev left-btn"><img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
                     </div>
-                    <div class="bottom-cart-button right-btn">
+                    <div class="bottom-offertspage-button right-btn">
                         <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                     </div>
                 </div>
