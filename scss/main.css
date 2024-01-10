@@ -11612,4 +11612,229 @@ label.add-files:focus, label.add-files:hover {
   .offertspage_container.step_four .bottom-offertspage-box p, .offertspage_container.step_four .bottom-offertspage-box button {
     font-size: 13px !important;
   }
+}
+.offertspage_container.step_five {
+  padding-bottom: 200px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  border-right: 13px solid #F4F4F4;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col:last-of-type {
+  border-right: 0;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 70px;
+  border-bottom: 1px solid #F4F4F4;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #374957;
+  padding: 25px 27px;
+  margin: 0;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title p.desc {
+  font-size: 12px;
+  padding: 0 27px;
+  margin-top: -25px;
+  margin-bottom: 16px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title p.orange {
+  color: #F26521;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .centered-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+  border-bottom: 1px solid #F4F4F4;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .centered-title p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: #374957;
+  padding: 25px 27px;
+  margin: 0;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content {
+  padding: 15px 30px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content.border-bottom {
+  border-bottom: 13px solid #F4F4F4 !important;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content input,
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content select {
+  height: 35px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 0 12px 0;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content textarea {
+  min-height: 190px;
+  width: 100%;
+  border: 0;
+  margin: 0 0 12px 0;
+  padding: 16px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content label {
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content label.custom-checkbox-container {
+  margin-bottom: 6px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content label .custom-radio-checkmark {
+  top: 2px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content label .custom-checkbox-checkmark {
+  top: -2px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .additional-info {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .additional-info span {
+  color: #F26521;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .details-two-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  margin-bottom: 18px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .details-two-col__left {
+  width: 45%;
+  height: 35px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .details-two-col__right {
+  width: 45%;
+  height: 35px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom {
+  background-color: #FFFFFF;
+  border-top: 13px solid #F4F4F4 !important;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 70px;
+  border-bottom: 1px solid #F4F4F4;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .title p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #374957;
+  padding-left: 46px;
+  margin: 0;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .title select {
+  height: 35px;
+  min-width: 108px;
+  margin: 0 0 0 15px;
+  padding: 0 15px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .details-content {
+  padding: 15px 30px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .details-content textarea {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 16px;
+}
+.offertspage_container.step_five .bottom-offertspage-box-with-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 1100px) {
+  .offertspage_container.step_five {
+    padding-bottom: 40px;
+  }
+  .offertspage_container.step_five h1 {
+    font-size: 24px;
+    padding: 24px 0 0 0;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-right: 0;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col:last-of-type {
+    border-right: 0;
+    width: 100%;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title {
+    min-height: 40px;
+    border-top: 1px solid #F4F4F4;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title p {
+    padding: 16px;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .title p.desc {
+    padding: 0 16px;
+    margin-top: -16px;
+    margin-bottom: 16px;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .centered-title {
+    min-height: 40px;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .centered-title p {
+    font-size: 14px;
+    padding: 16px;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content {
+    padding: 16px;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content textarea {
+    margin: 0;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .title {
+    min-height: 56px;
+    padding: 0 16px;
+    justify-content: flex-start;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .title p {
+    padding-left: 0;
+  }
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .details-content {
+    padding: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */
