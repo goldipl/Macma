@@ -1,0 +1,15 @@
+.category-wrapper {
+    background-color: $light_grey;
+    .container {
+        display: flex;
+        flex-direction: row;
+        &__left {
+            display: flex;
+            flex-direction: column;
+        }
+        &__right {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

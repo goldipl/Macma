@@ -11890,4 +11890,19 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0 !important;
     text-align: center !important;
   }
+}
+.category-wrapper {
+  background-color: #F4F4F4;
+}
+.category-wrapper .container {
+  display: flex;
+  flex-direction: row;
+}
+.category-wrapper .container__left {
+  display: flex;
+  flex-direction: column;
+}
+.category-wrapper .container__right {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
