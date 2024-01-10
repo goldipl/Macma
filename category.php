@@ -15,7 +15,7 @@
             <?php include "./components/common/topbar.php"; ?> 
             <?php include "./components/common/nav.php"; ?> 
         </header>
-        <main id="main-wrapper">
+        <main id="main-wrapper" class="grey-background">
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
@@ -25,7 +25,7 @@
                         <a href="#">Oferta</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Arykuły biurowe</a>
+                        <a href="#">Artykuły biurowe</a>
                     </li>
                 </ul>
             </div>

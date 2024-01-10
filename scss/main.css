@@ -11891,6 +11891,10 @@ label.add-files:focus, label.add-files:hover {
     text-align: center !important;
   }
 }
+main.grey-background {
+  background-color: #F4F4F4;
+}
+
 .category-wrapper {
   background-color: #F4F4F4;
 }
