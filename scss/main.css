@@ -11837,4 +11837,57 @@ label.add-files:focus, label.add-files:hover {
   .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__bottom .details-content {
     padding: 16px;
   }
+}
+.offertspage_container.step_six table tr td.specification {
+  width: 30%;
+}
+.offertspage_container.step_six table tr td.specification p {
+  margin: 0 0 6px 0;
+}
+.offertspage_container.step_six table tr td:nth-of-type(4), .offertspage_container.step_six table tr td:nth-of-type(5) {
+  font-size: 12px;
+}
+.offertspage_container.step_six .add-product-box {
+  margin-top: 26px;
+}
+.offertspage_container.step_six .add-product-box .add-product img {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  margin-top: -4px;
+}
+.offertspage_container.step_six .add-product-box .add-product:hover img {
+  content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
+}
+
+@media (max-width: 1260px) {
+  .offertspage_container.step_six h1 {
+    padding-bottom: 0 !important;
+  }
+  .offertspage_container.step_six table tr td:nth-of-type(4), .offertspage_container.step_six table tr td:nth-of-type(5) {
+    min-width: 250px;
+  }
+  .offertspage_container.step_six .add-product-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .offertspage_container.step_six .add-product-box .add-product {
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin-right: 6px !important;
+    margin-bottom: 6px !important;
+  }
+  .offertspage_container.step_six .bottom-offertspage-button {
+    bottom: 40px !important;
+  }
+}
+@media (max-width: 500px) {
+  .offertspage_container.step_six .add-product-box .add-product {
+    width: 100% !important;
+    margin-right: 0 !important;
+    text-align: center !important;
+  }
 }/*# sourceMappingURL=main.css.map */
