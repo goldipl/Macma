@@ -11937,6 +11937,9 @@ main.grey-background {
 .category-menu .accordion-item {
   border-bottom: 0;
 }
+.category-menu .accordion-item:last-of-type button {
+  border-bottom: 0;
+}
 .category-menu .accordion-item .accordion-body {
   padding: 0 !important;
 }

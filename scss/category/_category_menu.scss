@@ -18,6 +18,11 @@
         }
         &-item {
             border-bottom: 0;
+            &:last-of-type {
+                button {
+                    border-bottom: 0;
+                }
+            }
             .accordion-body {
                 padding: 0 !important;
                 .menu-slot {
