@@ -27,7 +27,6 @@
         }
     }
     .category-left-filters {
-        display: none;
         flex-direction: column;
         width: 296px;
         height: auto;
@@ -154,6 +153,9 @@
 
 @media (max-width: 992px) {
     .category-left-filters-box {
+        .category-left-filters {
+            display: none;
+        }
         &__button {
             display: flex;
         }
