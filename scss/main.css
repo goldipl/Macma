@@ -11909,4 +11909,58 @@ main.grey-background {
 .category-wrapper .container__right {
   display: flex;
   flex-direction: column;
+}
+
+.category-menu {
+  width: 296px;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 15px;
+}
+.category-menu .accordion-header button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.023%;
+  color: #374957;
+  padding: 20px 20px 20px 38px;
+}
+.category-menu .accordion-item {
+  border-bottom: 0;
+}
+.category-menu .accordion-item .accordion-body {
+  padding: 0 !important;
+}
+.category-menu .accordion-item .accordion-body .menu-slot {
+  padding: 10px 10px 10px 38px;
+  border-bottom: 1px solid #F4F4F4;
+}
+.category-menu .accordion-item .accordion-body .menu-slot a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #374957;
+  text-decoration: none;
+}
+.category-menu .accordion-item .accordion-body .menu-slot a:hover, .category-menu .accordion-item .accordion-body .menu-slot a.active {
+  color: #F26521 !important;
+}
+.category-menu .accordion-button {
+  border-bottom: 1px solid #E6E6E6;
+  background-color: #FFFFFF !important;
+  box-shadow: none !important;
+}
+.category-menu .accordion-button::after {
+  background-image: url(./../assets/icons/common/grey-arrow-down.svg);
+  background-size: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.category-menu .accordion-button:not(.collapsed)::after {
+  background-image: url(./../assets/icons/common/grey-arrow-down.svg);
+  background-size: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
 }/*# sourceMappingURL=main.css.map */

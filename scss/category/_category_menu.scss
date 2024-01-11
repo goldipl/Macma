@@ -1,3 +1,58 @@
 .category-menu {
-    
+    width: 296px;
+    height: auto;
+    margin-right: 24px;
+    margin-bottom: 15px;
+    .accordion {
+        &-header {
+            button {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 177.023%;
+                color: $text_color;
+                padding: 20px 20px 20px 38px;
+            }
+        }
+        &-item {
+            border-bottom: 0;
+            .accordion-body {
+                padding: 0 !important;
+                .menu-slot {
+                    padding: 10px 10px 10px 38px;
+                    border-bottom: 1px solid $light_grey;
+                    a {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 177.023%;
+                        color: $text_color;
+                        text-decoration: none;
+                        &:hover,
+                        &.active {
+                            color: $macma_orange !important;
+                        }
+                    }
+                }
+            }
+        }
+        &-button {
+            border-bottom: 1px solid $grey;
+            background-color: $white !important;
+            box-shadow: none !important;
+            &::after {
+                background-image: url(./../assets/icons/common/grey-arrow-down.svg);
+                background-size: 9px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &:not(.collapsed)::after {
+                background-image: url(./../assets/icons/common/grey-arrow-down.svg);
+                background-size: 9px;
+                background-repeat: no-repeat;
+                background-position: center;
+                transform: rotate(180deg);
+            }
+        }
+    }
 }
