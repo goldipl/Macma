@@ -3,6 +3,8 @@
     height: auto;
     margin-right: 24px;
     margin-bottom: 15px;
+    background-color: $white;
+    border: 1px solid $grey;
     .accordion {
         &-header {
             button {

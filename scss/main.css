@@ -1000,6 +1000,10 @@ label.add-files:focus, label.add-files:hover {
 .color.black {
   background-color: #000000;
 }
+.color.white {
+  background-color: #FFFFFF;
+  border: 1px solid #8A8A8A;
+}
 
 @media (max-width: 1199px) {
   .color {
@@ -11916,6 +11920,8 @@ main.grey-background {
   height: auto;
   margin-right: 24px;
   margin-bottom: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
 }
 .category-menu .accordion-header button {
   font-size: 16px;
@@ -11963,4 +11969,81 @@ main.grey-background {
   background-repeat: no-repeat;
   background-position: center;
   transform: rotate(180deg);
+}
+
+.category-left-filters {
+  width: 296px;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  padding: 29px 39px;
+}
+.category-left-filters__slot:first-of-type .header h3 {
+  margin-top: 0;
+}
+.category-left-filters__slot .header h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.023%;
+  color: #374957;
+  margin: 20px 0;
+}
+.category-left-filters__slot .content .custom-checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+}
+.category-left-filters__slot .content .custom-checkbox-container .custom-checkbox-checkmark {
+  width: 18px;
+  height: 18px;
+  top: 0;
+}
+.category-left-filters__slot .content .custom-checkbox-container .custom-checkbox-checkmark::after {
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 9px;
+}
+.category-left-filters__slot .content .row-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.category-left-filters__slot .content .row-inputs__left input, .category-left-filters__slot .content .row-inputs__right input {
+  height: 35px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0;
+}
+.category-left-filters__slot .content .row-inputs .spacer {
+  display: inline-flex;
+  padding: 0 10px;
+  line-height: 35px;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.category-left-filters__slot .content input {
+  height: 35px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0;
+}
+.category-left-filters__slot .content .color {
+  border: 0;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+}
+.category-left-filters__slot .content .color.white {
+  border: 1px solid #8A8A8A;
 }/*# sourceMappingURL=main.css.map */

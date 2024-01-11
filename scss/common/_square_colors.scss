@@ -30,6 +30,10 @@
     &.black {
         background-color: $black;
     }
+    &.white {
+        background-color: $white;
+        border: 1px solid $grey5;
+    }
 }
 
 @media (max-width: 1199px) {
