@@ -2,7 +2,7 @@
     width: 296px;
     height: auto;
     margin-right: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 65px;
     background-color: $white;
     border: 1px solid $grey;
     padding: 29px 39px;
@@ -25,12 +25,26 @@
             }
         }
         .content {
+            &.hidden {
+                display: none;
+                .custom-checkbox-container {
+                    margin-bottom: 10px;
+                    &:first-of-type {
+                        margin-top: 3px;
+                    }
+                }
+            }
+            &.show {
+                display: flex;
+                flex-direction: column;
+            }
             .custom-checkbox-container {
                 display: inline-flex;
                 align-items: center;
                 font-size: 12px;
                 font-weight: 400;
                 width: 100%;
+                margin-bottom: 8px;
                 .custom-checkbox-checkmark {
                     width: 18px;
                     height: 18px;
@@ -83,6 +97,22 @@
                 &.white {
                     border: 1px solid $grey5;
                 }
+            }
+        }
+        .show-more {
+            cursor: pointer;
+            user-select: none;
+            &.hide {
+                display: none;
+            }
+            svg {
+                margin: 0 24px 0 4px;
+            }
+            span {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                color: $macma_orange;
             }
         }
     }

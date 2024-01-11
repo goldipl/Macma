@@ -1004,6 +1004,9 @@ label.add-files:focus, label.add-files:hover {
   background-color: #FFFFFF;
   border: 1px solid #8A8A8A;
 }
+.color.orange {
+  background-color: #FF8A00;
+}
 
 @media (max-width: 1199px) {
   .color {
@@ -11975,7 +11978,7 @@ main.grey-background {
   width: 296px;
   height: auto;
   margin-right: 24px;
-  margin-bottom: 15px;
+  margin-bottom: 65px;
   background-color: #FFFFFF;
   border: 1px solid #E6E6E6;
   padding: 29px 39px;
@@ -11991,12 +11994,26 @@ main.grey-background {
   color: #374957;
   margin: 20px 0;
 }
+.category-left-filters__slot .content.hidden {
+  display: none;
+}
+.category-left-filters__slot .content.hidden .custom-checkbox-container {
+  margin-bottom: 10px;
+}
+.category-left-filters__slot .content.hidden .custom-checkbox-container:first-of-type {
+  margin-top: 3px;
+}
+.category-left-filters__slot .content.show {
+  display: flex;
+  flex-direction: column;
+}
 .category-left-filters__slot .content .custom-checkbox-container {
   display: inline-flex;
   align-items: center;
   font-size: 12px;
   font-weight: 400;
   width: 100%;
+  margin-bottom: 8px;
 }
 .category-left-filters__slot .content .custom-checkbox-container .custom-checkbox-checkmark {
   width: 18px;
@@ -12046,4 +12063,22 @@ main.grey-background {
 }
 .category-left-filters__slot .content .color.white {
   border: 1px solid #8A8A8A;
+}
+.category-left-filters__slot .show-more {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.category-left-filters__slot .show-more.hide {
+  display: none;
+}
+.category-left-filters__slot .show-more svg {
+  margin: 0 24px 0 4px;
+}
+.category-left-filters__slot .show-more span {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: #F26521;
 }/*# sourceMappingURL=main.css.map */

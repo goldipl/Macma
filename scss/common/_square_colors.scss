@@ -34,6 +34,9 @@
         background-color: $white;
         border: 1px solid $grey5;
     }
+    &.orange {
+        background-color: #FF8A00;
+    }
 }
 
 @media (max-width: 1199px) {
