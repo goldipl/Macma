@@ -1271,6 +1271,10 @@ label.add-files:focus, label.add-files:hover {
   background-color: #F26521;
 }
 
+.our_brands_swiper .swiper-slide img {
+  filter: grayscale(100%);
+}
+
 .promo_products_swiper,
 .our_products_swiper,
 .news_swiper,
