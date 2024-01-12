@@ -25,7 +25,7 @@
     </div>
     <div class="text_teasers__slot d-flex flex-column align-items-center">
         <div class="text_teasers__slot--title">
-            <p>Dla Kogo?</p>
+            <p>Co obejmuje?</p>
         </div>
         <div class="text_teasers__slot--text">
             <p>Realizacja usługi Direct Asia obejmuje:</p>
