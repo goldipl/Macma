@@ -1,0 +1,693 @@
+.negotiator_container {
+    .accordion-container {
+        width: calc(80% - 27px);
+        margin-right: 27px;
+        .accordion-button, 
+        .accordion .accordion-button:not(.collapsed) {
+            background-color: $white;
+            border-bottom: 1px solid $light_grey;
+        }
+        .accordion {
+            &-item {
+                border: 0;
+                margin-bottom: 15px;
+            }
+            &-button {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 120%;
+                text-transform: uppercase;
+                color: $text_color;
+                &::after {
+                    position: absolute;
+                    top: 22px;
+                    right: 22px;
+                    background-image: url('./../assets/icons/common/grey-arrow-down.svg');
+                    background-size: 12px;
+                    background-position: center;
+                    margin-left: 16px;
+                }
+                .number {
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                    color: $macma_orange;
+                    margin: 0 24px 0 8px;
+                }
+                .code {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 177.023%;
+                    color: $grey5;
+                    margin: 0 0 0 16px;
+                    text-transform: none;
+                    span {
+                        color: $text_color;
+                        margin: 0 0 0 6px;
+                    }
+                }
+                img {
+                    margin-left: 16px;
+                }
+            }
+            .quantity {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 177.023%;
+                color: $grey5;
+                margin: 0 40px 0 auto;
+                text-transform: none;
+                span {
+                    color: $text_color;
+                    margin: 0 0 0 6px;
+                }
+            }
+            &-body {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                &__col {
+                    display: flex;
+                    flex-direction: column;
+                    p {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 177.023%;
+                        margin: 0 0 10px 0;
+                        color: $grey5;
+                        span {
+                            color: $text_color;
+                        }
+                    }
+                    b {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 160%;
+                        margin: 0;
+                        color: $text_color;
+                        .orange {
+                            color: $macma_orange;
+                        }
+                    }
+                    .catalog-price {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 160%;
+                        margin: 0 0 13px 0;
+                        color: $grey5;
+                    }
+                    .your-price {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 160%;
+                        margin: 0 0 13px 0;
+                        color: $text_color;
+                    }
+                    .desc {
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 160%;
+                        margin: 0;
+                        color: $text_color;
+                    }
+                }
+                .colors-col {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .colors-info-box {
+                        display: flex;
+                        justify-content: flex-start;
+                        width: 100%;
+                        .mix-container {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: flex-start;
+                            width: 60%;
+                            height: 55px;
+                            box-sizing: border-box;
+                            border: 1px solid $light_grey;
+                            padding: 12px;
+                            .custom-checkbox-container {
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                text-transform: uppercase;
+                                color: $grey5;
+                                white-space: pre;
+                                height: 25px;
+                                margin: 0 20px 0 15px;
+                                padding: 0 35px 0 0;
+                                width: 150px;
+                                span {
+                                    top: -4px;
+                                    left: unset;
+                                    right: 0;
+                                    width: 32px;
+                                    height: 32px;
+                                    &::after {
+                                        left: 12px;
+                                        top: 5px;
+                                        width: 8px;
+                                        height: 18px;
+                                    }
+                                }
+                            }
+                            .exclamation {
+                                margin-right: 20px;
+                            }
+                            .desc {
+                                font-size: 10px;
+                                font-style: normal;
+                                font-weight: 300;
+                                line-height: 160%;
+                                color: $text_color;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .colors-squares {
+                        margin: 20px 0;
+                        user-select: none;
+                        .color {
+                            cursor: pointer;
+                            &.checked {
+                                outline: 1px solid $black;
+                                background-image: url(./../assets/icons/product_page/checked.svg);
+                                background-size: 15px 10px;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                            &:hover {
+                                outline: 1px solid $black;
+                            }
+                        }
+                    }
+                    button {
+                        img {
+                            transform: rotate(90deg) translateX(-2px);
+                        }
+                    }
+                }
+                .quantity-col {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    width: 100%;
+                    &-box {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        &__slot {
+                            display: flex;
+                            flex-direction: row;
+                            margin: 0 16px 16px 0;
+                            .quantity-box {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                width: 100%;
+                                .color {
+                                    margin-right: 16px;
+                                }
+                                label {
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 177.023%;
+                                    color: $grey5;
+                                }
+                                input {
+                                    width: 108px;
+                                    height: 35px;
+                                    margin: 0 0 0 12px;
+                                    padding: 0 10px;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                    button {
+                        img {
+                            transform: rotate(90deg) translateX(-2px);
+                        }
+                    }
+                }
+                .one-col-box {
+                    display: flex;
+                    flex-direction: column;
+                    button {
+                        img {
+                            transform: rotate(90deg) translateX(-2px);
+                        }
+                    }
+                    .two-rows-box {
+                        display: flex;
+                        flex-direction: row;
+                        border-bottom: 1px solid $light_grey;
+                        .col {
+                            display: flex;
+                            flex-direction: column;
+                            &:first-of-type {
+                                border-right: 1px solid $light_grey;
+                            }
+                            &:last-of-type {
+                                padding-left: 24px;
+                            }
+                            .custom-radio-container {
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 160%;
+                                .custom-radio-checkmark {
+                                    top: 5px;
+                                }
+                            }
+                            .calc-select-types {
+                                display: flex;
+                                flex-direction: column;
+                                &.hide {
+                                    display: none;
+                                }
+                                &__row {
+                                    display: flex;
+                                    flex-direction: row;
+                                    &:first-of-type {
+                                        .types-col {
+                                            p {
+                                                margin-bottom: 6px;
+                                            }
+                                        }
+                                    }
+                                    .types-col {
+                                        min-width: 180px;
+                                        &.select {
+                                            min-width: 220px;
+                                            margin-right: 22px;
+                                        }
+                                        &.select-name {
+                                            min-width: 262px;
+                                        }
+                                        p {
+                                            font-size: 18px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 177.023%;
+                                            color: $grey5;
+                                            margin: 0;
+                                            text-align: left;
+                                            margin-bottom: 16px;
+                                        }
+                                        select {
+                                            display: flex;
+                                            align-items: center;
+                                            width: 238px;
+                                            height: 35px;
+                                            box-sizing: border-box;
+                                            background-color: $light_grey;
+                                            padding: 0 17px;
+                                            margin-bottom: 16px;
+                                            text-align: left;
+                                            border: 0;
+                                            outline: 0;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .pricing-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    &__top {
+                        display: flex;
+                        flex-direction: row;
+                        &__left {
+                            display: flex;
+                            flex-direction: column;
+                            width: 20%;
+                            p {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 160%;
+                                color: $grey5;
+                                margin: 0;
+                            }
+                        }
+                        &__right {
+                            display: flex;
+                            flex-direction: column;
+                            p {
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 177.023%;
+                                color: $text_color;
+                                margin: 0 40px 0 0;
+                                &.orange {
+                                    font-size: 30px;
+                                    line-height: 36px;
+                                    color: $macma_orange;
+                                }
+                            }
+                            span {
+                                font-size: 14px;
+                                line-height: 160%;
+                            }
+                        }
+                    }
+                    &__bottom {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: flex-start;
+                        margin: 24px 0 8px 0;
+                        &--slot {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: auto;
+                            padding: 0 16px;
+                            height: 24px;
+                            box-sizing: border-box;
+                            margin: 0 6px 6px 0;
+                            text-decoration: none;
+                            background-color: $grey5;
+                            min-width: 121px;
+                            &:hover {
+                                background-color: $macma_orange;
+                            }
+                            p {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                                margin: 0;
+                                color: $white;
+                                text-align: center;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+                .tables-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    table {
+                        flex-wrap: wrap;
+                        tr {
+                            background-color: $light_grey;
+                            height: 35px;
+                            th {
+                                font-size: 16px;
+                                padding-left: 14px;
+                                border-right: 2px solid $white;
+                            }
+                            td {
+                                font-size: 14px;
+                                padding-left: 14px;
+                                border: 2px solid $white;
+                                color: $grey5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sumary_box {
+        width: 20%;
+        &--netto {
+            .netto-value {
+                margin-bottom: 0;
+                line-height: 36px;
+                &.small {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+            .netto-text {
+                margin-top: 7px;
+            }
+        }
+        &--brutto {
+            .brutto-value {
+                margin-bottom: 0;
+                line-height: 36px;
+                &.small {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+            .brutto-text {
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1640px) {
+    .negotiator_container {
+        .accordion-container {
+            .accordion {
+                &-body {
+                    .one-col-box {
+                        width: 100%;
+                        .two-rows-box {
+                            flex-direction: column;
+                            border-bottom: 1px solid $light_grey;
+                            .col {
+                                &:first-of-type {
+                                    border-right: 0;
+                                    padding-bottom: 16px;
+                                    margin-bottom: 24px;
+                                    border-bottom: 1px solid $light_grey;
+                                }
+                                &:last-of-type {
+                                    padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .negotiator_container {
+        h1 {
+            padding: 16px 0 20px 0;
+            font-size: 26px;
+        }
+        h1 + .flex-row {
+            flex-direction: column !important;
+        }
+        .accordion-container {
+            width: 100%;
+            margin-right: 0;
+            .accordion {
+                &-button {
+                    padding: 8px;
+                    font-size: 14px;
+                    height: 60px;
+                    line-height: 16px;
+                    padding-right: 32px;
+                    .number {
+                        font-size: 20px;
+                        margin-right: 8px;
+                        margin-left: 2px;
+                    }
+                    .code {
+                        font-size: 12px;
+                        text-align: right;
+                    }
+                    img {
+                        width: 19px;
+                        height: 19px;
+                        margin-left: 6px;
+                    }
+                    &::after {
+                        top: 18px;
+                        right: 6px;
+                        background-size: 10px;
+                    }
+                    .quantity {
+                        font-size: 12px;
+                        margin: 0 10px 0 10px;
+                    }
+                }
+                &-body {
+                    flex-direction: column;
+                    &__col {
+                        p {
+                            font-size: 14px;
+                            line-height: 120%;
+                            margin: 10px 0 0 0;
+                        }
+                        b {
+                            font-size: 14px;
+                            line-height: 120%;
+                            .orange {
+                                font-size: 19px;
+                            }
+                        }
+                        .catalog-price {
+                            font-size: 14px;
+                            line-height: 120%;
+                        }
+                        .your-price {
+                            font-size: 16px;
+                            line-height: 120%;
+                        }
+                        .desc {
+                            line-height: 120%;
+                        }
+                    }
+                    .colors-col {
+                        button {
+                            margin-top: 24px;
+                            font-size: 14px;
+                            img {
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                        .colors-info-box {
+                            .mix-container {
+                                flex-wrap: wrap;
+                                width: 100%;
+                                height: auto;
+                                .custom-checkbox-container {
+                                    font-size: 14px;
+                                }
+                                .desc {
+                                    margin: 10px 0 0 0;
+                                }
+                            }
+                        }
+                    }
+                    .quantity-col {
+                        button {
+                            margin-top: 24px;
+                            font-size: 14px;
+                            img {
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                        &-box {
+                            &__slot {
+                                .quantity-box {
+                                    .color {
+                                        margin-right: 12px;
+                                    }
+                                    label {
+                                        font-size: 14px;
+                                    }
+                                    input {
+                                        height: 30px;
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .one-col-box {
+                        .two-rows-box {
+                            .col {
+                                overflow-x: scroll;
+                                .custom-radio-container {
+                                    font-size: 14px;
+                                    .custom-radio-checkmark {
+                                        top: 2px;
+                                    }
+                                }
+                                .calc-select-types {
+                                    &__row {
+                                        .types-col {
+                                            min-width: 180px;
+                                            select,
+                                            input {
+                                                font-size: 14px;
+                                            }
+                                            &.select {
+                                                min-width: 220px;
+                                                margin-right: 22px;
+                                            }
+                                            &.select-name {
+                                                min-width: 260px;
+                                            }
+                                            p {
+                                                font-size: 14px;
+                                                line-height: 140%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .pricing-box {
+                        &__top {
+                            flex-direction: column;
+                            &__left {
+                                width: 100%;
+                                p {
+                                    margin: 16px 0 0 0;
+                                }
+                            }
+                            &__right {
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .tables-box {
+                        overflow-x: scroll;
+                        table {
+                            width: 100%;
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    white-space: pre;
+                                }
+                                td {
+                                    white-space: pre;
+                                    font-size: 13px;
+                                    padding: 0 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sumary_box {
+            width: 100%;
+            margin-bottom: 40px;
+            &--netto {
+                .netto-value {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
