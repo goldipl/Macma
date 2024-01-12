@@ -5,7 +5,7 @@
     <div class="category-top-pagination__slot">
         <?php include "./components/common/pagination.php"; ?>
         <div class="page-number">
-            <input class="form-input" type="number" placeholder="nr strony">
+            <input class="form-input" type="number" placeholder="nr strony" min="1">
         </div>
     </div>
 </div>
