@@ -1,3 +1,38 @@
 .category-top-filters {
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    background-color: $white;
+    border: 1px solid $grey;
+    width: 100%;
+    height: 65px;
+    &__slot {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-left: 1px solid $grey;
+        padding: 0 20px;
+        height: 65px;
+        label {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $grey5;
+        }
+        select {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $grey_main;
+            height: 45px;
+            margin: 0 8px 0 8px;
+            background-color: $white;
+            padding-left: 15px;
+            cursor: pointer;
+        }
+    }
 }
