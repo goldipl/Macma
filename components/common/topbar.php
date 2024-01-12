@@ -16,22 +16,22 @@
         </div>
         <div class="d-flex">
             <div class="topbar-links d-flex flex-row align-items-center">
-                <a href="#" class="p-3">
+                <a href="#about_us" class="p-3">
                     O nas
                 </a>
-                <a href="#" class="p-3">
+                <a href="./newsletter.php" class="p-3">
                     Newsletter
                 </a>
-                <a href="#" class="p-3">
+                <a href="./news.php" class="p-3">
                     Aktualności
                 </a>
-                <a href="#" class="p-3">
+                <a href="./blog.php" class="p-3">
                     Blog
                 </a>
-                <a href="#" class="p-3">
+                <a href="./faq.php" class="p-3">
                     FAQ
                 </a>
-                <a href="#" class="p-3">
+                <a href="./contact.php" class="p-3">
                     Kontakt
                 </a>
             </div>
