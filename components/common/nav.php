@@ -792,7 +792,7 @@
                 </li>
                 <!-- Nav Item -->
                 <li class="nav-item main-nav-item catalogs">
-                    <a class="nav-link" href="./catalogs.php">Katalogi</a>
+                    <a class="nav-link" href="#">Katalogi</a>
                 </li>
                 <!-- Nav Item -->
                 <li class="nav-item main-nav-item import">
