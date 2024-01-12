@@ -16,7 +16,7 @@
         </div>
         <div class="d-flex">
             <div class="topbar-links d-flex flex-row align-items-center">
-                <a href="#about_us" class="p-3">
+                <a href="./index.php#about_us" class="p-3">
                     O nas
                 </a>
                 <a href="./newsletter.php" class="p-3">
