@@ -296,9 +296,56 @@
                         </h2>
                         <div id="collapse16" class="accordion-collapse collapse show" aria-labelledby="heading16" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                
-                                
-
+                                <div class="price-proposition-wrapper">
+                                    <div class="price-proposition-top">
+                                        <div class="price-proposition-box">
+                                            <div class="price-proposition-box__row">
+                                                <div class="price-proposition-box__row__left">
+                                                    <p>Produkt:</p>
+                                                </div>
+                                                <div class="price-proposition-box__row__right">
+                                                    <input class="form-input" type="text" placeholder="Twoja cena">
+                                                    <p class="desc">Obecna cena: 2,88 PLN</p>
+                                                </div>
+                                            </div>
+                                            <div class="price-proposition-box__row">
+                                                <div class="price-proposition-box__row__left">
+                                                    <p>Znakowanie logotyp A:</p>
+                                                </div>
+                                                <div class="price-proposition-box__row__right">
+                                                    <input class="form-input" type="text" placeholder="Twoja cena">
+                                                    <p class="desc">Obecna cena: (1,09 PLN/szt.)</p>
+                                                </div>
+                                            </div>
+                                            <div class="price-proposition-box__row">
+                                                <div class="price-proposition-box__row__left">
+                                                    <p>Znakowanie logotyp B:</p>
+                                                </div>
+                                                <div class="price-proposition-box__row__right">
+                                                    <input class="form-input" type="text" placeholder="Twoja cena">
+                                                    <p class="desc">Obecna cena: (1,09 PLN/szt.)</p>
+                                                </div>
+                                            </div>
+                                            <div class="price-proposition-box__row">
+                                                <div class="price-proposition-box__row__left">
+                                                    <p>Łączna cena produktu ze znakowaniem:</p>
+                                                </div>
+                                                <div class="price-proposition-box__row__right">
+                                                    <input class="form-input" type="text" placeholder="Twoja cena">
+                                                    <p class="desc">Obecna cena: (3,91 PLN/szt.)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="exclamation-box">
+                                            <img src="./assets/icons/offertspage/exclamation-octagon-fill.svg" alt="exclamation icon" width="24" height="24">
+                                            <span>Aby negocjować cenę, Twoje zamówienie powinno osiągnąć całkowitą wartość co najmniej 1000 PLN netto.</span>
+                                        </div>
+                                    </div>
+                                    <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Wyślij do negocjacji <img src="./assets/icons/common/buttons/button_white_arrow.svg">
+                                    </button>
+                                    <p class="desc-info-red">Jeśli chcesz negocjować cenę, zwiększ wartość zamówienia – powinna osiągnąć wartość całkowitą min. 1000 zł.</p>
+                                    <p class="desc-info-green">Dziękujemy za wysłanie negocjacji. Już wkrótce Twój opiekun handlowy skontaktuje się z Tobą.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

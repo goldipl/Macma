@@ -333,6 +333,7 @@
                     display: flex;
                     flex-direction: column;
                     width: 100%;
+                    padding-left: 40px;
                     &__top {
                         display: flex;
                         flex-direction: row;
@@ -429,6 +430,102 @@
                         }
                     }
                 }
+                .price-proposition-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 38px 40px;
+                    .price-proposition-top {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        .price-proposition-box {
+                            margin-right: 10%;
+                            &__row {
+                                display: flex;
+                                flex-direction: row;
+                                &__left {
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 100%;
+                                    color: $grey5;
+                                    margin: 0 8px 0 0;
+                                    width: 190px;
+                                }
+                                &__right {
+                                    display: flex;
+                                    flex-direction: column;
+                                    input {
+                                        padding: 0 17px;
+                                        width: 238px;
+                                        height: 35px;
+                                        box-sizing: border-box;
+                                        font-size: 18px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 177.023%;
+                                        color: $grey5;
+                                        margin: 0;
+                                        &::placeholder {
+                                            font-size: 18px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 177.023%;
+                                            color: $grey5;
+                                        }
+                                    }
+                                    .desc {
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 160%;
+                                        color: $text_color;
+                                        margin: 0 0 23px 0;
+                                    }
+                                }
+                            }
+                        }
+                        .exclamation-box {
+                            padding: 17px 25px;
+                            display: flex;
+                            align-items: center;
+                            background-color: $light_grey;
+                            img {
+                                margin-right: 29px;
+                            }
+                            span {
+                                display: inline-flex;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 160%;
+                                margin: 0;
+                                color: $grey5;
+                            }
+                        }
+                    }
+                    button {
+                        margin-bottom: 17px;
+                    }
+                    .desc-info-red {
+                        color: $dark_red;
+                        text-align: center;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                        margin: 0 0 2px 0;
+                    }
+                    .desc-info-green {
+                        color: $green;
+                        text-align: center;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                        margin: 0 0 2px 0;
+                    }
+                }
             }
         }
     }
@@ -492,6 +589,29 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .negotiator_container {
+        .accordion-container {
+            .accordion {
+                &-body {
+                    .pricing-box {
+                        padding: 16px 0;
+                    }
+                    .price-proposition-wrapper {
+                        padding: 16px;
+                        .price-proposition-top {
+                            flex-direction: column;
+                            .price-proposition-box {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1200px) {
     .negotiator_container {
         h1 {
@@ -537,6 +657,41 @@
                 }
                 &-body {
                     flex-direction: column;
+                    .price-proposition-wrapper {
+                        .price-proposition-top {
+                            .price-proposition-box {
+                                &__row {
+                                    width: 100%;
+                                    flex-direction: column;
+                                    &__left {
+                                        width: 100%;
+                                        p {
+                                            font-size: 15px;
+                                            margin: 0 0 10px 0;
+                                        }
+                                    }
+                                    &__right {
+                                        width: 100%;
+                                        input {
+                                            width: 100%;
+                                            font-size: 14px;
+                                            &::placeholder {
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .exclamation-box {
+                                img {
+                                    margin-right: 16px;
+                                }
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
                     &__col {
                         p {
                             font-size: 14px;
@@ -647,6 +802,7 @@
                         }
                     }
                     .pricing-box {
+                        padding: 0;
                         &__top {
                             flex-direction: column;
                             &__left {

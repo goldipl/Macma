@@ -13059,6 +13059,7 @@ main.grey-background {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-left: 40px;
 }
 .negotiator_container .accordion-container .accordion-body .pricing-box__top {
   display: flex;
@@ -13155,6 +13156,109 @@ main.grey-background {
   border: 2px solid #FFFFFF;
   color: #8A8A8A;
 }
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 38px 40px;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box {
+  margin-right: 10%;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row {
+  display: flex;
+  flex-direction: row;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: #8A8A8A;
+  margin: 0 8px 0 0;
+  width: 190px;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right {
+  display: flex;
+  flex-direction: column;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input {
+  padding: 0 17px;
+  width: 238px;
+  height: 35px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #8A8A8A;
+  margin: 0;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #8A8A8A;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #8A8A8A;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right .desc {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #374957;
+  margin: 0 0 23px 0;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box {
+  padding: 17px 25px;
+  display: flex;
+  align-items: center;
+  background-color: #F4F4F4;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img {
+  margin-right: 29px;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span {
+  display: inline-flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+  color: #8A8A8A;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper button {
+  margin-bottom: 17px;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-red {
+  color: #BE6363;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0 0 2px 0;
+}
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-green {
+  color: #21A500;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0 0 2px 0;
+}
 .negotiator_container .sumary_box {
   width: 20%;
 }
@@ -13197,6 +13301,20 @@ main.grey-background {
   }
   .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type {
     padding-left: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .negotiator_container .accordion-container .accordion-body .pricing-box {
+    padding: 16px 0;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper {
+    padding: 16px;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top {
+    flex-direction: column;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box {
+    margin-right: 0;
   }
 }
 @media (max-width: 1200px) {
@@ -13243,6 +13361,36 @@ main.grey-background {
   }
   .negotiator_container .accordion-container .accordion-body {
     flex-direction: column;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row {
+    width: 100%;
+    flex-direction: column;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left {
+    width: 100%;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left p {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right {
+    width: 100%;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input {
+    width: 100%;
+    font-size: 14px;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder {
+    font-size: 14px;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder {
+    font-size: 14px;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img {
+    margin-right: 16px;
+  }
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span {
+    font-size: 12px;
   }
   .negotiator_container .accordion-container .accordion-body__col p {
     font-size: 14px;
@@ -13330,6 +13478,9 @@ main.grey-background {
   .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p {
     font-size: 14px;
     line-height: 140%;
+  }
+  .negotiator_container .accordion-container .accordion-body .pricing-box {
+    padding: 0;
   }
   .negotiator_container .accordion-container .accordion-body .pricing-box__top {
     flex-direction: column;
