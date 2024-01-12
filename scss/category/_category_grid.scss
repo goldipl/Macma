@@ -7,13 +7,14 @@ main.grey-background {
     .container {
         display: flex;
         flex-direction: row;
-        &__left {
+        .category-wrapper__left {
             display: flex;
             flex-direction: column;
         }
-        &__right {
+        .category-wrapper__right {
             display: flex;
             flex-direction: column;
+            width: 100%;
         }
     }
 }

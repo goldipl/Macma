@@ -12167,4 +12167,41 @@ main.grey-background {
   background-color: #FFFFFF;
   padding-left: 15px;
   cursor: pointer;
+}
+
+.category-top-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  width: 100%;
+}
+.category-top-pagination__slot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.category-top-pagination__slot p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: #374957;
+  margin: 0;
+}
+.category-top-pagination__slot .pagination {
+  padding: 0;
+}
+.category-top-pagination__slot .pagination .dots {
+  margin-bottom: 15px;
+}
+.category-top-pagination__slot .page-number input {
+  width: 85px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  margin: 0;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
