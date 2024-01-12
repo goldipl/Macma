@@ -122,4 +122,6 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 
 ![screenshot](./screenshots/macma_screenshot_42.jpg)  
 
-![screenshot](./screenshots/macma_screenshot_43.jpg)  
+![screenshot](./screenshots/macma_screenshot_43.jpg) 
+
+![screenshot](./screenshots/macma_screenshot_44.jpg)  
