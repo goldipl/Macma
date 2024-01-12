@@ -1,5 +1,6 @@
 .category-top-pagination {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 65px;
@@ -33,6 +34,19 @@
                 padding: 0 10px;
                 text-align: center;
             }
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .category-top-pagination {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        margin: 16px 0;
+        &__slot {
+            flex-wrap: wrap;
+            flex-direction: column;
         }
     }
 }

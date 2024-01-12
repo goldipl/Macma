@@ -113,6 +113,20 @@
                 }
             }
         }
+        .promo-price {
+            p {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 160%;
+                color: $text_color;
+                margin: 0 0 29px 0;
+                span {
+                    font-size: 24px;
+                    color: $promo_price;
+                }
+            }
+        }
     }
 }
 
@@ -142,7 +156,8 @@
                     }
                 }
             }
-            .your-price {
+            .your-price,
+            .promo-price {
                 p {
                     font-size: 15px;
                     line-height: 140%;
@@ -198,7 +213,8 @@
                     }
                 }
             }
-            .your-price {
+            .your-price,
+            .promo-price {
                 p {
                     font-size: 14px;
                     line-height: 140%;

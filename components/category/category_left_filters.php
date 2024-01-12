@@ -86,6 +86,10 @@
                     <span class="custom-checkbox-checkmark"></span>
                 </label>
                 <label class="custom-checkbox-container">
+                    <div class="color grey"></div>Szary <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">
                     <div class="color black"></div>Czarny <input type="checkbox" class="custom_input">
                     <span class="custom-checkbox-checkmark"></span>
                 </label>

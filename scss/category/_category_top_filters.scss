@@ -36,3 +36,26 @@
         }
     }
 }
+
+@media (max-width: 992px) {
+    .category-top-filters {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 860px) {
+    .category-top-filters {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        margin: 16px 0;
+        &__slot {
+            width: 100%;
+            border-left: 0;
+            border-bottom: 1px solid $grey;
+            &:last-of-type {
+                border-bottom: 0;
+            }
+        }
+    }
+}

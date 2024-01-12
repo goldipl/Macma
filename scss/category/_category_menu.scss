@@ -63,3 +63,16 @@
         }
     }
 }
+
+@media (max-width: 992px) {
+    .category-menu {
+        .accordion {
+            &-header {
+                button {
+                    font-size: 15px;
+                    padding: 10px 10px 10px 24px;
+                }
+            }
+        }
+    }      
+}

@@ -18,3 +18,37 @@ main.grey-background {
         }
     }
 }
+
+@media (max-width: 1060px) {
+    .category-wrapper {
+        .container {
+            flex-direction: column;
+            .category-wrapper__left {
+                flex-direction: row;
+                .category-menu,
+                .category-left-filters-box,
+                .category-left-filters {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .category-wrapper {
+        .container {
+            flex-direction: column;
+            .category-wrapper__left {
+                flex-direction: column;
+                .category-menu,
+                .category-left-filters-box,
+                .category-left-filters {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

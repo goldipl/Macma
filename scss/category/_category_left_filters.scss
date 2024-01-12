@@ -155,9 +155,14 @@
     .category-left-filters-box {
         .category-left-filters {
             display: none;
+            padding: 24px;
+            margin-bottom: 15px;
         }
         &__button {
             display: flex;
+            width: 100%;
+            font-size: 15px;
+            padding: 10px 28px 0 24px;
         }
     }
 }
