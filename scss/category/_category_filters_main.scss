@@ -300,7 +300,13 @@
             margin-right: 24px;
             margin-bottom: 24px;
             &:nth-of-type(3n) {
-                margin-right: 0;
+                margin-right: 0 !important;
+            }
+            &:nth-of-type(6n) {
+                margin-right: 0 !important;
+            }
+            &:nth-of-type(9n) {
+                margin-right: 0 !important;
             }
             &:nth-of-type(4n) {
                 margin-right: 24px;
@@ -315,14 +321,17 @@
             width: calc(50% - 12px);
             margin-right: 24px;
             margin-bottom: 24px;
-            &:nth-of-type(2n) {
-                margin-right: 0;
-            }
             &:nth-of-type(3n) {
-                margin-right: 24px;
+                margin-right: 24px !important;
             }
-            &:nth-of-type(4n) {
-                margin-right: 0;
+            &:nth-of-type(6n) {
+                margin-right: 24px !important;
+            }
+            &:nth-of-type(9n) {
+                margin-right: 24px !important;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0 !important;
             }
             &__top {
                 .products-title {
@@ -368,16 +377,19 @@
     .category-filters-main {
         &__slot {
             width: 100%;
-            margin-right: 0;
+            margin-right: 0 !important;
             margin-bottom: 24px;
-            &:nth-of-type(2n) {
-                margin-right: 0;
-            }
             &:nth-of-type(3n) {
-                margin-right: 0;
+                margin-right: 0 !important;
             }
-            &:nth-of-type(4n) {
-                margin-right: 0;
+            &:nth-of-type(6n) {
+                margin-right: 0 !important;
+            }
+            &:nth-of-type(9n) {
+                margin-right: 0 !important;
+            }
+            &:nth-of-type(2n) {
+                margin-right: 0 !important;
             }
         }
     }
