@@ -284,6 +284,9 @@
                 height: 300px;
             }
         }
+        &.register-purple::after {
+            background-color: #ac9fe4;
+        }
         &.register-purple {
             .hero_content {
                 .hero-btns-box {

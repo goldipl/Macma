@@ -2581,6 +2581,9 @@ label.add-files:focus, label.add-files:hover {
   #hero .hero_video iframe {
     height: 300px;
   }
+  #hero.register-purple::after {
+    background-color: #ac9fe4;
+  }
   #hero.register-purple .hero_content .hero-btns-box {
     flex-direction: column;
     align-items: flex-start;
@@ -13595,6 +13598,7 @@ main.grey-background {
 .grey-background {
   background-color: #F4F4F4;
   width: 100%;
+  padding-bottom: 40px;
 }
 .grey-background .register h1 {
   font-size: 36px;
@@ -13610,9 +13614,369 @@ main.grey-background {
   font-weight: 900;
   color: #F26521;
 }
+.grey-background .register .inputs-form-container-wrapper {
+  background-color: #FFFFFF;
+  height: 100%;
+}
+.grey-background .register .inputs-form-container-wrapper .title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #FFFFFF;
+  min-height: 70px;
+  border-bottom: 1px solid #F4F4F4;
+}
+.grey-background .register .inputs-form-container-wrapper .title p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding-left: 40px;
+  color: #374957;
+  margin: 0 15px 0 0;
+}
+.grey-background .register .inputs-form-container-wrapper .title p img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+}
+.grey-background .register .inputs-form-container-wrapper .title p span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #374957;
+  margin: 0 0 0 15px;
+  text-transform: none;
+}
+.grey-background .register .inputs-form-container-wrapper .title p span.orange {
+  color: #F26521;
+}
+.grey-background .register .inputs-form-container-wrapper .button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 45px;
+}
+.grey-background .register .inputs-form-container-wrapper .button-box button {
+  width: 205px;
+  height: 54px;
+}
+.grey-background .register .inputs-form-container-wrapper .button-box button:hover img {
+  content: url("./../assets/icons/dashboard/save-btn-orange.svg");
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot {
+  width: 24%;
+  margin-right: 23px;
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label {
+  position: relative;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: #374957;
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label.custom-checkbox-container {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167.023%;
+  color: #8A8A8A;
+  margin-top: 36px;
+  padding-left: 45px;
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label.custom-checkbox-container .custom-checkbox-checkmark {
+  top: -1px;
+  left: -1px;
+  height: 37px;
+  width: 37px;
+  background-color: #F4F4F4;
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label.custom-checkbox-container .custom-checkbox-checkmark:hover {
+  background-color: #E6E6E6;
+}
+.grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label.custom-checkbox-container .custom-checkbox-checkmark::after {
+  left: 15px;
+  top: 9px;
+  width: 8px;
+  height: 16px;
+  border-width: 0 3px 3px 0;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 33px 40px;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column {
+  width: 24%;
+  margin-right: 1%;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column .inputs-wrapper__slot {
+  width: 100%;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column .inputs-wrapper__slot label.newsletter {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  color: #374957;
+  background-color: #F4F4F4;
+  height: 37px;
+  text-align: center;
+  border: 1px solid #E6E6E6;
+  padding-left: 37px;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column .inputs-wrapper__slot label.newsletter .custom-checkbox-checkmark {
+  top: -1px;
+  left: -1px;
+  height: 37px;
+  width: 37px;
+  background-color: #F4F4F4;
+  border: 1px solid #E6E6E6;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column .inputs-wrapper__slot label.newsletter .custom-checkbox-checkmark:hover {
+  background-color: #E6E6E6;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column .inputs-wrapper__slot label.newsletter .custom-checkbox-checkmark::after {
+  left: 13px;
+  top: 8px;
+  width: 8px;
+  height: 16px;
+  border-width: 0 3px 3px 0;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin-right: 1%;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot.pre label {
+  white-space: pre;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot.newsletter {
+  width: 100%;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot.newsletter input {
+  width: 400px;
+  margin-bottom: -8px;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot:nth-of-type(4n) {
+  margin-right: 0;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label {
+  position: relative;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: #374957;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label.custom-checkbox-container.marketing-consents {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167.023%;
+  color: #8A8A8A;
+  margin-top: 36px;
+  padding-left: 45px;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label.custom-checkbox-container.marketing-consents .custom-checkbox-checkmark {
+  top: -1px;
+  left: -1px;
+  height: 37px;
+  width: 37px;
+  background-color: #F4F4F4;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label.custom-checkbox-container.marketing-consents .custom-checkbox-checkmark:hover {
+  background-color: #E6E6E6;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label.custom-checkbox-container.marketing-consents .custom-checkbox-checkmark::after {
+  left: 15px;
+  top: 9px;
+  width: 8px;
+  height: 16px;
+  border-width: 0 3px 3px 0;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label .orange {
+  display: inline-flex;
+  margin-left: 4px;
+  color: #F26521;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label small {
+  line-height: 11px;
+  position: absolute;
+  font-size: 10px;
+  color: #8C8C8C;
+  margin-left: 16px;
+  width: 60%;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot select {
+  height: 40px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 13px 0 25px 0;
+  cursor: pointer;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input {
+  height: 40px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 13px 0 25px 0;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input[type=file] {
+  font-size: 16px;
+  padding: 0;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .label-logo {
+  margin-top: -60px;
+  margin-bottom: 13px;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .your-logo {
+  width: 100%;
+  height: auto;
+  max-width: 380px;
+}
+
 @media (max-width: 991px) {
   .grey-background .register h1 {
     font-size: 20px;
     line-height: 140%;
+  }
+  .grey-background .register .inputs-form-container-wrapper .title {
+    min-height: 40px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .title p {
+    font-size: 16px;
+    padding-left: 16px;
+    line-height: 100%;
+  }
+  .grey-background .register .inputs-form-container-wrapper .title p span {
+    font-size: 13px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .button-box button {
+    font-size: 14px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .checkboxes-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot {
+    width: 100%;
+    margin-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label {
+    margin: 8px 0 !important;
+    padding-left: 40px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label .custom-checkbox-checkmark {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label .custom-checkbox-checkmark::after {
+    left: 8px !important;
+    top: 3px !important;
+    width: 8px !important;
+    height: 16px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper {
+    padding: 16px 20px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column {
+    width: 49%;
+    margin-right: 1%;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin-right: 1%;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .marketing-consents {
+    margin-top: 21px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot:nth-of-type(3n) {
+    margin-right: 1%;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label {
+    font-size: 14px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input {
+    padding: 0 16px;
+    margin: 0 0 16px 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input[type=file] {
+    margin-top: 13px;
+    font-size: 16px;
+    padding: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .label-logo {
+    margin-top: -40px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .your-logo {
+    max-width: 80vw;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot small {
+    width: 100% !important;
+  }
+}
+@media (max-width: 760px) {
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper {
+    padding: 16px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper .input-column {
+    width: 100%;
+    margin-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper label.marketing-consents {
+    margin: 8px 0 !important;
+    padding-left: 40px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper label.marketing-consents .custom-checkbox-checkmark {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper label.marketing-consents .custom-checkbox-checkmark::after {
+    left: 8px !important;
+    top: 3px !important;
+    width: 8px !important;
+    height: 16px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot {
+    width: 100%;
+    margin-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input[type=file] {
+    font-size: 14px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .your-logo {
+    max-width: 100%;
+  }
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot small {
+    width: 80% !important;
+    line-height: 9px !important;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -19,7 +19,7 @@
                             </div>
                             <div class="input-slot">
                                 <label for="zipcode">Kod pocztowy</label>
-                                <input class="form-input" type="text" name="zipcode">
+                                <input class="form-input" type="number" name="zipcode">
                             </div>
                             <div class="input-slot">
                                 <label for="city">Miasto</label>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="input-slot">
                                 <label for="address-zipcode">Kod pocztowy</label>
-                                <input class="form-input" type="text" name="address-zipcode">
+                                <input class="form-input" type="number" name="address-zipcode">
                             </div>
                             <div class="input-slot">
                                 <label for="address-city">Miasto</label>
