@@ -6,7 +6,7 @@
             </div>
             <div class="info_box__text">
                 <b>Składanie zamówień:</b>
-                <p>Aby złożyć zamówienie na znakowaniem, należy być zarejestrowanym Klientem Macma Polska Sp. z o.o. i skorzystać z jednej opcji:</p>
+                <p>Aby złożyć zamówienie na produkty ze znakowaniem, należy być zarejestrowanym Klientem Macma Polska i skorzystać z jednej opcji:</p>
                 <ul>
                     <li>zamówienie internetowe - Macma WebShop</li>
                     <li>zamówienie tradycyjne u opiekuna handlowego</li>
