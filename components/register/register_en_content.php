@@ -72,7 +72,7 @@
                     <input class="form-input" type="text" name="city" id="city" required="">
                 </div>
                 <div class="inputs-wrapper__slot">
-                    <label for="country">Kraj<span class="orange">*</span><small>Jeśli Twojego kraju nie ma na liście, kliknij <a href="#">TUTAJ</a> i sprawdź, do którego oddziału się zgłosić.</small></label>
+                    <label for="country">Kraj<span class="orange">*</span><small>Jeśli Twojego kraju nie ma na liście, kliknij <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">TUTAJ</button> i sprawdź, do którego oddziału się zgłosić.</small></label>
                     <select class="form-select" name="country" id="country" required="">
                         <option value="Litwa (LT)">Litwa (LT)</option>
                         <option value="Niemcy (DE)">Niemcy (DE)</option>

@@ -255,11 +255,15 @@
                             color: $dashboard_grey;
                             margin-left: 16px;
                             width: 60%;
-                            a {
+                            button {
+                                all: unset;
+                                line-height: 11px;
+                                font-size: 10px;
                                 color: $macma_orange;
                                 text-decoration: none;
+                                cursor: pointer;
                                 &:hover {
-                                    text-decoration: underline;
+                                    border-bottom: 1px solid;
                                 }
                             }
                         }
@@ -289,6 +293,26 @@
                         width: 100%;
                         height: auto;
                         max-width: 380px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .grey-background {
+        .register {
+            .inputs-form-container-wrapper {
+                .inputs-wrapper {
+                    &__slot {
+                        width: 49%;
+                        small {
+                            width: 70% !important;
+                        }
+                    }
+                    .input-column {
+                        width: 49%;
                     }
                 }
             }
@@ -399,7 +423,7 @@
                             max-width: 80vw;
                         }
                         small {
-                            width: 100%  !important;
+                            width: 80% !important;
                         }
                     }
                 }
