@@ -467,6 +467,9 @@ footer .footer__container__top .third-column a img {
 footer .footer__container__top .third-column a:hover {
   color: #F26521;
 }
+footer .footer__container__top .third-column a:hover img {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+}
 footer .footer__container__top .fourth-column .footer-contacts-box h2 {
   font-size: 24px;
   font-style: normal;
