@@ -13604,7 +13604,7 @@ main.grey-background {
 .grey-background .register h1 {
   font-size: 36px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 120%;
   text-transform: uppercase;
   color: #374957;
@@ -13618,6 +13618,35 @@ main.grey-background {
 .grey-background .register .inputs-form-container-wrapper {
   background-color: #FFFFFF;
   height: 100%;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container {
+  display: flex;
+  flex-direction: row;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container__slot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container__slot .title {
+  width: 100%;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container__slot:nth-of-type(2) .inputs-wrapper {
+  padding-left: 0;
+  padding-right: 40px;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container__slot:nth-of-type(2) .title p {
+  padding-left: 0;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container__slot .inputs-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-right: 0;
+}
+.grey-background .register .inputs-form-container-wrapper .register-top-container__slot .inputs-wrapper__slot {
+  width: 48%;
+  margin-right: 2%;
 }
 .grey-background .register .inputs-form-container-wrapper .title {
   display: flex;
@@ -13864,6 +13893,16 @@ main.grey-background {
     line-height: 140%;
     padding: 24px 0;
   }
+  .grey-background .register .inputs-form-container-wrapper .register-top-container {
+    flex-direction: column;
+  }
+  .grey-background .register .inputs-form-container-wrapper .register-top-container__slot:nth-of-type(2) .inputs-wrapper {
+    padding-left: 16px;
+    padding-right: 0;
+  }
+  .grey-background .register .inputs-form-container-wrapper .register-top-container__slot:nth-of-type(2) .title p {
+    padding-left: 16px;
+  }
   .grey-background .register .inputs-form-container-wrapper .title {
     min-height: 40px;
   }
@@ -13916,7 +13955,7 @@ main.grey-background {
     margin-right: 1%;
   }
   .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot .marketing-consents {
-    margin-top: 21px !important;
+    margin-top: 27px !important;
   }
   .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot:nth-of-type(2n) {
     margin-right: 0;
@@ -13948,6 +13987,19 @@ main.grey-background {
   }
 }
 @media (max-width: 760px) {
+  .grey-background .register .inputs-form-container-wrapper .register-top-container__slot .inputs-wrapper {
+    padding-right: 16px !important;
+  }
+  .grey-background .register .inputs-form-container-wrapper .register-top-container__slot .title p {
+    padding-left: 16px;
+  }
+  .grey-background .register .inputs-form-container-wrapper .register-top-container__slot .inputs-wrapper {
+    flex-direction: column;
+  }
+  .grey-background .register .inputs-form-container-wrapper .register-top-container__slot .inputs-wrapper__slot {
+    width: 100%;
+    margin-right: 16px;
+  }
   .grey-background .register .inputs-form-container-wrapper .inputs-wrapper {
     padding: 16px;
   }

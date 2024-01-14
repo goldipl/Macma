@@ -6,7 +6,7 @@
         h1 {
             font-size: 36px;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 900;
             line-height: 120%;
             text-transform: uppercase;
             color: $text_color;
@@ -20,6 +20,37 @@
         .inputs-form-container-wrapper {
             background-color: $white;
             height: 100%;
+            .register-top-container {
+                display: flex;
+                flex-direction: row;
+                &__slot {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .title {
+                        width: 100%;
+                    }
+                    &:nth-of-type(2) {
+                        .inputs-wrapper {
+                            padding-left: 0;
+                            padding-right: 40px;
+                        }
+                        .title p {
+                            padding-left: 0;
+                        }
+                    }
+                    .inputs-wrapper {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        padding-right: 0;
+                        &__slot {
+                            width: 48%;
+                            margin-right: 2%;
+                        }
+                    }
+                }
+            }
             .title {
                 display: flex;
                 align-items: center;
@@ -274,6 +305,20 @@
                 padding: 24px 0;
             }
             .inputs-form-container-wrapper {
+                .register-top-container {
+                    flex-direction: column;
+                    &__slot {
+                        &:nth-of-type(2) {
+                            .inputs-wrapper {
+                                padding-left: 16px;
+                                padding-right: 0;
+                            }
+                            .title p {
+                                padding-left: 16px;
+                            }
+                        }
+                    }
+                }
                 .title {
                     min-height: 40px;
                     p {
@@ -326,7 +371,7 @@
                         width: 49%;
                         margin-right: 1%;
                         .marketing-consents {
-                            margin-top: 21px !important;
+                            margin-top: 27px !important;
                         }
                         &:nth-of-type(2n) {
                             margin-right: 0;
@@ -368,6 +413,23 @@
     .grey-background {
         .register {
             .inputs-form-container-wrapper {
+                .register-top-container {
+                    &__slot {
+                        .inputs-wrapper {
+                            padding-right: 16px !important;
+                        }
+                        .title p {
+                            padding-left: 16px;
+                        }
+                        .inputs-wrapper {
+                            flex-direction: column;
+                            &__slot {
+                                width: 100%;
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+                }
                 .inputs-wrapper {
                     padding: 16px;
                     .input-column {
