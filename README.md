@@ -23,12 +23,14 @@ Used technologies:
 * SCSS
 
 ## Gif desktop website presentation
+#### wait until the gif file loads (39,7mb)
 
-* To Do after
+![gif](./gif/MACMA-desktop.gif)
 
 ## Gif mobile website presentation
+#### wait until the gif file loads (15,9mb)
 
-* To Do after
+<img src="./gif/MACMA-mobile.gif" width="300"/>
 
 ## License
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
