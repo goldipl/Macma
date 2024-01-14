@@ -86,6 +86,9 @@
         }
 
         /* thumbs */
+        .gallery-thumbs  {
+            overflow: visible;
+        }
         .gallery-thumbs .swiper-slide {
             width: auto;
             opacity: 0.8;
@@ -111,11 +114,12 @@
             height: 45px;
             background-image: url("./../assets/icons/main_page/hero_swiper/arrow-right.svg");
             background-size: contain;
+            background-color: $white;
             display: block;
             background-repeat: no-repeat;
             background-position: center center;
             bottom: calc(50% - 22px);
-            right: 0;
+            right: -45px;
             z-index: 1;
 
             &::after {
@@ -129,11 +133,12 @@
             height: 45px;
             background-image: url("./../assets/icons/main_page/hero_swiper/arrow-left.svg");
             background-size: contain;
+            background-color: $white;
             display: block;
             background-repeat: no-repeat;
             background-position: center center;
             bottom: calc(50% - 22px);
-            left: 0;
+            left: -50px;
             z-index: 1;
 
             &::after {
@@ -212,6 +217,7 @@
                 height: 180px !important;
             }
             .gallery-thumbs {
+                width: calc(100% - 50px);
                 img {
                     height: 100px;
                 }

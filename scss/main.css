@@ -2853,6 +2853,9 @@ label.add-files:focus, label.add-files:hover {
   width: max-content;
   max-height: 474px;
 }
+.gallery_article__right .gallery-thumbs {
+  overflow: visible;
+}
 .gallery_article__right .gallery-thumbs .swiper-slide {
   width: auto;
   opacity: 0.8;
@@ -2880,11 +2883,12 @@ label.add-files:focus, label.add-files:hover {
   height: 45px;
   background-image: url("./../assets/icons/main_page/hero_swiper/arrow-right.svg");
   background-size: contain;
+  background-color: #FFFFFF;
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
   bottom: calc(50% - 22px);
-  right: 0;
+  right: -45px;
   z-index: 1;
 }
 .gallery_article__right .swiper-button-next::after {
@@ -2896,11 +2900,12 @@ label.add-files:focus, label.add-files:hover {
   height: 45px;
   background-image: url("./../assets/icons/main_page/hero_swiper/arrow-left.svg");
   background-size: contain;
+  background-color: #FFFFFF;
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
   bottom: calc(50% - 22px);
-  left: 0;
+  left: -50px;
   z-index: 1;
 }
 .gallery_article__right .swiper-button-prev::after {
@@ -2959,6 +2964,9 @@ label.add-files:focus, label.add-files:hover {
   }
   .gallery_article__right .swiper-slide {
     height: 180px !important;
+  }
+  .gallery_article__right .gallery-thumbs {
+    width: calc(100% - 50px);
   }
   .gallery_article__right .gallery-thumbs img {
     height: 100px;
