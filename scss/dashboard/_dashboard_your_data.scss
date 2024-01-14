@@ -150,9 +150,10 @@
                 label {
                     font-size: 14px;
                 }
-                input {
+                input,
+                select {
                     padding: 0 16px;
-                    margin: 0 0 16px 0;
+                    margin: 6px 0 16px 0;
                 }
                 input[type="file"] {
                     margin-top: 13px;

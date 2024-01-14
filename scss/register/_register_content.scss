@@ -224,6 +224,13 @@
                             color: $dashboard_grey;
                             margin-left: 16px;
                             width: 60%;
+                            a {
+                                color: $macma_orange;
+                                text-decoration: none;
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
                         }
                     }
                     select {
@@ -264,6 +271,7 @@
             h1 {
                 font-size: 20px;
                 line-height: 140%;
+                padding: 24px 0;
             }
             .inputs-form-container-wrapper {
                 .title {
@@ -329,9 +337,10 @@
                         label {
                             font-size: 14px;
                         }
-                        input {
+                        input,
+                        select {
                             padding: 0 16px;
-                            margin: 0 0 16px 0;
+                            margin: 6px 0 16px 0;
                         }
                         input[type="file"] {
                             margin-top: 13px;

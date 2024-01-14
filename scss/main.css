@@ -9102,9 +9102,10 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-wrapper .inputs-wrapper__slot label {
     font-size: 14px;
   }
-  .dashboard-wrapper .inputs-wrapper__slot input {
+  .dashboard-wrapper .inputs-wrapper__slot input,
+  .dashboard-wrapper .inputs-wrapper__slot select {
     padding: 0 16px;
-    margin: 0 0 16px 0;
+    margin: 6px 0 16px 0;
   }
   .dashboard-wrapper .inputs-wrapper__slot input[type=file] {
     margin-top: 13px;
@@ -13823,6 +13824,13 @@ main.grey-background {
   margin-left: 16px;
   width: 60%;
 }
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label small a {
+  color: #F26521;
+  text-decoration: none;
+}
+.grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label small a:hover {
+  text-decoration: underline;
+}
 .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot select {
   height: 40px;
   width: 100%;
@@ -13854,6 +13862,7 @@ main.grey-background {
   .grey-background .register h1 {
     font-size: 20px;
     line-height: 140%;
+    padding: 24px 0;
   }
   .grey-background .register .inputs-form-container-wrapper .title {
     min-height: 40px;
@@ -13918,9 +13927,10 @@ main.grey-background {
   .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label {
     font-size: 14px;
   }
-  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input {
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input,
+  .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot select {
     padding: 0 16px;
-    margin: 0 0 16px 0;
+    margin: 6px 0 16px 0;
   }
   .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot input[type=file] {
     margin-top: 13px;
