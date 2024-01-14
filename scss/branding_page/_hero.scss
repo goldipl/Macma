@@ -2,6 +2,49 @@
     position: relative;
     width: 100vw;
     margin-bottom: 72px;
+    &.register-purple::before {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: #ac9fe4;
+        top: 0;
+        left: -50vw;
+        height: 100%;
+        width: 60vw;
+        z-index: -1;
+    }
+    &.register-purple::after {
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: #bb9bde;
+        top: 0;
+        right: -50vw;
+        height: 100%;
+        width: 60vw;
+        z-index: -1;
+    }
+    &.register-purple {
+        margin-bottom: 0 !important;
+        .hero_content {
+            .hero-btns-box {
+                display: flex;
+                align-items: center;
+                .hero_content--btn {
+                    width: 280px;
+                    height: 100px;
+                    padding-right: 20px;
+                    padding-left: 10px;
+                    a {
+                        text-align: center;
+                        img {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
     &.import-yellow::before {
         position: absolute;
         display: block;
@@ -83,6 +126,7 @@
             background-color: $white;
             width: 192px;
             height: 54px;
+            margin-right: 20px;
             a {
                 display: inline-flex;
                 justify-content: center;
@@ -164,6 +208,14 @@
                 background-color: #faf385;
             }
         }
+        &.register-purple {
+            background-color: #ac9fe4;
+            padding-bottom: 80px;
+            margin-bottom: 24px;
+            &::before {
+                background-color: #ac9fe4;
+            }
+        }
         &::after {
             display: none;
         }
@@ -230,6 +282,20 @@
         .hero_video {
             iframe {
                 height: 300px;
+            }
+        }
+        &.register-purple {
+            .hero_content {
+                .hero-btns-box {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    .hero_content--btn {
+                        width: 240px;
+                        height: 72px;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                }
             }
         }
     }
