@@ -5,8 +5,8 @@
         position: relative;
         border: 1px solid $grey;
         background-color: $light_grey;
-        width: 31%;
-        margin-right: 2%; 
+        width: 32%;
+        margin-right: 1%; 
         margin-bottom: 2%;
         &:nth-of-type(3n) {
             margin-right: 0;
@@ -21,10 +21,11 @@
                 font-weight: 700;
                 line-height: 80px;
                 color: $text-color;
+                margin: 0;
             }
         }
         &--text {
-            padding: 39px 57px;
+            padding: 34px 57px;
             p {
                 font-size: 14px;
                 font-style: normal;
@@ -32,10 +33,13 @@
                 line-height: 160%;
                 color: $text-color;
                 text-align: center;
+                margin: 0;
             }
             ul {
                 text-align: center;
                 list-style-position: inside;
+                margin: 0;
+                padding: 0;
                 li {
                     font-size: 14px;
                     font-style: normal;

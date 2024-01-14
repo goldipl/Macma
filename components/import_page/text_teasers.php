@@ -12,7 +12,7 @@
             <p>Jak to działa?</p>
         </div>
         <div class="text_teasers__slot--text">
-            <p>Usługa Direct Asia zapewnia kompleksową obsługę zlecenia: przygotowanie oferty zgodnie ze specyfikacją produktu zawartą w zapytaniu</p>
+            <p>Usługa Direct Asia zapewnia kompleksową obsługę zlecenia:</p>
             <ul>
                 <li>przygotowanie oferty zgodnie ze specyfikacją produktu zawartą w zapytaniu</li>
                 <li>zamówienie wzorów</li>

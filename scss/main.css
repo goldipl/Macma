@@ -3213,8 +3213,8 @@ label.add-files:focus, label.add-files:hover {
   position: relative;
   border: 1px solid #E6E6E6;
   background-color: #F4F4F4;
-  width: 31%;
-  margin-right: 2%;
+  width: 32%;
+  margin-right: 1%;
   margin-bottom: 2%;
 }
 .text_teasers__slot:nth-of-type(3n) {
@@ -3231,9 +3231,10 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   line-height: 80px;
   color: #374957;
+  margin: 0;
 }
 .text_teasers__slot--text {
-  padding: 39px 57px;
+  padding: 34px 57px;
 }
 .text_teasers__slot--text p {
   font-size: 14px;
@@ -3242,10 +3243,13 @@ label.add-files:focus, label.add-files:hover {
   line-height: 160%;
   color: #374957;
   text-align: center;
+  margin: 0;
 }
 .text_teasers__slot--text ul {
   text-align: center;
   list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
 .text_teasers__slot--text ul li {
   font-size: 14px;
