@@ -14,7 +14,7 @@
                 <strong>Zapisz się do newslettera</strong>
             </div>
             <form class="newsletter-form d-inline-flex">
-                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz adres e-mail" required>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz adres email" required>
                 <button id="newsletter_btn">Wyślij</button>
             </form>
         </div>
