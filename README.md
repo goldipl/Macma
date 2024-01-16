@@ -4,6 +4,7 @@
 * [Gif desktop website presentation](#gif-desktop-website-presentation)
 * [Gif mobile website presentation](#gif-mobile-website-presentation)
 * [License](#license)
+* [Architecture](#architecture)
 * [Screenshots](#screenshots)
 
 ## General info
@@ -36,6 +37,10 @@ Used technologies:
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
 
 This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)    
+
+## Architecture
+
+![image](./screenshots/macma_architecture_image.jpg)
 
 ## Screenshots
 * Desktop & mobile version :desktop_computer: :iphone:       
