@@ -9151,6 +9151,9 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-wrapper .inputs-wrapper__slot .your-logo {
     max-width: 100%;
   }
+  .dashboard-wrapper .inputs-wrapper__slot.newsletter input {
+    width: 100%;
+  }
 }
 .dashboard-wrapper .dashboard-program {
   display: flex;

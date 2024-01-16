@@ -190,6 +190,11 @@
                 .your-logo {
                     max-width: 100%;
                 }
+                &.newsletter {
+                    input {
+                        width: 100%;
+                    }
+                }
             }
         }
     } 
