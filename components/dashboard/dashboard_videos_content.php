@@ -1,6 +1,6 @@
 <form class="dashboard-wrapper">
     <div class="title">
-        <p><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Video</p>
+        <p><img src="./assets/icons/dashboard/to_download.svg" alt="menu icon" width="20" height="20">Video</p>
     </div>
     <div class="dashboard-img-boxes">
         <div class="dashboard-img-boxes__slot">
