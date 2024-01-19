@@ -6,6 +6,17 @@
         position: relative;
         width: 100%;
         max-width: 1640px;
+        &::before {
+            position: absolute;
+            display: block;
+            content: "";
+            top: 0;
+            left: -50vw;
+            height: 100%;
+            width: 300vw;
+            z-index: -1;
+            background-color: $main_page_swiper_background;
+        }
         .swiper.desktop {
             .swiper-slide {
                 a {
