@@ -73,11 +73,28 @@
     }
 }
 
+#import-page-swiper {
+    width: 76%;
+}
+
+.import-page-swiper {
+    margin: 80px 0;
+    overflow: hidden;
+    .swiper-slide {
+        img {
+            border: 1px solid $grey3;
+            padding: 20px;
+            object-fit: contain;
+        }
+    }
+}
+
 .promo_products_swiper,
 .our_products_swiper,
 .news_swiper,
 .blog_swiper,
-.our_brands_swiper {
+.our_brands_swiper,
+.import-page-swiper {
     width: 100%;
     z-index: 0;
     .swiper-button-next {
@@ -162,6 +179,15 @@
         }
         .swiper-button-prev {
             left: 8px;
+        }
+    }
+    .import-page-swiper {
+        margin: 24px 0;
+        .swiper-button-next {
+            right: -40px;
+        }
+        .swiper-button-prev {
+            left: -40px;
         }
     }
 }

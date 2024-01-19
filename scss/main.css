@@ -1281,11 +1281,27 @@ label.add-files:focus, label.add-files:hover {
   filter: grayscale(100%);
 }
 
+#import-page-swiper {
+  width: 76%;
+}
+
+.import-page-swiper {
+  margin: 80px 0;
+  overflow: hidden;
+}
+.import-page-swiper .swiper-slide img {
+  border: 1px solid #C0C5C8;
+  padding: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .promo_products_swiper,
 .our_products_swiper,
 .news_swiper,
 .blog_swiper,
-.our_brands_swiper {
+.our_brands_swiper,
+.import-page-swiper {
   width: 100%;
   z-index: 0;
 }
@@ -1293,7 +1309,8 @@ label.add-files:focus, label.add-files:hover {
 .our_products_swiper .swiper-button-next,
 .news_swiper .swiper-button-next,
 .blog_swiper .swiper-button-next,
-.our_brands_swiper .swiper-button-next {
+.our_brands_swiper .swiper-button-next,
+.import-page-swiper .swiper-button-next {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -1310,14 +1327,16 @@ label.add-files:focus, label.add-files:hover {
 .our_products_swiper .swiper-button-next::after,
 .news_swiper .swiper-button-next::after,
 .blog_swiper .swiper-button-next::after,
-.our_brands_swiper .swiper-button-next::after {
+.our_brands_swiper .swiper-button-next::after,
+.import-page-swiper .swiper-button-next::after {
   display: none;
 }
 .promo_products_swiper .swiper-button-prev,
 .our_products_swiper .swiper-button-prev,
 .news_swiper .swiper-button-prev,
 .blog_swiper .swiper-button-prev,
-.our_brands_swiper .swiper-button-prev {
+.our_brands_swiper .swiper-button-prev,
+.import-page-swiper .swiper-button-prev {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -1334,14 +1353,16 @@ label.add-files:focus, label.add-files:hover {
 .our_products_swiper .swiper-button-prev::after,
 .news_swiper .swiper-button-prev::after,
 .blog_swiper .swiper-button-prev::after,
-.our_brands_swiper .swiper-button-prev::after {
+.our_brands_swiper .swiper-button-prev::after,
+.import-page-swiper .swiper-button-prev::after {
   display: none;
 }
 .promo_products_swiper .swiper-slide img,
 .our_products_swiper .swiper-slide img,
 .news_swiper .swiper-slide img,
 .blog_swiper .swiper-slide img,
-.our_brands_swiper .swiper-slide img {
+.our_brands_swiper .swiper-slide img,
+.import-page-swiper .swiper-slide img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -1382,6 +1403,15 @@ label.add-files:focus, label.add-files:hover {
   .blog_swiper .swiper-button-prev,
   .our_brands_swiper .swiper-button-prev {
     left: 8px;
+  }
+  .import-page-swiper {
+    margin: 24px 0;
+  }
+  .import-page-swiper .swiper-button-next {
+    right: -40px;
+  }
+  .import-page-swiper .swiper-button-prev {
+    left: -40px;
   }
 }
 @media (max-width: 576px) {

@@ -13,7 +13,7 @@
     </div>
     <input class="form-input" type="text" name="product-branding" id="product-branding" placeholder="Znakowanie">
     <input class="form-input" type="number" name="product-quantity-location" id="product-quantity-location" placeholder="Liczba miejsc">
-    <input class="form-input" type="number" name="product-box" id="product-box" placeholder="Ilość kolorów">
+    <input class="form-input" type="number" name="product-quantity-colors" id="product-quantity-colors" placeholder="Ilość kolorów">
     <div class="title">
         <span class="form-number">3</span>Inne informacje
     </div>
