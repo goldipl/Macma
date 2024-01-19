@@ -1215,6 +1215,47 @@ label.add-files:focus, label.add-files:hover {
   max-width: unset;
   padding: 0;
 }
+#swiper.main-page-swiper {
+  position: relative;
+  width: 100%;
+  max-width: 1640px;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content {
+  position: absolute;
+  bottom: 25%;
+  left: 9%;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content img {
+  width: 18px;
+  height: 18px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin: 0;
+  color: #FFFFFF;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 span {
+  font-weight: 900;
+  color: #F26521;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  color: #374957;
+  margin: 19px 0 0 0;
+}
 #swiper .swiper {
   width: 100%;
   height: 507px;
@@ -1378,6 +1419,39 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide a img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 span {
+    font-weight: 900;
+    color: #F26521;
+  }
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #374957;
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
   #swiper .swiper.desktop {
     display: none;
   }
