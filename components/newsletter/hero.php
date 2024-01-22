@@ -14,7 +14,7 @@
         <p class="hero_content--text">Zapisz się do naszego newslettera i bądź na bieżąco!</p>
         <form class="d-flex align-items-center mt-5">
             <input type="email" name="newsletter-hero" id="newsletter-hero" class="newsletter-hero" placeholder="Wpisz swój adres email" required>
-            <button class="orange-btn m-0">Wyślij <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+            <button class="white-btn m-0">Wyślij <img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18">
         </form>
     </button>
     </div>
