@@ -26,7 +26,7 @@
                                     <p class="desc">Minimalna ilość: 500 szt.</p>
                                 </div>
                                 <div class="accordion-body__col">
-                                    <p>Kod: <span>2,55 PLN</span>
+                                    <p>Kod: <span>2347644</span>
                                     </p>
                                     <p>Kolor: <span>czarny</span>
                                     </p>
