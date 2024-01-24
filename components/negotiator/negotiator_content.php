@@ -113,7 +113,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading14">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                                <span class="number">4</span>Kliknij i wybierz technikę oraz miejsce znakowania </button>
+                                <span class="number">4</span>Kliknij i wybierz technikę oraz miejsce znakowania <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24"></button>
                         </h2>
                         <div id="collapse14" class="accordion-collapse collapse show" aria-labelledby="heading14" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
