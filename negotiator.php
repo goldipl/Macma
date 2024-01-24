@@ -37,5 +37,6 @@
         <script src="./js/bootbox.min.js"></script>
         <script src="./js/select2.min.js"></script>
         <script src="./js/script.js"></script>
+        <script src="./js/checked_colors.js"></script>
     </body>
 </html>

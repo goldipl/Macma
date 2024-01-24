@@ -60,15 +60,15 @@
                                         </div>
                                     </div>
                                     <div class="colors-squares">
-                                        <div class="color" onclick="toggleChecked(this)"></div>
-                                        <div class="color red" onclick="toggleChecked(this)"></div>
-                                        <div class="color yellow" onclick="toggleChecked(this)"></div>
-                                        <div class="color lightblue" onclick="toggleChecked(this)"></div>
-                                        <div class="color blue" onclick="toggleChecked(this)"></div>
-                                        <div class="color pink checked" onclick="toggleChecked(this)"></div>
-                                        <div class="color purple" onclick="toggleChecked(this)"></div>
-                                        <div class="color green" onclick="toggleChecked(this)"></div>
-                                        <div class="color black checked" onclick="toggleChecked(this)"></div>
+                                        <div class="color" ></div>
+                                        <div class="color red" ></div>
+                                        <div class="color yellow" ></div>
+                                        <div class="color lightblue" ></div>
+                                        <div class="color blue" ></div>
+                                        <div class="color pink" ></div>
+                                        <div class="color purple" ></div>
+                                        <div class="color green" ></div>
+                                        <div class="color black checked" ></div>
                                     </div>
                                     <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg">
                                     </button>
@@ -413,8 +413,3 @@
         </div>
     </div>
 </div>
-<script>
-    function toggleChecked(e) {
-        e.classList.toggle("checked");
-    }
-</script>
