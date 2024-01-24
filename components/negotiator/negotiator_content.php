@@ -43,7 +43,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading12">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
-                                <span class="number">2</span>Wybierz kolory 
+                                <span class="number">2</span>Wybierz kolory <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
                             </button>
                         </h2>
                         <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
@@ -79,7 +79,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading13">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                                <span class="number">3</span>Podaj ilość 
+                                <span class="number">3</span>Podaj ilość <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
                                 <p class="quantity">Ilość całkowita: <span>1000 szt.</span>
                                 </p>
                             </button>

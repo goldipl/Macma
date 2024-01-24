@@ -7109,6 +7109,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .calculator_container .accordion-container .accordion-button img {
   margin-left: 16px;
+  display: none;
 }
 .calculator_container .accordion-container .accordion .quantity {
   font-size: 18px;
@@ -12995,6 +12996,7 @@ main.grey-background {
 }
 .negotiator_container .accordion-container .accordion-button img {
   margin-left: 16px;
+  display: none;
 }
 .negotiator_container .accordion-container .accordion .quantity {
   font-size: 18px;
