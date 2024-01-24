@@ -11,7 +11,7 @@
                                 </p>
                             </button>
                         </h2>
-                        <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                        <div id="collapse11" class="accordion-collapse collapse show" aria-labelledby="heading11" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="accordion-body__col">
                                     <img src="./assets/img/cart/notepad.jpg" alt="img" width="115" height="115">
@@ -46,7 +46,7 @@
                                 <span class="number">2</span>Wybierz kolory <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
                             </button>
                         </h2>
-                        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                        <div id="collapse12" class="accordion-collapse collapse show" aria-labelledby="heading12" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="colors-col">
                                     <div class="colors-info-box">
@@ -84,7 +84,7 @@
                                 </p>
                             </button>
                         </h2>
-                        <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                        <div id="collapse13" class="accordion-collapse collapse show" aria-labelledby="heading13" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="quantity-col">
                                     <div class="quantity-col-box">
