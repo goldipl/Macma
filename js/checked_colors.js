@@ -1,22 +1,41 @@
-// Function to toggle checked state of color squares and check mix-container checkbox accordingly
-function toggleChecked(colorElement) {
-    // Toggle checked state of color square
-    colorElement.classList.toggle('checked');
+document.addEventListener('DOMContentLoaded', function () {
+    const mixCheckbox = document.querySelector('.mix-container .custom_input');
+    const colorSquares = document.querySelectorAll('.colors-squares .color');
+    let lastCheckedSquare = null;
 
-    // Get all checked color squares
-    var checkedColors = document.querySelectorAll('.colors-squares .color.checked');
+    function enableColorSquareSelection() {
+        colorSquares.forEach(function (square) {
+            square.addEventListener('click', function () {
+                if (!mixCheckbox.checked) {
+                    colorSquares.forEach(function (otherSquare) {
+                        otherSquare.classList.remove('checked');
+                    });
+                    this.classList.add('checked');
+                    lastCheckedSquare = this;
+                }
+            });
+        });
+    }
 
-    // Get the mix checkbox element
-    var mixCheckbox = document.querySelector('.mix-container .custom_input');
-
-    // Set the mix checkbox checked if at least two colors are checked
-    mixCheckbox.checked = checkedColors.length >= 2;
-}
-
-// Add event listeners to color squares for click event
-var colorSquares = document.querySelectorAll('.colors-squares .color');
-colorSquares.forEach(function(colorElement) {
-    colorElement.addEventListener('click', function() {
-        toggleChecked(colorElement);
+    mixCheckbox.addEventListener('change', function () {
+        if (mixCheckbox.checked) {
+            // Add event listener to allow multiple color squares to be checked
+            colorSquares.forEach(function (square) {
+                square.addEventListener('click', function () {
+                    this.classList.toggle('checked');
+                });
+            });
+        } else {
+            // If mixCheckbox is unchecked, remove the event listeners and reset the state
+            colorSquares.forEach(function (square) {
+                square.removeEventListener('click', null);
+                square.classList.remove('checked');
+            });
+            lastCheckedSquare = null;
+            enableColorSquareSelection();
+        }
     });
+
+    // Enable color square selection initially
+    enableColorSquareSelection();
 });

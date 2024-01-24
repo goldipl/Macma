@@ -68,7 +68,7 @@
                                         <div class="color pink" ></div>
                                         <div class="color purple" ></div>
                                         <div class="color green" ></div>
-                                        <div class="color black checked" ></div>
+                                        <div class="color black" ></div>
                                     </div>
                                     <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg">
                                     </button>
