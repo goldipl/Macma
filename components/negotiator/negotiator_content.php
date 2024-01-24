@@ -129,7 +129,7 @@
                                                         <p></p>
                                                     </div>
                                                     <div class="types-col select-name">
-                                                        <p>Pierwszy logotyp:</p>
+                                                        <p>Logotyp:</p>
                                                     </div>
                                                 </div>
                                                 <div class="calc-select-types__row">
