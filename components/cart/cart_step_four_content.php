@@ -27,11 +27,11 @@
                             </div>
                             <div class="input-slot">
                                 <label for="tel">Tel.</label>
-                                <input class="form-input" type="number" name="tel">
+                                <input class="form-input" type="text" name="tel">
                             </div>
                             <div class="input-slot">
                                 <label for="nip">NIP</label>
-                                <input class="form-input" type="number" name="nip">
+                                <input class="form-input" type="text" name="nip">
                             </div>
                         </div>
                     </div>

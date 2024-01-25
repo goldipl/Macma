@@ -37,7 +37,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="number" name="product-quantity" id="product-quantity">
+                                    <input type="text" name="product-quantity" id="product-quantity">
                                 </td>
                                 <td>1,95 zł</td>
                                 <td>44%</td>
@@ -70,7 +70,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="number" name="product-quantity" id="product-quantity">
+                                    <input type="text" name="product-quantity" id="product-quantity">
                                 </td>
                                 <td>1,95 zł</td>
                                 <td>44%</td>
@@ -92,7 +92,7 @@
                             <p>Wpisz ilość dla wszystkich pozycji:</p>
                         </div>
                         <div class="bottom-cart-box--input">
-                            <input type="number" name="all-quantity" id="all-quantity">
+                            <input type="text" name="all-quantity" id="all-quantity">
                         </div>
                         <div class="bottom-cart-box--btn">
                             <button class="confirm-btn">Zatwierdź</button>

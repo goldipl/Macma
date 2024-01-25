@@ -14,7 +14,7 @@
                         </div>
                         <div class="inputs-wrapper__slot">
                             <label for="telephone">Tel<span class="orange">*</span></label>
-                            <input class="form-input" type="number" name="telephone" id="telephone" required="">
+                            <input class="form-input" type="text" name="telephone" id="telephone" required="">
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
         </div>
         <div class="inputs-wrapper__slot">
             <label for="telephone">Tel<span class="orange">*</span></label>
-            <input class="form-input" type="number" name="telephone" id="telephone" required>
+            <input class="form-input" type="text" name="telephone" id="telephone" required>
         </div>
         <div class="inputs-wrapper__slot">
             <label for="email">E-mail / To będzie Twój login<span class="orange">*</span></label>
@@ -50,11 +50,11 @@
         </div>
         <div class="inputs-wrapper__slot">
             <label for="nipcode">NIP<span class="orange">*</span><small>Masz nowy NIP? Poinformuj o tym swojego opiekuna  handlowego.</small></label>
-            <input class="form-input" type="number" name="nipcode" id="nipcode" required>
+            <input class="form-input" type="text" name="nipcode" id="nipcode" required>
         </div>
         <div class="inputs-wrapper__slot">
             <label for="tel1">Tel. - 1<span class="orange">*</span></label>
-            <input class="form-input" type="number" name="tel1" id="tel1" required>
+            <input class="form-input" type="text" name="tel1" id="tel1" required>
         </div>
         <div class="inputs-wrapper__slot">
             <label for="invoiceemail">Adres e-mail do e-faktur<span class="orange">*</span></label>

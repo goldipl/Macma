@@ -53,7 +53,7 @@
                                 <td>1,09 PLN</td>
                                 <td>1,09 PLN</td>
                                 <td>
-                                    <input type="number" name="product-mark-up" id="product-mark-up">
+                                    <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
                                 <td>
                                     <input type="text" name="product-unit-price" id="product-unit-price">
@@ -79,7 +79,7 @@
                                 <td>0,49</td>
                                 <td>49,00</td>
                                 <td>
-                                    <input type="number" name="product-mark-up" id="product-mark-up">
+                                    <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
                                 <td>
                                     <input type="text" name="product-unit-price" id="product-unit-price">
@@ -92,7 +92,7 @@
                                     <div class="bottom-quantity-box-with-btn">
                                         <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich produktów</p>
-                                            <input class="form-input" type="number" name="all-quantity">
+                                            <input class="form-input" type="text" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@
                                     <div class="bottom-quantity-box-with-btn">
                                         <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich pozycji znakowania</p>
-                                            <input class="form-input" type="number" name="all-quantity">
+                                            <input class="form-input" type="text" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                 <td>1,09 PLN</td>
                                 <td>1,09 PLN</td>
                                 <td>
-                                    <input type="number" name="product-mark-up" id="product-mark-up">
+                                    <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
                                 <td>
                                     <input type="text" name="product-unit-price" id="product-unit-price">
@@ -160,7 +160,7 @@
                                 <td>0,49</td>
                                 <td>49,00</td>
                                 <td>
-                                    <input type="number" name="product-mark-up" id="product-mark-up">
+                                    <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
                                 <td>
                                     <input type="text" name="product-unit-price" id="product-unit-price">
@@ -186,7 +186,7 @@
                                 <td>0,49</td>
                                 <td>49,00</td>
                                 <td>
-                                    <input type="number" name="product-mark-up" id="product-mark-up">
+                                    <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
                                 <td>
                                     <input type="text" name="product-unit-price" id="product-unit-price">
@@ -199,7 +199,7 @@
                                     <div class="bottom-quantity-box-with-btn">
                                         <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich produktów</p>
-                                            <input class="form-input" type="number" name="all-quantity">
+                                            <input class="form-input" type="text" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
                                         </div>
                                     </div>
@@ -208,7 +208,7 @@
                                     <div class="bottom-quantity-box-with-btn">
                                         <div class="bottom-quantity-box">
                                             <p>Wpisz narzut dla wszystkich pozycji znakowania</p>
-                                            <input class="form-input" type="number" name="all-quantity">
+                                            <input class="form-input" type="text" name="all-quantity">
                                             <button class="confirm-btn">Zatwierdź</button>
                                         </div>
                                     </div>

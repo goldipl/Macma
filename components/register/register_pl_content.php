@@ -12,7 +12,7 @@
                 </div>
                 <div class="inputs-wrapper__slot">
                     <label for="telephone">Tel<span class="orange">*</span></label>
-                    <input class="form-input" type="number" name="telephone" id="telephone" required="">
+                    <input class="form-input" type="text" name="telephone" id="telephone" required="">
                 </div>
                 <div class="inputs-wrapper__slot pre">
                     <label for="select01">Skąd dowiedziałeś/aś się o Macmie?<span class="orange">*</span></label>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="inputs-wrapper__slot">
                     <label for="tel2">Tel. -<span class="orange">*</span></label>
-                    <input class="form-input" type="number" name="tel2" id="tel2" required="">
+                    <input class="form-input" type="text" name="tel2" id="tel2" required="">
                 </div>
                 <div class="inputs-wrapper__slot">
                     <label for="email">E-mail<span class="orange">*</span><small>Podaj adres email, na który będziesz otrzymywać e -faktury</small></label>

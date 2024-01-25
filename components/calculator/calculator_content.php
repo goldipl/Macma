@@ -92,14 +92,14 @@
                                             <div class="quantity-box">
                                                 <div class="color pink"></div>
                                                 <label for="quant">ilość:</label>
-                                                <input class="form-input" type="number" name="quant" id="quant">
+                                                <input class="form-input" type="text" name="quant" id="quant">
                                             </div>
                                         </div>
                                         <div class="quantity-col-box__slot">
                                             <div class="quantity-box">
                                                 <div class="color black"></div>
                                                 <label for="quant">ilość:</label>
-                                                <input class="form-input" type="number" name="quant" id="quant">
+                                                <input class="form-input" type="text" name="quant" id="quant">
                                             </div>
                                         </div>
                                     </div>

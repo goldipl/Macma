@@ -43,11 +43,11 @@
             <div class="content">
                 <div class="row-inputs">
                     <div class="row-inputs__left">
-                        <input class="form-input" type="number" name="price-left-input" id="price-left-input" placeholder="Od" min="0">
+                        <input class="form-input" type="text" name="price-left-input" id="price-left-input" placeholder="Od" min="0">
                     </div>
                     <span class="spacer">-</span>
                     <div class="row-inputs__right">
-                        <input class="form-input" type="number" name="price-right-input" id="price-right-input" placeholder="Do" min="0">
+                        <input class="form-input" type="text" name="price-right-input" id="price-right-input" placeholder="Do" min="0">
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                 <h3>Ilość</h3>
             </div>
             <div class="content">
-                <input class="form-input" type="number" name="quantity-input" id="quantity-input" min="1">
+                <input class="form-input" type="text" name="quantity-input" id="quantity-input" min="1">
             </div>
         </div>
         <div class="category-left-filters__slot">
