@@ -141,7 +141,7 @@
                             flex-direction: row;
                             align-items: center;
                             justify-content: flex-start;
-                            width: 60%;
+                            width: 70%;
                             height: 55px;
                             box-sizing: border-box;
                             border: 1px solid $light_grey;
@@ -153,14 +153,14 @@
                                 line-height: 177.023%;
                                 text-transform: uppercase;
                                 color: $grey5;
-                                white-space: pre;
+                                white-space: nowrap;
                                 height: 25px;
                                 margin: 0 20px 0 15px;
                                 padding: 0 35px 0 0;
                                 width: 150px;
                                 span {
                                     top: -4px;
-                                    left: unset;
+                                    left: 120px;
                                     right: 0;
                                     width: 32px;
                                     height: 32px;
