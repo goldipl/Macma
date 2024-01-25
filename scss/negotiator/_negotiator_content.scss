@@ -103,6 +103,13 @@
                         line-height: 160%;
                         margin: 0 0 13px 0;
                         color: $grey5;
+                        span {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 160%;
+                            color: $grey5;
+                        }
                     }
                     .your-price {
                         font-size: 18px;
@@ -709,6 +716,10 @@
                         .catalog-price {
                             font-size: 14px;
                             line-height: 120%;
+                            span {
+                                font-size: 14px;
+                                line-height: 120%;
+                            }
                         }
                         .your-price {
                             font-size: 16px;
