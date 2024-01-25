@@ -12511,7 +12511,7 @@ main.grey-background {
   width: calc(25% - 18px);
   margin-right: 24px;
   margin-bottom: 24px;
-  padding: 16px;
+  padding: 16px 16px 0 16px;
 }
 .category-filters-main__slot:nth-of-type(4n) {
   margin-right: 0;
