@@ -85,12 +85,12 @@
                                 <input class="form-input" type="text" name="address-city">
                             </div>
                             <div class="input-slot">
-                                <label for="address-telephone-person">Telefon do odbiorcy</label>
-                                <input class="form-input" type="text" name="address-telephone-person">
-                            </div>
-                            <div class="input-slot">
                                 <label for="address-contact-person">Osoba kontaktowa (odbiorca)</label>
                                 <input class="form-input" type="text" name="address-contact-person">
+                            </div>
+                            <div class="input-slot">
+                                <label for="address-telephone-person">Telefon do odbiorcy</label>
+                                <input class="form-input" type="text" name="address-telephone-person">
                             </div>
                         </div>
                     </div>
