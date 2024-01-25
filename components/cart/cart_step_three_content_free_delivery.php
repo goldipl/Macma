@@ -14,13 +14,12 @@
                                         <div class="cart-delivery-product-box__top">
                                             <div class="cart-delivery-product-box__top__left">
                                                 <a href="#" class="title">Długopis metalowy</a>
-                                                <p class="code">Kod: <span>1333903</span></p>
                                             </div>
                                         </div>
                                         <div class="cart-delivery-product-box__bottom">
                                             <div class="cart-delivery__col">
                                                 <a href="#" class="cart-branding-product-box__bottom__img">
-                                                    <img src="./assets/img/cart/pen.jpg" alt="product img" width="110" height="110">
+                                                    <img src="./assets/img/cart/pen.jpg" alt="product img" width="140" height="140">
                                                 </a>
                                             </div>
                                             <div class="cart-delivery__col">
@@ -76,13 +75,12 @@
                                         <div class="cart-delivery-product-box__top">
                                             <div class="cart-delivery-product-box__top__left">
                                                 <a href="#" class="title">Notatnik A5</a>
-                                                <p class="code">Kod: <span>1333903</span></p>
                                             </div>
                                         </div>
                                         <div class="cart-delivery-product-box__bottom">
                                             <div class="cart-delivery__col">
                                                 <a href="#" class="cart-branding-product-box__middle__img">
-                                                    <img src="./assets/img/cart/notepad.jpg" alt="product img" width="110" height="110">
+                                                    <img src="./assets/img/cart/notepad.jpg" alt="product img" width="140" height="140">
                                                 </a>
                                             </div>
                                             <div class="cart-delivery__col">
