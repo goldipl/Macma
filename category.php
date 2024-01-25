@@ -54,5 +54,6 @@
         <script src="./js/select2.min.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/category/show_menu.js"></script>
+        <script src="./js/category/price_checkbox.js"></script>
     </body>
 </html>

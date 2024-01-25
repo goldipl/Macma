@@ -23,15 +23,17 @@
                 </label>
             </div>
         </div>
-        <div class="category-left-filters__slot">
+        <div class="category-left-filters__slot price-type">
             <div class="header">
                 <h3>Typ ceny</h3>
             </div>
             <div class="content">
-                <label class="custom-checkbox-container">Katalogowa <input type="checkbox" class="custom_input">
+                <label class="custom-checkbox-container">
+                    Katalogowa <input type="checkbox" class="custom_input" name="priceType" onclick="handleCheckboxClick(this)">
                     <span class="custom-checkbox-checkmark"></span>
                 </label>
-                <label class="custom-checkbox-container">Twoja cena <input type="checkbox" class="custom_input">
+                <label class="custom-checkbox-container">
+                    Twoja cena <input type="checkbox" class="custom_input" name="priceType" onclick="handleCheckboxClick(this)">
                     <span class="custom-checkbox-checkmark"></span>
                 </label>
             </div>
