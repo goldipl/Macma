@@ -5895,12 +5895,14 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 16px;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__branding .branding-radios-types label {
-  white-space: pre;
   text-align: left;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
   color: #374957;
+}
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__branding .branding-radios-types label:first-of-type {
+  margin-right: 32px;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__branding .branding-radios-types .custom-radio-checkmark {
   top: 5px;
@@ -10941,12 +10943,14 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 16px;
 }
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__branding .branding-radios-types label {
-  white-space: pre;
   text-align: left;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
   color: #374957;
+}
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__branding .branding-radios-types label:first-of-type {
+  margin-right: 32px;
 }
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__branding .branding-radios-types .custom-radio-checkmark {
   top: 5px;
