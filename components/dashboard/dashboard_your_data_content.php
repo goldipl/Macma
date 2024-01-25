@@ -38,7 +38,7 @@
         </div>
         <div class="inputs-wrapper__slot">
             <label for="zipcode">Kod pocztowy<span class="orange">*</span></label>
-            <input class="form-input" type="number" name="zipcode" id="zipcode" required>
+            <input class="form-input" type="text" name="zipcode" id="zipcode" required>
         </div>
         <div class="inputs-wrapper__slot">
             <label for="city">Miasto<span class="orange">*</span></label>
