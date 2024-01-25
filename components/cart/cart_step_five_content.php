@@ -46,7 +46,7 @@
                             </div>
                             <div class="email-box">
                                 <h3>Email</h3>
-                                <p class="desc">na który zostanie wysłane potwierdzenia zamówienia</p>
+                                <p class="desc">na który zostanie wysłane potwierdzenie zamówienia</p>
                                 <input type="email" class="form-input" name="email" id="email">
                             </div>
                         </div>
