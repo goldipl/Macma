@@ -46,7 +46,7 @@
                                 <span class="number">2</span>Wybierz kolory <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
                             </button>
                         </h2>
-                        <div id="collapse12" class="accordion-collapse collapse show" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="colors-col">
                                     <div class="colors-info-box">
@@ -84,7 +84,7 @@
                                 </p>
                             </button>
                         </h2>
-                        <div id="collapse13" class="accordion-collapse collapse show" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                        <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="quantity-col">
                                     <div class="quantity-col-box">
@@ -115,7 +115,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
                                 <span class="number">4</span>Kliknij i wybierz technikę oraz miejsce znakowania <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24"></button>
                         </h2>
-                        <div id="collapse14" class="accordion-collapse collapse show" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+                        <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="one-col-box">
                                     <div class="two-rows-box">
@@ -266,7 +266,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
                                 <span class="number">5</span>Wycena </button>
                         </h2>
-                        <div id="collapse15" class="accordion-collapse collapse show" aria-labelledby="heading15" data-bs-parent="#accordionExample">
+                        <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="pricing-box">
                                     <div class="pricing-box__top">
@@ -317,7 +317,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
                                 <span class="number">6</span>Wycena szczegółowa </button>
                         </h2>
-                        <div id="collapse16" class="accordion-collapse collapse show" aria-labelledby="heading16" data-bs-parent="#accordionExample">
+                        <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="tables-box">
                                     <table>

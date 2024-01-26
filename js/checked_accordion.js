@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // Add "display: flex" style to the accordion button image
         accordionColorsButtonImg.style.display = 'flex';
 
-        // Remove the "show" class from the collapse div
+        // Add the "show" class from the collapse div & remove from preview
         const collapse12 = document.getElementById('collapse12');
+        const collapse13 = document.getElementById('collapse13');
         collapse12.classList.remove('show');
+        collapse13.classList.add('show');
         window.location.href = "#step-three";
     });
 
@@ -27,9 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // Add "display: flex" style to the accordion button image
         accordionQuantityButtonImg.style.display = 'flex';
 
-        // Remove the "show" class from the collapse div
-        const collapse12 = document.getElementById('collapse13');
-        collapse12.classList.remove('show');
+        // Add the "show" class from the collapse div & remove from preview
+        const collapse13 = document.getElementById('collapse13');
+        const collapse14= document.getElementById('collapse14');
+        collapse13.classList.remove('show');
+        collapse14.classList.add('show');
         window.location.href = "#step-four";
     });
 
@@ -44,9 +48,13 @@ document.addEventListener("DOMContentLoaded", function () {
         // Add "display: flex" style to the accordion button image
         accordionBrandingButtonImg.style.display = 'flex';
 
-        // Remove the "show" class from the collapse div
-        const collapse12 = document.getElementById('collapse14');
-        collapse12.classList.remove('show');
+        // Add the "show" class from the collapse div & remove from preview
+        const collapse14 = document.getElementById('collapse14');
+        const collapse15 = document.getElementById('collapse15');
+        const collapse16 = document.getElementById('collapse16');
+        collapse14.classList.remove('show');
+        collapse15.classList.add('show');
+        collapse16.classList.add('show');
         window.location.href = "#step-five";
     });
 });
