@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Remove the "show" class from the collapse div
         const collapse12 = document.getElementById('collapse12');
         collapse12.classList.remove('show');
+        window.location.href = "#step-three";
     });
 
     // Get the button element
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Remove the "show" class from the collapse div
         const collapse12 = document.getElementById('collapse13');
         collapse12.classList.remove('show');
+        window.location.href = "#step-four";
     });
 
     // Get the button element
@@ -45,5 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // Remove the "show" class from the collapse div
         const collapse12 = document.getElementById('collapse14');
         collapse12.classList.remove('show');
+        window.location.href = "#step-five";
     });
 });

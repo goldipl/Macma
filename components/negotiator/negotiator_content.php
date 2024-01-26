@@ -4,7 +4,7 @@
         <div class="d-flex flex-row">
             <div class="accordion-container d-flex flex-column">
                 <div class="accordion me-2" id="accordionExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="step-one">
                         <h2 class="accordion-header" id="heading11">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
                                 <span class="number">1</span>Długopis metalowy <p class="code">Kod: <span>1333903</span>
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="step-two">
                         <h2 class="accordion-header" id="heading12">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
                                 <span class="number">2</span>Wybierz kolory <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="step-three">
                         <h2 class="accordion-header" id="heading13">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
                                 <span class="number">3</span>Podaj ilość <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
@@ -110,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="step-four">
                         <h2 class="accordion-header" id="heading14">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
                                 <span class="number">4</span>Kliknij i wybierz technikę oraz miejsce znakowania <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24"></button>
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="step-five">
                         <h2 class="accordion-header" id="heading15">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
                                 <span class="number">5</span>Wycena </button>
@@ -289,7 +289,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="step-six">
                         <h2 class="accordion-header" id="heading16">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
                                 <span class="number">6</span>Twoja propozycja cenowa </button>
