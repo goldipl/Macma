@@ -46,7 +46,7 @@
                                 <span class="number">2</span>Wybierz kolory <img src="./assets/icons/common/check-circle-fill.svg" alt="check-circle icon" width="24" height="24">
                             </button>
                         </h2>
-                        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                        <div id="collapse12" class="accordion-collapse collapse show" aria-labelledby="heading12" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="colors-col">
                                     <div class="colors-info-box">
