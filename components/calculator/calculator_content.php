@@ -56,7 +56,7 @@
                                                 <span class="custom-checkbox-checkmark"></span>
                                             </label>
                                             <img class="exclamation" src="./assets/icons/calculator/exclamation-octagon-fill.svg" alt="exclamation icon" width="15" height="15">
-                                            <p class="desc"> zaznacz, jeśli chcesz wycenić jednocześnie ten produkt w różnych kolorach. Wycena dotyczy tego samego logotypu (wielkość, miejsce, liczba kolorów). </p>
+                                            <p class="desc">Zaznacz, jeśli chcesz wycenić jednocześnie ten produkt w różnych kolorach. Wycena dotyczy tego samego logotypu (wielkość, miejsce, liczba kolorów). </p>
                                         </div>
                                     </div>
                                     <div class="colors-squares">
