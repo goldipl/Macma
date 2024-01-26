@@ -7473,6 +7473,9 @@ label.add-files:focus, label.add-files:hover {
 .calculator_container .accordion-container .accordion-body .tables-box table {
   flex-wrap: wrap;
 }
+.calculator_container .accordion-container .accordion-body .tables-box table:nth-of-type(1) tr td:nth-of-type(2) {
+  padding-right: 9px;
+}
 .calculator_container .accordion-container .accordion-body .tables-box table tr {
   background-color: #F4F4F4;
   height: 35px;
@@ -7487,6 +7490,9 @@ label.add-files:focus, label.add-files:hover {
   padding-left: 14px;
   border: 2px solid #FFFFFF;
   color: #8A8A8A;
+}
+.calculator_container .accordion-container .accordion-body .tables-box table tr td:nth-of-type(1), .calculator_container .accordion-container .accordion-body .tables-box table tr td:nth-of-type(3) {
+  min-width: 300px;
 }
 .calculator_container .sumary_box {
   width: 20%;
