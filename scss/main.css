@@ -4186,7 +4186,7 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info {
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .product_card_gallery_info .product-gallery {
   display: flex;
