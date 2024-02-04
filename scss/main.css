@@ -4524,13 +4524,14 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-info .product-more-box__row .product-more-box__col {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 272px;
   height: 54px;
   border: 1px solid #8A8A8A;
   border-bottom: 0;
   text-decoration: none;
+  padding-left: 14px;
 }
 .product_card_gallery_info .product-info .product-more-box__row .product-more-box__col:hover {
   background-color: #F4F4F4;

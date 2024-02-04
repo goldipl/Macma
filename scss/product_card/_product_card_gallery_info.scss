@@ -340,13 +340,14 @@
                 .product-more-box__col {
                     display: flex;
                     flex-direction: row;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     width: 272px;
                     height: 54px;
                     border: 1px solid $grey5;
                     border-bottom: 0;
                     text-decoration: none;
+                    padding-left: 14px;
                     &:hover {
                         background-color: $light_grey;
                     }
