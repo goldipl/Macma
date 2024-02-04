@@ -9867,6 +9867,36 @@ label.add-files:focus, label.add-files:hover {
     font-size: 14px;
   }
 }
+@media (max-width: 760px) {
+  .dashboard-table {
+    position: relative;
+    padding-bottom: 28px;
+    background-color: #FFFFFF;
+  }
+  .dashboard-table::before {
+    content: "Dotknij i przesuń, żeby zobaczyć więcej";
+    position: absolute;
+    width: 204px;
+    height: 10px;
+    bottom: 8px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #333333;
+    right: 18px;
+  }
+  .dashboard-table::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    bottom: 2px;
+    right: 11px;
+    background: url("./../assets/icons/common/swipe-hand.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
 .dashboard-delivery-addresses {
   display: flex;
   flex-direction: row;
