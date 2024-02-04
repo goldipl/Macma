@@ -7691,6 +7691,9 @@ label.add-files:focus, label.add-files:hover {
   .calculator_container .accordion-container .accordion-body .pricing-box__top__right {
     margin: 0;
   }
+  .calculator_container .accordion-container .accordion-body .pricing-box__bottom--slot {
+    height: 40px;
+  }
   .calculator_container .accordion-container .accordion-body .tables-box {
     overflow-x: scroll;
   }

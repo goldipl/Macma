@@ -684,6 +684,11 @@
                                 margin: 0;
                             }
                         }
+                        &__bottom {
+                            &--slot {
+                                height: 40px;
+                            }
+                        }
                     }
                     .tables-box {
                         overflow-x: scroll;
