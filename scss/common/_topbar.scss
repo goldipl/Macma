@@ -32,8 +32,31 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
+    #topbar {
+        .container {
+            div {
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
     .topbar-links {
-        display: none !important;
+        a {
+            font-size: 12px !important;
+            padding: 1rem 0.5rem !important;
+            &:nth-of-type(1),
+            &:nth-of-type(2),
+            &:nth-of-type(3),
+            &:nth-of-type(4),
+            &:nth-of-type(5),
+            &:nth-of-type(6) {
+                display: none;
+            }
+        }
     }
 }

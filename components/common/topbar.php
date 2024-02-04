@@ -34,6 +34,12 @@
                 <a href="./contact.php" class="p-3">
                     Kontakt
                 </a>
+                <a href="./register-pl.php" class="p-3">
+                    Rejestracja
+                </a>
+                <a href="#" class="p-3">
+                    Logowanie
+                </a>
             </div>
             <div class="topbar-lang d-flex flex-row align-items-center">
                 <a href="#" class="p-1">
