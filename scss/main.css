@@ -12179,14 +12179,13 @@ label.add-files:focus, label.add-files:hover {
     padding: 16px;
   }
 }
-.offertspage_container.step_six table tr td.specification {
-  width: 30%;
-}
 .offertspage_container.step_six table tr td.specification p {
   margin: 0 0 6px 0;
 }
 .offertspage_container.step_six table tr td:nth-of-type(4), .offertspage_container.step_six table tr td:nth-of-type(5) {
   font-size: 12px;
+  text-align: left;
+  max-width: 200px;
 }
 .offertspage_container.step_six .add-product-box {
   margin-top: 26px;

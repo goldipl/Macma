@@ -3,7 +3,6 @@
         tr {
             td {
                 &.specification {
-                    width: 30%;
                     p {
                         margin: 0 0 6px 0;
                     }
@@ -11,6 +10,8 @@
                 &:nth-of-type(4),
                 &:nth-of-type(5) {
                     font-size: 12px;
+                    text-align: left;
+                    max-width: 200px;
                 }
             }
         }

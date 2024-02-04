@@ -18,7 +18,7 @@
                                 <th>Ilość</th>
                                 <th>Opis</th>
                                 <th>Specyfikacja</th>
-                                <th>Jednostkowa<br> cena dla klienta<br> netto/szt</th>
+                                <th>Jednostkowa<br> cena dla klienta<br> netto/szt.</th>
                                 <th>Wartość dla<br> klienta netto</th>
                             </tr>
                             <tr>
