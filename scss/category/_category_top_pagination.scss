@@ -47,6 +47,9 @@
         &__slot {
             flex-wrap: wrap;
             flex-direction: column;
+            .page-number {
+                margin-top: 16px;
+            }
         }
     }
 }

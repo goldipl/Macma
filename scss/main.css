@@ -55,6 +55,10 @@ body #main-wrapper.opened-menu::after {
   z-index: 9;
 }
 
+option:hover {
+  background-color: #F26521 !important;
+}
+
 @media (max-width: 1576px) {
   body #main-wrapper.opened-menu::after {
     left: -50vw;
@@ -13061,6 +13065,9 @@ main.grey-background {
   .category-top-pagination__slot {
     flex-wrap: wrap;
     flex-direction: column;
+  }
+  .category-top-pagination__slot .page-number {
+    margin-top: 16px;
   }
 }
 .negotiator_container .accordion-container {
