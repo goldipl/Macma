@@ -7693,6 +7693,10 @@ label.add-files:focus, label.add-files:hover {
   }
   .calculator_container .accordion-container .accordion-body .pricing-box__bottom--slot {
     height: 40px;
+    width: 48%;
+  }
+  .calculator_container .accordion-container .accordion-body .pricing-box__bottom--slot:last-of-type {
+    width: 100%;
   }
   .calculator_container .accordion-container .accordion-body .tables-box {
     overflow-x: scroll;

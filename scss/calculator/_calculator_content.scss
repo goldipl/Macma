@@ -687,6 +687,10 @@
                         &__bottom {
                             &--slot {
                                 height: 40px;
+                                width: 48%;
+                                &:last-of-type {
+                                    width: 100%;
+                                }
                             }
                         }
                     }
