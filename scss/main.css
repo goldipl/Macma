@@ -64,6 +64,16 @@ body #main-wrapper.opened-menu::after {
   body #main-wrapper.opened-menu::after {
     display: none;
   }
+  body table::-webkit-scrollbar {
+    width: 1em;
+  }
+  body table::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  body table::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
 }
 #topbar {
   background-color: #F26521;
@@ -3244,15 +3254,16 @@ label.add-files:focus, label.add-files:hover {
     line-height: 140%;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-mail {
     margin-right: 10px;
     margin: 8px 0;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-mail a {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 140%;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-mail a img {
@@ -3262,7 +3273,7 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 10px;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-phone a {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 140%;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-phone a img {
