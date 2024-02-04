@@ -43,4 +43,30 @@ body {
             }
         }
     }
+    /* For Webkit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar-thumb {
+        background-color: $macma_orange;
+        width: 5px;
+        height: 5px;
+    }
+    
+    /* For Firefox */
+    ::-moz-scrollbar-thumb {
+        background-color: $macma_orange;
+        width: 5px;
+        height: 5px;
+    }
+    
+    /* For Internet Explorer and Edge */
+    ::-ms-thumb {
+        background-color: $macma_orange;
+        width: 5px;
+        height: 5px;
+    }
+    
+    /* For standard scrollbars (if supported) */
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
 }
