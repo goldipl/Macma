@@ -9,8 +9,8 @@
                     <th>Data</th>
                     <th>Nazwa</th>
                     <th>Cena</th>
-                    <th>Do koszyka</th>
-                    <th>Usuń</th>
+                    <th class="text-center">Do koszyka</th>
+                    <th class="text-center">Usuń</th>
                 </tr>
                 <tr class="spacer15"></tr>
                 <tr>
@@ -18,7 +18,7 @@
                     <td>
                         <div class="info-desc">
                             <p>Torba bawełniana MANACOR (216406), 100 szt.</p>
-                            <p class="desc">Znakowanie: ST1 (sitodruk na tekstyliach - białe/natural), Kolory: 1, Miejsca: 1Znakowanie: DTG1 (druk DTG - torby bawełniane 30x30cm), Kolory: 1, Miejsca: 1</pn>
+                            <p class="desc">Znakowanie 2 różne logotypy. Pierwszy logotyp: Grupa znakowania L0 (grawer laserowy), Liczba miejsc: 2, Liczba kolorów: 1. Drugi logotyp: Grupa znakowania T2 (tampodruk), Liczba miejsc: 1, Liczba kolorów: 4</p>
                         </div>
                     </td>
                     <td>1259,00 PLN</td>
@@ -39,7 +39,7 @@
                     <td>
                         <div class="info-desc">
                             <p>Torba bawełniana MANACOR (216406), 1000 szt.</p>
-                            <p class="desc">Znakowanie: ST1 (sitodruk na tekstyliach - białe/natural), Kolory: 1, Miejsca: 1Znakowanie: DTG1 (druk DTG - torby bawełniane 30x30cm), Kolory: 1, Miejsca: 1</pn>
+                            <p class="desc">Znakowanie 2 różne logotypy. Pierwszy logotyp: Grupa znakowania L0 (grawer laserowy), Liczba miejsc: 2, Liczba kolorów: 1. Drugi logotyp: Grupa znakowania T2 (tampodruk), Liczba miejsc: 1, Liczba kolorów: 4</p>
                         </div>
                     </td>
                     <td>12 590,00 PLN</td>
@@ -60,7 +60,7 @@
                     <td>
                         <div class="info-desc">
                             <p>Torba bawełniana MANACOR (216406), 150 szt.</p>
-                            <p class="desc">Znakowanie: ST1 (sitodruk na tekstyliach - białe/natural), Kolory: 1, Miejsca: 1Znakowanie: DTG1 (druk DTG - torby bawełniane 30x30cm), Kolory: 1, Miejsca: 4</pn>
+                            <p class="desc">Znakowanie 2 różne logotypy. Pierwszy logotyp: Grupa znakowania L0 (grawer laserowy), Liczba miejsc: 2, Liczba kolorów: 1. Drugi logotyp: Grupa znakowania T2 (tampodruk), Liczba miejsc: 1, Liczba kolorów: 4</p>
                         </div>
                     </td>
                     <td>1259,00 PLN</td>
@@ -81,7 +81,7 @@
                     <td>
                         <div class="info-desc">
                             <p>Torba bawełniana MANACOR (216406), 200 szt.</p>
-                            <p class="desc">Znakowanie: ST1 (sitodruk na tekstyliach - białe/natural), Kolory: 1, Miejsca: 1Znakowanie: DTG1 (druk DTG - torby bawełniane 30x30cm), Kolory: 1, Miejsca: 1</pn>
+                            <p class="desc">Znakowanie 2 różne logotypy. Pierwszy logotyp: Grupa znakowania L0 (grawer laserowy), Liczba miejsc: 2, Liczba kolorów: 1. Drugi logotyp: Grupa znakowania T2 (tampodruk), Liczba miejsc: 1, Liczba kolorów: 4</p>
                         </div>
                     </td>
                     <td>1259,00 PLN</td>

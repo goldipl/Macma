@@ -45,6 +45,11 @@
                 }
                 a {
                     text-decoration: none;
+                    &:hover {
+                        img {
+                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                        }
+                    }
                 }
             }
             &__bottom {

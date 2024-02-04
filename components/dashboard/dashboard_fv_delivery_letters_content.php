@@ -11,7 +11,7 @@
                     <th>Zamawiający</th>
                     <th>Kwota</th>
                     <th>Status</th>
-                    <th>Pobierz</th>
+                    <th class="text-center">Pobierz</th>
                     <th>Nr przesyłki</th>
                 </tr>
                 <tr class="spacer15"></tr>

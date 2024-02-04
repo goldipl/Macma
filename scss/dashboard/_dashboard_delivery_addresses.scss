@@ -61,6 +61,14 @@
                     align-items: center;
                     cursor: pointer;
                     height: 100%;
+                    &:hover {
+                        img {
+                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                        }
+                        span {
+                            color: $macma_orange;
+                        }
+                    }
                     img {
                         margin-bottom: 12px;
                     }
@@ -69,7 +77,7 @@
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
-                        color: $macma_orange;
+                        color: $text_color;
                         margin: 0;
                     }
                 }
@@ -86,12 +94,22 @@
                 .edit {
                     object-fit: contain;
                     text-decoration: none;
+                    &:hover {
+                        img {
+                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                        }
+                    }
                 }
                 .delete {
                     margin-left: 15px;
                     object-fit: contain;
                     text-decoration: none;
                     margin-right: 11px;
+                    &:hover {
+                        img {
+                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                        }
+                    }
                 }
             }
         }

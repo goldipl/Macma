@@ -82,11 +82,21 @@
                 .download {
                     text-decoration: unset;
                     min-width: 23px;
+                    &:hover {
+                        img {
+                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                        }
+                    }
                 }
                 .delete {
                     margin-left: 14px;
                     text-decoration: unset;
                     min-width: 17px;
+                    &:hover {
+                        img {
+                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                        }
+                    }
                 }
             }
         }

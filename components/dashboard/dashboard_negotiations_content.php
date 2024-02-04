@@ -8,9 +8,9 @@
                 <tr>
                     <th>Data</th>
                     <th>Produkty</th>
-                    <th>Do koszyka</th>
-                    <th>Negocjuj ponownie</th>
-                    <th>Usuń</th>
+                    <th class="text-center">Do koszyka</th>
+                    <th class="text-center">Negocjuj ponownie</th>
+                    <th class="text-center">Usuń</th>
                 </tr>
                 <tr class="spacer15"></tr>
                 <tr>
