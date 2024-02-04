@@ -20,7 +20,7 @@
                                 <th>Twoja cena<br>netto szt.</th>
                                 <th>Wartość<br>netto</th>
                                 <th>Narzut %</th>
-                                <th>Jednostkowa cena<br> dla klienta<br> netto/szt</th>
+                                <th>Jednostkowa cena<br> dla klienta<br> netto/szt.</th>
                                 <th>Wartość<br> dla klienta<br> netto</th>
                                 <th>Zysk</th>
                             </tr>
@@ -55,7 +55,7 @@
                                     <input type="text" name="product-unit-price" id="product-unit-price">
                                 </td>
                                 <td>167,00 PLN</td>
-                                <td class="green">56,00</td>
+                                <td class="green">56,00 PLN</td>
                             </tr>
                             <tr>
                                 <td class="table-number-col"><b></b></td>
@@ -72,8 +72,8 @@
                                         <p class="m-0">Kolory: 1</p>
                                     </div>
                                 </td>
-                                <td>0,49</td>
-                                <td>49,00</td>
+                                <td>0,49 PLN</td>
+                                <td>49,00 PLN</td>
                                 <td>
                                     <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
@@ -81,7 +81,7 @@
                                     <input type="text" name="product-unit-price" id="product-unit-price">
                                 </td>
                                 <td>167,00 PLN</td>
-                                <td class="green">39,00</td>
+                                <td class="green">39,00 PLN</td>
                             </tr>
                             <tr>
                                 <td colspan="5">
@@ -136,7 +136,7 @@
                                     <input type="text" name="product-unit-price" id="product-unit-price">
                                 </td>
                                 <td>167,00 PLN</td>
-                                <td class="green">56,00</td>
+                                <td class="green">56,00 PLN</td>
                             </tr>
                             <tr>
                                 <td class="table-number-col"><b></b></td>
@@ -153,8 +153,8 @@
                                         <p class="m-0">Kolory: 1</p>
                                     </div>
                                 </td>
-                                <td>0,49</td>
-                                <td>49,00</td>
+                                <td>0,49 PLN</td>
+                                <td>49,00 PLN</td>
                                 <td>
                                     <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
@@ -162,7 +162,7 @@
                                     <input type="text" name="product-unit-price" id="product-unit-price">
                                 </td>
                                 <td>167,00 PLN</td>
-                                <td class="green">39,00</td>
+                                <td class="green">39,00 PLN</td>
                             </tr>
                             <tr>
                                 <td class="table-number-col"><b></b></td>
@@ -179,8 +179,8 @@
                                         <p class="m-0">Kolory: 1</p>
                                     </div>
                                 </td>
-                                <td>0,49</td>
-                                <td>49,00</td>
+                                <td>0,49 PLN</td>
+                                <td>49,00 PLN</td>
                                 <td>
                                     <input type="text" name="product-mark-up" id="product-mark-up">
                                 </td>
@@ -188,7 +188,7 @@
                                     <input type="text" name="product-unit-price" id="product-unit-price">
                                 </td>
                                 <td>167,00 PLN</td>
-                                <td class="green">39,00</td>
+                                <td class="green">39,00 PLN</td>
                             </tr>
                             <tr>
                                 <td colspan="5">
