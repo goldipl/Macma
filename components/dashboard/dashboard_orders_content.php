@@ -14,6 +14,7 @@
                 <p class="product-title">Opaska na rękę Mansfield</p>
                 <p>Nr zamówienia: 700000703086</p>
                 <p>Data: Śr, 05.07.2023</p>
+                <p>Zamawiający: Jan Kowalski</p>
             </div>
             <div class="dashboard-orders__slot--right">
                 <p class="status">Status:<span class="in-progress">W realizacji</span></p>
@@ -31,6 +32,7 @@
                 <p class="product-title">Opaska na rękę Mansfield</p>
                 <p>Nr zamówienia: 700000703086</p>
                 <p>Data: Śr, 05.07.2023</p>
+                <p>Zamawiający: Jan Kowalski</p>
             </div>
             <div class="dashboard-orders__slot--right">
                 <p class="status">Status:<span class="send">Wysłane</span></p>
