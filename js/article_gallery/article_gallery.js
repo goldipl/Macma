@@ -1,25 +1,32 @@
-let gallery_top = new Swiper(".article-gallery", {
-  slidesPerView: 1,
-  freeMode: false,
-  loop: false,
-  pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-  },
-  // Navigation arrows
+var galleryThumbs = new Swiper('.slider-two', {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+  centerInsufficientSlides: true,
+  slideToClickedSlide: true
+});
+var galleryTop = new Swiper('.slider-one', {
+  spaceBetween: 10,
   navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
   },
-});
+  thumbs: {
+      swiper: galleryThumbs
+  },
+  on: {
+      slideChange: function() {
+          let activeIndex = this.activeIndex + 1;
+          let nextSlide = document.querySelector(`.slider-two .swiper-slide:nth-child(${activeIndex + 1})`);
+          let prevSlide = document.querySelector(`.slider-two .swiper-slide:nth-child(${activeIndex - 1})`);
 
-let gallery_thumbs = new Swiper(".gallery-thumbs", {
-  slidesPerView: "auto",
-  // centeredSlides: true,
-  spaceBetween: 20,
-  loop: true,
-  slideToClickedSlide: true,
-});
+          if (nextSlide && !nextSlide.classList.contains('swiper-slide-visible')) {
+              this.thumbs.swiper.slideNext()
+          } else if (prevSlide && !prevSlide.classList.contains('swiper-slide-visible')) {
+              this.thumbs.swiper.slidePrev()
+          }
 
-gallery_top.controller.control = gallery_thumbs;
-gallery_thumbs.controller.control = gallery_top;
+      }
+  }
+});
