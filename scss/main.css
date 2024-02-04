@@ -8333,7 +8333,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: column;
   width: 24%;
   justify-content: space-between;
-  padding: 38px 63px;
+  padding: 38px 38px 38px 63px;
 }
 .other-department-box__row__col b {
   position: relative;
