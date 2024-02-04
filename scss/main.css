@@ -8828,23 +8828,35 @@ label.add-files:focus, label.add-files:hover {
 .dashboard-main-box .box-content span.orange {
   color: #F26521;
 }
-.dashboard-main-box .box-content .catalog-offert p {
+.dashboard-main-box .box-content .catalog-offert p,
+.dashboard-main-box .box-content .catalog-offert a {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
   color: #374957;
   margin: 0 0 9px 0;
+  text-decoration: none;
 }
-.dashboard-main-box .box-content .catalog-offert p.catalog-p {
+.dashboard-main-box .box-content .catalog-offert p.catalog-p,
+.dashboard-main-box .box-content .catalog-offert a.catalog-p {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin: 0 0 34px 0;
 }
-.dashboard-main-box .box-content .catalog-offert p.orange {
+.dashboard-main-box .box-content .catalog-offert p.orange,
+.dashboard-main-box .box-content .catalog-offert a.orange {
   color: #F26521;
+}
+.dashboard-main-box .box-content .catalog-offert p:hover,
+.dashboard-main-box .box-content .catalog-offert a:hover {
+  color: #F26521;
+}
+.dashboard-main-box .box-content .catalog-offert a {
+  display: inline-block;
+  width: 100%;
 }
 .dashboard-main-box .box-content img {
   width: 100%;
@@ -9039,7 +9051,8 @@ label.add-files:focus, label.add-files:hover {
     padding: 16px;
     max-height: 180px;
   }
-  .dashboard-main-box .box-content .catalog-offert p.catalog-p {
+  .dashboard-main-box .box-content .catalog-offert p.catalog-p,
+  .dashboard-main-box .box-content .catalog-offert a.catalog-p {
     font-size: 16px;
     margin: 0 0 28px 0;
   }

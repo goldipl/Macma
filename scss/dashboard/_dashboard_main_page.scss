@@ -134,13 +134,15 @@
                 }
             }
             .catalog-offert {
-                p {
+                p,
+                a {
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 130%;
                     color: $text_color;
                     margin: 0 0 9px 0;
+                    text-decoration: none;
                     &.catalog-p {
                         font-size: 18px;
                         font-style: normal;
@@ -151,6 +153,13 @@
                     &.orange {
                         color: $macma_orange;
                     }
+                    &:hover {
+                        color: $macma_orange;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    width: 100%;
                 }
             }
             img {
@@ -355,7 +364,8 @@
                     }
                 }
                 .catalog-offert {
-                    p {
+                    p,
+                    a {
                         &.catalog-p {
                             font-size: 16px;
                             margin: 0 0 28px 0;

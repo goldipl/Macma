@@ -38,9 +38,9 @@
         <div class="box-content">
             <div class="catalog-offert">
                 <p class="orange catalog-p">Oferta katalogowa: 44%</p>
-                <p>Kody rabatowe na produkty</p>
-                <p>Kody rabatowe na znakowanie</p>
-                <p>Nagrody dla Ciebie</p>
+                <a href="#">Kody rabatowe na produkty</a>
+                <a href="#">Kody rabatowe na znakowanie</a>
+                <a href="#">Nagrody dla Ciebie</a>
             </div>
         </div>
     </div>
