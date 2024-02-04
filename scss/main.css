@@ -4244,8 +4244,14 @@ label.add-files:focus, label.add-files:hover {
   cursor: pointer;
   margin-left: 11px;
 }
+.product_card_gallery_info .product-gallery .slider-one .product-icons a .download-icon:hover {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+}
 .product_card_gallery_info .product-gallery .slider-one .product-icons a .zoom-icon {
   cursor: pointer;
+}
+.product_card_gallery_info .product-gallery .slider-one .product-icons a .zoom-icon:hover {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
 }
 .product_card_gallery_info .product-gallery .gallery img {
   width: 100%;
