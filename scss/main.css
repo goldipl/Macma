@@ -11075,7 +11075,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
 }
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .desc-info {
-  font-size: 8px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -11122,7 +11122,7 @@ label.add-files:focus, label.add-files:hover {
   background-color: unset;
 }
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .error-info {
-  font-size: 8px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
