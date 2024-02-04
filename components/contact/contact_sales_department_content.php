@@ -9,7 +9,7 @@
             </div>
             <div class="sales-department-box__row__col__middle">
                 <p>Jan Nowak</p>
-                <span>Dział handlowy | Stanowisko</span>
+                <span>Starszy Specjalista ds. Obsługi Klienta</span>
             </div>
             <div class="horizontal-line"></div>
             <div class="sales-department-box__row__col__bottom">
@@ -24,7 +24,7 @@
             </div>
             <div class="sales-department-box__row__col__middle">
                 <p>Jan Nowak</p>
-                <span>Dział handlowy | Stanowisko</span>
+                <span>Starszy Specjalista ds. Obsługi Klienta</span>
             </div>
             <div class="horizontal-line"></div>
             <div class="sales-department-box__row__col__bottom">
@@ -39,7 +39,7 @@
             </div>
             <div class="sales-department-box__row__col__middle">
                 <p>Jan Nowak</p>
-                <span>Dział handlowy | Stanowisko</span>
+                <span>Starszy Specjalista ds. Obsługi Klienta</span>
             </div>
             <div class="horizontal-line"></div>
             <div class="sales-department-box__row__col__bottom">
@@ -54,7 +54,7 @@
             </div>
             <div class="sales-department-box__row__col__middle">
                 <p>Jan Nowak</p>
-                <span>Dział handlowy | Stanowisko</span>
+                <span>Starszy Specjalista ds. Obsługi Klienta</span>
             </div>
             <div class="horizontal-line"></div>
             <div class="sales-department-box__row__col__bottom">
@@ -69,7 +69,7 @@
             </div>
             <div class="sales-department-box__row__col__middle">
                 <p>Jan Nowak</p>
-                <span>Dział handlowy | Stanowisko</span>
+                <span>Starszy Specjalista ds. Obsługi Klienta</span>
             </div>
             <div class="horizontal-line"></div>
             <div class="sales-department-box__row__col__bottom">
@@ -84,7 +84,7 @@
             </div>
             <div class="sales-department-box__row__col__middle">
                 <p>Jan Nowak</p>
-                <span>Dział handlowy | Stanowisko</span>
+                <span>Starszy Specjalista ds. Obsługi Klienta</span>
             </div>
             <div class="horizontal-line"></div>
             <div class="sales-department-box__row__col__bottom">
