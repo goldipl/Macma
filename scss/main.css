@@ -312,6 +312,9 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   }
   nav .nav-account-cart {
     padding: 16px 0 0 0;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 6px;
   }
   nav .nav-account-cart a span {
     font-size: 15px;
