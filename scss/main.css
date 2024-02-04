@@ -4272,7 +4272,8 @@ label.add-files:focus, label.add-files:hover {
   height: auto;
 }
 .product_card_gallery_info .product-gallery .slider-two {
-  padding: 0 40px;
+  margin: 0 40px;
+  overflow: hidden;
 }
 .product_card_gallery_info .product-gallery .slider-two .swiper-wrapper .swiper-slide {
   width: -moz-max-content !important;
@@ -4751,7 +4752,6 @@ label.add-files:focus, label.add-files:hover {
     padding: 32px !important;
   }
   .product_card_gallery_info .product-gallery .slider-two {
-    padding: 0 40px;
     box-sizing: border-box;
   }
   .product_card_gallery_info .product-gallery .gallery img {

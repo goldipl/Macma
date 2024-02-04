@@ -18,7 +18,8 @@
         }
 
         .slider-two {
-            padding: 0 40px;
+            margin: 0 40px;
+            overflow: hidden;
             .swiper-wrapper {
                 .swiper-slide {
                     width: max-content !important;
@@ -516,8 +517,7 @@
                 }
             }
             .slider-two {
-                padding: 0 40px;
-                box-sizing: border-box;
+                box-sizing: border-box;           
             }
             .gallery img {
                 max-height: unset;
