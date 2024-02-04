@@ -110,7 +110,7 @@
                         <p class="desc">*Nie dotyczy kalki ceramicznej oraz tłoczenia</p>
                     </div>
                     <div class="lines-box__row__right">
-                        <p class="green fw-bold"><span>24h</span></p>
+                        <p class="green"><span>24h</span></p>
                     </div>
                 </div>
             </div>
