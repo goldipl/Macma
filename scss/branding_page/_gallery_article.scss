@@ -102,8 +102,8 @@
         .gallery-thumbs img {
             cursor: pointer;
             object-fit: contain;
-            width: max-content;
-            height: 170px;
+            max-height: 170px;
+            width: 100%;
             padding: 20px;
         }
 
@@ -219,10 +219,11 @@
             .gallery-thumbs {
                 width: calc(100% - 50px);
                 img {
-                    height: 100px;
+                    
                 }
                 .swiper-slide {
-                    height: 100px !important;
+                    height: auto !important;
+                    width: 50% !important;
                 }
             }
         }

@@ -2987,9 +2987,8 @@ label.add-files:focus, label.add-files:hover {
   cursor: pointer;
   -o-object-fit: contain;
      object-fit: contain;
-  width: -moz-max-content;
-  width: max-content;
-  height: 170px;
+  max-height: 170px;
+  width: 100%;
   padding: 20px;
 }
 .gallery_article__right .swiper-button-next {
@@ -3083,11 +3082,9 @@ label.add-files:focus, label.add-files:hover {
   .gallery_article__right .gallery-thumbs {
     width: calc(100% - 50px);
   }
-  .gallery_article__right .gallery-thumbs img {
-    height: 100px;
-  }
   .gallery_article__right .gallery-thumbs .swiper-slide {
-    height: 100px !important;
+    height: auto !important;
+    width: 50% !important;
   }
 }
 .branding_info_boxes {

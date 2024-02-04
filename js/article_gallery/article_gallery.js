@@ -4,7 +4,17 @@ var galleryThumbs = new Swiper('.slider-two', {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   centerInsufficientSlides: true,
-  slideToClickedSlide: true
+  slideToClickedSlide: true,
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 4,
+    },
+    // when window width is >= 200px
+    200: {
+      slidesPerView: 1,
+    },
+  },
 });
 var galleryTop = new Swiper('.slider-one', {
   spaceBetween: 10,
@@ -28,5 +38,5 @@ var galleryTop = new Swiper('.slider-one', {
           }
 
       }
-  }
+  },
 });
