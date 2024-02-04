@@ -5,7 +5,7 @@
     <div class="dashboard-program">
         <h2>Gratulacje</h2>
         <img src="./assets/img/dashboard/macma-gold-status.jpg" alt="Macma lvl img" width="538" height="200">
-        <p>Do osiągnięcia kolejnego poziomu brakuje Ci <span>XXX</span> zł obrotu.</p>
+        <p>Do osiągnięcia kolejnego poziomu brakuje Ci <span>XXX</span> PLN obrotu.</p>
     </div>
     <div class="progress-box">
         <div class="progress">
