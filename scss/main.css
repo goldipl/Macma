@@ -4184,6 +4184,11 @@ label.add-files:focus, label.add-files:hover {
   .blog_news_articles__slot--img {
     width: 100%;
   }
+  .blog_news_articles__slot--img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+  }
 }
 .accordion {
   border-radius: 0 !important;
