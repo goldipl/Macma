@@ -288,6 +288,17 @@
     }
 }
 
+@media (max-width: 760px) {
+    .our_brands_swiper {
+        margin: -64px 0 0 0 !important;
+        .swiper-slide {
+            img {
+                padding: 40px !important;
+            }
+        }
+    }
+}
+
 @media (max-width: 576px) {
     #swiper {
         .swiper {

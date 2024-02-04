@@ -1502,6 +1502,14 @@ label.add-files:focus, label.add-files:hover {
     left: -40px;
   }
 }
+@media (max-width: 760px) {
+  .our_brands_swiper {
+    margin: -64px 0 0 0 !important;
+  }
+  .our_brands_swiper .swiper-slide img {
+    padding: 40px !important;
+  }
+}
 @media (max-width: 576px) {
   #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
   #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {

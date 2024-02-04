@@ -33,8 +33,8 @@ const our_brands_swiper = new Swiper('.our_brands_swiper', {
       },
       // when window width is >= 200px
       200: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 20,
       },
     },
