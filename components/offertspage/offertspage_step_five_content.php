@@ -5,10 +5,6 @@
                 <h1>Ofertownik</h1>
             </div>
             <div class="top-title-box__right">
-                <a href="#" class="help-box">
-                    <img src="./assets/icons/offertspage/question-octagon.svg" alt="question icon" width="14" height="14">
-                    <span>Pomoc</span>
-                </a>
             </div>
         </div>
         <div class="offertspage-offerts-details">
