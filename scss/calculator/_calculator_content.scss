@@ -687,12 +687,10 @@
                         &__bottom {
                             &--slot {
                                 height: 40px;
-                                width: 48%;
+                                width: 100%;
                                 p {
+                                    font-size: 13px;
                                     line-height: 14px;
-                                }
-                                &:last-of-type {
-                                    width: 100%;
                                 }
                             }
                         }
