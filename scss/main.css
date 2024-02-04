@@ -4270,8 +4270,9 @@ label.add-files:focus, label.add-files:hover {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  border: 1px solid #FFFFFF;
 }
-.product_card_gallery_info .product-gallery .gallery-thumbs .swiper-slide-active {
+.product_card_gallery_info .product-gallery .gallery-thumbs .swiper-slide.swiper-slide-thumb-active {
   opacity: 1;
   border: 1px solid #F4F4F4;
 }

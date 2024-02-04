@@ -83,7 +83,8 @@
             opacity: 0.8;
             margin-top: 20px;
             user-select: none;
-            &-active {
+            border: 1px solid $white;
+            &.swiper-slide-thumb-active {
                 opacity: 1;
                 border: 1px solid $light_grey;
             }
