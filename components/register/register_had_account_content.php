@@ -13,7 +13,7 @@
                             <input class="form-input" type="text" name="name-surname" id="name-surname" required="">
                         </div>
                         <div class="inputs-wrapper__slot">
-                            <label for="telephone">Tel<span class="orange">*</span></label>
+                            <label for="telephone">Telefon<span class="orange">*</span></label>
                             <input class="form-input" type="text" name="telephone" id="telephone" required="">
                         </div>
                     </div>
@@ -40,8 +40,8 @@
             <div class="inputs-wrapper">
                 <div class="d-flex flex-column input-column">      
                     <div class="inputs-wrapper__slot">
-                        <label for="login">Login<span class="orange">*</span></label>
-                        <input class="form-input" type="text" name="login" id="login" required="">
+                        <label for="login">Login – wpisz swój adres e-mail<span class="orange">*</span></label>
+                        <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="login" id="login" required="">
                     </div>
                     <div class="inputs-wrapper__slot">
                         <label class="custom-checkbox-container newsletter">Zapisz się do naszego newslettera<input type="checkbox" class="custom_input" required="">
