@@ -22,6 +22,9 @@
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
         </footer>
+        <script>
+            document.querySelector('#topbar .container .topbar-links a:nth-of-type(7)').classList.add('active')
+        </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
