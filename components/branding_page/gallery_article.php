@@ -61,10 +61,10 @@
                         <img src="./assets/img/article_gallery/article_gallery_04.jpg">
                     </div>
                 </div>
-                 <!-- Add Arrows -->
-                <div title="next" class="swiper-button-next"></div>
-                <div title="prev" class="swiper-button-prev"></div>
             </div>
+            <!-- Add Arrows -->
+            <div title="next" class="swiper-button-next"></div>
+            <div title="prev" class="swiper-button-prev"></div>
         </div>
     </div>
 </div>

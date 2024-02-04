@@ -2955,8 +2955,11 @@ label.add-files:focus, label.add-files:hover {
   color: #374957;
 }
 .gallery_article__right {
+  position: relative;
   display: flex;
   width: 50%;
+  height: -moz-max-content;
+  height: max-content;
   /* galleryTop */
   /* thumbs */
   /* buttons */
@@ -3012,7 +3015,8 @@ label.add-files:focus, label.add-files:hover {
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
-  bottom: calc(50% - 22px);
+  top: unset;
+  bottom: 70px;
   right: -45px;
   z-index: 1;
 }
@@ -3029,7 +3033,8 @@ label.add-files:focus, label.add-files:hover {
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
-  bottom: calc(50% - 22px);
+  top: unset;
+  bottom: 70px;
   left: -50px;
   z-index: 1;
 }
@@ -3083,6 +3088,9 @@ label.add-files:focus, label.add-files:hover {
     font-size: 14px;
     line-height: 140%;
   }
+  .gallery_article__right {
+    /* buttons */
+  }
   .gallery_article__right .gallery img {
     max-height: unset;
     height: 100%;
@@ -3091,11 +3099,20 @@ label.add-files:focus, label.add-files:hover {
     height: 180px !important;
   }
   .gallery_article__right .gallery-thumbs {
+    overflow: hidden;
     width: calc(100% - 50px);
   }
   .gallery_article__right .gallery-thumbs .swiper-slide {
     height: auto !important;
-    width: 50% !important;
+    width: 48% !important;
+  }
+  .gallery_article__right .swiper-button-next {
+    bottom: 58px;
+    right: -10px;
+  }
+  .gallery_article__right .swiper-button-prev {
+    bottom: 58px;
+    left: -10px;
   }
 }
 .branding_info_boxes {
