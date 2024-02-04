@@ -343,7 +343,6 @@
                                     </div>
                                     <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Wyślij do negocjacji <img src="./assets/icons/common/buttons/button_white_arrow.svg">
                                     </button>
-                                    <p class="desc-info-red">Jeśli chcesz negocjować cenę, zwiększ wartość zamówienia – powinna osiągnąć wartość całkowitą min. 1000 zł.</p>
                                     <p class="desc-info-green">Dziękujemy za wysłanie negocjacji. Już wkrótce Twój opiekun handlowy skontaktuje się z Tobą.</p>
                                 </div>
                             </div>
