@@ -764,6 +764,45 @@
                             }
                         }
                     }
+                    .tables-box {
+                        position: relative;
+                        padding-bottom: 28px;
+                        background-color: $white;
+                        &::before {
+                            content: 'Dotknij i przesuń, żeby zobaczyć więcej';
+                            position: absolute;
+                            width: 204px;
+                            height: 10px;
+                            bottom: 8px;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 16px;
+                            color: $grey_main;
+                            right: 18px;
+                        }
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 14px;
+                            height: 20px;
+                            bottom: 2px;
+                            right: 11px;
+                            background: url('./../assets/icons/common/swipe-hand.svg');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                        table {
+                            &:nth-of-type(1) {
+                                tr {
+                                    td {
+                                        &:nth-of-type(2) {
+                                            padding-right: 21px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
