@@ -14,7 +14,7 @@
         <div class="tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab" tabindex="0">
             <p>Klasyczny długopis metalowy z chromowanymi elementami i smukłym klipsem. Długopis wyposażony w duży niebieski wkład.</p>
             <h2>Dostępność</h2>
-            <div class="table-container">
+            <div class="table-container wide-table">
                 <table>
                     <tbody>
                         <tr>
@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-branding" role="tabpanel" aria-labelledby="nav-branding-tab" tabindex="0">
-            <div class="table-container">
+            <div class="table-container wide-table">
                 <table>
                     <tbody>
                         <tr>
@@ -400,7 +400,7 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-packing" role="tabpanel" aria-labelledby="nav-packing-tab" tabindex="0">
-            <div class="table-container short-rows-table">
+            <div class="table-container medium-rows-table">
                 <table>
                     <tbody>
                         <tr>

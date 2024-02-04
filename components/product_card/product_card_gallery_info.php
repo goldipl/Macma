@@ -49,10 +49,10 @@
                         <img src="./assets/img/product_card/product-card-01.jpg">
                     </div>
                 </div>
-                 <!-- Add Arrows -->
-                <div title="next" class="swiper-button-next"></div>
-                <div title="prev" class="swiper-button-prev"></div>
             </div>
+              <!-- Add Arrows -->
+              <div title="next" class="swiper-button-next"></div>
+                <div title="prev" class="swiper-button-prev"></div>
         </div>
     </div>
     <div class="product-info">

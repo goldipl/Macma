@@ -4242,6 +4242,7 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 40px;
 }
 .product_card_gallery_info .product-gallery {
+  position: relative;
   display: flex;
   width: 50%;
   /* top gallery */
@@ -4255,6 +4256,16 @@ label.add-files:focus, label.add-files:hover {
 }
 .product_card_gallery_info .product-gallery .gallery .swiper-slide {
   height: auto;
+}
+.product_card_gallery_info .product-gallery .slider-two {
+  padding: 0 40px;
+}
+.product_card_gallery_info .product-gallery .slider-two .swiper-wrapper {
+  overflow: hidden;
+}
+.product_card_gallery_info .product-gallery .slider-two .swiper-wrapper .swiper-slide {
+  width: -moz-max-content !important;
+  width: max-content !important;
 }
 .product_card_gallery_info .product-gallery .slider-one {
   border: 1px solid #F4F4F4;
@@ -4347,7 +4358,8 @@ label.add-files:focus, label.add-files:hover {
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
-  bottom: calc(50% - 22px);
+  top: unset;
+  bottom: 140px;
   right: 0;
   z-index: 1;
 }
@@ -4363,7 +4375,8 @@ label.add-files:focus, label.add-files:hover {
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
-  bottom: calc(50% - 22px);
+  top: unset;
+  bottom: 140px;
   left: 0;
   z-index: 1;
 }
@@ -4704,6 +4717,7 @@ label.add-files:focus, label.add-files:hover {
   .product_card_gallery_info .product-gallery {
     width: 100%;
     margin-bottom: 24px;
+    /* buttons */
   }
   .product_card_gallery_info .product-gallery .slider-one {
     height: 35vh;
@@ -4725,6 +4739,10 @@ label.add-files:focus, label.add-files:hover {
     height: 100% !important;
     padding: 32px !important;
   }
+  .product_card_gallery_info .product-gallery .slider-two {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
   .product_card_gallery_info .product-gallery .gallery img {
     max-height: unset;
     height: 100%;
@@ -4737,6 +4755,17 @@ label.add-files:focus, label.add-files:hover {
   }
   .product_card_gallery_info .product-gallery .gallery-thumbs .swiper-slide {
     height: 100px !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    margin-top: 12px;
+  }
+  .product_card_gallery_info .product-gallery .swiper-button-next {
+    right: 0;
+    bottom: 32px;
+  }
+  .product_card_gallery_info .product-gallery .swiper-button-prev {
+    left: 0;
+    bottom: 32px;
   }
   .product_card_gallery_info .product-info {
     margin-left: 0;
@@ -4896,6 +4925,9 @@ label.add-files:focus, label.add-files:hover {
 }
 .product_card_tabs .tab-content .tab-pane .table-container.short-rows-table table tbody tr td:first-of-type {
   width: 25%;
+}
+.product_card_tabs .tab-content .tab-pane .table-container.medium-rows-table table tbody tr td:first-of-type {
+  width: 35%;
 }
 .product_card_tabs .tab-content .tab-pane .table-container table {
   width: 100%;
@@ -5297,7 +5329,37 @@ label.add-files:focus, label.add-files:hover {
   .product_card_tabs .tab-content .tab-pane .table-container {
     overflow-x: scroll;
   }
-  .product_card_tabs .tab-content .tab-pane .table-container table {
+  .product_card_tabs .tab-content .tab-pane .table-container.wide-table {
+    position: relative;
+    padding-bottom: 28px;
+  }
+  .product_card_tabs .tab-content .tab-pane .table-container.wide-table::before {
+    content: "Dotknij i przesuń, żeby zobaczyć więcej";
+    position: absolute;
+    width: 204px;
+    height: 10px;
+    bottom: 8px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #333333;
+    right: 18px;
+  }
+  .product_card_tabs .tab-content .tab-pane .table-container.wide-table::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    bottom: 2px;
+    right: 11px;
+    background: url("./../assets/icons/common/swipe-hand.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .product_card_tabs .tab-content .tab-pane .table-container.wide-table td {
+    padding: 0 6px;
+  }
+  .product_card_tabs .tab-content .tab-pane .table-container.wide-table table {
     width: 150%;
   }
   .product_card_tabs .tab-content .tab-pane .table-container table tbody tr:first-of-type {
@@ -10367,10 +10429,6 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-calculations table tr th:nth-of-type(2),
   .dashboard-calculations table tr td:nth-of-type(2) {
     white-space: inherit;
-  }
-  .dashboard-calculations table tr th:nth-of-type(2) p,
-  .dashboard-calculations table tr td:nth-of-type(2) p {
-    white-space: pre;
   }
 }
 .dashboard-pricelists table tr:first-of-type {

@@ -29,9 +29,6 @@
         white-space: pre;
         &:nth-of-type(2) {
             white-space: inherit;
-            p {
-                white-space: pre;
-            }
         }
     }
 }

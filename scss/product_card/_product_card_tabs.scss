@@ -86,6 +86,19 @@
                         }
                     }
                 }
+                &.medium-rows-table {
+                    table {
+                        tbody {
+                            tr {
+                                td {
+                                    &:first-of-type {
+                                        width: 35%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 table {
                     width: 100%;
                     tbody {
@@ -506,8 +519,42 @@
                 }
                 .table-container {
                     overflow-x: scroll;
+                    &.wide-table {
+                        position: relative;
+                        padding-bottom: 28px;
+                        &::before {
+                            content: 'Dotknij i przesuń, żeby zobaczyć więcej';
+                            position: absolute;
+                            width: 204px;
+                            height: 10px;
+                            bottom: 8px;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 16px;
+                            color: $grey_main;
+                            right: 18px;
+                        }
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 14px;
+                            height: 20px;
+                            bottom: 2px;
+                            right: 11px;
+                            background: url('./../assets/icons/common/swipe-hand.svg');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                        td {
+                            padding: 0 6px;
+                        }
+                    }
+                    &.wide-table {
+                        table {
+                            width: 150%;
+                        }
+                    }
                     table {
-                        width: 150%;
                         tbody {
                             tr:first-of-type {
                                 background-color: $small_text_color;
