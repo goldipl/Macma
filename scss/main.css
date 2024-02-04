@@ -4274,9 +4274,6 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-gallery .slider-two {
   padding: 0 40px;
 }
-.product_card_gallery_info .product-gallery .slider-two .swiper-wrapper {
-  overflow: hidden;
-}
 .product_card_gallery_info .product-gallery .slider-two .swiper-wrapper .swiper-slide {
   width: -moz-max-content !important;
   width: max-content !important;
