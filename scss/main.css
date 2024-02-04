@@ -7734,6 +7734,9 @@ label.add-files:focus, label.add-files:hover {
     height: 40px;
     width: 48%;
   }
+  .calculator_container .accordion-container .accordion-body .pricing-box__bottom--slot p {
+    line-height: 14px;
+  }
   .calculator_container .accordion-container .accordion-body .pricing-box__bottom--slot:last-of-type {
     width: 100%;
   }

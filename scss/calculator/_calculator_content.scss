@@ -688,6 +688,9 @@
                             &--slot {
                                 height: 40px;
                                 width: 48%;
+                                p {
+                                    line-height: 14px;
+                                }
                                 &:last-of-type {
                                     width: 100%;
                                 }
