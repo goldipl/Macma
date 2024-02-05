@@ -4983,6 +4983,9 @@ label.add-files:focus, label.add-files:hover {
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td a:hover {
   color: #F26521;
 }
+.product_card_tabs .tab-content .tab-pane .table-container table tbody tr td a:hover img {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+}
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td .two-lines p {
   font-size: 16px;
   font-weight: 400;
@@ -5158,6 +5161,9 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right a:hover img {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
 }
 .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right img {
   -o-object-fit: contain;

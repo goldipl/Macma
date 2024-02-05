@@ -141,6 +141,11 @@
                                     &:hover {
                                         color: $macma_orange;
                                     }
+                                    &:hover {
+                                        img {
+                                            filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                                        }
+                                    }
                                 }
                                 .two-lines {
                                     p {
@@ -323,6 +328,13 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            a {
+                                &:hover {
+                                    img {
+                                        filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+                                    }
+                                }
+                            }
                             img {
                                 object-fit: contain;
                                 margin-left: 26px;
