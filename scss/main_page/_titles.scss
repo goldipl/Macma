@@ -172,6 +172,9 @@
 }
 
 @media (max-width: 991px) {
+    #promo_products_container .mp-titles .flex-row h1 {
+        width: 100vw;
+    }
     .mp-titles {
         padding: 16px 0 !important;
         .flex-row {

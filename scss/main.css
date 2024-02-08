@@ -1856,6 +1856,9 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
+  #promo_products_container .mp-titles .flex-row h1 {
+    width: 100vw;
+  }
   .mp-titles {
     padding: 16px 0 !important;
   }
@@ -1865,6 +1868,7 @@ label.add-files:focus, label.add-files:hover {
   .mp-titles .flex-row .promo-box {
     margin-bottom: 16px;
     padding: 4px 24px;
+    min-width: 40vw;
   }
   .mp-titles .flex-row .promo-box p,
   .mp-titles .flex-row .promo-box a {
