@@ -9,9 +9,10 @@
     .news_article_hero {
         height: 40vh;
         img {
-            object-fit: contain;
+            object-fit: cover;
             height: inherit;
-            margin-top: 0;
+            margin: 0 0 0 -12px;
+            width: 100vw;
         }
     }
 }
