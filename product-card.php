@@ -46,6 +46,6 @@
         <script src="./js/select2.min.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/swiper/swiper-bundle.js"></script>
-        <script src="./js/article_gallery/article_gallery.js"></script>
+        <script src="./js/products_card_gallery/products_card_gallery.js"></script>
     </body>
 </html>

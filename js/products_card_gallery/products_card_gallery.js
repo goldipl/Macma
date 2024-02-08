@@ -12,7 +12,7 @@ var galleryThumbs = new Swiper('.slider-two', {
     },
     // when window width is >= 200px
     200: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
 });
