@@ -3898,6 +3898,9 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 760px) {
+  .news_articles {
+    padding: 16px 0 24px 0;
+  }
   .news_articles__slot {
     width: 100%;
     margin-right: 0;
