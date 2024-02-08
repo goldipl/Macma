@@ -1,20 +1,18 @@
 .cart_container.step_three {
+    .bottom-cart-box-with-btn {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-bottom: 280px;
+        div {
+            a {
+                margin-top: 0;
+            }
+        }
+    }
     .cart-table_box {
         width: 100%;
         position: relative;
-        .bottom-cart-box-with-btn {
-            width: 80%;
-            border-right: 27px solid $light_grey;
-            .next {
-                position: absolute;
-                bottom: 410px;
-                left: calc(80% - 121px);
-                margin: 0;
-            }
-            .prev {
-                margin: 0 0 320px 0;
-            }
-        }
     }
     .cart-products-table {
         tr {
@@ -279,16 +277,14 @@
 
 @media (max-width: 1640px) {
     .cart_container.step_three {
-        .cart-table_box {
-            .bottom-cart-box-with-btn {
-                border-right: 0;
-                .right-btn {
-                    .next {
-                        position: relative;
-                        right: 0;
-                        bottom: 0;
-                        left: unset;
-                    }
+        .bottom-cart-box-with-btn {
+            border-right: 0;
+            .right-btn {
+                .next {
+                    position: relative;
+                    right: 0;
+                    bottom: 0;
+                    left: unset;
                 }
             }
         }
@@ -320,6 +316,15 @@
 
 @media (max-width: 1260px) {
     .cart_container.step_three {
+        .bottom-cart-box-with-btn {
+            width: 100%;
+            margin-bottom: 40px;
+            div {
+                a {
+                    margin-top: 24px;
+                }
+            }
+        }
         .cart-table_box {
             .bottom-cart-box-with-btn {
                 width: 100%;
@@ -330,7 +335,7 @@
             }
         }
         .cart-products-table {
-            margin-bottom: 100px;
+            margin-bottom: 8px;
             tr {
                 td {
                     padding: 0 !important;
