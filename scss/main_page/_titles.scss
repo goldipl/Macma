@@ -173,12 +173,13 @@
 
 @media (max-width: 991px) {
     .mp-titles {
+        padding: 16px 0 !important;
         .flex-row {
             &.mp-title {
                 width: 93vw;
             }
             .promo-box {
-                margin-bottom: 24px;
+                margin-bottom: 16px;
                 padding: 4px 24px;
                 p,
                 a {
@@ -190,7 +191,7 @@
             h1 {
                 font-size: 20px;
                 line-height: 140%;
-                width: 100vw;
+                width: 60vw;
             }
         }
     }
@@ -213,6 +214,7 @@
         }
     }
     .mp-check-all-btn {
+        padding: 8px 0 !important;
         a {
             font-size: 14px;
             line-height: 125%;

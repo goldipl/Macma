@@ -1856,11 +1856,14 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
+  .mp-titles {
+    padding: 16px 0 !important;
+  }
   .mp-titles .flex-row.mp-title {
     width: 93vw;
   }
   .mp-titles .flex-row .promo-box {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     padding: 4px 24px;
   }
   .mp-titles .flex-row .promo-box p,
@@ -1872,7 +1875,7 @@ label.add-files:focus, label.add-files:hover {
   .mp-titles .flex-row h1 {
     font-size: 20px;
     line-height: 140%;
-    width: 100vw;
+    width: 60vw;
   }
   .mp-bell-promo-box--text p {
     font-size: 14px;
@@ -1887,6 +1890,9 @@ label.add-files:focus, label.add-files:hover {
   }
   .mp-bell-promo-box--data div.calendar-card-top p {
     font-size: 22px;
+  }
+  .mp-check-all-btn {
+    padding: 8px 0 !important;
   }
   .mp-check-all-btn a {
     font-size: 14px;
