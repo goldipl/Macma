@@ -7,8 +7,10 @@
 
 @media (max-width: 991px) {
     .news_article_hero {
+        height: 40vh;
         img {
-            height: 40vh;
+            object-fit: contain;
+            height: inherit;
             margin-top: 0;
         }
     }

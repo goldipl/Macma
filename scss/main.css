@@ -3925,8 +3925,13 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 991px) {
-  .news_article_hero img {
+  .news_article_hero {
     height: 40vh;
+  }
+  .news_article_hero img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: inherit;
     margin-top: 0;
   }
 }
