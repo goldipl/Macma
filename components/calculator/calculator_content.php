@@ -287,25 +287,25 @@
                                     </div>
                                     <div class="pricing-box__bottom">
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>SZCZEGÓŁY</p>
+                                            <p>Szczegóły</p>
                                         </a>
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>DO KOSZYKA</p>
+                                            <p>Do koszyka</p>
                                         </a>
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>NEGOCJUJ</p>
+                                            <p>Negocjuj</p>
                                         </a>
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>POBIERZ PDF</p>
+                                            <p>Pobierz PDF</p>
                                         </a>
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>WYŚLIJ</p>
+                                            <p>Wyślij</p>
                                         </a>
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>EDYTUJ KALKULACJĘ</p>
+                                            <p>Edytuj kalkulację</p>
                                         </a>
                                         <a href="#" class="pricing-box__bottom--slot">
-                                            <p>NOWA KALKULACJA</p>
+                                            <p>Nowa kalkulacja</p>
                                         </a>
                                     </div>
                                 </div>
