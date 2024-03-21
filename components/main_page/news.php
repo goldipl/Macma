@@ -2,7 +2,7 @@
     <div class="container d-flex flex-row align-items-center justify-content-between">
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row">
-                <a href="#" class="promo-box d-flex justify-content-center news">
+                <a href="./news.php" class="promo-box d-flex justify-content-center news">
                     <p>Aktualności</p>
                 </a>
             </div>
