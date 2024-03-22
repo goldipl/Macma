@@ -2,7 +2,7 @@
     <div class="container d-flex flex-row align-items-center justify-content-between">
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row">
-                <a href="./category.php" class="promo-box d-flex justify-content-center promotions">
+                <a href="#" class="promo-box d-flex justify-content-center promotions">
                     <p>Promocje</p>
                 </a>
             </div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column py-4 mp-check-all-btn">
-                <a href="#">Sprawdź wszystkie <img src="./assets/icons/main_page/check-all-boxes.svg" alt="boxes" width="41" height="41"></a>
+                <a href="./category.php">Sprawdź wszystkie <img src="./assets/icons/main_page/check-all-boxes.svg" alt="boxes" width="41" height="41"></a>
             </div>
         </div>
     </div>
