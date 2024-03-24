@@ -13,10 +13,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Ulepszamy naszą drukarnię!</p>
+                            <a href="#">Ulepszamy naszą drukarnię!</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -32,10 +32,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Złota noc</p>
+                            <a href="#">Złota noc</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -51,10 +51,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Ekipa do zadań specjalnych</p>
+                            <a href="#">Ekipa do zadań specjalnych</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -70,10 +70,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Złota noc</p>
+                            <a href="#">Złota noc</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -89,10 +89,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Złota noc</p>
+                            <a href="#">Złota noc</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -108,10 +108,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Złota noc</p>
+                            <a href="#">Złota noc</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>

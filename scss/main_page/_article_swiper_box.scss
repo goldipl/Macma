@@ -1,93 +1,96 @@
 .article_swiper_box {
-    position: relative;
-    overflow: hidden;
-    &__image {
-        width: 496px;
-        height: 408px;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+  position: relative;
+  overflow: hidden;
+  &__image {
+    width: 496px;
+    height: 408px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
-    &__text {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 50%;
-        background-color: $light_orange_opacity;
-        padding: 19px 40px;
-        &--date {
-            p {
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 160%;
-                margin: 0 0 12px 0;
-                color: $text_color;
-                text-align: left;
-            }
-        }
-        &--title {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-align: center;
-            p {
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 120%;
-                margin: 0;
-                color: $text_color;
-                text-align: left;
-            }
-        }
-        &--see-more {
-            margin-top: 18px;
-            a {
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 160%;
-                margin: 0;
-                color: $text_color;
-                text-decoration: none;
-                text-align: left;
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
+  }
+  &__text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-color: $light_orange_opacity;
+    padding: 19px 40px;
+    &--date {
+      p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 0 0 12px 0;
+        color: $text_color;
+        text-align: left;
+      }
     }
+    &--title {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-align: left;
+      p,
+      a {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin: 0;
+        color: $text_color;
+        text-align: left;
+        text-decoration: none;
+      }
+    }
+    &--see-more {
+      margin-top: 18px;
+      a {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        margin: 0;
+        color: $text_color;
+        text-decoration: none;
+        text-align: left;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 991px) {
-    .article_swiper_box {
-        &__image {
-            width: 100%;
-            height: auto;
-        }
-        &__text {
-            &--title {
-                display: -webkit-box;
-                -webkit-line-clamp: 3;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                text-align: center;
-                p {
-                    font-size: 21px;
-                    line-height: 120%;
-                }
-            }
-            &--see-more {
-                a {
-                    font-size: 14px;
-                    line-height: 140%;
-                }
-            }
-        }
+  .article_swiper_box {
+    &__image {
+      width: 100%;
+      height: auto;
     }
+    &__text {
+      &--title {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-align: center;
+        p,
+        a {
+          font-size: 21px;
+          line-height: 120%;
+        }
+      }
+      &--see-more {
+        a {
+          font-size: 14px;
+          line-height: 140%;
+        }
+      }
+    }
+  }
 }

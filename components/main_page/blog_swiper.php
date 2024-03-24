@@ -13,10 +13,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Letnie orzeźwienie w reklamie</p>
+                            <a href="#">Letnie orzeźwienie w reklamie</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -32,10 +32,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>High season w branży gadżetów reklamowych. Jak się do niego przygotować?</p>
+                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -51,10 +51,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>Jak wybrać najlepszą hurtownię gadżetów reklamowych?</p>
+                            <a href="#">Jak wybrać najlepszą hurtownię gadżetów reklamowych?</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -70,10 +70,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>High season w branży gadżetów reklamowych. Jak się do niego przygotować?</p>
+                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -89,10 +89,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>High season w branży gadżetów reklamowych. Jak się do niego przygotować?</p>
+                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>
@@ -108,10 +108,10 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <p>High season w branży gadżetów reklamowych. Jak się do niego przygotować?</p>
+                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                         </div>
                         <div class="article_swiper_box__text--see-more">
-                            <a href="#">Zobacz więcej</a>
+                            <a href="#" rel="nofollow">Zobacz więcej</a>
                         </div>
                     </div>  
                 </div>

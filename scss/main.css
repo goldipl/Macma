@@ -2276,9 +2276,10 @@ label.add-files:focus, label.add-files:hover {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
 }
-.article_swiper_box__text--title p {
+.article_swiper_box__text--title p,
+.article_swiper_box__text--title a {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -2286,6 +2287,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   color: #374957;
   text-align: left;
+  text-decoration: none;
 }
 .article_swiper_box__text--see-more {
   margin-top: 18px;
@@ -2316,7 +2318,8 @@ label.add-files:focus, label.add-files:hover {
     overflow: hidden;
     text-align: center;
   }
-  .article_swiper_box__text--title p {
+  .article_swiper_box__text--title p,
+  .article_swiper_box__text--title a {
     font-size: 21px;
     line-height: 120%;
   }
@@ -3829,13 +3832,17 @@ label.add-files:focus, label.add-files:hover {
   overflow: hidden;
   padding: 0 30px;
   height: 58px;
+  text-align: left;
 }
-.news_articles__slot--title h2 {
+.news_articles__slot--title h2,
+.news_articles__slot--title a {
   font-size: 24px;
   font-weight: 700;
   line-height: 120%;
   margin: 0;
   color: #374957;
+  text-decoration: none;
+  text-align: left;
 }
 .news_articles__slot--text {
   padding: 0 30px;
@@ -3898,7 +3905,8 @@ label.add-files:focus, label.add-files:hover {
   .news_articles__slot--date p {
     line-height: 140%;
   }
-  .news_articles__slot--title h2 {
+  .news_articles__slot--title h2,
+  .news_articles__slot--title a {
     font-size: 20px;
   }
   .news_articles__slot--text p {
@@ -4136,13 +4144,17 @@ label.add-files:focus, label.add-files:hover {
   overflow: hidden;
   padding: 0 30px;
   height: 58px;
+  text-align: left;
 }
-.blog_news_articles__slot--title h2 {
+.blog_news_articles__slot--title h2,
+.blog_news_articles__slot--title a {
   font-size: 24px;
   font-weight: 700;
   line-height: 120%;
   margin: 0;
   color: #374957;
+  text-decoration: none;
+  text-align: left;
 }
 .blog_news_articles__slot--text {
   padding: 0 30px;
@@ -4194,7 +4206,8 @@ label.add-files:focus, label.add-files:hover {
   .blog_news_articles__slot--date p {
     line-height: 140%;
   }
-  .blog_news_articles__slot--title h2 {
+  .blog_news_articles__slot--title h2,
+  .blog_news_articles__slot--title a {
     font-size: 20px;
   }
   .blog_news_articles__slot--text p {
