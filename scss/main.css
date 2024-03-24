@@ -4456,7 +4456,7 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-info {
   margin-left: 20px;
 }
-.product_card_gallery_info .product-info_title {
+.product_card_gallery_info .product-info_title h1 {
   font-size: 40px;
   font-weight: 600;
   line-height: 120%;
@@ -4700,7 +4700,7 @@ label.add-files:focus, label.add-files:hover {
   .product_card_gallery_info .product-info {
     margin-left: 10px;
   }
-  .product_card_gallery_info .product-info_title {
+  .product_card_gallery_info .product-info_title h1 {
     font-size: 24px;
     margin: 0 0 16px 0;
   }
@@ -4839,7 +4839,7 @@ label.add-files:focus, label.add-files:hover {
   .product_card_gallery_info .product-info {
     margin-left: 0;
   }
-  .product_card_gallery_info .product-info_title {
+  .product_card_gallery_info .product-info_title h1 {
     font-size: 20px;
   }
   .product_card_gallery_info .product-info_code, .product_card_gallery_info .product-info_color, .product_card_gallery_info .product-info_ean {
@@ -4971,7 +4971,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 36px 0;
   color: #374957;
 }
-.product_card_tabs .tab-content .tab-pane h1 {
+.product_card_tabs .tab-content .tab-pane h2 {
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -4980,7 +4980,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 36px 0;
   color: #374957;
 }
-.product_card_tabs .tab-content .tab-pane h2 {
+.product_card_tabs .tab-content .tab-pane h3 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -5393,11 +5393,11 @@ label.add-files:focus, label.add-files:hover {
     line-height: 140%;
     margin: 0 0 16px 0;
   }
-  .product_card_tabs .tab-content .tab-pane h1 {
+  .product_card_tabs .tab-content .tab-pane h2 {
     font-size: 20px;
     margin: 0 0 22px 0;
   }
-  .product_card_tabs .tab-content .tab-pane h2 {
+  .product_card_tabs .tab-content .tab-pane h3 {
     font-size: 16px;
     line-height: 140%;
   }

@@ -13,7 +13,7 @@
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab" tabindex="0">
             <p>Klasyczny długopis metalowy z chromowanymi elementami i smukłym klipsem. Długopis wyposażony w duży niebieski wkład.</p>
-            <h2>Dostępność</h2>
+            <h3>Dostępność</h3>
             <div class="table-container wide-table">
                 <table>
                     <tbody>
@@ -456,7 +456,7 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-detdesc" role="tabpanel" aria-labelledby="nav-detdesc-tab" tabindex="0">
-            <h1>Długopis metalowy</h1>
+            <h2>Długopis metalowy</h2>
             <p>
             Lorem ipsum dolor sit amet consectetur. Id vel leo nec mauris magna arcu quam. Accumsan elementum vehicula eget semper accumsan amet. Ipsum hac ultricies elit at eleifend nibh. Quis donec ut orci accumsan egestas cursus. Mattis gravida id augue vel porttitor varius faucibus sagittis vel. Justo aliquam malesuada in imperdiet senectus sit ornare massa. Eu leo duis ornare id cursus vulputate at eu et. 
             </p>

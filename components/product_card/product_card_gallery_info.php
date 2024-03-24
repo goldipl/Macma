@@ -56,7 +56,9 @@
         </div>
     </div>
     <div class="product-info">
-        <div class="product-info_title">Długopis metalowy</div>
+        <div class="product-info_title">
+            <h1>Długopis metalowy</h1>
+        </div>
         <div class="product-info_code">Kod: <span>1333903</span></div>
         <div class="product-info_color">Kolor: <span>czarny</span></div>
         <div class="product-info_ean">EAN: <span>4064571004023</span></div>
