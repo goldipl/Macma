@@ -1998,6 +1998,17 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   margin: 0 auto;
 }
+.swiper_products_block_box__top .products-title h3 a {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #374957;
+  width: 98%;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
 .swiper_products_block_box__top .products-code {
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -2060,6 +2071,9 @@ label.add-files:focus, label.add-files:hover {
   .swiper_products_block_box__top .products-title h3 {
     font-size: 22px;
   }
+  .swiper_products_block_box__top .products-title h3 a {
+    font-size: 22px;
+  }
   .swiper_products_block_box__top .products-code {
     margin: 0 0 24px 0;
   }
@@ -2103,6 +2117,9 @@ label.add-files:focus, label.add-files:hover {
     margin: 40px auto 40px;
   }
   .swiper_products_block_box__top .products-title h3 {
+    font-size: 20px;
+  }
+  .swiper_products_block_box__top .products-title h3 a {
     font-size: 20px;
   }
   .swiper_products_block_box__top .products-code {

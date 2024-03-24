@@ -4,13 +4,15 @@
         <div class="swiper-wrapper">
             <!-- Slide 01 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/green_pen.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Długopis metalowy</h3>
+                            <h3 class="text-center">
+                                <a href="#">Długopis metalowy</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -33,17 +35,19 @@
                             <p>2023</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 02 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/water_bottle.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Bidon 500 ml</h3>
+                            <h3 class="text-center">
+                                <a href="#">Bidon 500 ml</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -63,17 +67,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 03 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/cheese_desk.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Deska do serów</h3>
+                            <h3 class="text-center">
+                                <a href="#">Deska do serów</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -93,17 +99,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
              <!-- Slide 04 -->
              <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Zestaw sztućców do grilla</h3>
+                            <h3 class="text-center">
+                                <a href="#">Zestaw sztućców do grilla</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -123,17 +131,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 05 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Długopis drewniany</h3>
+                            <h3 class="text-center">
+                                <a href="#">Długopis drewniany</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -153,17 +163,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 06 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Zestaw sztućców do grilla</h3>
+                            <h3 class="text-center">
+                                <a href="#">Zestaw sztućców do grilla</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -183,17 +195,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 07 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Zestaw sztućców do grilla</h3>
+                            <h3 class="text-center">
+                                <a href="#">Zestaw sztućców do grilla</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -213,17 +227,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 08 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Długopis drewniany</h3>
+                            <h3 class="text-center">
+                                <a href="#">Długopis drewniany</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -243,17 +259,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 09 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Długopis drewniany</h3>
+                            <h3 class="text-center">
+                                <a href="#">Długopis drewniany</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -273,17 +291,19 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 10 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Długopis drewniany</h3>
+                            <h3 class="text-center">
+                                <a href="#">Długopis drewniany</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -303,7 +323,7 @@
                             <p>Nowość</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
         <!-- If we need navigation buttons -->

@@ -4,13 +4,15 @@
         <div class="swiper-wrapper">
             <!-- Slide 01 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/notepadA5.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Notatnik A5</h3>
+                            <h3 class="text-center">
+                                <a href="#">Notatnik A5</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -30,17 +32,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 02 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                            <h3 class="text-center">
+                                <a href="#">Słuchawki bluetooth</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -60,17 +64,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 03 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/umbrella.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Automatyczny parasol rPET</h3>
+                            <h3 class="text-center">
+                                <a href="#">Automatyczny parasol rPET</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -90,17 +96,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
              <!-- Slide 04 -->
              <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/belly_bag.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Saszetka (nerka) RPET</h3>
+                            <h3 class="text-center">
+                                <a href="#">Saszetka (nerka) RPET</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -120,17 +128,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 05 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
+                            <h3 class="text-center">
+                                <a href="#">Butelka termiczna 500 ml</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -150,17 +160,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 06 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
+                            <h3 class="text-center">
+                                <a href="#">Butelka termiczna 500 ml</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -180,17 +192,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 07 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                            <h3 class="text-center">
+                                <a href="#">Słuchawki bluetooth</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -210,17 +224,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 08 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
+                            <h3 class="text-center">
+                                <a href="#">Butelka termiczna 500 ml</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -240,17 +256,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 09 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
+                            <h3 class="text-center">
+                                <a href="#">Butelka termiczna 500 ml</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -270,17 +288,19 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!-- Slide 10 -->
             <div class="swiper-slide">
-                <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+                <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <a href="#" rel="nofollow" class="products-image">
                             <img src="./assets/img/main_page/products/umbrella.jpg" alt="products block img" width="200" height="200">
-                        </div>
+                        </a>
                         <div class="products-title">
-                            <h3 class="text-center">Automatyczny parasol rPET</h3>
+                            <h3 class="text-center">
+                                <a href="#">Automatyczny parasol rPET</a>
+                            </h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -300,7 +320,7 @@
                             <p>Promocja</p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
         <!-- If we need navigation buttons -->
