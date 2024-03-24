@@ -52,6 +52,9 @@
                     </li>
                 </ul>
             </div>
+            <div class="container category-title">
+                <h1>Artykuły biurowe</h1>
+            </div>
             <div class="category-wrapper">
                 <div class="container">
                     <aside class="category-wrapper__left">

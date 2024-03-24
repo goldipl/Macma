@@ -1,0 +1,33 @@
+.container {
+  &.category-title {
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: $text_color;
+      margin: 0 0 22px 0;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    &.category-title {
+      h1 {
+        font-size: 24px;
+        margin: 0 0 16px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    &.category-title {
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+}
