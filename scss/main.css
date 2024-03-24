@@ -1752,7 +1752,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   text-decoration: none;
 }
-.mp-titles .flex-row h1 {
+.mp-titles .flex-row h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -1760,7 +1760,7 @@ label.add-files:focus, label.add-files:hover {
   text-transform: uppercase;
   color: #374957;
 }
-.mp-titles .flex-row h1 span {
+.mp-titles .flex-row h2 span {
   font-weight: 900;
   color: #F26521;
 }
@@ -1867,7 +1867,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
-  #promo_products_container .mp-titles .flex-row h1 {
+  #promo_products_container .mp-titles .flex-row h2 {
     width: 100vw;
   }
   .mp-titles {
@@ -1887,7 +1887,7 @@ label.add-files:focus, label.add-files:hover {
     line-height: 28px;
     letter-spacing: 6px;
   }
-  .mp-titles .flex-row h1 {
+  .mp-titles .flex-row h2 {
     font-size: 20px;
     line-height: 140%;
     width: 60vw;
@@ -2401,7 +2401,7 @@ label.add-files:focus, label.add-files:hover {
 #about_us .mp-titles .flex-row .promo-box {
   margin-bottom: 40px;
 }
-#about_us .article-text-sg h1 {
+#about_us .article-text-sg h3 {
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -2410,7 +2410,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 30px 0;
   color: #374957;
 }
-#about_us .article-text-sg h1 span {
+#about_us .article-text-sg h3 span {
   color: #F26521;
   font-weight: 900;
 }
@@ -2441,7 +2441,7 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 991px) {
-  #about_us .article-text-sg h1 {
+  #about_us .article-text-sg h3 {
     font-size: 21px;
     margin: 0 0 24px 0;
   }
@@ -3757,22 +3757,22 @@ label.add-files:focus, label.add-files:hover {
 .news_title .mp-titles {
   padding-top: 0 !important;
 }
-.news_title .mp-titles h1 {
+.news_title .mp-titles h2 {
   font-size: 72px !important;
   font-weight: 400 !important;
 }
-.news_title .mp-titles h1 span {
+.news_title .mp-titles h2 span {
   font-weight: 600 !important;
 }
 
 @media (max-width: 1199px) {
-  .news_title .mp-titles h1 {
+  .news_title .mp-titles h2 {
     font-size: 36px !important;
     margin: 0 0 24px 0 !important;
   }
 }
 @media (max-width: 991px) {
-  .news_title .mp-titles h1 {
+  .news_title .mp-titles h2 {
     font-size: 30px !important;
     margin: 0 !important;
   }

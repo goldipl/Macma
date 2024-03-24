@@ -7,9 +7,9 @@
                 </a>
             </div>
             <a href="#" class="d-flex flex-row mp-title text-decoration-none">
-                <h1 class="p-0">
+                <h2 class="p-0">
                     <span>Zatrzymaj czas!</span> Najlepsze ceny w styczniu!
-                </h1>
+                </h2>
             </a>
         </div>
         <div class="d-flex flex-row mp-bell-btn-box">
