@@ -13,9 +13,17 @@
             <div class="footer-text newsletter-title">
                 <strong>Zapisz się do newslettera</strong>
             </div>
-            <form class="newsletter-form d-inline-flex">
-                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz adres email" required>
-                <button id="newsletter_btn">Wyślij</button>
+            <form class="newsletter-form">
+                <div class="d-inline-flex">
+                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz adres email" required>
+                    <button id="newsletter_btn">Wyślij</button>
+                </div>
+                <div class="d-flex mt-2 accepts-info">
+                    <label class="custom-checkbox-container">Akceptuję politykę prywatności
+                        <input type="checkbox" class="custom_input" required>
+                        <span class="custom-checkbox-checkmark"></span>
+                    </label>
+                </div>
             </form>
         </div>
         <div class="d-flex flex-column align-items-center col-3 second-column">

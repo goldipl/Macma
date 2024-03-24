@@ -426,6 +426,11 @@ footer .footer__container__top .first-column .footer-text p {
   color: #4A6375;
   margin: 0;
 }
+footer .footer__container__top .first-column .newsletter-form .accepts-info label {
+  font-size: 12px;
+  line-height: 34px;
+  margin-bottom: -8px;
+}
 footer .footer__container__top .first-column .newsletter-form input {
   all: unset;
   width: 252px;
