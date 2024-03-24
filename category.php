@@ -9,6 +9,29 @@
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
         <link rel="stylesheet" href="./scss/main.css">
+        <!-- Breadcrumb schema -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.macma.pl/index.php"
+                }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Oferta",
+                    "item": "https://www.macma.pl/oferta"
+                }, {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Artykuły biurowe",
+                    "item": "https://www.macma.pl/oferta/artykuly-biurowe"
+                }]
+            }
+        </script>
     </head>
     <body>
         <header> 
