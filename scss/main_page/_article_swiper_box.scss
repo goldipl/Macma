@@ -35,6 +35,10 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-align: left;
+      h3 {
+        font-size: unset;
+        margin-bottom: 0;
+      }
       p,
       a {
         font-size: 24px;

@@ -13,7 +13,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Ulepszamy naszą drukarnię!</a>
+                            <h3>
+                                <a href="#">Ulepszamy naszą drukarnię!</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -32,7 +34,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Złota noc</a>
+                            <h3>
+                                <a href="#">Złota noc</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -51,7 +55,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Ekipa do zadań specjalnych</a>
+                            <h3>
+                                <a href="#">Ekipa do zadań specjalnych</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -70,7 +76,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Złota noc</a>
+                            <h3>
+                                <a href="#">Złota noc</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -89,7 +97,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Złota noc</a>
+                            <h3>
+                                <a href="#">Złota noc</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -108,7 +118,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Złota noc</a>
+                            <h3>
+                                <a href="#">Złota noc</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>

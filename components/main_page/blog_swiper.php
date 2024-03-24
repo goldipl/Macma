@@ -13,7 +13,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Letnie orzeźwienie w reklamie</a>
+                            <h3>
+                                <a href="#">Letnie orzeźwienie w reklamie</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -32,7 +34,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            <h3>
+                                <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -51,7 +55,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">Jak wybrać najlepszą hurtownię gadżetów reklamowych?</a>
+                            <h3>
+                                <a href="#">Jak wybrać najlepszą hurtownię gadżetów reklamowych?</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -70,7 +76,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            <h3>
+                                <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -89,7 +97,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            <h3>
+                                <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -108,7 +118,9 @@
                             <p>Poniedziałek, 12 czerwca 2023</p>
                         </div>
                         <div class="article_swiper_box__text--title">
-                            <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            <h3>
+                                <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
+                            </h3>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>

@@ -2278,6 +2278,10 @@ label.add-files:focus, label.add-files:hover {
   overflow: hidden;
   text-align: left;
 }
+.article_swiper_box__text--title h3 {
+  font-size: unset;
+  margin-bottom: 0;
+}
 .article_swiper_box__text--title p,
 .article_swiper_box__text--title a {
   font-size: 24px;
@@ -3834,6 +3838,10 @@ label.add-files:focus, label.add-files:hover {
   height: 58px;
   text-align: left;
 }
+.news_articles__slot--title h3 {
+  font-size: unset;
+  margin-bottom: 0;
+}
 .news_articles__slot--title h2,
 .news_articles__slot--title a {
   font-size: 24px;
@@ -4145,6 +4153,10 @@ label.add-files:focus, label.add-files:hover {
   padding: 0 30px;
   height: 58px;
   text-align: left;
+}
+.blog_news_articles__slot--title h3 {
+  font-size: unset;
+  margin-bottom: 0;
 }
 .blog_news_articles__slot--title h2,
 .blog_news_articles__slot--title a {
