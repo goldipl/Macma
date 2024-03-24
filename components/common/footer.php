@@ -44,7 +44,7 @@
                 <a href="https://www.facebook.com/MacmaPolska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/facebook.svg" alt="facebook logo" width="26" height="26">Facebook</a>
                 <a href="https://www.youtube.com/channel/UCc1vJYla9NRpnTaPV5hXjSA" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/youtube.svg" alt="youtube logo" width="26" height="26">YouTube</a>
                 <a href="https://www.instagram.com/macma_polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram Macma</a>
-                <a href="https://www.instagram.com/macma_polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram M-Collection</a>
+                <a href="https://www.instagram.com/mcollection_gifts/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram M-Collection</a>
                 <a href="https://www.linkedin.com/company/macma-polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/linkedin.svg" alt="linkedin logo" width="26" height="26">LinkedIn</a>
             </div>
         </div>
