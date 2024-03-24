@@ -403,6 +403,9 @@ footer .footer__container__top {
 footer .footer__container__top .first-column .footer-logo {
   margin: 0 0 25px 0;
 }
+footer .footer__container__top .first-column .footer-logo img {
+  font-size: 12px;
+}
 footer .footer__container__top .first-column .footer-text {
   margin: 0 0 23px 0;
 }
