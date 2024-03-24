@@ -6,7 +6,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/green_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -39,7 +39,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/water_bottle.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -69,7 +69,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/cheese_desk.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -99,7 +99,7 @@
              <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -129,7 +129,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -159,7 +159,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -189,7 +189,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -219,7 +219,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -249,7 +249,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
@@ -279,7 +279,7 @@
             <div class="swiper-slide">
                 <a href="#" class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <div class="products-image">
+                        <div class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">

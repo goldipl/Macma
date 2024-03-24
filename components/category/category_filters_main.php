@@ -1,7 +1,7 @@
 <div class="category-filters-main">
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -84,7 +84,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -161,7 +161,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -232,7 +232,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -303,7 +303,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -386,7 +386,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -463,7 +463,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -534,7 +534,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -605,7 +605,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -688,7 +688,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -765,7 +765,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -836,7 +836,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -907,7 +907,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -990,7 +990,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -1067,7 +1067,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
@@ -1138,7 +1138,7 @@
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
-            <a href="#" class="products-image">
+            <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
