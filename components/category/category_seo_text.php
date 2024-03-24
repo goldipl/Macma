@@ -1,0 +1,9 @@
+<div class="container d-flex row category-seo-container">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum repudiandae veniam, totam magni fugiat recusandae consequatur eos at eum. Illo nostrum cum nihil et in ea, laboriosam accusantium tenetur.
+    Ut ullam doloribus porro. Laudantium, ut modi at impedit suscipit dolores laborum iste recusandae, sapiente eius nihil corporis fugit consequatur adipisci quos nam veniam obcaecati mollitia, aut harum? Consequuntur, soluta.
+    Accusamus facilis ea iure a sit minus provident tenetur consequatur, sed voluptatem. Delectus ab sint porro tenetur necessitatibus fuga accusamus perspiciatis, vero, nobis praesentium facilis, natus consequuntur possimus similique adipisci?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ut velit perferendis odio qui nulla impedit doloremque ratione voluptatibus ipsa iure id nam maxime sint, autem illum et eos adipisci.
+    Alias animi aspernatur adipisci ipsum, iste impedit doloribus placeat doloremque vitae quam perspiciatis quis eligendi qui sunt eius non autem quidem cum voluptatem necessitatibus incidunt. Earum vero quisquam itaque suscipit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ut velit perferendis odio qui nulla impedit doloremque ratione voluptatibus ipsa iure id nam maxime sint, autem illum et eos adipisci.
+    Alias animi aspernatur adipisci ipsum, iste impedit doloribus placeat doloremque vitae quam perspiciatis quis eligendi qui sunt eius non autem quidem cum voluptatem necessitatibus incidunt. Earum vero quisquam itaque suscipit.</p>
+</div>

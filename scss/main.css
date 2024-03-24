@@ -13380,6 +13380,20 @@ main.grey-background {
     margin-top: 16px;
   }
 }
+.category-seo-container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #374957;
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 760px) {
+  .category-seo-container p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
 .negotiator_container .accordion-container {
   width: calc(80% - 27px);
   margin-right: 27px;
