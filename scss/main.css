@@ -2145,7 +2145,7 @@ label.add-files:focus, label.add-files:hover {
 .articles_container__slot--title {
   padding: 24px;
 }
-.articles_container__slot--title .article-title h1 {
+.articles_container__slot--title .article-title h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 900;
@@ -2194,7 +2194,7 @@ label.add-files:focus, label.add-files:hover {
   .articles_container__slot--title {
     height: 95px;
   }
-  .articles_container__slot--title .article-title h1 {
+  .articles_container__slot--title .article-title h2 {
     font-size: 28px;
     margin: 0;
   }
@@ -2211,7 +2211,7 @@ label.add-files:focus, label.add-files:hover {
   .articles_container__slot--title {
     padding: 15px;
   }
-  .articles_container__slot--title .article-title h1 {
+  .articles_container__slot--title .article-title h2 {
     font-size: 20px;
   }
   .articles_container__slot--title .article-button a {

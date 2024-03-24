@@ -3,7 +3,7 @@
         <div class="articles_container__slot w-100 macma-catalog">
             <div class="articles_container__slot--title d-flex justify-content-between align-items-center">
                 <div class="article-title">
-                    <h1>Katalog Macma</h1>
+                    <h2>Katalog Macma</h2>
                 </div>
                 <div class="article-button mp-check-all-btn">
                     <a href="#">Sprawdź wszystkie <img src="./assets/icons/main_page/check-all-boxes.svg" alt="boxes" width="41" height="41"></a>
@@ -21,7 +21,7 @@
         <div class="articles_container__slot w-100 macma-collection">
             <div class="articles_container__slot--title d-flex justify-content-between align-items-center">
                 <div class="article-title">
-                    <h1>M-collection</h1>
+                    <h2>M-collection</h2>
                 </div>
                 <div class="article-button mp-check-all-btn">
                 </div>
