@@ -10,7 +10,7 @@
                             <img src="./assets/img/main_page/products/notepadA5.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Notatnik A5</p>
+                            <h3 class="text-center">Notatnik A5</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -40,7 +40,7 @@
                             <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Słuchawki bluetooth</p>
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -70,7 +70,7 @@
                             <img src="./assets/img/main_page/products/umbrella.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Automatyczny parasol rPET</p>
+                            <h3 class="text-center">Automatyczny parasol rPET</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -100,7 +100,7 @@
                             <img src="./assets/img/main_page/products/belly_bag.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Saszetka (nerka) RPET</p>
+                            <h3 class="text-center">Saszetka (nerka) RPET</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -130,7 +130,7 @@
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Butelka termiczna 500 ml</p>
+                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -160,7 +160,7 @@
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Butelka termiczna 500 ml</p>
+                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -190,7 +190,7 @@
                             <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Słuchawki bluetooth</p>
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -220,7 +220,7 @@
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Butelka termiczna 500 ml</p>
+                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -250,7 +250,7 @@
                             <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Butelka termiczna 500 ml</p>
+                            <h3 class="text-center">Butelka termiczna 500 ml</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -280,7 +280,7 @@
                             <img src="./assets/img/main_page/products/umbrella.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Automatyczny parasol rPET</p>
+                            <h3 class="text-center">Automatyczny parasol rPET</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>

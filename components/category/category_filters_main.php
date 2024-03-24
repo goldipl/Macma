@@ -5,7 +5,7 @@
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Długopis metalowy</p>
+                <h3 class="text-center">Długopis metalowy</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -88,7 +88,7 @@
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Podkładka pod mysz</p>
+                <h3 class="text-center">Podkładka pod mysz</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -165,7 +165,7 @@
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Plastikowa skarbonka</p>
+                <h3 class="text-center">Plastikowa skarbonka</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -236,7 +236,7 @@
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Teczka konferencyjna A4 z segregatorem</p>
+                <h3 class="text-center">Teczka konferencyjna A4 z segregatorem</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -307,7 +307,7 @@
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Długopis metalowy</p>
+                <h3 class="text-center">Długopis metalowy</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -390,7 +390,7 @@
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Podkładka pod mysz</p>
+                <h3 class="text-center">Podkładka pod mysz</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -467,7 +467,7 @@
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Plastikowa skarbonka</p>
+                <h3 class="text-center">Plastikowa skarbonka</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -538,7 +538,7 @@
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Teczka konferencyjna A4 z segregatorem</p>
+                <h3 class="text-center">Teczka konferencyjna A4 z segregatorem</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -609,7 +609,7 @@
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Długopis metalowy</p>
+                <h3 class="text-center">Długopis metalowy</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -692,7 +692,7 @@
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Podkładka pod mysz</p>
+                <h3 class="text-center">Podkładka pod mysz</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -769,7 +769,7 @@
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Plastikowa skarbonka</p>
+                <h3 class="text-center">Plastikowa skarbonka</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -840,7 +840,7 @@
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Teczka konferencyjna A4 z segregatorem</p>
+                <h3 class="text-center">Teczka konferencyjna A4 z segregatorem</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -911,7 +911,7 @@
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Długopis metalowy</p>
+                <h3 class="text-center">Długopis metalowy</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -994,7 +994,7 @@
                 <img src="./assets/img/category/mousepad.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Podkładka pod mysz</p>
+                <h3 class="text-center">Podkładka pod mysz</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -1071,7 +1071,7 @@
                 <img src="./assets/img/category/piggybank.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Plastikowa skarbonka</p>
+                <h3 class="text-center">Plastikowa skarbonka</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>
@@ -1142,7 +1142,7 @@
                 <img src="./assets/img/category/briefcase.jpg" alt="products img" width="200" height="200">
             </a>
             <a href="#" class="products-title">
-                <p class="text-center">Teczka konferencyjna A4 z segregatorem</p>
+                <h3 class="text-center">Teczka konferencyjna A4 z segregatorem</h3>
             </a>
             <div class="products-colors">
                 <a href="#" class="color white"></a>

@@ -10,7 +10,7 @@
                             <img src="./assets/img/main_page/products/green_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Długopis metalowy</p>
+                            <h3 class="text-center">Długopis metalowy</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -43,7 +43,7 @@
                             <img src="./assets/img/main_page/products/water_bottle.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Bidon 500 ml</p>
+                            <h3 class="text-center">Bidon 500 ml</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -73,7 +73,7 @@
                             <img src="./assets/img/main_page/products/cheese_desk.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Deska do serów</p>
+                            <h3 class="text-center">Deska do serów</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -103,7 +103,7 @@
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Zestaw sztućców do grilla</p>
+                            <h3 class="text-center">Zestaw sztućców do grilla</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -133,7 +133,7 @@
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Długopis drewniany</p>
+                            <h3 class="text-center">Długopis drewniany</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -163,7 +163,7 @@
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Zestaw sztućców do grilla</p>
+                            <h3 class="text-center">Zestaw sztućców do grilla</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -193,7 +193,7 @@
                             <img src="./assets/img/main_page/products/barbecue_set.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Zestaw sztućców do grilla</p>
+                            <h3 class="text-center">Zestaw sztućców do grilla</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -223,7 +223,7 @@
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Długopis drewniany</p>
+                            <h3 class="text-center">Długopis drewniany</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -253,7 +253,7 @@
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Długopis drewniany</p>
+                            <h3 class="text-center">Długopis drewniany</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -283,7 +283,7 @@
                             <img src="./assets/img/main_page/products/wooden_pen.jpg" alt="products block img" width="200" height="200">
                         </div>
                         <div class="products-title">
-                            <p class="text-center">Długopis drewniany</p>
+                            <h3 class="text-center">Długopis drewniany</h3>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
