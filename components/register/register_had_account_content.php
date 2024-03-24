@@ -1,6 +1,6 @@
 <div class="grey-background">
     <div class="register container">
-        <h1>Jestem już klientem <span>Macma Polska</span> i zakładam dodatkowe konto</h1>
+        <h2>Jestem już klientem <span>Macma Polska</span> i zakładam dodatkowe konto</h2>
         <form class="inputs-form-container-wrapper">
             <div class="register-top-container">
                 <div class="register-top-container__slot">

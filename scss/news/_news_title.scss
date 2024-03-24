@@ -1,6 +1,7 @@
 .news_title {
   .mp-titles {
     padding-top: 0 !important;
+    h1,
     h2 {
       font-size: 72px !important;
       font-weight: 400 !important;
@@ -14,6 +15,7 @@
 @media (max-width: 1199px) {
   .news_title {
     .mp-titles {
+      h1,
       h2 {
         font-size: 36px !important;
         margin: 0 0 24px 0 !important;
@@ -25,6 +27,7 @@
 @media (max-width: 991px) {
   .news_title {
     .mp-titles {
+      h1,
       h2 {
         font-size: 30px !important;
         margin: 0 !important;

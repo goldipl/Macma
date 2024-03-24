@@ -49,6 +49,7 @@
         text-decoration: none;
       }
     }
+    h1,
     h2 {
       font-size: 36px;
       font-style: normal;
@@ -173,6 +174,7 @@
 }
 
 @media (max-width: 991px) {
+  #promo_products_container .mp-titles .flex-row h1,
   #promo_products_container .mp-titles .flex-row h2 {
     width: 100vw;
   }
@@ -193,6 +195,7 @@
           letter-spacing: 6px;
         }
       }
+      h1,
       h2 {
         font-size: 20px;
         line-height: 140%;

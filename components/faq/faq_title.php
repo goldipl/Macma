@@ -4,9 +4,9 @@
             <div class="d-flex flex-row">
             </div>
             <div class="d-flex flex-row mp-title">
-                <h2 class="p-0">
+                <h1 class="p-0">
                     <strong>FAQ</strong>
-                </h2>
+                </h1>
             </div>
         </div>
         <div class="d-flex flex-row mp-bell-btn-box">

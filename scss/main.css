@@ -1756,6 +1756,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   text-decoration: none;
 }
+.mp-titles .flex-row h1,
 .mp-titles .flex-row h2 {
   font-size: 36px;
   font-style: normal;
@@ -1764,6 +1765,7 @@ label.add-files:focus, label.add-files:hover {
   text-transform: uppercase;
   color: #374957;
 }
+.mp-titles .flex-row h1 span,
 .mp-titles .flex-row h2 span {
   font-weight: 900;
   color: #F26521;
@@ -1871,6 +1873,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
+  #promo_products_container .mp-titles .flex-row h1,
   #promo_products_container .mp-titles .flex-row h2 {
     width: 100vw;
   }
@@ -1891,6 +1894,7 @@ label.add-files:focus, label.add-files:hover {
     line-height: 28px;
     letter-spacing: 6px;
   }
+  .mp-titles .flex-row h1,
   .mp-titles .flex-row h2 {
     font-size: 20px;
     line-height: 140%;
@@ -3761,21 +3765,25 @@ label.add-files:focus, label.add-files:hover {
 .news_title .mp-titles {
   padding-top: 0 !important;
 }
+.news_title .mp-titles h1,
 .news_title .mp-titles h2 {
   font-size: 72px !important;
   font-weight: 400 !important;
 }
+.news_title .mp-titles h1 span,
 .news_title .mp-titles h2 span {
   font-weight: 600 !important;
 }
 
 @media (max-width: 1199px) {
+  .news_title .mp-titles h1,
   .news_title .mp-titles h2 {
     font-size: 36px !important;
     margin: 0 0 24px 0 !important;
   }
 }
 @media (max-width: 991px) {
+  .news_title .mp-titles h1,
   .news_title .mp-titles h2 {
     font-size: 30px !important;
     margin: 0 !important;
@@ -14245,7 +14253,7 @@ main.grey-background {
   width: 100%;
   padding-bottom: 40px;
 }
-.grey-background .register h1 {
+.grey-background .register h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 900;
@@ -14255,7 +14263,7 @@ main.grey-background {
   margin: 0;
   padding: 46px 0;
 }
-.grey-background .register h1 span {
+.grey-background .register h2 span {
   font-weight: 900;
   color: #F26521;
 }
@@ -14547,7 +14555,7 @@ main.grey-background {
   }
 }
 @media (max-width: 991px) {
-  .grey-background .register h1 {
+  .grey-background .register h2 {
     font-size: 20px;
     line-height: 140%;
     padding: 24px 0;

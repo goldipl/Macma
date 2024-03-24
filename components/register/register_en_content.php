@@ -1,6 +1,6 @@
 <div class="grey-background">
     <div class="register container">
-        <h1>Jestem nowym klientem <span>Macma Polska</span></h1>
+        <h2>Jestem nowym klientem <span>Macma Polska</span></h2>
         <form class="inputs-form-container-wrapper">
             <div class="title">
                 <p><img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Twoje dane<span class="orange">Pola oznaczone * są wymagane.</span></p>
