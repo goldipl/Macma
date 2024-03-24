@@ -9,7 +9,7 @@
                     <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
                 </a>
                 <div class="hero_content--content">
-                    <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
+                    <h1><span>TOP 10</span> gadżetów<br>reklamowych</h1>
                     <p>Zobacz co zamawiają inni</p>
                     <a class="white-btn" href="#our_products_container">Kliknij i sprawdź<img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>

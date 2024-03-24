@@ -1293,7 +1293,8 @@ label.add-files:focus, label.add-files:hover {
   -o-object-fit: contain;
      object-fit: contain;
 }
-#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 {
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1,
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h2 {
   font-size: 72px;
   font-style: normal;
   font-weight: 500;
@@ -1302,7 +1303,8 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   color: #FFFFFF;
 }
-#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 span {
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 span,
+#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h2 span {
   font-weight: 900;
   color: #F26521;
 }
@@ -1487,7 +1489,8 @@ label.add-files:focus, label.add-files:hover {
     left: 50%;
     transform: translateX(-50%);
   }
-  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 {
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1,
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h2 {
     font-size: 34px;
     font-style: normal;
     font-weight: 500;
@@ -1497,7 +1500,8 @@ label.add-files:focus, label.add-files:hover {
     color: #FFFFFF;
     text-align: center;
   }
-  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 span {
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 span,
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h2 span {
     font-weight: 900;
     color: #F26521;
   }
@@ -2599,7 +2603,7 @@ label.add-files:focus, label.add-files:hover {
   top: -80px;
   left: -10px;
 }
-#hero .hero_content h2 {
+#hero .hero_content h1 {
   font-size: 72px;
   font-style: normal;
   font-weight: 600;
@@ -2668,7 +2672,7 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1399px) {
-  #hero .hero_content h2 {
+  #hero .hero_content h1 {
     font-size: 50px;
     margin: 0 0 24px 0;
   }
@@ -2726,7 +2730,7 @@ label.add-files:focus, label.add-files:hover {
     top: -48px;
     left: -10px;
   }
-  #hero .hero_content h2 {
+  #hero .hero_content h1 {
     font-size: 36px;
     margin: 0 0 24px 0;
   }
@@ -2762,7 +2766,7 @@ label.add-files:focus, label.add-files:hover {
     top: -38px;
     left: -16px;
   }
-  #hero .hero_content h2 {
+  #hero .hero_content h1 {
     font-size: 30px;
   }
   #hero .hero_video iframe {
