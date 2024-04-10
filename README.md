@@ -4,7 +4,7 @@
 
 <h1 align="center">MACMA.pl website</h1>
 
-<p align="center">MACMA.pl website ➡️ E-commerce dynamic website written using PHP, SCSS, Bootstrap, Bootbox.js, jQuery, Select2, Vanilla JavaScript, HTML5 with Swiper.js.>
+<p align="center">MACMA.pl website ➡️ E-commerce dynamic website written using PHP, SCSS, Bootstrap, Bootbox.js, jQuery, Select2, Vanilla JavaScript, HTML5 with Swiper.js.</p>
 <p align="center">Website contains products page, cart page, login, register, offerts & account profiles/settings pages.</p>
 
 ## Table of contents
