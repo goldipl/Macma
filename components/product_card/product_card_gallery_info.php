@@ -59,9 +59,11 @@
         <div class="product-info_title">
             <h1>Długopis metalowy</h1>
         </div>
-        <div class="product-info_code">Kod: <span>1333903</span></div>
-        <div class="product-info_color">Kolor: <span>czarny</span></div>
-        <div class="product-info_ean">EAN: <span>4064571004023</span></div>
+        <div class="product-info_short-description">
+            <div class="product-info_code">Kod: <span>1333903</span></div>
+            <div class="product-info_color">Kolor: <span>czarny</span></div>
+            <div class="product-info_ean">EAN: <span>4064571004023</span></div>
+        </div>
         <p class="product-info_availability-colors-title">Dostępne kolory:</p>
         <div class="product-info_availability-colors">
             <a href="#" class="color grey"></a>

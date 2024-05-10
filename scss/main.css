@@ -4479,7 +4479,13 @@ label.add-files:focus, label.add-files:hover {
   display: none;
 }
 .product_card_gallery_info .product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-left: 20px;
+}
+.product_card_gallery_info .product-info_short-description {
+  min-height: 132px;
 }
 .product_card_gallery_info .product-info_title h1 {
   font-size: 40px;
@@ -4863,6 +4869,9 @@ label.add-files:focus, label.add-files:hover {
   }
   .product_card_gallery_info .product-info {
     margin-left: 0;
+  }
+  .product_card_gallery_info .product-info_short-description {
+    min-height: unset;
   }
   .product_card_gallery_info .product-info_title h1 {
     font-size: 20px;
