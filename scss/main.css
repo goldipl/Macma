@@ -4946,6 +4946,11 @@ label.add-files:focus, label.add-files:hover {
     line-height: 140%;
   }
 }
+@media (max-width: 640px) {
+  .product_card_gallery_info .product-info .product-more-box {
+    width: 100%;
+  }
+}
 .product_card_tabs nav {
   height: unset;
 }

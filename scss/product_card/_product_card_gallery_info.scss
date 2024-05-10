@@ -650,3 +650,13 @@
     }
   }
 }
+
+@media (max-width: 640px) {
+  .product_card_gallery_info {
+    .product-info {
+      .product-more-box {
+        width: 100%;
+      }
+    }
+  }
+}
