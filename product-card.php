@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="./css/select2.min.css" />
         <link rel="stylesheet" href="./scss/main.css">
         <!-- Include Fancybox CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
         <style>
             /* Additional styling for Fancybox  modal */
             #zoomModal img {
@@ -59,7 +59,7 @@
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/products_card_gallery/products_card_gallery.js"></script>
         <!-- Include Fancybox JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="./js/jquery.fancybox.min.js"></script>
         <script>
             $(document).ready(function(){
                 // Add click event listener to product-download icons
