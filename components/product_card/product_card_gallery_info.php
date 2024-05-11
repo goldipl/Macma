@@ -8,15 +8,42 @@
                         <div class="swiper-zoom-container">
                             <img src="./assets/img/product_card/product-card-01.jpg">
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        <!-- Product icons -->
+                        <div class="product-icons">
+                            <a class="product-zoom-in" href="#">
+                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </a>
+                            <a class="product-download" href="#">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
                             <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <!-- Product icons -->
+                        <div class="product-icons">
+                            <a class="product-zoom-in" href="#">
+                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </a>
+                            <a class="product-download" href="#">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <!-- Product icons -->
+                        <div class="product-icons">
+                            <a class="product-zoom-in" href="#">
+                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </a>
+                            <a class="product-download" href="#">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -25,15 +52,6 @@
                     <div class="product-label" style="background-color: #E4EDFF;">
                         <p>Promocja</p>
                     </div>
-                </div>
-                <!-- Product icons -->
-                <div class="product-icons">
-                    <a class="product-zoom-in" href="#">
-                        <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                    </a>
-                    <a class="product-download" href="#">
-                        <img class="download-icon"src="./assets/icons/product_page/download.svg" alt="download icon">
-                    </a>
                 </div>
             </div>
             <!-- thumbs -->
@@ -50,9 +68,9 @@
                     </div>
                 </div>
             </div>
-              <!-- Add Arrows -->
-              <div title="next" class="swiper-button-next"></div>
-                <div title="prev" class="swiper-button-prev"></div>
+            <!-- Add Arrows -->
+            <div title="next" class="swiper-button-next"></div>
+            <div title="prev" class="swiper-button-prev"></div>
         </div>
     </div>
     <div class="product-info">
@@ -60,9 +78,12 @@
             <h1>Długopis metalowy</h1>
         </div>
         <div class="product-info_short-description">
-            <div class="product-info_code">Kod: <span>1333903</span></div>
-            <div class="product-info_color">Kolor: <span>czarny</span></div>
-            <div class="product-info_ean">EAN: <span>4064571004023</span></div>
+            <div class="product-info_code">Kod: <span>1333903</span>
+            </div>
+            <div class="product-info_color">Kolor: <span>czarny</span>
+            </div>
+            <div class="product-info_ean">EAN: <span>4064571004023</span>
+            </div>
         </div>
         <p class="product-info_availability-colors-title">Dostępne kolory:</p>
         <div class="product-info_availability-colors">
@@ -80,10 +101,12 @@
             <div class="product-price-box_top">
                 <div class="product-price-box_top__left">
                     <div class="catalog-price">
-                        <span>Cena katalogowa <p>2,88 PLN</p></span>
+                        <span>Cena katalogowa <p>2,88 PLN</p>
+                        </span>
                     </div>
                     <div class="your-price">
-                        <span>Twoja cena <p>2,55 PLN</p></span>
+                        <span>Twoja cena <p>2,55 PLN</p>
+                        </span>
                     </div>
                 </div>
                 <a href="" class="product-price-box_top__right">
@@ -93,7 +116,8 @@
             </div>
             <div class="product-price-box_bottom">
                 <div class="product-price-box_bottom__left">
-                    <span>Cena promocyjna <p>1,88 PLN</p></span>
+                    <span>Cena promocyjna <p>1,88 PLN</p>
+                    </span>
                     <p class="minimal-quantity">Minimalna ilość: 500 szt.</p>
                 </div>
                 <button class="product-price-box_bottom__right">
@@ -126,7 +150,8 @@
             <div class="product-more-box__row last-row">
                 <a href="#" class="product-more-box__col">
                     <img src="./assets/icons/product_page/branding-time.svg" alt="download icon">
-                    <p>Znakowanie: <span>2 dni</span></p>
+                    <p>Znakowanie: <span>2 dni</span>
+                    </p>
                 </a>
                 <a href="#" class="product-more-box__col">
                     <img src="./assets/icons/product_page/branding-location.svg" alt="comparision icon">
