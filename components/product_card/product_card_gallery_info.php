@@ -46,6 +46,34 @@
                             </a>
                         </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <!-- Product icons -->
+                        <div class="product-icons">
+                            <span class="product-zoom-in">
+                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </span>
+                            <a class="product-download" href="#">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <!-- Product icons -->
+                        <div class="product-icons">
+                            <span class="product-zoom-in">
+                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </span>
+                            <a class="product-download" href="#">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <!-- Product label -->
                 <div class="product-label-box">
@@ -55,22 +83,30 @@
                 </div>
             </div>
             <!-- thumbs -->
-            <div class="swiper gallery-thumbs slider-two">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./assets/img/product_card/product-card-01.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/product_card/product-card-02.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/product_card/product-card-01.jpg">
+            <div class="thumbs-overflow-wrapper">
+                <div class="swiper gallery-thumbs slider-two">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/product_card/product-card-02.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/product_card/product-card-01.jpg">
+                        </div>
                     </div>
                 </div>
+                <!-- Add Arrows -->
+                <div title="next" class="swiper-button-next"></div>
+                <div title="prev" class="swiper-button-prev"></div>
             </div>
-            <!-- Add Arrows -->
-            <div title="next" class="swiper-button-next"></div>
-            <div title="prev" class="swiper-button-prev"></div>
         </div>
     </div>
     <div class="product-info">

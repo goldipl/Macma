@@ -4354,6 +4354,9 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-gallery .gallery .swiper-slide {
   height: auto;
 }
+.product_card_gallery_info .product-gallery .thumbs-overflow-wrapper {
+  position: relative;
+}
 .product_card_gallery_info .product-gallery .slider-two {
   margin: 0 40px;
   overflow: hidden;
@@ -4440,7 +4443,7 @@ label.add-files:focus, label.add-files:hover {
   width: -moz-max-content;
   width: max-content;
   max-width: 100%;
-  height: 170px;
+  aspect-ratio: 1;
   padding: 20px;
 }
 .product_card_gallery_info .product-gallery .swiper-button-next {
@@ -4453,8 +4456,8 @@ label.add-files:focus, label.add-files:hover {
   background-repeat: no-repeat;
   background-position: center center;
   top: unset;
-  bottom: 140px;
-  right: 0;
+  bottom: 30%;
+  right: -10px;
   z-index: 1;
 }
 .product_card_gallery_info .product-gallery .swiper-button-next::after {
@@ -4470,8 +4473,8 @@ label.add-files:focus, label.add-files:hover {
   background-repeat: no-repeat;
   background-position: center center;
   top: unset;
-  bottom: 140px;
-  left: 0;
+  bottom: 30%;
+  left: -10px;
   z-index: 1;
 }
 .product_card_gallery_info .product-gallery .swiper-button-prev::after {
@@ -4859,11 +4862,9 @@ label.add-files:focus, label.add-files:hover {
     margin-top: 12px;
   }
   .product_card_gallery_info .product-gallery .swiper-button-next {
-    right: 0;
     bottom: 32px;
   }
   .product_card_gallery_info .product-gallery .swiper-button-prev {
-    left: 0;
     bottom: 32px;
   }
   .product_card_gallery_info .product-info {
