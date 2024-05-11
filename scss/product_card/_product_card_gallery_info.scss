@@ -69,7 +69,8 @@
             }
           }
         }
-        a {
+        a,
+        span {
           .zoom-icon {
             cursor: pointer;
             &:hover {
@@ -105,6 +106,7 @@
       cursor: pointer;
       object-fit: contain;
       width: max-content;
+      max-width: 100%;
       height: 170px;
       padding: 20px;
     }

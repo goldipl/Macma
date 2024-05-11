@@ -10,9 +10,23 @@
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">
-                            <a class="product-zoom-in" href="#">
+                            <span class="product-zoom-in">
                                 <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </span>
+                            <a class="product-download" href="#">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
                             </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/img/product_card/product-card-02.jpg">
+                        </div>
+                        <!-- Product icons -->
+                        <div class="product-icons">
+                            <span class="product-zoom-in">
+                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
+                            </span>
                             <a class="product-download" href="#">
                                 <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
                             </a>
@@ -24,23 +38,9 @@
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">
-                            <a class="product-zoom-in" href="#">
+                            <span class="product-zoom-in">
                                 <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </a>
-                            <a class="product-download" href="#">
-                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-01.jpg">
-                        </div>
-                        <!-- Product icons -->
-                        <div class="product-icons">
-                            <a class="product-zoom-in" href="#">
-                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </a>
+                            </span>
                             <a class="product-download" href="#">
                                 <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
                             </a>
@@ -61,7 +61,7 @@
                         <img src="./assets/img/product_card/product-card-01.jpg">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./assets/img/product_card/product-card-01.jpg">
+                        <img src="./assets/img/product_card/product-card-02.jpg">
                     </div>
                     <div class="swiper-slide">
                         <img src="./assets/img/product_card/product-card-01.jpg">
