@@ -10,6 +10,17 @@
         <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./css/select2.min.css" />
         <link rel="stylesheet" href="./scss/main.css">
+        <!-- Include Fancybox CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+        <style>
+            /* Additional styling for Fancybox  modal */
+            #zoomModal img {
+                max-width: 100%;
+                max-height: 100%;
+                display: block;
+                margin: auto;
+            }
+        </style>
     </head>
     <body>
         <header> 
@@ -47,5 +58,23 @@
         <script src="./js/script.js"></script>
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/products_card_gallery/products_card_gallery.js"></script>
+        <!-- Include Fancybox JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Add click event listener to product-zoom-in icons
+                $(".product-zoom-in").click(function(e) {
+                    e.preventDefault(); // Prevent default action of anchor tag
+                    // Get the URL of the image to be zoomed
+                    var imageUrl = $(this).closest(".swiper-slide").find("img").attr("src");
+                    // Open Fancybox modal with the zoomed image
+                    $.fancybox.open({
+                        src: imageUrl,
+                        type: 'image',
+                        // You can add more options for Fancybox here
+                    });
+                });
+            });
+        </script>
     </body>
 </html>

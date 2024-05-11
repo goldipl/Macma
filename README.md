@@ -25,6 +25,7 @@ Used technologies:
 - Bootbox.js
 - Swiper.js
 - Lightbox.js
+- Fancybox
 - Select2
 - PHP
 - HTML5
