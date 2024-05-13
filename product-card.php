@@ -9,21 +9,8 @@
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./css/select2.min.css" />
+        <link rel="stylesheet" href="./css/magnific-popup.min.css">
         <link rel="stylesheet" href="./scss/main.css">
-        <!-- Include Fancybox CSS -->
-        <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
-        <style>
-            /* Additional styling for Fancybox  modal */
-            #zoomModal img {
-                max-width: 100%;
-                max-height: 100%;
-                display: block;
-                margin: auto;
-            }
-            .product_card_gallery_info .product-gallery .gallery img {
-                cursor: zoom-in;
-            }
-        </style>
     </head>
     <body>
         <header> 
@@ -61,57 +48,23 @@
         <script src="./js/script.js"></script>
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/products_card_gallery/products_card_gallery.js"></script>
-        <!-- Include Fancybox JS -->
-        <script src="./js/jquery.fancybox.min.js"></script>
+        <script src="./js/jquery.magnific-popup.min.js"></script>
         <script>
-            $(document).ready(function(){
-                // Add click event listener to product-download icons
-                $(".product-download").click(function(e){
-                    e.preventDefault(); // Prevent default action of anchor tag
-
-                    // Get the URL of the image to be downloaded
-                    var imageUrl = $(this).closest(".swiper-slide").find("img").attr("src");
-
-                    // Create a temporary link element to trigger download
-                    var downloadLink = document.createElement("a");
-                    downloadLink.href = imageUrl;
-                    downloadLink.download = "product_image.jpg"; // You can set the filename here
-                    downloadLink.style.display = "none";
-                    document.body.appendChild(downloadLink);
-                    downloadLink.click();
-                    document.body.removeChild(downloadLink);
+            $(document).ready(function() {
+                // Initialize Magnific Popup for .zoom-image elements
+                $('.zoom-image').magnificPopup({
+                    type: 'image',
+                    gallery: {
+                        enabled: true
+                    },
                 });
 
-                // Add click event listener to product-zoom-in icons
-                $(".product-zoom-in").click(function(e){
-                    e.preventDefault(); // Prevent default action of anchor tag
-
-                    // Get the URL of the image to be zoomed
-                    var imageUrl = $(this).closest(".swiper-slide").find("img").attr("src");
-
-                    // Open Fancybox modal with the zoomed image
-                    $.fancybox.open({
-                        src: imageUrl,
-                        type: 'image',
-                        // You can add more options for Fancybox here
-                    });
-                });
-                // Add click event listener to product-zoom-in big gallery photos
-                $(".product_card_gallery_info .product-gallery .gallery img").click(function(e){
-                    e.preventDefault(); // Prevent default action of anchor tag
-
-                    // Get the URL of the image to be zoomed
-                    var imageThumbUrl = $(this).closest(".swiper-slide").find("img").attr("src");
-
-                    // Open Fancybox modal with the zoomed image
-                    $.fancybox.open({
-                        src: imageThumbUrl,
-                        type: 'image',
-                        // You can add more options for Fancybox here
-                    });
+                // Click event handler for .zoom-icon elements
+                $('.zoom-icon').on('click', function() {
+                    // Trigger Magnific Popup to open the associated .zoom-image
+                    $(this).closest('.swiper-slide').find('.zoom-image').magnificPopup('open');
                 });
             });
         </script>
-
     </body>
 </html>

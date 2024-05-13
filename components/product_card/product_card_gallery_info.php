@@ -6,7 +6,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-01.jpg">
+                            <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">
@@ -20,7 +20,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-02.jpg">
+                            <img class="zoom-image" src="./assets/img/product_card/product-card-02.jpg" href="./assets/img/product_card/product-card-02.jpg">
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-01.jpg">
+                            <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">
@@ -48,7 +48,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-01.jpg">
+                            <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">
@@ -62,7 +62,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
-                            <img src="./assets/img/product_card/product-card-01.jpg">
+                            <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
                         <!-- Product icons -->
                         <div class="product-icons">

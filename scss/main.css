@@ -4422,6 +4422,7 @@ label.add-files:focus, label.add-files:hover {
   width: -moz-max-content;
   width: max-content;
   max-height: 474px;
+  cursor: zoom-in;
 }
 .product_card_gallery_info .product-gallery .gallery-thumbs .swiper-slide {
   width: auto;
@@ -4729,6 +4730,10 @@ label.add-files:focus, label.add-files:hover {
   border-bottom: 1px solid #8A8A8A;
 }
 
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: pointer !important;
+}
+
 @media (max-width: 1199px) {
   .product_card_gallery_info .product-info {
     margin-left: 10px;
@@ -4854,6 +4859,8 @@ label.add-files:focus, label.add-files:hover {
   }
   .product_card_gallery_info .product-gallery .gallery-thumbs img {
     height: 100px;
+    width: -moz-max-content !important;
+    width: max-content !important;
   }
   .product_card_gallery_info .product-gallery .gallery-thumbs .swiper-slide {
     height: 100px !important;

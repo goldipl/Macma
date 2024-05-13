@@ -24,10 +24,6 @@
     .slider-two {
       margin: 0 40px;
       overflow: hidden;
-      .swiper-wrapper {
-        .swiper-slide {
-        }
-      }
     }
 
     .slider-one {
@@ -92,6 +88,7 @@
       user-select: none;
       width: max-content;
       max-height: 474px;
+      cursor: zoom-in;
     }
 
     /* thumbs */
@@ -410,6 +407,10 @@
   }
 }
 
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: pointer !important;
+}
+
 @media (max-width: 1199px) {
   .product_card_gallery_info {
     .product-info {
@@ -546,6 +547,7 @@
       .gallery-thumbs {
         img {
           height: 100px;
+          width: max-content !important;
         }
         .swiper-slide {
           height: 100px !important;
