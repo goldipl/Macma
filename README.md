@@ -23,7 +23,7 @@ Used technologies:
 - JavaScript
 - jQuery
 - Bootbox.js
-- Swiper.js
+- Swiper.js 11.1.1
 - Lightbox.js
 - magnific-popup.js 1.1.0
 - Select2
