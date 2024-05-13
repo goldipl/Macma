@@ -20,6 +20,9 @@
                 display: block;
                 margin: auto;
             }
+            .product_card_gallery_info .product-gallery .gallery img {
+                cursor: zoom-in;
+            }
         </style>
     </head>
     <body>
@@ -89,6 +92,20 @@
                     // Open Fancybox modal with the zoomed image
                     $.fancybox.open({
                         src: imageUrl,
+                        type: 'image',
+                        // You can add more options for Fancybox here
+                    });
+                });
+                // Add click event listener to product-zoom-in big gallery photos
+                $(".product_card_gallery_info .product-gallery .gallery img").click(function(e){
+                    e.preventDefault(); // Prevent default action of anchor tag
+
+                    // Get the URL of the image to be zoomed
+                    var imageThumbUrl = $(this).closest(".swiper-slide").find("img").attr("src");
+
+                    // Open Fancybox modal with the zoomed image
+                    $.fancybox.open({
+                        src: imageThumbUrl,
                         type: 'image',
                         // You can add more options for Fancybox here
                     });

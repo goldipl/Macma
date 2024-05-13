@@ -5,6 +5,7 @@ var galleryThumbs = new Swiper('.slider-two', {
   watchSlidesProgress: true,
   centerInsufficientSlides: true,
   slideToClickedSlide: true,
+  loop: true,
   breakpoints: {
     // when window width is >= 992px
     992: {
@@ -25,6 +26,7 @@ var galleryTop = new Swiper('.slider-one', {
   thumbs: {
       swiper: galleryThumbs
   },
+  loop: true,
   on: {
       slideChange: function() {
           let activeIndex = this.activeIndex + 1;
