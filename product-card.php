@@ -51,23 +51,20 @@
         <script src="./js/jquery.magnific-popup.min.js"></script>
         <script>
             $(document).ready(function() {
-                 // Add click event listener to product-download icons
                  $(".product-download").click(function(e){
-                    e.preventDefault(); // Prevent default action of anchor tag
+                    e.preventDefault(); 
 
-                    // Get the URL of the image to be downloaded
                     var imageUrl = $(this).closest(".swiper-slide").find("img").attr("src");
 
-                    // Create a temporary link element to trigger download
                     var downloadLink = document.createElement("a");
                     downloadLink.href = imageUrl;
-                    downloadLink.download = "product_image.jpg"; // You can set the filename here
+                    downloadLink.download = "product_image.jpg";
                     downloadLink.style.display = "none";
                     document.body.appendChild(downloadLink);
                     downloadLink.click();
                     document.body.removeChild(downloadLink);
                 });
-                // Initialize Magnific Popup for .zoom-image elements
+                
                 $('.zoom-image').magnificPopup({
                     type: 'image',
                     gallery: {
@@ -75,9 +72,7 @@
                     },
                 });
 
-                // Click event handler for .zoom-icon elements
                 $('.zoom-icon').on('click', function() {
-                    // Trigger Magnific Popup to open the associated .zoom-image
                     $(this).closest('.swiper-slide').find('.zoom-image').magnificPopup('open');
                 });
             });
