@@ -8514,6 +8514,7 @@ label.add-files:focus, label.add-files:hover {
   background-color: #F4F4F4;
 }
 .sales-department-box__row__col__bottom {
+  min-height: 124px;
   padding: 25px 22px;
 }
 .sales-department-box__row__col__bottom p {
@@ -8632,6 +8633,9 @@ label.add-files:focus, label.add-files:hover {
   }
   .sales-department-box__row__col:last-of-type {
     width: 100%;
+  }
+  .sales-department-box__row__col__bottom {
+    min-height: unset;
   }
 }
 .other-department-box {
