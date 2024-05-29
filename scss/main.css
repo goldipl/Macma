@@ -8455,12 +8455,12 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 1.2%;
 }
 .sales-department-box__row__col {
   display: flex;
   flex-direction: column;
   width: 15.6666666667%;
-  margin-right: 1%;
   justify-content: space-between;
   background-color: #FFFFFF;
   margin-bottom: 16px;
@@ -8577,6 +8577,9 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1500px) {
+  .sales-department-box__row {
+    gap: 2%;
+  }
   .sales-department-box__row__col {
     width: 23.5%;
   }
@@ -8590,7 +8593,6 @@ label.add-files:focus, label.add-files:hover {
   }
   .sales-department-box__row__col:nth-of-type(3) {
     width: 34%;
-    margin-right: 0;
   }
   .sales-department-box__row__col:last-of-type {
     width: 34%;
@@ -8602,7 +8604,6 @@ label.add-files:focus, label.add-files:hover {
   }
   .sales-department-box__row__col:nth-of-type(3) {
     width: 49%;
-    margin-right: 1%;
   }
   .sales-department-box__row__col:nth-of-type(2n) {
     width: 50%;
@@ -8625,11 +8626,9 @@ label.add-files:focus, label.add-files:hover {
   }
   .sales-department-box__row__col:nth-of-type(3) {
     width: 100%;
-    margin-right: 0;
   }
   .sales-department-box__row__col:nth-of-type(2n) {
     width: 100%;
-    margin-right: 0;
   }
   .sales-department-box__row__col:last-of-type {
     width: 100%;
