@@ -8465,10 +8465,6 @@ label.add-files:focus, label.add-files:hover {
   background-color: #FFFFFF;
   margin-bottom: 16px;
 }
-.sales-department-box__row__col:last-of-type {
-  width: 16.6%;
-  margin-right: 0;
-}
 .sales-department-box__row__col__top img {
   -o-object-fit: contain;
      object-fit: contain;
@@ -8578,7 +8574,7 @@ label.add-files:focus, label.add-files:hover {
 
 @media (max-width: 1500px) {
   .sales-department-box__row {
-    gap: 2%;
+    gap: 1%;
   }
   .sales-department-box__row__col {
     width: 23.5%;
