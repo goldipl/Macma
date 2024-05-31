@@ -2991,7 +2991,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: column;
   width: 45%;
-  margin-right: 5%;
+  margin-right: 1%;
 }
 .gallery_article__left h1 {
   font-size: 72px;
@@ -3046,6 +3046,8 @@ label.add-files:focus, label.add-files:hover {
   width: 50%;
   height: -moz-max-content;
   height: max-content;
+  margin: 0 2%;
+  padding: 0 2%;
   /* galleryTop */
   /* thumbs */
   /* buttons */
@@ -3078,7 +3080,7 @@ label.add-files:focus, label.add-files:hover {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  border: 1px solid #C0C5C8;
+  border: 1px solid #c0c5c8;
 }
 .gallery_article__right .gallery-thumbs .swiper-slide-active {
   opacity: 1;
@@ -3103,7 +3105,7 @@ label.add-files:focus, label.add-files:hover {
   background-position: center center;
   top: unset;
   bottom: 70px;
-  right: -45px;
+  right: 0;
   z-index: 1;
 }
 .gallery_article__right .swiper-button-next::after {
@@ -3121,7 +3123,7 @@ label.add-files:focus, label.add-files:hover {
   background-position: center center;
   top: unset;
   bottom: 70px;
-  left: -50px;
+  left: 0;
   z-index: 1;
 }
 .gallery_article__right .swiper-button-prev::after {
@@ -3175,6 +3177,8 @@ label.add-files:focus, label.add-files:hover {
     line-height: 140%;
   }
   .gallery_article__right {
+    margin: 0;
+    padding: 0;
     /* buttons */
   }
   .gallery_article__right .gallery img {
