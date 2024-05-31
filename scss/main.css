@@ -3048,6 +3048,7 @@ label.add-files:focus, label.add-files:hover {
   height: max-content;
   margin: 0 2%;
   padding: 0 2%;
+  overflow: hidden;
   /* galleryTop */
   /* thumbs */
   /* buttons */
