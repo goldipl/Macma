@@ -1,62 +1,77 @@
 #topbar {
-    background-color: $macma_orange;
+  background-color: $macma_orange;
+  height: 50px;
+  .container {
     height: 50px;
-    .container {
-        height: 50px;
-        div {
-            a {
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 90%; 
-                color: $white;
-                text-decoration: none;
-                &:hover {
-                    filter: brightness(0.9);
-                }
-                &.active {
-                    color: $text_color;
-                    text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
-                }
-            }
-            span {
-                font-size: 12px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 90%;
-                color: $text_color;
-                width: 26px;
-                height: 26px;
-            }
-        }
+    padding: 0;
+    .topbar-lang {
+      a:last-of-type {
+        padding-right: 0 !important;
+      }
     }
+    div:not(.topbar-lang) {
+      a {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90%;
+        color: $white;
+        text-decoration: none;
+        &:first-of-type {
+          padding-left: 0 !important;
+        }
+        &:hover {
+          filter: brightness(0.9);
+        }
+        &.active {
+          color: $text_color;
+          text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+        }
+      }
+      span {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90%;
+        color: $text_color;
+        width: 26px;
+        height: 26px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1200px) {
-    #topbar {
-        .container {
-            div {
-                a {
-                    font-size: 13px;
-                }
-            }
+  #topbar {
+    .container {
+      div {
+        a {
+          font-size: 13px;
         }
+      }
     }
+  }
 }
 
 @media (max-width: 992px) {
-    .topbar-links {
-        a {
-            font-size: 12px !important;
-            padding: 1rem 0.5rem !important;
-            &:nth-of-type(1),
-            &:nth-of-type(2),
-            &:nth-of-type(3),
-            &:nth-of-type(4),
-            &:nth-of-type(5),
-            &:nth-of-type(6) {
-                display: none;
-            }
-        }
+  #topbar {
+    > .container {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
     }
+  }
+  .topbar-links {
+    a {
+      font-size: 12px !important;
+      padding: 1rem 0.5rem !important;
+      &:nth-of-type(1),
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4),
+      &:nth-of-type(5),
+      &:nth-of-type(6) {
+        display: none;
+      }
+    }
+  }
 }

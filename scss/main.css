@@ -95,8 +95,12 @@ body #main-wrapper.opened-menu::after {
 }
 #topbar .container {
   height: 50px;
+  padding: 0;
 }
-#topbar .container div a {
+#topbar .container .topbar-lang a:last-of-type {
+  padding-right: 0 !important;
+}
+#topbar .container div:not(.topbar-lang) a {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -104,14 +108,17 @@ body #main-wrapper.opened-menu::after {
   color: #FFFFFF;
   text-decoration: none;
 }
-#topbar .container div a:hover {
+#topbar .container div:not(.topbar-lang) a:first-of-type {
+  padding-left: 0 !important;
+}
+#topbar .container div:not(.topbar-lang) a:hover {
   filter: brightness(0.9);
 }
-#topbar .container div a.active {
+#topbar .container div:not(.topbar-lang) a.active {
   color: #374957;
   text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
-#topbar .container div span {
+#topbar .container div:not(.topbar-lang) span {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -127,6 +134,10 @@ body #main-wrapper.opened-menu::after {
   }
 }
 @media (max-width: 992px) {
+  #topbar > .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
   .topbar-links a {
     font-size: 12px !important;
     padding: 1rem 0.5rem !important;
@@ -141,7 +152,9 @@ header {
 
 nav .navbar-brand img {
   font-size: 12px;
-  margin-left: 10px;
+}
+nav .container-fluid {
+  padding: 0 !important;
 }
 nav #nav-searchbar {
   position: relative;
@@ -235,6 +248,12 @@ nav .dropdown-toggle::after {
 nav .dropdown-toggle::after:hover {
   color: #F26521;
 }
+nav .navbar-bottom .main-nav-item:first-of-type > a {
+  padding-left: 0;
+}
+nav .navbar-bottom .main-nav-item:last-of-type > a {
+  padding-right: 0;
+}
 nav .navbar-bottom .main-nav-item > a {
   font-size: 20px;
   font-style: normal;
@@ -289,6 +308,9 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   nav .dropend .dropdown-menu[data-bs-popper] {
     top: -1px !important;
   }
+  nav .nav-account-cart a.nav-cart-icon {
+    margin-right: 4px;
+  }
   nav .nav-account-cart a.nav-cart-icon .cart-quantity p {
     margin: 2px 0 0 0;
   }
@@ -333,6 +355,10 @@ nav .navbar-bottom .main-nav-item > a.show::after {
 @media (max-width: 991px) {
   nav {
     height: auto;
+  }
+  nav .container-fluid {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   nav .navbar-brand img {
     margin-left: 0;

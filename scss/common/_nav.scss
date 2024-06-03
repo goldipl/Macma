@@ -6,8 +6,10 @@ nav {
   .navbar-brand {
     img {
       font-size: 12px;
-      margin-left: 10px;
     }
+  }
+  .container-fluid {
+    padding: 0 !important;
   }
   #nav-searchbar {
     position: relative;
@@ -103,6 +105,18 @@ nav {
     }
   }
   .navbar-bottom {
+    .main-nav-item {
+      &:first-of-type {
+        > a {
+          padding-left: 0;
+        }
+      }
+      &:last-of-type {
+        > a {
+          padding-right: 0;
+        }
+      }
+    }
     .main-nav-item > a {
       font-size: 20px;
       font-style: normal;
@@ -169,6 +183,7 @@ nav {
     .nav-account-cart {
       a {
         &.nav-cart-icon {
+          margin-right: 4px;
           .cart-quantity {
             p {
               margin: 2px 0 0 0;
@@ -222,6 +237,10 @@ nav {
 @media (max-width: 991px) {
   nav {
     height: auto;
+    .container-fluid {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
     .navbar-brand {
       img {
         margin-left: 0;
