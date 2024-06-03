@@ -3087,6 +3087,9 @@ label.add-files:focus, label.add-files:hover {
   /* thumbs */
   /* buttons */
 }
+.gallery_article__right .container {
+  padding: 0;
+}
 .gallery_article__right .gallery {
   display: flex;
   justify-content: center;
