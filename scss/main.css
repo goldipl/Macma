@@ -141,6 +141,7 @@ header {
 
 nav .navbar-brand img {
   font-size: 12px;
+  margin-left: 16px;
 }
 nav #nav-searchbar {
   position: relative;
@@ -332,6 +333,9 @@ nav .navbar-bottom .main-nav-item > a.show::after {
 @media (max-width: 991px) {
   nav {
     height: auto;
+  }
+  nav .navbar-brand img {
+    margin-left: 0;
   }
   nav #nav-searchbar {
     margin: 16px 0 0 0;
