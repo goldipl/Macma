@@ -739,7 +739,7 @@ footer .footer__container__bottom .contip img {
     line-height: 120%;
   }
   footer .footer__container__bottom p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 140%;
   }
 }
@@ -3381,7 +3381,7 @@ label.add-files:focus, label.add-files:hover {
     margin: 8px 0;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-mail a {
-    font-size: 13px;
+    font-size: 13px !important;
     line-height: 140%;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-mail a img {
@@ -3391,7 +3391,7 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 10px;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-phone a {
-    font-size: 13px;
+    font-size: 13px !important;
     line-height: 140%;
   }
   .branding_info_boxes__box--slot .info_box__text .info_box__text--contact-phone a img {
