@@ -3028,6 +3028,9 @@ label.add-files:focus, label.add-files:hover {
   width: 45%;
   margin-right: 1%;
 }
+.gallery_article__left .branding-right-col {
+  margin-left: 48px;
+}
 .gallery_article__left h1 {
   font-size: 72px;
   font-style: normal;
@@ -3178,6 +3181,9 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
     margin-right: 0;
   }
+  .gallery_article__left .branding-right-col {
+    margin-left: 0;
+  }
   .gallery_article__left h1 {
     font-size: 36px;
     margin: 0 0 24px 0;
@@ -3201,6 +3207,7 @@ label.add-files:focus, label.add-files:hover {
   }
   .gallery_article__right {
     width: 100%;
+    margin-left: 0;
   }
 }
 @media (max-width: 991px) {
