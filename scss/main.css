@@ -3022,14 +3022,14 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   margin-bottom: 126px;
 }
+.gallery_article .branding-right-col {
+  margin-left: 48px;
+}
 .gallery_article__left {
   display: flex;
   flex-direction: column;
   width: 45%;
   margin-right: 1%;
-}
-.gallery_article__left .branding-right-col {
-  margin-left: 48px;
 }
 .gallery_article__left h1 {
   font-size: 72px;
@@ -3177,12 +3177,12 @@ label.add-files:focus, label.add-files:hover {
     flex-direction: column;
     margin-bottom: 80px;
   }
+  .gallery_article .branding-right-col {
+    margin-left: 0;
+  }
   .gallery_article__left {
     width: 100%;
     margin-right: 0;
-  }
-  .gallery_article__left .branding-right-col {
-    margin-left: 0;
   }
   .gallery_article__left h1 {
     font-size: 36px;
