@@ -4347,6 +4347,13 @@ label.add-files:focus, label.add-files:hover {
   border-bottom: 3px solid #ffffff;
   border-top: 3px solid #ffffff;
 }
+.accordion-item .accordion-body p a {
+  color: #f26521;
+  text-decoration: none;
+}
+.accordion-item .accordion-body p a:hover {
+  text-decoration: underline;
+}
 .accordion-header button {
   border-radius: 0 !important;
 }
