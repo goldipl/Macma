@@ -30,12 +30,15 @@
         background-repeat: no-repeat;
         background-position: center center;
       }
-      a {
+      a,
+      p,
+      span {
         font-weight: 400;
         font-size: 14px;
         line-height: 160%;
         color: $text_color;
         text-decoration: none;
+        margin: 0;
         &:hover {
           color: $macma_orange;
         }
@@ -80,6 +83,7 @@
           margin-left: -12px;
         }
         a,
+        p,
         span {
           font-weight: 400 !important;
           font-size: 11px !important;
