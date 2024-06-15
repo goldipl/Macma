@@ -14966,6 +14966,7 @@ main.grey-background {
 
 .catalogs-container {
   background-color: #f4f4f4;
+  padding-bottom: 192px;
 }
 .catalogs-container h1 {
   font-size: 72px;
@@ -15142,6 +15143,9 @@ main.grey-background {
 @media (max-width: 860px) {
   #main-wrapper.grey-wrapper .breadcrumbs.container {
     margin-top: 0;
+  }
+  .catalogs-container {
+    padding-bottom: 24px;
   }
   .catalogs-container h1 {
     font-size: 32px;

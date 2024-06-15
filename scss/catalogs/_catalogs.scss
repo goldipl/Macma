@@ -6,6 +6,7 @@
 
 .catalogs-container {
   background-color: $light_grey;
+  padding-bottom: 192px;
   h1 {
     font-size: 72px;
     font-style: normal;
@@ -205,6 +206,7 @@
     }
   }
   .catalogs-container {
+    padding-bottom: 24px;
     h1 {
       font-size: 32px;
     }
