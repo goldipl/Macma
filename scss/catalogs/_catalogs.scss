@@ -216,6 +216,9 @@
     .catalogs-wrapper {
       padding: 8px 0 24px;
       &_col {
+        &_top {
+          padding: 18px;
+        }
         &_bottom {
           padding: 18px;
           &__btns {

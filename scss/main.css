@@ -15163,6 +15163,9 @@ main.grey-background {
   .catalogs-container .catalogs-wrapper {
     padding: 8px 0 24px;
   }
+  .catalogs-container .catalogs-wrapper_col_top {
+    padding: 18px;
+  }
   .catalogs-container .catalogs-wrapper_col_bottom {
     padding: 18px;
   }
