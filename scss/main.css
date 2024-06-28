@@ -5178,12 +5178,16 @@ label.add-files:focus, label.add-files:hover {
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td .two-lines .mail-contact img {
   margin-right: 7px;
 }
+.product_card_tabs .tab-content .tab-pane .branding-row-elements {
+  flex-wrap: wrap;
+}
 .product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card {
   width: 24%;
   margin-right: 1%;
+  margin-bottom: 1%;
   background-color: #ffffff;
 }
-.product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card:last-of-type {
+.product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card:nth-of-type(4n) {
   margin-right: 0;
   width: 25%;
 }
@@ -5348,6 +5352,9 @@ label.add-files:focus, label.add-files:hover {
     width: 49%;
     margin-bottom: 1%;
   }
+  .product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card:nth-of-type(4n) {
+    width: 50%;
+  }
   .product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card:last-of-type {
     width: 50%;
   }
@@ -5380,6 +5387,7 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
     height: auto;
     padding: 16px;
+    max-height: 100%;
   }
   .product_card_tabs .tab-content .tab-pane .branding-row-elements .branding-col-card .details {
     padding: 0 16px;

@@ -180,11 +180,13 @@
         }
       }
       .branding-row-elements {
+        flex-wrap: wrap;
         .branding-col-card {
           width: 24%;
           margin-right: 1%;
+          margin-bottom: 1%;
           background-color: $white;
-          &:last-of-type {
+          &:nth-of-type(4n) {
             margin-right: 0;
             width: 25%;
           }
@@ -359,6 +361,9 @@
           .branding-col-card {
             width: 49%;
             margin-bottom: 1%;
+            &:nth-of-type(4n) {
+              width: 50%;
+            }
             &:last-of-type {
               width: 50%;
             }
@@ -390,6 +395,7 @@
                 width: 100%;
                 height: auto;
                 padding: 16px;
+                max-height: 100%;
               }
             }
             .details {
