@@ -6,7 +6,7 @@
             <!-- Slides -->
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper02.jpg" alt="banner" width="1200" height="383">
                 </a>
                 <div class="hero_content--content">
                     <h1><span>TOP 10</span> gadżetów<br>reklamowych</h1>
@@ -16,7 +16,7 @@
             </div>
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper02.jpg" alt="banner" width="1200" height="383">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
@@ -26,7 +26,7 @@
             </div>
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper02.jpg" alt="banner" width="1200" height="383">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
@@ -36,7 +36,7 @@
             </div>
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper.jpg" alt="banner" width="1200" height="383">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper02.jpg" alt="banner" width="1200" height="383">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
@@ -57,7 +57,7 @@
             <!-- Slides -->
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile.jpg" alt="banner" width="491" height="405">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile02.jpg" alt="banner" width="491" height="405">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
@@ -65,7 +65,7 @@
             </div>
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile.jpg" alt="banner" width="491" height="405">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile02.jpg" alt="banner" width="491" height="405">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
@@ -73,7 +73,7 @@
             </div>
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile.jpg" alt="banner" width="491" height="405">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile02.jpg" alt="banner" width="491" height="405">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
@@ -81,7 +81,7 @@
             </div>
             <div class="swiper-slide">
                 <a href="#our_products_container">
-                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile.jpg" alt="banner" width="491" height="405">
+                    <img src="./assets/img/main_page/hero_swiper/hero_swiper_mobile02.jpg" alt="banner" width="491" height="405">
                 </a>
                 <div class="hero_content--content">
                     <h2><span>TOP 10</span> gadżetów<br>reklamowych</h2>
