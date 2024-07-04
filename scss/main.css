@@ -1304,17 +1304,6 @@ label.add-files:focus, label.add-files:hover {
   width: 100%;
   max-width: 1640px;
 }
-#swiper.main-page-swiper::before {
-  position: absolute;
-  display: block;
-  content: "";
-  top: 0;
-  left: -50vw;
-  height: 100%;
-  width: 300vw;
-  z-index: -1;
-  background-color: #ffdac0;
-}
 #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1338,7 +1327,7 @@ label.add-files:focus, label.add-files:hover {
   line-height: 120%;
   text-transform: uppercase;
   margin: 0;
-  color: #ffffff;
+  color: #000000;
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 span,
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h2 span {
@@ -1406,12 +1395,12 @@ label.add-files:focus, label.add-files:hover {
   width: 17px;
   height: 17px;
   background-color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 1px solid #f26521;
   opacity: 1;
   margin: 0 12px;
 }
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  border: 2px solid #ffffff;
+  border: 1px solid #f26521;
   background-color: #f26521;
 }
 
@@ -1534,7 +1523,7 @@ label.add-files:focus, label.add-files:hover {
     line-height: 110%;
     text-transform: uppercase;
     margin: 0;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
   }
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 span,
