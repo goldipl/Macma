@@ -1545,6 +1545,7 @@ label.add-files:focus, label.add-files:hover {
   }
   #swiper .swiper.mobile {
     display: block;
+    height: auto;
   }
   #swiper .swiper .swiper-button-next {
     right: 8px;
