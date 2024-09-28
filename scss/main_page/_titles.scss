@@ -182,7 +182,7 @@
     padding: 16px 0 !important;
     .flex-row {
       &.mp-title {
-        width: 93vw;
+        width: max-content;
       }
       .promo-box {
         margin-bottom: 16px;

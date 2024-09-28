@@ -1908,7 +1908,8 @@ label.add-files:focus, label.add-files:hover {
     padding: 16px 0 !important;
   }
   .mp-titles .flex-row.mp-title {
-    width: 93vw;
+    width: -moz-max-content;
+    width: max-content;
   }
   .mp-titles .flex-row .promo-box {
     margin-bottom: 16px;
