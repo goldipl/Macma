@@ -1,0 +1,150 @@
+.e-leaflet-info {
+  margin-left: 20px;
+  width: 772px;
+  margin-bottom: 47px;
+  @media (max-width: 900px) {
+    width: 100%;
+    margin: 0 0 24px 0;
+  }
+  &_title {
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: $text_color;
+      margin: 0 0 22px 0;
+    }
+  }
+  &_subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    @media (max-width: 900px) {
+      font-size: 14px;
+    }
+    &.subtitle-with-underline {
+      padding-bottom: 6px;
+      border-bottom: 1px solid #8a8a8a;
+      margin-bottom: 28px;
+    }
+  }
+  label {
+    height: 28px;
+    @media (max-width: 900px) {
+      font-size: 14px;
+    }
+  }
+  .form-input {
+    padding: 0 20px;
+    margin: 0 0 13px 0;
+    height: 40px;
+  }
+  #e-leaflet-desc,
+  #e-leaflet-comments {
+    min-height: 70px;
+    height: auto;
+    margin: 0 0 13px 0;
+    padding: 16px 20px;
+    border: 0;
+  }
+  #e-leaflet-comments {
+    min-height: 124px;
+  }
+  .row-inputs {
+    width: 100%;
+    .column-inputs {
+      width: calc(50% - 8px);
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+      input {
+        width: 100%;
+      }
+    }
+  }
+  .e-leaflet__btns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    &--btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: max-content;
+      height: 54px;
+      padding: 15px 20px;
+      box-sizing: border-box;
+      border: 1px solid $macma_orange;
+      background-color: $macma_orange;
+      text-decoration: unset;
+      span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+        color: $white;
+        @media (max-width: 900px) {
+          font-size: 14px;
+        }
+      }
+      img {
+        display: flex;
+        margin: 0 0 0 10px;
+      }
+      &:hover {
+        background-color: $white;
+        span {
+          color: $macma_orange;
+        }
+        img {
+          filter: invert(57%) sepia(38%) saturate(7038%) hue-rotate(350deg)
+            brightness(99%) contrast(91%);
+        }
+      }
+    }
+  }
+  .orange-btn {
+    margin-top: 0;
+    @media (max-width: 900px) {
+      font-size: 14px;
+    }
+  }
+  .form-check.form-switch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px 0 0;
+    width: max-content;
+    margin-bottom: 26px;
+    .form-check-label {
+      display: inline-flex;
+      user-select: none;
+      order: 1;
+      height: 20px;
+      font-size: 16px;
+      line-height: 20px;
+      cursor: pointer;
+      @media (max-width: 900px) {
+        font-size: 13px;
+      }
+    }
+    .form-check-input {
+      display: inline-flex;
+      order: 2;
+      margin-left: 8px;
+      width: 40px;
+      height: 20px;
+      margin-top: 0;
+      cursor: pointer;
+      &:checked {
+        background-color: $green;
+        border-color: $green;
+      }
+    }
+  }
+}
