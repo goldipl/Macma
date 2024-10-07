@@ -15192,6 +15192,11 @@ main.grey-background {
   color: #374957;
   margin: 0 0 22px 0;
 }
+@media (max-width: 760px) {
+  .e-leaflet-info_title h1 {
+    font-size: 26px;
+  }
+}
 .e-leaflet-info_subtitle {
   font-size: 16px;
   font-weight: 400;
