@@ -112,13 +112,13 @@
       width: 17px;
       height: 17px;
       background-color: $white;
-      border: 1px solid $macma_orange;
+      border: 2px solid $swiper_border_color;
       opacity: 1;
       margin: 0 12px;
     }
     .swiper-pagination-horizontal.swiper-pagination-bullets
       .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      border: 1px solid $macma_orange;
+      border: 2px solid $swiper_border_color;
       background-color: $macma_orange;
     }
   }

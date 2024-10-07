@@ -1395,12 +1395,12 @@ label.add-files:focus, label.add-files:hover {
   width: 17px;
   height: 17px;
   background-color: #ffffff;
-  border: 1px solid #f26521;
+  border: 2px solid #ccc;
   opacity: 1;
   margin: 0 12px;
 }
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  border: 1px solid #f26521;
+  border: 2px solid #ccc;
   background-color: #f26521;
 }
 
