@@ -10,7 +10,7 @@
 ## Table of contents
 
 - [Technologies](#technologies)
-- [Live link](#live-link)
+- [Live links](#live-links)
 - [Gif desktop website presentation](#gif-desktop-website-presentation)
 - [Gif mobile website presentation](#gif-mobile-website-presentation)
 - [License](#license)
@@ -33,9 +33,75 @@ Used technologies:
 - Bootstrap 5.3.2
 - SCSS
 
-## Live link
+## Live links
+
+Main page:
 
 - https://macma.pl/
+
+Import page:
+
+- https://macma.pl/import/
+
+Catalogs:
+
+- https://macma.pl/katalogi/
+
+Branding:
+
+- https://macma.pl/znakowanie/
+
+New products:
+
+- https://macma.pl/nowosci/
+
+Sample category page (events):
+
+- https://macma.pl/oferta/eventy/
+
+About us:
+
+- https://macma.pl/strony/o-nas/
+
+Newsletter:
+
+- https://macma.pl/newsletter/
+
+News page:
+
+- https://macma.pl/aktualnosci/
+
+Article page:
+
+- https://macma.pl/aktualnosci/3,techniki-znakowania-nie-musisz-byc-ekspertem/
+
+Blog:
+
+- https://macma.pl/blog/
+
+Blog (article page):
+
+- https://macma.pl/blog/1,najczestsze-problemy-z-ktorymi-mierza-sie-agencje-reklamowe-podczas-zamawiania-gadzetow-promocyjnych/
+
+FAQ:
+
+- https://macma.pl/faq/
+
+Contact page:
+
+- https://macma.pl/kontakt/
+
+Sample product page:
+
+- https://macma.pl/940,okulary-przeciwsloneczne-uv400-ferraghini-f24003-14-5-x-15-x-5-5-cm/
+
+404 Page:
+
+- https://macma.pl/fsdfdsfsd
+
+Login/Profile page:
+
+- https://macma.pl/profile/
 
 ## Gif desktop website presentation
 
