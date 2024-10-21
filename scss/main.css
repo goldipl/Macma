@@ -1593,7 +1593,7 @@ label.add-files:focus, label.add-files:hover {
     margin: 0 6px;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 992px) {
   #swiper .swiper.desktop .swiper-slide img {
     width: 100%;
     height: auto;
