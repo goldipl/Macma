@@ -1593,6 +1593,17 @@ label.add-files:focus, label.add-files:hover {
     margin: 0 6px;
   }
 }
+@media (min-width: 1280px) {
+  #swiper .swiper.desktop .swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 474px;
+  }
+  #swiper .swiper.desktop {
+    height: auto;
+    max-height: 474px;
+  }
+}
 #info_section .container .flex-row .flex-col {
   border-right: 2px solid #f26521;
 }

@@ -316,3 +316,15 @@
     }
   }
 }
+
+@media (min-width: 1280px) {
+  #swiper .swiper.desktop .swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 474px;
+  }
+  #swiper .swiper.desktop {
+    height: auto;
+    max-height: 474px;
+  }
+}
