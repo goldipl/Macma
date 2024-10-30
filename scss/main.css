@@ -12471,6 +12471,45 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content {
   padding: 15px 30px;
 }
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 0 0;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 16px;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch .form-check-label {
+  display: inline-flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  order: 2;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch .form-check-label {
+    font-size: 13px;
+  }
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch .form-check-input {
+  display: inline-flex;
+  order: 1;
+  margin-right: 8px;
+  width: 40px;
+  height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch .form-check-input:checked {
+  background-color: #21a500;
+  border-color: #21a500;
+}
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content.border-bottom {
   border-bottom: 13px solid #f4f4f4 !important;
 }

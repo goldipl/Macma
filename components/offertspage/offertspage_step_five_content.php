@@ -58,18 +58,29 @@
                                     <input type="date" name="delivery-time" id="delivery-time" class="form-input">
                                 </div>
                             </div>
-                            <label class="custom-radio-container one-logo">Cena zawiera koszty transportu <input type="radio" name="radio01" class="custom_input" checked>
-                                <span class="custom-radio-checkmark"></span>
-                            </label>
-                            <label class="custom-radio-container one-logo">Cena nie zawiera kosztów transportu <input type="radio" name="radio01" class="custom_input">
-                                <span class="custom-radio-checkmark"></span>
-                            </label>
-                            <label class="custom-checkbox-container">Pokaż osobno cenę za znakowanie <input type="checkbox" class="custom_input">
-                                <span class="custom-checkbox-checkmark"></span>
-                            </label>
-                            <label class="custom-checkbox-container">Pokaż wartość oferty w podsumowaniu <input type="checkbox" class="custom_input">
-                                <span class="custom-checkbox-checkmark"></span>
-                            </label>
+                            <div class="inline-flex flex-wrap">
+
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchTransportYes">Cena zawiera koszty transportu</label>
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchTransportYes" onclick="toggleExclusiveSwitch('flexSwitchTransportYes', 'flexSwitchTransportNo')" checked>
+                                </div>
+
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchTransportNo">Cena nie zawiera kosztów transportu</label>
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchTransportNo" onclick="toggleExclusiveSwitch('flexSwitchTransportNo', 'flexSwitchTransportYes')">
+                                </div>
+
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchZnakowanie">Pokaż osobno cenę za znakowanie</label>
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchZnakowanie">
+                                </div>
+
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchPodsumowanie">Pokaż wartość oferty w podsumowaniu</label>
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchPodsumowanie">
+                                </div>
+                            </div>
+
                             <p class="additional-info">
                                 <span>Dodaj</span> swoje logo aby załączyć je do nagłówka PDF.
                             </p>
@@ -102,3 +113,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    function toggleExclusiveSwitch(checkedId, uncheckedId) {
+        const checkedSwitch = document.getElementById(checkedId);
+        const uncheckedSwitch = document.getElementById(uncheckedId);
+        
+        if (checkedSwitch.checked) {
+            uncheckedSwitch.checked = false;
+        }
+    }
+</script>
