@@ -15434,6 +15434,11 @@ main:has(.shop-creator-wrapper) {
   }
 }
 
+.ck-editor .ck-content {
+  min-height: 140px;
+  margin-bottom: 24px;
+}
+
 .shop-creator-wrapper {
   padding-bottom: 160px;
 }

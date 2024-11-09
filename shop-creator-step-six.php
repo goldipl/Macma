@@ -70,5 +70,24 @@
         <script src="./js/bootbox.min.js"></script>
         <script src="./js/select2.min.js"></script>
         <script src="./js/script.js"></script>
+        <!-- Text Editor JS -->
+        <script src="./js/text_editor/ckeditor.js"></script>
+        <script>
+            ClassicEditor
+            .create(document.querySelector('#editor01'))
+            .catch(error => {
+                console.error(error);
+            });
+            ClassicEditor
+            .create(document.querySelector('#editor02'))
+            .catch(error => {
+                console.error(error);
+            });
+            ClassicEditor
+            .create(document.querySelector('#editor03'))
+            .catch(error => {
+                console.error(error);
+            });
+        </script>
     </body>
 </html>
