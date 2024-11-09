@@ -15476,6 +15476,14 @@ main:has(.shop-creator-wrapper) {
 .shop-creator-wrapper .common-steps-container-slot .active {
   color: #f26521 !important;
 }
+.shop-creator-wrapper #css-textarea,
+.shop-creator-wrapper #ga-textarea {
+  width: 100%;
+  border: 0;
+  padding: 16px;
+  margin-bottom: 24px;
+  min-height: 250px;
+}
 .shop-creator-wrapper .shopcreator-content {
   background-color: #ffffff;
   padding: 26px 60px;
@@ -15493,6 +15501,9 @@ main:has(.shop-creator-wrapper) {
   text-transform: uppercase;
   color: #374957;
   margin-bottom: 16px;
+}
+.shop-creator-wrapper .shopcreator-content h3.not-uppercase {
+  text-transform: unset !important;
 }
 @media (max-width: 992px) {
   .shop-creator-wrapper .shopcreator-content h3 {
