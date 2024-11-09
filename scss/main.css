@@ -15491,6 +15491,62 @@ main:has(.shop-creator-wrapper) {
     font-size: 16px;
   }
 }
+.shop-creator-wrapper .shopcreator-content .shopprices-info-text {
+  margin-bottom: 48px;
+}
+.shop-creator-wrapper .shopcreator-content .shopprices-info-text p {
+  margin-bottom: 4px;
+}
+@media (max-width: 992px) {
+  .shop-creator-wrapper .shopcreator-content .shopprices-info-text p {
+    font-size: 14px;
+  }
+}
+.shop-creator-wrapper .shopcreator-content .shopcreator-prices {
+  display: flex;
+  gap: 89px;
+  margin: 23px 0 40px 0;
+}
+@media (max-width: 992px) {
+  .shop-creator-wrapper .shopcreator-content .shopcreator-prices {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .shop-creator-wrapper .shopcreator-content .shopcreator-prices label,
+  .shop-creator-wrapper .shopcreator-content .shopcreator-prices input {
+    font-size: 14px;
+  }
+  .shop-creator-wrapper .shopcreator-content .shopcreator-prices input {
+    width: 33vw !important;
+  }
+}
+.shop-creator-wrapper .shopcreator-content .shopcreator-prices__slot {
+  display: flex;
+  flex-direction: column;
+}
+.shop-creator-wrapper .shopcreator-content .shopcreator-prices__slot label {
+  font-weight: bold;
+}
+.shop-creator-wrapper .shopcreator-content .shopcreator-prices__slot select {
+  display: flex;
+  align-items: center;
+  width: 71px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  padding: 0 17px;
+  margin: 0 16px 0 0;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.shop-creator-wrapper .shopcreator-content .shopcreator-prices__slot input {
+  padding: 0 17px;
+  width: 71px;
+  height: 40px;
+  margin: 0 16px 0 0;
+}
 .shop-creator-wrapper .shopcreator-content .shopcreator-labels {
   gap: 30px;
 }

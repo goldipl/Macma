@@ -60,6 +60,60 @@ main:has(.shop-creator-wrapper) {
       }
     }
 
+    .shopprices-info-text {
+      margin-bottom: 48px;
+      p {
+        margin-bottom: 4px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .shopcreator-prices {
+      display: flex;
+      gap: 89px;
+      margin: 23px 0 40px 0;
+      @media (max-width: 992px) {
+        flex-direction: column;
+        gap: 24px;
+        label,
+        input {
+          font-size: 14px;
+        }
+        input {
+          width: 33vw !important;
+        }
+      }
+      &__slot {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-weight: bold;
+        }
+        select {
+          display: flex;
+          align-items: center;
+          width: 71px;
+          height: 40px;
+          box-sizing: border-box;
+          background-color: $light_grey;
+          padding: 0 17px;
+          margin: 0 16px 0 0;
+          text-align: left;
+          border: 0;
+          outline: 0;
+          cursor: pointer;
+        }
+        input {
+          padding: 0 17px;
+          width: 71px;
+          height: 40px;
+          margin: 0 16px 0 0;
+        }
+      }
+    }
+
     .shopcreator-labels {
       gap: 30px;
       .logo-label {
