@@ -1,4 +1,4 @@
-<div class="shopcreator-content container">
+<form class="shopcreator-content container">
     <h3>Wpisz nazwę subdomeny</h3>
     <div class="textbox">
         <p>pod którą będzie widoczny Twój sklep. Nie używaj polskich znaków.</p>
@@ -25,8 +25,8 @@
         <p>Kliknij przycisk 'Zapisz”, skopiuj swój adres url i otwórz go w przeglądarce (w osobnej karcie), dzięki temu będziesz widzieć wszystkie zmiany, które wprowadzisz. Wystarczy, że po każdej zapisanej zmianie odświeżysz stronę ze swoim sklepem/katalogiem w przeglądarce. </p>
     </div>
     <div class="bottom-button right-btn">
-        <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
-        </a>
+        <button class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+        </button>
     </div>
     <div class="shopcreator-dots">
         <div class="shopcreator-dots__dot active"></div>
@@ -37,7 +37,7 @@
         <div class="shopcreator-dots__dot"></div>
         <div class="shopcreator-dots__dot"></div>
     </div>
-</div>
+</form>
 
 <script>
     const subdomainInput = document.getElementById("subdomain");

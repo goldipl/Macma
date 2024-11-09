@@ -1,4 +1,4 @@
-<div class="shopcreator-content container">
+<form class="shopcreator-content container">
     <h3>Określ w jaki sposób chcesz korzystać ze swojej strony internetowej</h3>
     <div class="shopcreator-type-use">
         <div class="shopcreator-type-use__slot">
@@ -27,8 +27,8 @@
         </div>
     </div>
     <div class="bottom-button right-btn">
-        <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
-        </a>
+        <button class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+        </button>
     </div>
     <div class="shopcreator-dots">
         <div class="shopcreator-dots__dot"></div>
@@ -39,4 +39,4 @@
         <div class="shopcreator-dots__dot"></div>
         <div class="shopcreator-dots__dot"></div>
     </div>
-</div>
+</form>
