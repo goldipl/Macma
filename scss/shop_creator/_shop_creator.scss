@@ -1,0 +1,209 @@
+main:has(.shop-creator-wrapper) {
+  background-color: $light_grey;
+  @media (max-width: 760px) {
+    .breadcrumbs {
+      padding-top: 6px;
+      margin-top: 0;
+    }
+  }
+}
+
+.shop-creator-wrapper {
+  padding-bottom: 160px;
+  @media (max-width: 760px) {
+    padding-bottom: 12px;
+  }
+  .shop-creator-title {
+    h1 {
+      font-size: 32px;
+      font-weight: 900;
+      line-height: 38.4px;
+      text-align: center;
+      text-transform: uppercase;
+      background-color: $white;
+      padding: 34px 0;
+      margin-bottom: 15px;
+      @media (max-width: 992px) {
+        font-size: 20px;
+        line-height: 1.2;
+        padding: 16px;
+      }
+    }
+  }
+  .common-progress-bar {
+    width: 100%;
+    background-color: $white;
+  }
+  .common-steps-container {
+    background-color: $white;
+    width: 100%;
+    &-slot {
+      .active {
+        color: $macma_orange !important;
+      }
+    }
+  }
+  .shopcreator-content {
+    background-color: $white;
+    padding: 26px 60px;
+    @media (max-width: 992px) {
+      padding: 18px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25.2px;
+      text-align: left;
+      text-transform: uppercase;
+      @media (max-width: 992px) {
+        font-size: 16px;
+      }
+    }
+    .textbox {
+      margin-bottom: 16px;
+      p {
+        margin-bottom: 4px;
+        line-height: 1.2;
+        @media (max-width: 992px) {
+          font-size: 14px;
+        }
+      }
+    }
+    .greybox {
+      background-color: $light_grey;
+      margin-bottom: 33px;
+      padding: 30px 50px;
+      @media (max-width: 992px) {
+        padding: 18px;
+      }
+      p {
+        font-weight: 500;
+        @media (max-width: 992px) {
+          font-size: 14px;
+        }
+      }
+      span {
+        color: $macma_orange;
+        @media (max-width: 992px) {
+          font-size: 14px;
+        }
+      }
+      .subdomain-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        @media (max-width: 992px) {
+          flex-wrap: wrap;
+        }
+        p {
+          margin-bottom: 0;
+          @media (max-width: 992px) {
+            margin: 16px;
+          }
+          @media (max-width: 640px) {
+            margin: 16px 0;
+          }
+        }
+        input {
+          background-color: $white;
+          width: 219px;
+          height: 40px;
+          margin: 0 16px 0 0;
+          padding: 0 21px;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 22.4px;
+          color: $macma_orange;
+          @media (max-width: 992px) {
+            font-size: 14px;
+            padding: 0 12px;
+          }
+        }
+        button {
+          width: 118px;
+          height: 43px;
+          margin: 0 16px;
+          @media (max-width: 992px) {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .info-box {
+      padding: 26px 60px;
+      background-color: $white;
+      border: 1px solid $grey5;
+      @media (max-width: 992px) {
+        padding: 18px;
+      }
+      h3 {
+        margin-bottom: 8px;
+        text-transform: none;
+        svg {
+          display: inline-flex;
+          margin-right: 10px;
+          width: 30px;
+          height: 30px;
+        }
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22.4px;
+          color: $text_color;
+        }
+      }
+      p {
+        margin: 0;
+        @media (max-width: 760px) {
+          font-size: 14px;
+        }
+      }
+    }
+    .bottom-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 26px auto 42px auto;
+      .orange-btn {
+        margin-top: 0;
+      }
+    }
+    .shopcreator-dots {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 25px;
+      @media (max-width: 992px) {
+        gap: 10px;
+      }
+      &__dot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $grey5;
+        background-color: $white;
+        width: 17px;
+        height: 17px;
+        min-width: 17px;
+        min-height: 17px;
+        border-radius: 100%;
+        @media (max-width: 992px) {
+          width: 12px;
+          height: 12px;
+          min-width: 12px;
+          min-height: 12px;
+        }
+        &.active {
+          border: 1px solid $macma_orange;
+          background-color: $macma_orange;
+        }
+      }
+    }
+  }
+}

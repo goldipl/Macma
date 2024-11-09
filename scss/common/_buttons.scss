@@ -1,65 +1,86 @@
 .orange-btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24px;
-    border: 1px solid $macma_orange;
-    background-color: $macma_orange;
-    color: $white;
-    width: max-content;
-    height: 54px;
-    padding: 15px 20px;
-    text-decoration: none;
-    &.left-btn img {
-        transform: rotate(180deg); 
-        margin-left: 0; 
-        margin-right: 10px;
-    }
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid $macma_orange;
+  background-color: $macma_orange;
+  color: $white;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  &.left-btn img {
+    transform: rotate(180deg);
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
+    background-color: $white;
+    color: $macma_orange;
     img {
-        margin-left: 10px;
+      content: url("./../assets/icons/common/buttons/button_orange_arrow.svg");
     }
-    &:hover {
-        background-color: $white;
-        color: $macma_orange;
-        img {
-            content: url('./../assets/icons/common/buttons/button_orange_arrow.svg');
-        }
-    }
+  }
 }
 
 .white-btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24px;
-    border: 1px solid $macma_orange;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid $macma_orange;
+  background-color: $white;
+  color: $macma_orange;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  &.left-btn img {
+    transform: rotate(180deg);
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
+    background-color: $macma_orange;
+    color: $white;
+    img {
+      content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
+    }
+  }
+}
+
+.orange-save-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid $macma_orange;
+  background-color: $macma_orange;
+  color: $white;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  &.left-btn img {
+    transform: rotate(180deg);
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
     background-color: $white;
     color: $macma_orange;
-    width: max-content;
-    height: 54px;
-    padding: 15px 20px;
-    text-decoration: none;
-    &.left-btn img {
-        transform: rotate(180deg); 
-        margin-left: 0; 
-        margin-right: 10px;
-    }
     img {
-        margin-left: 10px;
+      content: url("./../assets/icons/dashboard/save-btn-orange.svg");
     }
-    &:hover {
-        background-color: $macma_orange;
-        color: $white;
-        img {
-            content: url('./../assets/icons/common/buttons/button_white_arrow.svg');
-        }
-    }
-}
-
-@media (max-width: 1199px) {
- 
-}
-
-@media (max-width: 991px) {
-
+  }
 }
