@@ -60,7 +60,87 @@ main:has(.shop-creator-wrapper) {
       }
     }
 
-    .shopcreator-type-use {
+    .shopcreator-labels {
+      gap: 30px;
+      .logo-label {
+        font-weight: 700;
+        margin-top: 24px;
+      }
+      .label-box {
+        width: 23.9%;
+        @media (max-width: 1370px) {
+          width: 32%;
+        }
+        @media (max-width: 1070px) {
+          width: 48%;
+        }
+        @media (max-width: 992px) {
+          width: 100%;
+        }
+        label {
+          font-weight: 700;
+          margin-top: 24px;
+        }
+        input {
+          margin-top: 8px;
+          padding: 0 16px;
+          height: 40px;
+          width: 100%;
+        }
+        textarea {
+          margin-top: 8px;
+          width: 100%;
+          padding: 16px;
+          min-height: 130px;
+          border: 0;
+        }
+        p {
+          margin-top: 24px;
+        }
+      }
+      .upload-files-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $light_grey;
+        border: 1px dashed $macma_orange;
+        padding: 16px 0 0 0;
+        height: 126px;
+        width: auto;
+        margin-top: 10px !important;
+        cursor: pointer;
+        img {
+          object-fit: contain;
+          margin-bottom: 7px;
+        }
+        p {
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 0;
+          color: $grey_main;
+          text-align: center;
+          span {
+            color: $macma_orange;
+            margin-bottom: 7px;
+          }
+        }
+        .file-block {
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 8px 0 0 45%;
+          width: 100%;
+          background-color: unset;
+        }
+      }
+    }
+
+    .shopcreator-type-use,
+    .shopcreator-checks {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -79,6 +159,23 @@ main:has(.shop-creator-wrapper) {
         background-color: $light_grey;
         padding: 35px;
         min-height: 200px;
+        @media (max-width: 992px) {
+          width: 100%;
+        }
+        &.short-slot {
+          width: max-content;
+          min-width: 190px;
+          min-height: unset;
+          height: auto;
+          padding: 16px 30px 6px;
+          .custom-checkbox-container {
+            margin-bottom: 0;
+            strong {
+              margin-bottom: 0;
+              margin-left: 8px;
+            }
+          }
+        }
         @media (max-width: 992px) {
           width: 100%;
           padding: 18px;
@@ -107,6 +204,12 @@ main:has(.shop-creator-wrapper) {
           border: 1px solid $grey5;
         }
       }
+    }
+
+    .shopcreator-checks {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 34px;
     }
 
     .textbox {
