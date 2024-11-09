@@ -31,7 +31,7 @@
                     <h1>Kreator sklepów i katalogów online</h1>
                 </div>
                 <div class="progress common-progress-bar">
-                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 28.6%" aria-valuenow="28.6" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 85.2%" aria-valuenow="85.2" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <div class="common-steps-container">
                     <div class="container">
