@@ -8,7 +8,7 @@
         <p>Np. https://<span>gadzety-reklamowe</span>.howtowow.pl </p>
         <div class="subdomain-box">
             <input class="form-input" type="text" name="subdomain" id="subdomain">
-            <p>Twój aktualny adres url: https://<span>gadzety-reklamowe</span>.howtowow.pl/ </p>
+            <p>Twój aktualny adres url: https://<span class="subdomain-name"></span>.howtowow.pl/ </p>
             <button class="orange-save-btn">Zapisz <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18">
             </button>
         </div>
@@ -38,3 +38,14 @@
         <div class="shopcreator-dots__dot"></div>
     </div>
 </div>
+
+<script>
+    const subdomainInput = document.getElementById("subdomain");
+    const subdomainSpan = document.querySelector(".subdomain-name");
+
+    subdomainInput.addEventListener("input", () => {
+        const subdomainValue = subdomainInput.value;
+
+        subdomainSpan.textContent = subdomainValue;
+    });
+</script>
