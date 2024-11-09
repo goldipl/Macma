@@ -51,7 +51,7 @@
                             <p>5. Banery</p>
                         </div>
                         <div class="common-steps-container-slot">
-                            <p>6. Klauzara</p>
+                            <p>6. Klauzula</p>
                         </div>
                         <div class="common-steps-container-slot">
                             <p>7. Finalizacja</p>

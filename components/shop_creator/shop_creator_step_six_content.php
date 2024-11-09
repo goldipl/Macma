@@ -1,5 +1,5 @@
 <form class="shopcreator-content container">
-    <h3>Text</h3>
+    <h3>Klauzula danych osobowych</h3>
     <div class="textbox">
         <p>Text</p>
     </div>

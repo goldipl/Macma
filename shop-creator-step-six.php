@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MACMA - Kreator sklepów i katalogów online - Klauzara</title>
+        <title>MACMA - Kreator sklepów i katalogów online - Klauzula</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -51,7 +51,7 @@
                             <p>5. Banery</p>
                         </div>
                         <div class="common-steps-container-slot">
-                            <p class="active">6. Klauzara</p>
+                            <p class="active">6. Klauzula</p>
                         </div>
                         <div class="common-steps-container-slot">
                             <p>7. Finalizacja</p>
