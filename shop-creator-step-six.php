@@ -11,10 +11,7 @@
         <link rel="stylesheet" href="./scss/main.css">
     </head>
     <body>
-        <header> 
-            <?php include "./components/common/topbar.php"; ?> 
-            <?php include "./components/common/nav.php"; ?> 
-        </header>
+        <header> <?php include "./components/common/topbar.php"; ?> <?php include "./components/common/nav.php"; ?> </header>
         <main>
             <div class="breadcrumbs container">
                 <ul>
@@ -57,13 +54,10 @@
                             <p>7. Finalizacja</p>
                         </div>
                     </div>
-                </div> 
-                <?php include "./components/shop_creator/shop_creator_step_six_content.php"; ?>
+                </div> <?php include "./components/shop_creator/shop_creator_step_six_content.php"; ?>
             </div>
         </main>
-        <footer> 
-            <?php include "./components/common/footer.php"; ?> 
-        </footer>
+        <footer> <?php include "./components/common/footer.php"; ?> </footer>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
@@ -73,21 +67,42 @@
         <!-- Text Editor JS -->
         <script src="./js/text_editor/ckeditor.js"></script>
         <script>
-            ClassicEditor
-            .create(document.querySelector('#editor01'))
-            .catch(error => {
+            ClassicEditor.create(document.querySelector('#editor01'), {
+                toolbar: ['undo', 'redo', '|', 'heading', '|', 'bold', 'italic', 'link', '|', 'blockQuote', 'bulletedList', 'numberedList', '|', 'alignment'],
+                removePlugins: ['Image', 'MediaEmbed', 'CKFinder'],
+                extraPlugins: ['Image'],
+            }).catch(error => {
                 console.error(error);
             });
-            ClassicEditor
-            .create(document.querySelector('#editor02'))
-            .catch(error => {
+            ClassicEditor.create(document.querySelector('#editor02'), {
+                toolbar: ['undo', 'redo', '|', 'heading', '|', 'bold', 'italic', 'link', '|', 'blockQuote', 'bulletedList', 'numberedList', '|', 'alignment'],
+                removePlugins: ['Image', 'MediaEmbed', 'CKFinder'],
+                extraPlugins: ['Image'],
+            }).catch(error => {
                 console.error(error);
             });
-            ClassicEditor
-            .create(document.querySelector('#editor03'))
-            .catch(error => {
+            ClassicEditor.create(document.querySelector('#editor03'), {
+                toolbar: ['undo', 'redo', '|', 'heading', '|', 'bold', 'italic', 'link', '|', 'blockQuote', 'bulletedList', 'numberedList', '|', 'alignment'],
+                removePlugins: ['Image', 'MediaEmbed', 'CKFinder'],
+                extraPlugins: ['Image'],
+            }).catch(error => {
                 console.error(error);
+            });
+
+            document.addEventListener('keydown', function(event) {
+                const activeElement = document.activeElement;
+
+                if (event.key === ' ' && activeElement.tagName === 'DIV' && activeElement.classList.contains('ck-editor__editable')) {
+                    event.stopPropagation(); 
+                }
             });
         </script>
+        <style>
+            .ck-editor__editable {
+                outline: none;
+                overflow-wrap: break-word;
+                white-space: pre-wrap;
+            }
+        </style>
     </body>
 </html>
