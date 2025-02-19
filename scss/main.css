@@ -12799,6 +12799,9 @@ main.grey-background {
     width: 100%;
     height: 100%;
   }
+  .category-wrapper .container .category-wrapper__left .category-menu {
+    display: none;
+  }
 }
 .category-menu {
   width: 296px;
