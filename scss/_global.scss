@@ -1,72 +1,72 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    accent-color: $macma_orange;
-    #main-wrapper {
-        position: relative;
-        &.opened-menu::after {
-            position: absolute;
-            content: "";
-            top: 0;
-            left: calc((100vw - 1576px) / 2 * -1);
-            background-color: $open_menu_background;
-            width: 200vw;
-            height: 100vh;
-            z-index: 9;
-        }
+  font-family: "Roboto", sans-serif;
+  accent-color: $macma_orange;
+  #main-wrapper {
+    position: relative;
+    &.opened-menu::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: calc((100vw - 1576px) / 2 * -1);
+      background-color: $open_menu_background;
+      width: 200vw;
+      height: 100vh;
+      z-index: 9;
     }
+  }
 }
 
 @media (max-width: 1576px) {
-    body {
-        #main-wrapper {
-            &.opened-menu::after {
-                left: -50vw;
-            }
-        }
+  body {
+    #main-wrapper {
+      &.opened-menu::after {
+        left: -50vw;
+      }
     }
+  }
 }
 
 @media (max-width: 991px) {
-    body {
-        #main-wrapper {
-            &.opened-menu::after {
-                display: none;
-            }
-        }
+  body {
+    #main-wrapper {
+      &.opened-menu::after {
+        display: none;
+      }
     }
-    /* For Webkit browsers (Chrome, Safari) */
-    ::-webkit-scrollbar-thumb {
-        background-color: $macma_orange;
-        width: 5px;
-        height: 5px;
-    }
-    
-    /* For Firefox */
-    ::-moz-scrollbar-thumb {
-        background-color: $macma_orange;
-        width: 5px;
-        height: 5px;
-    }
-    
-    /* For Internet Explorer and Edge */
-    ::-ms-thumb {
-        background-color: $macma_orange;
-        width: 5px;
-        height: 5px;
-    }
-    
-    /* For standard scrollbars (if supported) */
-    ::-webkit-scrollbar {
-        width: 5px;
-        height: 5px;
-    }
+  }
+  /* For Webkit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar-thumb {
+    background-color: $macma_orange;
+    width: 5px;
+    height: 5px;
+  }
+
+  /* For Firefox */
+  ::-moz-scrollbar-thumb {
+    background-color: $macma_orange;
+    width: 5px;
+    height: 5px;
+  }
+
+  /* For Internet Explorer and Edge */
+  ::-ms-thumb {
+    background-color: $macma_orange;
+    width: 5px;
+    height: 5px;
+  }
+
+  /* For standard scrollbars (if supported) */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
 }
