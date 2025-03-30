@@ -1,0 +1,101 @@
+.usb-finally-box {
+  background-color: $white;
+  padding: 55px 45px;
+  margin-right: 24px;
+  @media (max-width: 1180px) {
+    margin-right: 0;
+    padding: 16px;
+  }
+  .usb-chosen-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+    width: 220px;
+    padding: 20px;
+    border-radius: 40px;
+    border: 1px solid $grey14;
+    height: max-content;
+    .usb-chosen-img {
+      object-fit: contain;
+      border-radius: 24px;
+      width: 100%;
+    }
+    .check-icon {
+      position: absolute;
+      top: -6px;
+      right: -6px;
+      display: block;
+      @media (max-width: 760px) {
+        width: 24px;
+        height: 24px;
+        top: -3px;
+        right: -3px;
+      }
+    }
+    @media (max-width: 760px) {
+      border-radius: 16px;
+      width: 220px;
+      height: 220px;
+      min-width: unset;
+      .usb-chosen-img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+      }
+    }
+  }
+  &__top {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 44px;
+    @media (max-width: 760px) {
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 24px;
+      .usb-chosen-box {
+        width: 220px;
+        height: auto;
+      }
+    }
+    .usb-info-text {
+      h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        @media (max-width: 760px) {
+          font-size: 22px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        @media (max-width: 760px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  &__bottom {
+    .usb-chosen-types {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      &__slot {
+        .usb-chosen-text {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 120%;
+          text-transform: uppercase;
+          margin-bottom: 16px;
+          color: $small_text_color;
+        }
+      }
+    }
+  }
+}

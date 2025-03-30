@@ -1305,7 +1305,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
 }
 .common-steps-container .container .common-steps-container-slot p.active {
-  color: #374957;
+  color: #f26521;
 }
 
 @media (max-width: 991px) {
@@ -5653,12 +5653,14 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container,
 .calculator_container,
-.negotiator_container {
+.negotiator_container,
+.usb_container {
   background-color: #f4f4f4;
 }
 .cart_container h1,
 .calculator_container h1,
-.negotiator_container h1 {
+.negotiator_container h1,
+.usb_container h1 {
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -5669,12 +5671,14 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box,
 .calculator_container .cart-table_box,
-.negotiator_container .cart-table_box {
+.negotiator_container .cart-table_box,
+.usb_container .cart-table_box {
   width: 80%;
 }
 .cart_container .cart-table_box .cart-products-table,
 .calculator_container .cart-table_box .cart-products-table,
-.negotiator_container .cart-table_box .cart-products-table {
+.negotiator_container .cart-table_box .cart-products-table,
+.usb_container .cart-table_box .cart-products-table {
   border-collapse: collapse;
   border: 1px solid #f4f4f4;
   width: calc(100% - 30px);
@@ -5682,12 +5686,14 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody,
 .calculator_container .cart-table_box .cart-products-table tbody,
-.negotiator_container .cart-table_box .cart-products-table tbody {
+.negotiator_container .cart-table_box .cart-products-table tbody,
+.usb_container .cart-table_box .cart-products-table tbody {
   background-color: #ffffff;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr th,
 .calculator_container .cart-table_box .cart-products-table tbody tr th,
-.negotiator_container .cart-table_box .cart-products-table tbody tr th {
+.negotiator_container .cart-table_box .cart-products-table tbody tr th,
+.usb_container .cart-table_box .cart-products-table tbody tr th {
   border-collapse: collapse;
   border: 1px solid #f4f4f4;
   border-bottom: 3px solid #f4f4f4;
@@ -5699,7 +5705,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td,
 .calculator_container .cart-table_box .cart-products-table tbody tr td,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td,
+.usb_container .cart-table_box .cart-products-table tbody tr td {
   border-collapse: collapse;
   border: 1px solid #f4f4f4;
   border-bottom: 3px solid #f4f4f4;
@@ -5710,17 +5717,20 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td.table-product-col,
 .calculator_container .cart-table_box .cart-products-table tbody tr td.table-product-col,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td.table-product-col {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td.table-product-col,
+.usb_container .cart-table_box .cart-products-table tbody tr td.table-product-col {
   width: 25%;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top {
   margin-bottom: 16px;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top p,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top p,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top p {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top p,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__top p {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -5731,14 +5741,16 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5747,13 +5759,15 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left img,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left img,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left img {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left img,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--left img {
   -o-object-fit: contain;
      object-fit: contain;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5761,7 +5775,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p {
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -5772,12 +5787,14 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span,
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span,
+.usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span {
   color: #374957;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td input,
 .calculator_container .cart-table_box .cart-products-table tbody tr td input,
-.negotiator_container .cart-table_box .cart-products-table tbody tr td input {
+.negotiator_container .cart-table_box .cart-products-table tbody tr td input,
+.usb_container .cart-table_box .cart-products-table tbody tr td input {
   all: unset;
   width: 108px;
   height: 35px;
@@ -5794,7 +5811,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn,
+.usb_container .cart-table_box .bottom-cart-box-with-btn {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -5803,7 +5821,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box,
+.usb_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -5815,7 +5834,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p,
+.usb_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -5826,7 +5846,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input,
+.usb_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input {
   all: unset;
   width: 108px;
   height: 35px;
@@ -5843,7 +5864,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button,
+.usb_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button {
   all: unset;
   box-sizing: border-box;
   background-color: #ffffff;
@@ -5861,23 +5883,27 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button:hover,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button:hover,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button:hover {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button:hover,
+.usb_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--btn button:hover {
   background-color: #f26521;
   color: #ffffff;
 }
 .cart_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-button .next,
 .calculator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-button .next,
-.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-button .next {
+.negotiator_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-button .next,
+.usb_container .cart-table_box .bottom-cart-box-with-btn .bottom-cart-button .next {
   margin: 19px 0 0 0;
 }
 .cart_container .cart-table_box .add-product-box,
 .calculator_container .cart-table_box .add-product-box,
-.negotiator_container .cart-table_box .add-product-box {
+.negotiator_container .cart-table_box .add-product-box,
+.usb_container .cart-table_box .add-product-box {
   margin: 9px 0 250px 0;
 }
 .cart_container .cart-table_box .add-product-box button.add-product,
 .calculator_container .cart-table_box .add-product-box button.add-product,
-.negotiator_container .cart-table_box .add-product-box button.add-product {
+.negotiator_container .cart-table_box .add-product-box button.add-product,
+.usb_container .cart-table_box .add-product-box button.add-product {
   all: unset;
   box-sizing: border-box;
   background-color: #ffffff;
@@ -5895,13 +5921,15 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .add-product-box button.add-product:hover,
 .calculator_container .cart-table_box .add-product-box button.add-product:hover,
-.negotiator_container .cart-table_box .add-product-box button.add-product:hover {
+.negotiator_container .cart-table_box .add-product-box button.add-product:hover,
+.usb_container .cart-table_box .add-product-box button.add-product:hover {
   background-color: #f26521;
   color: #ffffff;
 }
 .cart_container .sumary_box,
 .calculator_container .sumary_box,
-.negotiator_container .sumary_box {
+.negotiator_container .sumary_box,
+.usb_container .sumary_box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -5913,7 +5941,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .sumary_box--title,
 .calculator_container .sumary_box--title,
-.negotiator_container .sumary_box--title {
+.negotiator_container .sumary_box--title,
+.usb_container .sumary_box--title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5925,7 +5954,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .sumary_box--title p,
 .calculator_container .sumary_box--title p,
-.negotiator_container .sumary_box--title p {
+.negotiator_container .sumary_box--title p,
+.usb_container .sumary_box--title p {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -5937,14 +5967,16 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .sumary_box--netto,
 .calculator_container .sumary_box--netto,
-.negotiator_container .sumary_box--netto {
+.negotiator_container .sumary_box--netto,
+.usb_container .sumary_box--netto {
   border-bottom: 1px solid #f4f4f4;
   width: 100%;
   padding: 26px 8px;
 }
 .cart_container .sumary_box--netto .netto-value,
 .calculator_container .sumary_box--netto .netto-value,
-.negotiator_container .sumary_box--netto .netto-value {
+.negotiator_container .sumary_box--netto .netto-value,
+.usb_container .sumary_box--netto .netto-value {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -5955,7 +5987,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .sumary_box--netto .netto-text,
 .calculator_container .sumary_box--netto .netto-text,
-.negotiator_container .sumary_box--netto .netto-text {
+.negotiator_container .sumary_box--netto .netto-text,
+.usb_container .sumary_box--netto .netto-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -5966,13 +5999,15 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .sumary_box--brutto,
 .calculator_container .sumary_box--brutto,
-.negotiator_container .sumary_box--brutto {
+.negotiator_container .sumary_box--brutto,
+.usb_container .sumary_box--brutto {
   width: 100%;
   padding: 26px 0;
 }
 .cart_container .sumary_box--brutto .brutto-value,
 .calculator_container .sumary_box--brutto .brutto-value,
-.negotiator_container .sumary_box--brutto .brutto-value {
+.negotiator_container .sumary_box--brutto .brutto-value,
+.usb_container .sumary_box--brutto .brutto-value {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -5983,7 +6018,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .sumary_box--brutto .brutto-text,
 .calculator_container .sumary_box--brutto .brutto-text,
-.negotiator_container .sumary_box--brutto .brutto-text {
+.negotiator_container .sumary_box--brutto .brutto-text,
+.usb_container .sumary_box--brutto .brutto-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -13578,20 +13614,25 @@ main.grey-background {
     font-size: 20px;
   }
 }
-.negotiator_container .accordion-container {
+.negotiator_container .accordion-container,
+.usb_container .accordion-container {
   width: calc(80% - 27px);
   margin-right: 27px;
 }
 .negotiator_container .accordion-container .accordion-button,
-.negotiator_container .accordion-container .accordion .accordion-button:not(.collapsed) {
+.negotiator_container .accordion-container .accordion .accordion-button:not(.collapsed),
+.usb_container .accordion-container .accordion-button,
+.usb_container .accordion-container .accordion .accordion-button:not(.collapsed) {
   background-color: #ffffff;
   border-bottom: 1px solid #f4f4f4;
 }
-.negotiator_container .accordion-container .accordion-item {
+.negotiator_container .accordion-container .accordion-item,
+.usb_container .accordion-container .accordion-item {
   border: 0;
   margin-bottom: 15px;
 }
-.negotiator_container .accordion-container .accordion-button {
+.negotiator_container .accordion-container .accordion-button,
+.usb_container .accordion-container .accordion-button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -13601,7 +13642,8 @@ main.grey-background {
   text-transform: uppercase;
   color: #374957;
 }
-.negotiator_container .accordion-container .accordion-button::after {
+.negotiator_container .accordion-container .accordion-button::after,
+.usb_container .accordion-container .accordion-button::after {
   position: absolute;
   top: 22px;
   right: 22px;
@@ -13610,7 +13652,8 @@ main.grey-background {
   background-position: center;
   margin-left: 16px;
 }
-.negotiator_container .accordion-container .accordion-button .number {
+.negotiator_container .accordion-container .accordion-button .number,
+.usb_container .accordion-container .accordion-button .number {
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
@@ -13618,7 +13661,8 @@ main.grey-background {
   color: #f26521;
   margin: 0 24px 0 8px;
 }
-.negotiator_container .accordion-container .accordion-button .code {
+.negotiator_container .accordion-container .accordion-button .code,
+.usb_container .accordion-container .accordion-button .code {
   font-size: 18px;
   font-weight: 400;
   line-height: 177.023%;
@@ -13626,15 +13670,18 @@ main.grey-background {
   margin: 0 0 0 16px;
   text-transform: none;
 }
-.negotiator_container .accordion-container .accordion-button .code span {
+.negotiator_container .accordion-container .accordion-button .code span,
+.usb_container .accordion-container .accordion-button .code span {
   color: #374957;
   margin: 0 0 0 6px;
 }
-.negotiator_container .accordion-container .accordion-button img {
+.negotiator_container .accordion-container .accordion-button img,
+.usb_container .accordion-container .accordion-button img {
   margin-left: 16px;
   display: none;
 }
-.negotiator_container .accordion-container .accordion .quantity {
+.negotiator_container .accordion-container .accordion .quantity,
+.usb_container .accordion-container .accordion .quantity {
   font-size: 18px;
   font-weight: 400;
   line-height: 177.023%;
@@ -13642,20 +13689,24 @@ main.grey-background {
   margin: 0 40px 0 auto;
   text-transform: none;
 }
-.negotiator_container .accordion-container .accordion .quantity span {
+.negotiator_container .accordion-container .accordion .quantity span,
+.usb_container .accordion-container .accordion .quantity span {
   color: #374957;
   margin: 0 0 0 6px;
 }
-.negotiator_container .accordion-container .accordion-body {
+.negotiator_container .accordion-container .accordion-body,
+.usb_container .accordion-container .accordion-body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.negotiator_container .accordion-container .accordion-body__col {
+.negotiator_container .accordion-container .accordion-body__col,
+.usb_container .accordion-container .accordion-body__col {
   display: flex;
   flex-direction: column;
 }
-.negotiator_container .accordion-container .accordion-body__col p {
+.negotiator_container .accordion-container .accordion-body__col p,
+.usb_container .accordion-container .accordion-body__col p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -13663,10 +13714,12 @@ main.grey-background {
   margin: 0 0 10px 0;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body__col p span {
+.negotiator_container .accordion-container .accordion-body__col p span,
+.usb_container .accordion-container .accordion-body__col p span {
   color: #374957;
 }
-.negotiator_container .accordion-container .accordion-body__col b {
+.negotiator_container .accordion-container .accordion-body__col b,
+.usb_container .accordion-container .accordion-body__col b {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -13674,10 +13727,12 @@ main.grey-background {
   margin: 0;
   color: #374957;
 }
-.negotiator_container .accordion-container .accordion-body__col b .orange {
+.negotiator_container .accordion-container .accordion-body__col b .orange,
+.usb_container .accordion-container .accordion-body__col b .orange {
   color: #f26521;
 }
-.negotiator_container .accordion-container .accordion-body__col .catalog-price {
+.negotiator_container .accordion-container .accordion-body__col .catalog-price,
+.usb_container .accordion-container .accordion-body__col .catalog-price {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -13685,14 +13740,16 @@ main.grey-background {
   margin: 0 0 13px 0;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body__col .catalog-price span {
+.negotiator_container .accordion-container .accordion-body__col .catalog-price span,
+.usb_container .accordion-container .accordion-body__col .catalog-price span {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body__col .your-price {
+.negotiator_container .accordion-container .accordion-body__col .your-price,
+.usb_container .accordion-container .accordion-body__col .your-price {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -13700,7 +13757,8 @@ main.grey-background {
   margin: 0 0 13px 0;
   color: #374957;
 }
-.negotiator_container .accordion-container .accordion-body__col .desc {
+.negotiator_container .accordion-container .accordion-body__col .desc,
+.usb_container .accordion-container .accordion-body__col .desc {
   font-size: 12px;
   font-style: normal;
   font-weight: 300;
@@ -13708,17 +13766,20 @@ main.grey-background {
   margin: 0;
   color: #374957;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col {
+.negotiator_container .accordion-container .accordion-body .colors-col,
+.usb_container .accordion-container .accordion-body .colors-col {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box {
   display: flex;
   justify-content: flex-start;
   width: 100%;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -13729,7 +13790,8 @@ main.grey-background {
   border: 1px solid #f4f4f4;
   padding: 12px;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13742,23 +13804,27 @@ main.grey-background {
   padding: 0 35px 0 0;
   width: 150px;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container span {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container span,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container span {
   top: -4px;
   left: 120px;
   right: 0;
   width: 32px;
   height: 32px;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container span::after {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container span::after,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container span::after {
   left: 12px;
   top: 5px;
   width: 8px;
   height: 18px;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .exclamation {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .exclamation,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .exclamation {
   margin-right: 20px;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .desc {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .desc,
+.usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .desc {
   font-size: 11px;
   font-style: normal;
   font-weight: 300;
@@ -13766,61 +13832,73 @@ main.grey-background {
   color: #374957;
   margin: 0;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares,
+.usb_container .accordion-container .accordion-body .colors-col .colors-squares {
   margin: 20px 0;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares .color {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares .color,
+.usb_container .accordion-container .accordion-body .colors-col .colors-squares .color {
   cursor: pointer;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares .color.checked {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares .color.checked,
+.usb_container .accordion-container .accordion-body .colors-col .colors-squares .color.checked {
   outline: 1px solid #000000;
   background-image: url(./../assets/icons/product_page/checked.svg);
   background-size: 15px 10px;
   background-repeat: no-repeat;
   background-position: center;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares .color:hover {
+.negotiator_container .accordion-container .accordion-body .colors-col .colors-squares .color:hover,
+.usb_container .accordion-container .accordion-body .colors-col .colors-squares .color:hover {
   outline: 1px solid #000000;
 }
-.negotiator_container .accordion-container .accordion-body .colors-col button img {
+.negotiator_container .accordion-container .accordion-body .colors-col button img,
+.usb_container .accordion-container .accordion-body .colors-col button img {
   transform: rotate(90deg) translateX(-2px);
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col {
+.negotiator_container .accordion-container .accordion-body .quantity-col,
+.usb_container .accordion-container .accordion-body .quantity-col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col-box {
+.negotiator_container .accordion-container .accordion-body .quantity-col-box,
+.usb_container .accordion-container .accordion-body .quantity-col-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot {
+.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot,
+.usb_container .accordion-container .accordion-body .quantity-col-box__slot {
   display: flex;
   flex-direction: row;
   margin: 0 16px 16px 0;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box {
+.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box,
+.usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box .color {
+.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box .color,
+.usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box .color {
   margin-right: 16px;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box label {
+.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box label,
+.usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box label {
   font-size: 18px;
   font-weight: 400;
   line-height: 177.023%;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box input {
+.negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box input,
+.usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box input {
   width: 108px;
   height: 35px;
   margin: 0 0 0 12px;
@@ -13828,64 +13906,81 @@ main.grey-background {
   font-size: 18px;
   font-weight: 400;
 }
-.negotiator_container .accordion-container .accordion-body .quantity-col button img {
+.negotiator_container .accordion-container .accordion-body .quantity-col button img,
+.usb_container .accordion-container .accordion-body .quantity-col button img {
   transform: rotate(90deg) translateX(-2px);
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box {
+.negotiator_container .accordion-container .accordion-body .one-col-box,
+.usb_container .accordion-container .accordion-body .one-col-box {
   display: flex;
   flex-direction: column;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box button img {
+.negotiator_container .accordion-container .accordion-body .one-col-box button img,
+.usb_container .accordion-container .accordion-body .one-col-box button img {
   transform: rotate(90deg) translateX(-2px);
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #f4f4f4;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col {
   display: flex;
   flex-direction: column;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:first-of-type {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:first-of-type,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:first-of-type {
   border-right: 1px solid #f4f4f4;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type {
   padding-left: 24px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container {
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container .custom-radio-checkmark {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container .custom-radio-checkmark,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container .custom-radio-checkmark {
   top: 5px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types {
   display: flex;
   flex-direction: column;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types.hide {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types.hide,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types.hide {
   display: none;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row {
   display: flex;
   flex-direction: row;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row:first-of-type .types-col p {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row:first-of-type .types-col p,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row:first-of-type .types-col p {
   margin-bottom: 6px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col {
   min-width: 180px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select {
   min-width: 220px;
   margin-right: 22px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select-name {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select-name,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select-name {
   min-width: 262px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -13895,7 +13990,8 @@ main.grey-background {
   text-align: left;
   margin-bottom: 16px;
 }
-.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col select {
+.negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col select,
+.usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col select {
   display: flex;
   align-items: center;
   width: 238px;
@@ -13909,22 +14005,26 @@ main.grey-background {
   outline: 0;
   cursor: pointer;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box {
+.negotiator_container .accordion-container .accordion-body .pricing-box,
+.usb_container .accordion-container .accordion-body .pricing-box {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding-left: 40px;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top,
+.usb_container .accordion-container .accordion-body .pricing-box__top {
   display: flex;
   flex-direction: row;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top__left {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top__left,
+.usb_container .accordion-container .accordion-body .pricing-box__top__left {
   display: flex;
   flex-direction: column;
   width: 20%;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top__left p {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top__left p,
+.usb_container .accordion-container .accordion-body .pricing-box__top__left p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -13932,11 +14032,13 @@ main.grey-background {
   color: #8a8a8a;
   margin: 0;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top__right {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top__right,
+.usb_container .accordion-container .accordion-body .pricing-box__top__right {
   display: flex;
   flex-direction: column;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top__right p {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top__right p,
+.usb_container .accordion-container .accordion-body .pricing-box__top__right p {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -13944,16 +14046,19 @@ main.grey-background {
   color: #374957;
   margin: 0 40px 0 0;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top__right p.orange {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top__right p.orange,
+.usb_container .accordion-container .accordion-body .pricing-box__top__right p.orange {
   font-size: 30px;
   line-height: 36px;
   color: #f26521;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__top__right span {
+.negotiator_container .accordion-container .accordion-body .pricing-box__top__right span,
+.usb_container .accordion-container .accordion-body .pricing-box__top__right span {
   font-size: 14px;
   line-height: 160%;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__bottom {
+.negotiator_container .accordion-container .accordion-body .pricing-box__bottom,
+.usb_container .accordion-container .accordion-body .pricing-box__bottom {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -13961,7 +14066,8 @@ main.grey-background {
   justify-content: flex-start;
   margin: 24px 0 8px 0;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__bottom--slot {
+.negotiator_container .accordion-container .accordion-body .pricing-box__bottom--slot,
+.usb_container .accordion-container .accordion-body .pricing-box__bottom--slot {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13974,10 +14080,12 @@ main.grey-background {
   background-color: #8a8a8a;
   min-width: 121px;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__bottom--slot:hover {
+.negotiator_container .accordion-container .accordion-body .pricing-box__bottom--slot:hover,
+.usb_container .accordion-container .accordion-body .pricing-box__bottom--slot:hover {
   background-color: #f26521;
 }
-.negotiator_container .accordion-container .accordion-body .pricing-box__bottom--slot p {
+.negotiator_container .accordion-container .accordion-body .pricing-box__bottom--slot p,
+.usb_container .accordion-container .accordion-body .pricing-box__bottom--slot p {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -13987,47 +14095,57 @@ main.grey-background {
   text-align: center;
   text-transform: uppercase;
 }
-.negotiator_container .accordion-container .accordion-body .tables-box {
+.negotiator_container .accordion-container .accordion-body .tables-box,
+.usb_container .accordion-container .accordion-body .tables-box {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.negotiator_container .accordion-container .accordion-body .tables-box table {
+.negotiator_container .accordion-container .accordion-body .tables-box table,
+.usb_container .accordion-container .accordion-body .tables-box table {
   flex-wrap: wrap;
 }
-.negotiator_container .accordion-container .accordion-body .tables-box table tr {
+.negotiator_container .accordion-container .accordion-body .tables-box table tr,
+.usb_container .accordion-container .accordion-body .tables-box table tr {
   background-color: #f4f4f4;
   height: 35px;
 }
-.negotiator_container .accordion-container .accordion-body .tables-box table tr th {
+.negotiator_container .accordion-container .accordion-body .tables-box table tr th,
+.usb_container .accordion-container .accordion-body .tables-box table tr th {
   font-size: 16px;
   padding-left: 14px;
   border-right: 2px solid #ffffff;
 }
-.negotiator_container .accordion-container .accordion-body .tables-box table tr td {
+.negotiator_container .accordion-container .accordion-body .tables-box table tr td,
+.usb_container .accordion-container .accordion-body .tables-box table tr td {
   font-size: 14px;
   padding-left: 14px;
   border: 2px solid #ffffff;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper {
   display: flex;
   flex-direction: column;
   padding: 38px 40px;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box {
   margin-right: 10%;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row {
   display: flex;
   flex-direction: row;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -14036,11 +14154,13 @@ main.grey-background {
   margin: 0 8px 0 0;
   width: 190px;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right {
   display: flex;
   flex-direction: column;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input {
   padding: 0 17px;
   width: 238px;
   height: 35px;
@@ -14052,21 +14172,23 @@ main.grey-background {
   color: #8a8a8a;
   margin: 0;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder, .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right .desc {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right .desc,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right .desc {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -14074,16 +14196,19 @@ main.grey-background {
   color: #374957;
   margin: 0 0 23px 0;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box {
   padding: 17px 25px;
   display: flex;
   align-items: center;
   background-color: #f4f4f4;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img {
   margin-right: 29px;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span {
   display: inline-flex;
   font-size: 14px;
   font-style: normal;
@@ -14092,10 +14217,12 @@ main.grey-background {
   margin: 0;
   color: #8a8a8a;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper button {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper button,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper button {
   margin-bottom: 17px;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-red {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-red,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-red {
   color: #be6363;
   text-align: center;
   font-size: 12px;
@@ -14104,7 +14231,8 @@ main.grey-background {
   line-height: 160%;
   margin: 0 0 2px 0;
 }
-.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-green {
+.negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-green,
+.usb_container .accordion-container .accordion-body .price-proposition-wrapper .desc-info-green {
   color: #21a500;
   text-align: center;
   font-size: 12px;
@@ -14113,274 +14241,346 @@ main.grey-background {
   line-height: 160%;
   margin: 0 0 2px 0;
 }
-.negotiator_container .sumary_box {
+.negotiator_container .sumary_box,
+.usb_container .sumary_box {
   width: 20%;
 }
-.negotiator_container .sumary_box--netto .netto-value {
+.negotiator_container .sumary_box--netto .netto-value,
+.usb_container .sumary_box--netto .netto-value {
   margin-bottom: 0;
   line-height: 36px;
 }
-.negotiator_container .sumary_box--netto .netto-value.small {
+.negotiator_container .sumary_box--netto .netto-value.small,
+.usb_container .sumary_box--netto .netto-value.small {
   font-size: 14px;
   line-height: 18px;
 }
-.negotiator_container .sumary_box--netto .netto-text {
+.negotiator_container .sumary_box--netto .netto-text,
+.usb_container .sumary_box--netto .netto-text {
   margin-top: 7px;
 }
-.negotiator_container .sumary_box--brutto .brutto-value {
+.negotiator_container .sumary_box--brutto .brutto-value,
+.usb_container .sumary_box--brutto .brutto-value {
   margin-bottom: 0;
   line-height: 36px;
 }
-.negotiator_container .sumary_box--brutto .brutto-value.small {
+.negotiator_container .sumary_box--brutto .brutto-value.small,
+.usb_container .sumary_box--brutto .brutto-value.small {
   font-size: 14px;
   line-height: 18px;
 }
-.negotiator_container .sumary_box--brutto .brutto-text {
+.negotiator_container .sumary_box--brutto .brutto-text,
+.usb_container .sumary_box--brutto .brutto-text {
   margin-top: 7px;
 }
 
 @media (max-width: 1640px) {
-  .negotiator_container .accordion-container .accordion-body .one-col-box {
+  .negotiator_container .accordion-container .accordion-body .one-col-box,
+  .usb_container .accordion-container .accordion-body .one-col-box {
     width: 100%;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box {
     flex-direction: column;
     border-bottom: 1px solid #f4f4f4;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:first-of-type {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:first-of-type,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:first-of-type {
     border-right: 0;
     padding-bottom: 16px;
     margin-bottom: 24px;
     border-bottom: 1px solid #f4f4f4;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col:last-of-type {
     padding-left: 0;
   }
 }
 @media (max-width: 1400px) {
-  .negotiator_container .accordion-container .accordion-body .pricing-box {
+  .negotiator_container .accordion-container .accordion-body .pricing-box,
+  .usb_container .accordion-container .accordion-body .pricing-box {
     padding: 16px 0;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper {
     padding: 16px;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top {
     flex-direction: column;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box {
     margin-right: 0;
   }
 }
 @media (max-width: 1200px) {
-  .negotiator_container h1 {
+  .negotiator_container h1,
+  .usb_container h1 {
     padding: 16px 0 20px 0;
     font-size: 26px;
   }
-  .negotiator_container h1 + .flex-row {
+  .negotiator_container h1 + .flex-row,
+  .usb_container h1 + .flex-row {
     flex-direction: column !important;
   }
-  .negotiator_container .accordion-container {
+  .negotiator_container .accordion-container,
+  .usb_container .accordion-container {
     width: 100%;
     margin-right: 0;
   }
-  .negotiator_container .accordion-container .accordion-button {
+  .negotiator_container .accordion-container .accordion-button,
+  .usb_container .accordion-container .accordion-button {
     padding: 8px;
     font-size: 14px;
     height: 60px;
     line-height: 16px;
     padding-right: 32px;
   }
-  .negotiator_container .accordion-container .accordion-button .number {
+  .negotiator_container .accordion-container .accordion-button .number,
+  .usb_container .accordion-container .accordion-button .number {
     font-size: 20px;
     margin-right: 8px;
     margin-left: 2px;
   }
-  .negotiator_container .accordion-container .accordion-button .code {
+  .negotiator_container .accordion-container .accordion-button .code,
+  .usb_container .accordion-container .accordion-button .code {
     font-size: 12px;
     text-align: right;
   }
-  .negotiator_container .accordion-container .accordion-button img {
+  .negotiator_container .accordion-container .accordion-button img,
+  .usb_container .accordion-container .accordion-button img {
     width: 19px;
     height: 19px;
     margin-left: 6px;
   }
-  .negotiator_container .accordion-container .accordion-button::after {
+  .negotiator_container .accordion-container .accordion-button::after,
+  .usb_container .accordion-container .accordion-button::after {
     top: 18px;
     right: 6px;
     background-size: 10px;
   }
-  .negotiator_container .accordion-container .accordion-button .quantity {
+  .negotiator_container .accordion-container .accordion-button .quantity,
+  .usb_container .accordion-container .accordion-button .quantity {
     font-size: 12px;
     margin: 0 10px 0 10px;
   }
-  .negotiator_container .accordion-container .accordion-body {
+  .negotiator_container .accordion-container .accordion-body,
+  .usb_container .accordion-container .accordion-body {
     flex-direction: column;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row {
     width: 100%;
     flex-direction: column;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left {
     width: 100%;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left p {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left p,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__left p {
     font-size: 15px;
     margin: 0 0 10px 0;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right {
     width: 100%;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input {
     width: 100%;
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder, .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::-moz-placeholder {
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .price-proposition-box__row__right input::placeholder {
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box img {
     margin-right: 16px;
   }
-  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span {
+  .negotiator_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span,
+  .usb_container .accordion-container .accordion-body .price-proposition-wrapper .price-proposition-top .exclamation-box span {
     font-size: 12px;
   }
-  .negotiator_container .accordion-container .accordion-body__col p {
+  .negotiator_container .accordion-container .accordion-body__col p,
+  .usb_container .accordion-container .accordion-body__col p {
     font-size: 14px;
     line-height: 120%;
     margin: 10px 0 0 0;
   }
-  .negotiator_container .accordion-container .accordion-body__col b {
+  .negotiator_container .accordion-container .accordion-body__col b,
+  .usb_container .accordion-container .accordion-body__col b {
     font-size: 14px;
     line-height: 120%;
   }
-  .negotiator_container .accordion-container .accordion-body__col b .orange {
+  .negotiator_container .accordion-container .accordion-body__col b .orange,
+  .usb_container .accordion-container .accordion-body__col b .orange {
     font-size: 19px;
   }
-  .negotiator_container .accordion-container .accordion-body__col .catalog-price {
+  .negotiator_container .accordion-container .accordion-body__col .catalog-price,
+  .usb_container .accordion-container .accordion-body__col .catalog-price {
     font-size: 14px;
     line-height: 120%;
   }
-  .negotiator_container .accordion-container .accordion-body__col .catalog-price span {
+  .negotiator_container .accordion-container .accordion-body__col .catalog-price span,
+  .usb_container .accordion-container .accordion-body__col .catalog-price span {
     font-size: 14px;
     line-height: 120%;
   }
-  .negotiator_container .accordion-container .accordion-body__col .your-price {
+  .negotiator_container .accordion-container .accordion-body__col .your-price,
+  .usb_container .accordion-container .accordion-body__col .your-price {
     font-size: 16px;
     line-height: 120%;
   }
-  .negotiator_container .accordion-container .accordion-body__col .desc {
+  .negotiator_container .accordion-container .accordion-body__col .desc,
+  .usb_container .accordion-container .accordion-body__col .desc {
     line-height: 120%;
   }
-  .negotiator_container .accordion-container .accordion-body .colors-col button {
+  .negotiator_container .accordion-container .accordion-body .colors-col button,
+  .usb_container .accordion-container .accordion-body .colors-col button {
     margin-top: 24px;
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .colors-col button img {
+  .negotiator_container .accordion-container .accordion-body .colors-col button img,
+  .usb_container .accordion-container .accordion-body .colors-col button img {
     width: 15px;
     height: 15px;
   }
-  .negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container {
+  .negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container,
+  .usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
   }
-  .negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container {
+  .negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container,
+  .usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .custom-checkbox-container {
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .desc {
+  .negotiator_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .desc,
+  .usb_container .accordion-container .accordion-body .colors-col .colors-info-box .mix-container .desc {
     margin: 10px 0 0 0;
   }
-  .negotiator_container .accordion-container .accordion-body .quantity-col button {
+  .negotiator_container .accordion-container .accordion-body .quantity-col button,
+  .usb_container .accordion-container .accordion-body .quantity-col button {
     margin-top: 24px;
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .quantity-col button img {
+  .negotiator_container .accordion-container .accordion-body .quantity-col button img,
+  .usb_container .accordion-container .accordion-body .quantity-col button img {
     width: 15px;
     height: 15px;
   }
-  .negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box .color {
+  .negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box .color,
+  .usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box .color {
     margin-right: 12px;
   }
-  .negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box label {
+  .negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box label,
+  .usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box label {
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box input {
+  .negotiator_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box input,
+  .usb_container .accordion-container .accordion-body .quantity-col-box__slot .quantity-box input {
     height: 30px;
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col {
     overflow-x: scroll;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container {
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container .custom-radio-checkmark {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container .custom-radio-checkmark,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .custom-radio-container .custom-radio-checkmark {
     top: 2px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col {
     min-width: 180px;
   }
   .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col select,
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col input {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col input,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col select,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col input {
     font-size: 14px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select {
     min-width: 220px;
     margin-right: 22px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select-name {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select-name,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col.select-name {
     min-width: 260px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col .calc-select-types__row .types-col p {
     font-size: 14px;
     line-height: 140%;
   }
-  .negotiator_container .accordion-container .accordion-body .pricing-box {
+  .negotiator_container .accordion-container .accordion-body .pricing-box,
+  .usb_container .accordion-container .accordion-body .pricing-box {
     padding: 0;
   }
-  .negotiator_container .accordion-container .accordion-body .pricing-box__top {
+  .negotiator_container .accordion-container .accordion-body .pricing-box__top,
+  .usb_container .accordion-container .accordion-body .pricing-box__top {
     flex-direction: column;
   }
-  .negotiator_container .accordion-container .accordion-body .pricing-box__top__left {
+  .negotiator_container .accordion-container .accordion-body .pricing-box__top__left,
+  .usb_container .accordion-container .accordion-body .pricing-box__top__left {
     width: 100%;
   }
-  .negotiator_container .accordion-container .accordion-body .pricing-box__top__left p {
+  .negotiator_container .accordion-container .accordion-body .pricing-box__top__left p,
+  .usb_container .accordion-container .accordion-body .pricing-box__top__left p {
     margin: 16px 0 0 0;
   }
-  .negotiator_container .accordion-container .accordion-body .pricing-box__top__right {
+  .negotiator_container .accordion-container .accordion-body .pricing-box__top__right,
+  .usb_container .accordion-container .accordion-body .pricing-box__top__right {
     margin: 0;
   }
-  .negotiator_container .accordion-container .accordion-body .tables-box {
+  .negotiator_container .accordion-container .accordion-body .tables-box,
+  .usb_container .accordion-container .accordion-body .tables-box {
     overflow-x: scroll;
   }
-  .negotiator_container .accordion-container .accordion-body .tables-box table {
+  .negotiator_container .accordion-container .accordion-body .tables-box table,
+  .usb_container .accordion-container .accordion-body .tables-box table {
     width: 100%;
   }
-  .negotiator_container .accordion-container .accordion-body .tables-box table tr th {
+  .negotiator_container .accordion-container .accordion-body .tables-box table tr th,
+  .usb_container .accordion-container .accordion-body .tables-box table tr th {
     font-size: 14px;
     white-space: pre;
   }
-  .negotiator_container .accordion-container .accordion-body .tables-box table tr td {
+  .negotiator_container .accordion-container .accordion-body .tables-box table tr td,
+  .usb_container .accordion-container .accordion-body .tables-box table tr td {
     white-space: pre;
     font-size: 13px;
     padding: 0 14px;
   }
-  .negotiator_container .sumary_box {
+  .negotiator_container .sumary_box,
+  .usb_container .sumary_box {
     width: 100%;
     margin-bottom: 40px;
   }
-  .negotiator_container .sumary_box--netto .netto-value {
+  .negotiator_container .sumary_box--netto .netto-value,
+  .usb_container .sumary_box--netto .netto-value {
     font-size: 30px;
   }
 }
 @media (max-width: 760px) {
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col {
     position: relative;
     padding-bottom: 28px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col::before {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col::before,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col::before {
     content: "Dotknij i przesuń, żeby zobaczyć więcej";
     position: absolute;
     width: 204px;
@@ -14392,7 +14592,8 @@ main.grey-background {
     color: #333333;
     right: 18px;
   }
-  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col::after {
+  .negotiator_container .accordion-container .accordion-body .one-col-box .two-rows-box .col::after,
+  .usb_container .accordion-container .accordion-body .one-col-box .two-rows-box .col::after {
     content: "";
     position: absolute;
     width: 14px;
@@ -16045,4 +16246,697 @@ main:has(.shop-creator-wrapper) {
 .shop-creator-wrapper .shopcreator-content .shopcreator-dots__dot.active {
   border: 1px solid #f26521;
   background-color: #f26521;
+}
+
+.usb-row-grid .white-btn {
+  margin-bottom: 24px;
+}
+@media (max-width: 1180px) {
+  .usb-row-grid {
+    flex-direction: column !important;
+  }
+}
+
+.container:has(.usb-title) {
+  margin-bottom: 24px;
+}
+
+.usb-title {
+  padding: 35px 0;
+  background-color: #ffffff;
+}
+.usb-title .title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #f26521;
+  text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .usb-title {
+    padding: 24px 0;
+  }
+  .usb-title .title {
+    font-size: 24px;
+  }
+}
+
+.usb_container .accordion-button {
+  pointer-events: none;
+}
+.usb_container .accordion-body {
+  justify-content: flex-start !important;
+  padding: 40px;
+}
+@media (max-width: 1240px) {
+  .usb_container .accordion-body {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body {
+    padding: 16px;
+  }
+}
+.usb_container .accordion-body:has(.usb-big-img) {
+  align-items: center;
+}
+@media (max-width: 1400px) {
+  .usb_container .accordion-body:has(.usb-big-img) {
+    flex-direction: column !important;
+  }
+}
+.usb_container .accordion-body__col:has(.usb-big-img) {
+  margin-right: 60px;
+}
+.usb_container .accordion-body__col .product-wrapper {
+  position: relative;
+}
+.usb_container .accordion-body__col .product-wrapper .usb-big-img {
+  height: 310px;
+  width: auto;
+  max-width: 440px;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body__col .product-wrapper .usb-big-img {
+    max-width: 80vw;
+    height: auto;
+  }
+}
+.usb_container .accordion-body__col .product-wrapper .product-download {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.usb_container .accordion-body .colors-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 120px;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .colors-box {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-title {
+  margin-bottom: 24px;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-title span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #4a6375;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .colors-box .colors-row .colors-title span {
+    font-size: 14px;
+  }
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-squares .color {
+  cursor: pointer;
+  border-radius: 100%;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-squares .color.checked {
+  outline: 1px solid #000000;
+  background-image: url(./../assets/icons/product_page/checked.svg);
+  background-size: 15px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-squares .color:hover {
+  outline: 1px solid #000000;
+}
+.usb_container .accordion-body .usb-size-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.usb_container .accordion-body .usb-size-box__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8a8a8a;
+  height: 50px;
+  min-width: 124px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 14px 19px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.usb_container .accordion-body .usb-size-box__slot.active {
+  border-color: #f26521;
+}
+.usb_container .accordion-body .usb-size-box__slot.active span {
+  color: #f26521;
+}
+.usb_container .accordion-body .usb-size-box__slot span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #4a6375;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-size-box__slot span {
+    font-size: 14px;
+  }
+}
+.usb_container .accordion-body .usb-size-box__slot:hover {
+  cursor: pointer;
+  border-color: #f26521;
+}
+.usb_container .accordion-body .usb-size-box__slot:hover span {
+  color: #f26521;
+}
+.usb_container .accordion-body .usb-slider-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-slider-container {
+    margin-bottom: 24px;
+  }
+}
+.usb_container .accordion-body .usb-slider-container .slider-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  font-size: 12px;
+  left: 24px;
+  color: 24px;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-slider-container .slider-labels {
+    left: 0;
+  }
+}
+.usb_container .accordion-body .usb-slider-container .slider-labels span {
+  color: #8a8a8a;
+}
+.usb_container .accordion-body .usb-slider-container .slider-labels span::before {
+  position: relative;
+  left: 4px;
+  display: block;
+  content: "|";
+  color: #8a8a8a;
+}
+.usb_container .accordion-body .usb-slider-container .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 20px;
+  background: #e7e7e7;
+  border: 1px solid #f26521;
+  outline: none;
+  opacity: 0.9;
+  transition: opacity 0.15s ease-in-out;
+}
+.usb_container .accordion-body .usb-slider-container .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 41px;
+  background: #f26521;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .usb_container .accordion-body .usb-slider-container .slider::-webkit-slider-thumb {
+    width: 9px;
+  }
+}
+.usb_container .accordion-body .usb-slider-container .slider::-moz-range-thumb {
+  width: 23px;
+  height: 41px;
+  background: #f26521;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .usb_container .accordion-body .usb-slider-container .slider::-moz-range-thumb {
+    width: 9px;
+  }
+}
+.usb_container .accordion-body .usb-img-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.usb_container .accordion-body .usb-img-box__slot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  width: calc(25% - 24px);
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-img-box__slot {
+    border-radius: 16px;
+    width: 40%;
+    min-width: unset;
+  }
+  .usb_container .accordion-body .usb-img-box__slot .usb-box-img {
+    width: 100%;
+    height: auto;
+  }
+}
+.usb_container .accordion-body .usb-img-box__slot .usb-box-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.usb_container .accordion-body .usb-img-box__slot .check-icon {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  display: none;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-img-box__slot .check-icon {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    right: -3px;
+  }
+}
+.usb_container .accordion-body .usb-img-box__slot:hover {
+  border: 1px solid #dedede;
+}
+.usb_container .accordion-body .usb-img-box__slot.active {
+  border: 1px solid #dedede;
+}
+.usb_container .accordion-body .usb-img-box__slot.active .check-icon {
+  display: block;
+}
+.usb_container .accordion-body .usb-branding-box-first-type {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8a8a8a;
+  height: 50px;
+  width: calc(50% - 20px);
+  padding: 14px 19px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-first-type__slot {
+    width: 100%;
+  }
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot.active {
+  border-color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot.active span {
+  color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #4a6375;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-first-type__slot span {
+    font-size: 14px;
+  }
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot:hover {
+  cursor: pointer;
+  border-color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot:hover span {
+  color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-second-type {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8a8a8a;
+  height: 50px;
+  min-width: 124px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 14px 19px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-second-type__slot {
+    width: 100%;
+  }
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot.active {
+  border-color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot.active span {
+  color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #4a6375;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-second-type__slot span {
+    font-size: 14px;
+  }
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot:hover {
+  cursor: pointer;
+  border-color: #f26521;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot:hover span {
+  color: #f26521;
+}
+.usb_container .usb-summary-box {
+  width: 460px;
+  max-width: 460px;
+  min-width: 457px;
+}
+@media (max-width: 1180px) {
+  .usb_container .usb-summary-box {
+    min-width: unset;
+    max-width: unset;
+    width: 100%;
+  }
+}
+.usb_container .usb-summary-box .aside-box-wrapper {
+  position: sticky;
+  top: 16px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+}
+.usb_container .usb-summary-box__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+}
+.usb_container .usb-summary-box__title p {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #4a6375;
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__title p {
+    font-size: 18px;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity, .usb_container .usb-summary-box__usb-price, .usb_container .usb-summary-box__usb-availability, .usb_container .usb-summary-box__usb-branding, .usb_container .usb-summary-box__usb-comments {
+  padding: 18px 24px;
+  border-bottom: 1px solid #8a8a8a;
+  margin: 0 24px;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity, .usb_container .usb-summary-box__usb-price, .usb_container .usb-summary-box__usb-availability, .usb_container .usb-summary-box__usb-branding, .usb_container .usb-summary-box__usb-comments {
+    padding: 16px 12px;
+    margin: 0 8px;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity .subtitle, .usb_container .usb-summary-box__usb-price .subtitle, .usb_container .usb-summary-box__usb-availability .subtitle, .usb_container .usb-summary-box__usb-branding .subtitle, .usb_container .usb-summary-box__usb-comments .subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4a6375;
+  margin-bottom: 8px;
+}
+.usb_container .usb-summary-box__usb-quantity .subtitle span.blue, .usb_container .usb-summary-box__usb-price .subtitle span.blue, .usb_container .usb-summary-box__usb-availability .subtitle span.blue, .usb_container .usb-summary-box__usb-branding .subtitle span.blue, .usb_container .usb-summary-box__usb-comments .subtitle span.blue {
+  color: #219af2;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity .subtitle, .usb_container .usb-summary-box__usb-price .subtitle, .usb_container .usb-summary-box__usb-availability .subtitle, .usb_container .usb-summary-box__usb-branding .subtitle, .usb_container .usb-summary-box__usb-comments .subtitle {
+    font-size: 16px;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity small, .usb_container .usb-summary-box__usb-price small, .usb_container .usb-summary-box__usb-availability small, .usb_container .usb-summary-box__usb-branding small, .usb_container .usb-summary-box__usb-comments small {
+  display: flex;
+  font-size: 14px;
+  color: #4a6375;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity small, .usb_container .usb-summary-box__usb-price small, .usb_container .usb-summary-box__usb-availability small, .usb_container .usb-summary-box__usb-branding small, .usb_container .usb-summary-box__usb-comments small {
+    display: inline-flex;
+    width: 100%;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity small span.green, .usb_container .usb-summary-box__usb-price small span.green, .usb_container .usb-summary-box__usb-availability small span.green, .usb_container .usb-summary-box__usb-branding small span.green, .usb_container .usb-summary-box__usb-comments small span.green {
+  display: inline-flex;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #00ba28;
+}
+.usb_container .usb-summary-box__usb-quantity small s.red, .usb_container .usb-summary-box__usb-price small s.red, .usb_container .usb-summary-box__usb-availability small s.red, .usb_container .usb-summary-box__usb-branding small s.red, .usb_container .usb-summary-box__usb-comments small s.red {
+  display: inline-flex;
+  margin: 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff0000;
+}
+.usb_container .usb-summary-box__usb-quantity .quantity, .usb_container .usb-summary-box__usb-price .quantity, .usb_container .usb-summary-box__usb-availability .quantity, .usb_container .usb-summary-box__usb-branding .quantity, .usb_container .usb-summary-box__usb-comments .quantity {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  color: #f26521;
+  margin-bottom: 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity .quantity, .usb_container .usb-summary-box__usb-price .quantity, .usb_container .usb-summary-box__usb-availability .quantity, .usb_container .usb-summary-box__usb-branding .quantity, .usb_container .usb-summary-box__usb-comments .quantity {
+    font-size: 16px;
+  }
+}
+.usb_container .usb-summary-box__usb-comments {
+  border-bottom: 0;
+  background-color: #ffc8c8;
+  margin: 24px 24px 0 24px;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-comments {
+    margin: 8px;
+  }
+}
+.usb_container .usb-summary-box__usb-comments .usb-comments-box {
+  display: flex;
+  gap: 18px;
+}
+.usb_container .usb-summary-box__usb-comments .usb-comments-box__text p {
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-comments .usb-comments-box__text p {
+    font-size: 14px;
+  }
+}
+.usb_container .usb-summary-box__pay {
+  margin: 0 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.usb_container .usb-summary-box__pay .pay-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #4a6375;
+  margin: 23px 0 0 0;
+}
+.usb_container .usb-summary-box__pay .brutto-value {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 177%;
+  text-align: center;
+  color: #f26521;
+  margin: 0;
+}
+.usb_container .usb-summary-box__pay .brutto-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #8a8a8a;
+  margin: 0 0 -16px 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__pay {
+    margin: 8px;
+  }
+}
+.usb_container .usb-summary-box__button {
+  margin: 0 24px 24px 24px;
+  width: 100%;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__button {
+    margin: 8px;
+  }
+}
+.usb_container .usb-summary-box__button a {
+  width: calc(100% - 48px);
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__button a {
+    width: calc(100% - 16px);
+  }
+}
+
+.usb-finally-box {
+  background-color: #ffffff;
+  padding: 55px 45px;
+  margin-right: 24px;
+}
+@media (max-width: 1180px) {
+  .usb-finally-box {
+    margin-right: 0;
+    padding: 16px;
+  }
+}
+.usb-finally-box .usb-chosen-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+  width: 220px;
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid #dedede;
+  height: -moz-max-content;
+  height: max-content;
+}
+.usb-finally-box .usb-chosen-box .usb-chosen-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 24px;
+  width: 100%;
+}
+.usb-finally-box .usb-chosen-box .check-icon {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  display: block;
+}
+@media (max-width: 760px) {
+  .usb-finally-box .usb-chosen-box .check-icon {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    right: -3px;
+  }
+}
+@media (max-width: 760px) {
+  .usb-finally-box .usb-chosen-box {
+    border-radius: 16px;
+    width: 220px;
+    height: 220px;
+    min-width: unset;
+  }
+  .usb-finally-box .usb-chosen-box .usb-chosen-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+}
+.usb-finally-box__top {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 44px;
+}
+@media (max-width: 760px) {
+  .usb-finally-box__top {
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .usb-finally-box__top .usb-chosen-box {
+    width: 220px;
+    height: auto;
+  }
+}
+.usb-finally-box__top .usb-info-text h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+@media (max-width: 760px) {
+  .usb-finally-box__top .usb-info-text h2 {
+    font-size: 22px;
+  }
+}
+.usb-finally-box__top .usb-info-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+@media (max-width: 760px) {
+  .usb-finally-box__top .usb-info-text p {
+    font-size: 14px;
+  }
+}
+.usb-finally-box__bottom .usb-chosen-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.usb-finally-box__bottom .usb-chosen-types__slot .usb-chosen-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #4a6375;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,534 @@
+.usb-row-grid {
+  .white-btn {
+    margin-bottom: 24px;
+  }
+  @media (max-width: 1180px) {
+    flex-direction: column !important;
+  }
+}
+
+.container:has(.usb-title) {
+  margin-bottom: 24px;
+}
+.usb-title {
+  padding: 35px 0;
+  background-color: $white;
+  .title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: $macma_orange;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  @media (max-width: 991px) {
+    padding: 24px 0;
+    .title {
+      font-size: 24px;
+    }
+  }
+}
+
+.usb_container {
+  .accordion-button {
+    pointer-events: none;
+  }
+  .accordion-body {
+    justify-content: flex-start !important;
+    padding: 40px;
+    @media (max-width: 1240px) {
+      flex-direction: column !important;
+    }
+    @media (max-width: 760px) {
+      padding: 16px;
+    }
+    &:has(.usb-big-img) {
+      align-items: center;
+      @media (max-width: 1400px) {
+        flex-direction: column !important;
+      }
+    }
+    &__col {
+      &:has(.usb-big-img) {
+        margin-right: 60px;
+      }
+      .product-wrapper {
+        position: relative;
+        .usb-big-img {
+          height: 310px;
+          width: auto;
+          max-width: 440px;
+          @media (max-width: 760px) {
+            max-width: 80vw;
+            height: auto;
+          }
+        }
+        .product-download {
+          position: absolute;
+          bottom: 16px;
+          right: 16px;
+        }
+      }
+    }
+    .colors-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 120px;
+      @media (max-width: 760px) {
+        flex-direction: column;
+        gap: 24px;
+      }
+      .colors-row {
+        .colors-title {
+          margin-bottom: 24px;
+          span {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 120%;
+            text-transform: uppercase;
+            color: $small_text_color;
+            @media (max-width: 760px) {
+              font-size: 14px;
+            }
+          }
+        }
+        .colors-squares {
+          .color {
+            cursor: pointer;
+            border-radius: 100%;
+            &.checked {
+              outline: 1px solid $black;
+              background-image: url(./../assets/icons/product_page/checked.svg);
+              background-size: 15px 10px;
+              background-repeat: no-repeat;
+              background-position: center;
+            }
+            &:hover {
+              outline: 1px solid $black;
+            }
+          }
+        }
+      }
+    }
+    .usb-size-box {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      &__slot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $grey5;
+        height: 50px;
+        min-width: 124px;
+        width: max-content;
+        padding: 14px 19px;
+        border-radius: 10px;
+        user-select: none;
+        &.active {
+          border-color: $macma_orange;
+          span {
+            color: $macma_orange;
+          }
+        }
+        span {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 120%;
+          color: $small_text_color;
+          @media (max-width: 760px) {
+            font-size: 14px;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          border-color: $macma_orange;
+          span {
+            color: $macma_orange;
+          }
+        }
+      }
+    }
+    .usb-slider-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 20px;
+
+      @media (max-width: 760px) {
+        margin-bottom: 24px;
+      }
+
+      .slider-labels {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        bottom: -20px;
+        font-size: 12px;
+        left: 24px;
+        color: 24px;
+        @media (max-width: 760px) {
+          left: 0;
+        }
+        span {
+          color: $grey5;
+          &::before {
+            position: relative;
+            left: 4px;
+            display: block;
+            content: "|";
+            color: $grey5;
+          }
+        }
+      }
+
+      .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 20px;
+        background: #e7e7e7;
+        border: 1px solid $macma_orange;
+        outline: none;
+        opacity: 0.9;
+        transition: opacity 0.15s ease-in-out;
+
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 23px;
+          height: 41px;
+          background: $macma_orange;
+          cursor: pointer;
+          @media (max-width: 991px) {
+            width: 9px;
+          }
+        }
+
+        &::-moz-range-thumb {
+          width: 23px;
+          height: 41px;
+          background: $macma_orange;
+          cursor: pointer;
+          @media (max-width: 991px) {
+            width: 9px;
+          }
+        }
+      }
+    }
+    .usb-img-box {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      &__slot {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 165px;
+        width: calc(25% - 24px);
+        padding: 20px;
+        border-radius: 40px;
+        border: 1px solid $transparent;
+        cursor: pointer;
+        @media (max-width: 760px) {
+          border-radius: 16px;
+          width: 40%;
+          min-width: unset;
+          .usb-box-img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .usb-box-img {
+          object-fit: contain;
+        }
+        .check-icon {
+          position: absolute;
+          top: -6px;
+          right: -6px;
+          display: none;
+          @media (max-width: 760px) {
+            width: 24px;
+            height: 24px;
+            top: -3px;
+            right: -3px;
+          }
+        }
+        &:hover {
+          border: 1px solid $grey14;
+        }
+        &.active {
+          border: 1px solid $grey14;
+          .check-icon {
+            display: block;
+          }
+        }
+      }
+    }
+    .usb-branding-box-first-type {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      &__slot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $grey5;
+        height: 50px;
+        width: calc(50% - 20px);
+        padding: 14px 19px;
+        border-radius: 10px;
+        user-select: none;
+        @media (max-width: 760px) {
+          width: 100%;
+        }
+        &.active {
+          border-color: $macma_orange;
+          span {
+            color: $macma_orange;
+          }
+        }
+        span {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 120%;
+          color: $small_text_color;
+          @media (max-width: 760px) {
+            font-size: 14px;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          border-color: $macma_orange;
+          span {
+            color: $macma_orange;
+          }
+        }
+      }
+    }
+    .usb-branding-box-second-type {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      &__slot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $grey5;
+        height: 50px;
+        min-width: 124px;
+        width: max-content;
+        padding: 14px 19px;
+        border-radius: 10px;
+        user-select: none;
+        @media (max-width: 760px) {
+          width: 100%;
+        }
+        &.active {
+          border-color: $macma_orange;
+          span {
+            color: $macma_orange;
+          }
+        }
+        span {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 120%;
+          color: $small_text_color;
+          @media (max-width: 760px) {
+            font-size: 14px;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          border-color: $macma_orange;
+          span {
+            color: $macma_orange;
+          }
+        }
+      }
+    }
+  }
+
+  .usb-summary-box {
+    width: 460px;
+    max-width: 460px;
+    min-width: 457px;
+    @media (max-width: 1180px) {
+      min-width: unset;
+      max-width: unset;
+      width: 100%;
+    }
+    .aside-box-wrapper {
+      position: sticky;
+      top: 16px;
+      background-color: $white;
+      border: 1px solid $grey14;
+    }
+    &__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 0;
+      text-align: center;
+      border-bottom: 1px solid $grey14;
+      p {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: $small_text_color;
+        margin: 0;
+        @media (max-width: 760px) {
+          font-size: 18px;
+        }
+      }
+    }
+    &__usb-quantity,
+    &__usb-price,
+    &__usb-availability,
+    &__usb-branding,
+    &__usb-comments {
+      padding: 18px 24px;
+      border-bottom: 1px solid $grey5;
+      margin: 0 24px;
+      @media (max-width: 760px) {
+        padding: 16px 12px;
+        margin: 0 8px;
+      }
+      .subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 160%;
+        color: $small_text_color;
+        margin-bottom: 8px;
+        span.blue {
+          color: #219af2;
+        }
+        @media (max-width: 760px) {
+          font-size: 16px;
+        }
+      }
+      small {
+        display: flex;
+        font-size: 14px;
+        color: $small_text_color;
+        @media (max-width: 760px) {
+          display: inline-flex;
+          width: 100%;
+        }
+        span.green {
+          display: inline-flex;
+          margin: 0 4px;
+          font-size: 16px;
+          font-weight: 700;
+          color: #00ba28;
+        }
+        s.red {
+          display: inline-flex;
+          margin: 0 4px;
+          font-size: 14px;
+          font-weight: 700;
+          color: #ff0000;
+        }
+      }
+      .quantity {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 160%;
+        color: $macma_orange;
+        margin-bottom: 0;
+        @media (max-width: 760px) {
+          font-size: 16px;
+        }
+      }
+    }
+    &__usb-comments {
+      border-bottom: 0;
+      background-color: #ffc8c8;
+      margin: 24px 24px 0 24px;
+      @media (max-width: 760px) {
+        margin: 8px;
+      }
+      .usb-comments-box {
+        display: flex;
+        gap: 18px;
+        &__text {
+          p {
+            margin: 0;
+            @media (max-width: 760px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    &__pay {
+      margin: 0 24px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      .pay-text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+        color: $small_text_color;
+        margin: 23px 0 0 0;
+      }
+      .brutto-value {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 177%;
+        text-align: center;
+        color: $macma_orange;
+        margin: 0;
+      }
+      .brutto-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: center;
+        color: $grey5;
+        margin: 0 0 -16px 0;
+      }
+      @media (max-width: 760px) {
+        margin: 8px;
+      }
+    }
+    &__button {
+      margin: 0 24px 24px 24px;
+      width: 100%;
+      @media (max-width: 760px) {
+        margin: 8px;
+      }
+      a {
+        width: calc(100% - 48px);
+        @media (max-width: 760px) {
+          width: calc(100% - 16px);
+        }
+      }
+    }
+  }
+}
