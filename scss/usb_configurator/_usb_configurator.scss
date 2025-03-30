@@ -99,7 +99,6 @@
         .colors-squares {
           .color {
             cursor: pointer;
-            border-radius: 100%;
             &.checked {
               outline: 1px solid $black;
               background-image: url(./../assets/icons/product_page/checked.svg);

@@ -16361,7 +16361,6 @@ main:has(.shop-creator-wrapper) {
 }
 .usb_container .accordion-body .colors-box .colors-row .colors-squares .color {
   cursor: pointer;
-  border-radius: 100%;
 }
 .usb_container .accordion-body .colors-box .colors-row .colors-squares .color.checked {
   outline: 1px solid #000000;
