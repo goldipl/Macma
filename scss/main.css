@@ -16425,6 +16425,20 @@ main:has(.shop-creator-wrapper) {
   width: 100%;
   padding-bottom: 20px;
 }
+.usb_container .accordion-body .usb-slider-container .input-slot {
+  display: flex;
+  flex-direction: column;
+}
+.usb_container .accordion-body .usb-slider-container .input-slot input {
+  margin: 0 0 32px 0;
+  padding: 0 12px;
+}
+@media (max-width: 991px) {
+  .usb_container .accordion-body .usb-slider-container .input-slot label,
+  .usb_container .accordion-body .usb-slider-container .input-slot input {
+    font-size: 14px;
+  }
+}
 @media (max-width: 760px) {
   .usb_container .accordion-body .usb-slider-container {
     margin-bottom: 24px;

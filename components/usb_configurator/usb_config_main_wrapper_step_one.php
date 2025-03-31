@@ -117,6 +117,10 @@
                         <div id="collapse14" class="accordion-collapse collapse show" aria-labelledby="heading14" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="usb-slider-container">
+                                    <div class="input-slot">
+                                        <label for="usb-quantit">Ilość</label>
+                                        <input class="form-input" type="number" min="0" name="usb-quantity">
+                                    </div>
                                     <input type="range" min="0" max="10000" value="100" step="1000" class="slider">
                                     <div class="slider-labels">
                                         <span>0</span>
@@ -265,7 +269,7 @@
                     <div class="accordion-item" id="step-eight">
                         <h2 class="accordion-header" id="heading18">
                             <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
-                                <span class="number">8</span>Wybierz znakowanie</button>
+                            <span class="number">8</span>Wgrywanie danych</button>
                         </h2>
                         <div id="collapse18" class="accordion-collapse collapse show" aria-labelledby="heading18" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
