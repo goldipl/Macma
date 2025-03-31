@@ -42,6 +42,15 @@
                                     <img src="./assets/icons/common/check-circle-fill.svg" alt="check" width="36" height="36" class="check-icon">
                                 </div>
                             </div>
+                            <div class="usb-chosen-types__slot">
+                                <div class="usb-chosen-text">
+                                    <span>Wgrywanie danych</span>
+                                </div>
+                                <div class="usb-chosen-box">
+                                    <img src="./assets/img/usb_configurator/to100MB.png" alt="img" width="220" height="170" class="usb-chosen-img">
+                                    <img src="./assets/icons/common/check-circle-fill.svg" alt="check" width="36" height="36" class="check-icon">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
