@@ -38,8 +38,8 @@
                                     <span>Pamięć</span>
                                 </div>
                                 <div class="usb-chosen-box">
-                                    <img src="./assets/img/usb_configurator/3.0 - 16GB.png" alt="img" width="220" height="170" class="usb-chosen-img">
                                     <img src="./assets/icons/common/check-circle-fill.svg" alt="check" width="36" height="36" class="check-icon">
+                                    <span class="value">3.0 - 16GB</span>
                                 </div>
                             </div>
                             <div class="usb-chosen-types__slot">
@@ -47,8 +47,8 @@
                                     <span>Wgrywanie danych</span>
                                 </div>
                                 <div class="usb-chosen-box">
-                                    <img src="./assets/img/usb_configurator/to100MB.png" alt="img" width="220" height="170" class="usb-chosen-img">
                                     <img src="./assets/icons/common/check-circle-fill.svg" alt="check" width="36" height="36" class="check-icon">
+                                    <span class="value">to 100 MB</span>
                                 </div>
                             </div>
                         </div>

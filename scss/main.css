@@ -16868,6 +16868,17 @@ main:has(.shop-creator-wrapper) {
   height: -moz-max-content;
   height: max-content;
 }
+.usb-finally-box .usb-chosen-box .value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 170px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: #333333;
+  text-align: center;
+}
 .usb-finally-box .usb-chosen-box .usb-chosen-img {
   -o-object-fit: contain;
      object-fit: contain;

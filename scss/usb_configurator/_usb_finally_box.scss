@@ -17,6 +17,17 @@
     border-radius: 40px;
     border: 1px solid $grey14;
     height: max-content;
+    .value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 170px;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 120%;
+      color: $grey_main;
+      text-align: center;
+    }
     .usb-chosen-img {
       object-fit: contain;
       border-radius: 24px;
