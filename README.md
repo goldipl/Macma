@@ -4,12 +4,27 @@
 
 <h1 align="center">MACMA.pl website</h1>
 
-<p align="center">MACMA.pl website ➡️ E-commerce dynamic website written using PHP, SCSS, Bootstrap, Bootbox.js, jQuery, Select2, Vanilla JavaScript, HTML5 with Swiper.js.</p>
-<p align="center">Website contains products page, cart page, login, register, offerts & account profiles/settings pages.</p>
+<p align="center">MACMA.pl is a comprehensive e-commerce platform for promotional products and gadgets. Built with PHP, SCSS, Bootstrap, and modern JavaScript libraries, it offers a full-featured online store experience including product catalogs, shopping cart, user accounts, custom configurators, and more.</p>
+
+## Features
+
+- **Product Catalog**: Browse and search through a wide range of promotional products organized by categories.
+- **Shopping Cart**: Multi-step checkout process with delivery options and free delivery thresholds.
+- **User Accounts**: Registration, login, and personalized dashboards for managing orders, negotiations, and settings.
+- **Custom Configurators**: Tools for branding, USB configuration, shop creation, and product customization.
+- **Pricing Calculator**: Interactive tool for calculating costs and offers.
+- **Dashboard**: Comprehensive user panel with sections for orders, catalogs, commercial offers, delivery addresses, logos, marketing materials, negotiations, newsletters, pricelists, programs, videos, visualizations, web API, and data management.
+- **Content Management**: Blog, news articles, newsletters, and FAQ sections.
+- **Contact and Support**: Contact forms, import functionality, and negotiator tools.
+- **Responsive Design**: Optimized for desktop and mobile devices.
 
 ## Table of contents
 
+- [Features](#features)
 - [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
 - [Live links](#live-links)
 - [Gif desktop website presentation](#gif-desktop-website-presentation)
 - [Gif mobile website presentation](#gif-mobile-website-presentation)
@@ -32,6 +47,71 @@ Used technologies:
 - HTML5
 - Bootstrap 5.3.2
 - SCSS
+
+## Installation
+
+### Prerequisites
+
+- PHP 7.4 or higher
+- MySQL 5.7 or higher (if database is used)
+- Apache or Nginx web server
+- (Recommended) XAMPP for local development on Windows
+
+### Steps
+
+1. Clone the repository or download the ZIP file.
+2. Place the project folder in your web server's root directory (e.g., `htdocs` for XAMPP).
+3. Start your web server and MySQL (if applicable).
+4. If a database is required, import the provided SQL schema (contact developers for database files if not included).
+5. Open your browser and navigate to `http://localhost/MACMA` or your server's URL.
+
+## Usage
+
+- **Browsing**: Visit the main page to explore featured products, categories, and promotions.
+- **Shopping**: Use search and filters to find products, add to cart, and complete checkout.
+- **Account**: Register or login to access the dashboard for order management and custom tools.
+- **Customization**: Utilize configurators for branding, USB, and shop creation.
+- **Content**: Read blog posts, news, and subscribe to newsletters.
+
+## Project Structure
+
+```
+MACMA/
+├── assets/                 # Static assets (images, icons)
+│   ├── icons/
+│   └── img/
+├── components/             # Reusable PHP components
+│   ├── blog/
+│   ├── branding_page/
+│   ├── calculator/
+│   ├── cart/
+│   ├── catalogs/
+│   ├── category/
+│   ├── common/             # Shared components like nav, footer
+│   ├── contact/
+│   ├── dashboard/
+│   ├── e_leaflet/
+│   ├── faq/
+│   ├── import_page/
+│   ├── main_page/
+│   ├── negotiator/
+│   ├── news/
+│   ├── news_article/
+│   ├── newsletter/
+│   ├── offertspage/
+│   ├── product_card/
+│   ├── register/
+│   ├── shop_creator/
+│   └── usb_configurator/
+├── css/                    # Compiled CSS files
+├── js/                     # JavaScript files and libraries
+├── scss/                   # SCSS source files
+├── screenshots/            # Project screenshots
+├── gif/                    # Demo GIFs
+├── *.php                   # Main page files
+├── LICENSE.md
+└── README.md
+```
 
 ## Live links
 
