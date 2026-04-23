@@ -209,94 +209,94 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 
 - Desktop & mobile version :desktop_computer: :iphone:
 
-![screenshot](./screenshots/macma_screenshot_01.jpg)
+<img src="./screenshots/macma_screenshot_01.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_02.jpg)
+<img src="./screenshots/macma_screenshot_02.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_03.jpg)
+<img src="./screenshots/macma_screenshot_03.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_04.jpg)
+<img src="./screenshots/macma_screenshot_04.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_05.jpg)
+<img src="./screenshots/macma_screenshot_05.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_06.jpg)
+<img src="./screenshots/macma_screenshot_06.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_07.jpg)
+<img src="./screenshots/macma_screenshot_07.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_08.jpg)
+<img src="./screenshots/macma_screenshot_08.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_09.jpg)
+<img src="./screenshots/macma_screenshot_09.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_10.jpg)
+<img src="./screenshots/macma_screenshot_10.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_11.jpg)
+<img src="./screenshots/macma_screenshot_11.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_12.jpg)
+<img src="./screenshots/macma_screenshot_12.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_13.jpg)
+<img src="./screenshots/macma_screenshot_13.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_14.jpg)
+<img src="./screenshots/macma_screenshot_14.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_15.jpg)
+<img src="./screenshots/macma_screenshot_15.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_16.jpg)
+<img src="./screenshots/macma_screenshot_16.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_17.jpg)
+<img src="./screenshots/macma_screenshot_17.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_18.jpg)
+<img src="./screenshots/macma_screenshot_18.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_19.jpg)
+<img src="./screenshots/macma_screenshot_19.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_20.jpg)
+<img src="./screenshots/macma_screenshot_20.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_21.jpg)
+<img src="./screenshots/macma_screenshot_21.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_22.jpg)
+<img src="./screenshots/macma_screenshot_22.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_23.jpg)
+<img src="./screenshots/macma_screenshot_23.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_24.jpg)
+<img src="./screenshots/macma_screenshot_24.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_25.jpg)
+<img src="./screenshots/macma_screenshot_25.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_26.jpg)
+<img src="./screenshots/macma_screenshot_26.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_27.jpg)
+<img src="./screenshots/macma_screenshot_27.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_28.jpg)
+<img src="./screenshots/macma_screenshot_28.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_29.jpg)
+<img src="./screenshots/macma_screenshot_29.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_30.jpg)
+<img src="./screenshots/macma_screenshot_30.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_31.jpg)
+<img src="./screenshots/macma_screenshot_31.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_32.jpg)
+<img src="./screenshots/macma_screenshot_32.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_33.jpg)
+<img src="./screenshots/macma_screenshot_33.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_34.jpg)
+<img src="./screenshots/macma_screenshot_34.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_35.jpg)
+<img src="./screenshots/macma_screenshot_35.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_36.jpg)
+<img src="./screenshots/macma_screenshot_36.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_37.jpg)
+<img src="./screenshots/macma_screenshot_37.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_38.jpg)
+<img src="./screenshots/macma_screenshot_38.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_39.jpg)
+<img src="./screenshots/macma_screenshot_39.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_40.jpg)
+<img src="./screenshots/macma_screenshot_40.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_41.jpg)
+<img src="./screenshots/macma_screenshot_41.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_42.jpg)
+<img src="./screenshots/macma_screenshot_42.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_43.jpg)
+<img src="./screenshots/macma_screenshot_43.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_44.jpg)
+<img src="./screenshots/macma_screenshot_44.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_45.jpg)
+<img src="./screenshots/macma_screenshot_45.jpg" width="400" alt="screenshot" />
 
-![screenshot](./screenshots/macma_screenshot_46.jpg)
+<img src="./screenshots/macma_screenshot_46.jpg" width="400" alt="screenshot" />
