@@ -2,40 +2,40 @@
     <img src="./assets/icons/common/header/macma-logo.svg" height="64"/>
 </p>
 
-<h1 align="center">MACMA.pl website</h1>
+<h1 align="center">MACMA.pl</h1>
 
-<p align="center">MACMA.pl is a comprehensive e-commerce platform for promotional products and gadgets. Built with PHP, SCSS, Bootstrap, and modern JavaScript libraries, it offers a full-featured online store experience including product catalogs, shopping cart, user accounts, custom configurators, and more.</p>
+<p align="center">
+  <strong>Promotional products and e-commerce platform</strong>
+</p>
+
+<p align="center">
+  MACMA.pl is a modern online store and digital commerce platform designed for promotional products, branded merchandise, and business-oriented product configuration. The project combines a responsive storefront, catalog management, order workflow, account features, and customization tools in a single system.
+</p>
+
+## Overview
+
+MACMA.pl was developed as a full-featured e-commerce solution for businesses and customers looking to browse, order, customize, and manage promotional products efficiently. The platform supports product discovery, negotiation, dashboard management, configurators, and content-driven marketing workflows.
 
 ## Features
 
-- **Product Catalog**: Browse and search through a wide range of promotional products organized by categories.
-- **Shopping Cart**: Multi-step checkout process with delivery options and free delivery thresholds.
-- **User Accounts**: Registration, login, and personalized dashboards for managing orders, negotiations, and settings.
-- **Custom Configurators**: Tools for branding, USB configuration, shop creation, and product customization.
-- **Pricing Calculator**: Interactive tool for calculating costs and offers.
-- **Dashboard**: Comprehensive user panel with sections for orders, catalogs, commercial offers, delivery addresses, logos, marketing materials, negotiations, newsletters, pricelists, programs, videos, visualizations, web API, and data management.
-- **Content Management**: Blog, news articles, newsletters, and FAQ sections.
-- **Contact and Support**: Contact forms, import functionality, and negotiator tools.
-- **Responsive Design**: Optimized for desktop and mobile devices.
-
-## Table of contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Live links](#live-links)
-- [Gif desktop website presentation](#gif-desktop-website-presentation)
-- [Gif mobile website presentation](#gif-mobile-website-presentation)
-- [License](#license)
-- [Architecture](#architecture)
-- [Screenshots](#screenshots)
+- **Product catalog**: Browse and search promotional products by category and assortment.
+- **Shopping cart and checkout**: Multi-step ordering flow with delivery options and threshold-based shipping logic.
+- **User accounts**: Registration, login, and personalized customer dashboard.
+- **Custom configurators**: Product personalization tools for branding, USB setup, shop creation, and custom presentation.
+- **Pricing calculator**: Interactive pricing and offer estimation features.
+- **Administration dashboard**: Access to orders, catalogs, offers, addresses, marketing content, negotiations, newsletters, API features, and data management.
+- **Content publishing**: Blog, news, FAQ, and newsletter modules.
+- **Support and contact tools**: Contact forms, contact management, and internal negotiation workflows.
+- **Responsive design**: Optimized experience for desktop and mobile devices.
 
 ## Technologies
 
-Used technologies:
+The project is built with a combination of modern web technologies and established frontend/backend tools:
 
+- PHP
+- HTML5
+- SCSS
+- Bootstrap 5.3.2
 - JavaScript
 - jQuery
 - Bootbox.js
@@ -43,39 +43,36 @@ Used technologies:
 - Lightbox.js
 - magnific-popup.js 1.1.0
 - Select2
-- PHP
-- HTML5
-- Bootstrap 5.3.2
-- SCSS
+- MySQL (where applicable)
 
-## Installation
+## Requirements
 
 ### Prerequisites
 
 - PHP 7.4 or higher
-- MySQL 5.7 or higher (if database is used)
+- MySQL 5.7 or higher (if database functionality is used)
 - Apache or Nginx web server
-- (Recommended) XAMPP for local development on Windows
+- XAMPP or equivalent local environment recommended for Windows development
 
-### Steps
+### Local setup
 
-1. Clone the repository or download the ZIP file.
-2. Place the project folder in your web server's root directory (e.g., `htdocs` for XAMPP).
-3. Start your web server and MySQL (if applicable).
-4. If a database is required, import the provided SQL schema (contact developers for database files if not included).
-5. Open your browser and navigate to `http://localhost/MACMA` or your server's URL.
+1. Clone or download this repository.
+2. Place the project folder in your local web server root directory, for example `htdocs` in XAMPP.
+3. Start the web server and database services.
+4. Import the required SQL schema if database support is enabled.
+5. Open the application in a browser using `http://localhost/MACMA` or your local server URL.
 
 ## Usage
 
-- **Browsing**: Visit the main page to explore featured products, categories, and promotions.
-- **Shopping**: Use search and filters to find products, add to cart, and complete checkout.
-- **Account**: Register or login to access the dashboard for order management and custom tools.
-- **Customization**: Utilize configurators for branding, USB, and shop creation.
-- **Content**: Read blog posts, news, and subscribe to newsletters.
+- **Browse catalog**: Explore featured products, categories, and special offers.
+- **Place an order**: Add products to the cart, select shipping options, and proceed to checkout.
+- **Manage account**: Access a dashboard for orders, preferences, and custom project data.
+- **Customize products**: Use configurators for branding and promotional item setup.
+- **Read content**: Review news, articles, blogs, and newsletters.
 
-## Project Structure
+## Project structure
 
-```
+```text
 MACMA/
 ├── assets/                 # Static assets (images, icons)
 │   ├── icons/
@@ -87,7 +84,7 @@ MACMA/
 │   ├── cart/
 │   ├── catalogs/
 │   ├── category/
-│   ├── common/             # Shared components like nav, footer
+│   ├── common/
 │   ├── contact/
 │   ├── dashboard/
 │   ├── e_leaflet/
@@ -103,14 +100,15 @@ MACMA/
 │   ├── register/
 │   ├── shop_creator/
 │   └── usb_configurator/
-├── css/                    # Compiled CSS files
-├── js/                     # JavaScript files and libraries
+├── css/                    # Compiled CSS assets
+├── js/                     # JavaScript libraries and application scripts
 ├── scss/                   # SCSS source files
-├── screenshots/            # Project screenshots
+├── screenshots/            # Product screenshots
 ├── gif/                    # Demo GIFs
-├── *.php                   # Main page files
+├── *.php                   # Main application pages
 ├── LICENSE.md
-└── README.md
+├── README.md
+└── assets/                # Shared project assets
 ```
 
 ## Live links
@@ -159,7 +157,7 @@ Blog:
 
 - https://macma.pl/blog/
 
-Blog (article page):
+Blog article page:
 
 - https://macma.pl/blog/1,najczestsze-problemy-z-ktorymi-mierza-sie-agencje-reklamowe-podczas-zamawiania-gadzetow-promocyjnych/
 
@@ -175,31 +173,42 @@ Sample product page:
 
 - https://macma.pl/940,okulary-przeciwsloneczne-uv400-ferraghini-f24003-14-5-x-15-x-5-5-cm/
 
-404 Page:
+404 page:
 
 - https://macma.pl/fsdfdsfsd
 
-Login/Profile page:
+Login / profile page:
 
 - https://macma.pl/profile/
 
-## Gif desktop website presentation
+## GIF presentation
 
-#### wait until the gif file loads (39,7mb)
+### Desktop website preview
+
+Please wait for the GIF to load (approximately 39.7 MB).
 
 ![gif](./gif/MACMA-desktop.gif)
 
-## Gif mobile website presentation
+### Mobile website preview
 
-#### wait until the gif file loads (15,9mb)
+Please wait for the GIF to load (approximately 15.9 MB).
 
-<img src="./gif/MACMA-mobile.gif" width="300"/>
+<img src="./gif/MACMA-mobile.gif" width="300" alt="Mobile website preview" />
 
 ## License
 
-License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
+Copyright © 2025. All rights reserved.
 
-This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
+This project is the intellectual property of its author. It is not for commercial use. The author retains all copyright and ownership rights.
+
+The following is strictly prohibited without the author's explicit written permission:
+
+- copying the project or any part of it
+- redistributing or sharing the source code
+- modifying and publishing the code as your own
+- using this project in any commercial, business, or profit-generating activity
+
+This project is protected by copyright law and may not be reproduced, distributed, or used commercially without written authorization from the author.
 
 ## Architecture
 
