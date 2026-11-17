@@ -261,32 +261,32 @@ Each screenshot shows the desktop layout with the mobile view in the frame on th
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_11.jpg"><img src="./screenshots/macma_screenshot_11.jpg" width="400" alt="Cart – Step 1: Products" /></a><br />
-      <b>Cart – Step 1: Products</b><br />
+      <a href="./screenshots/macma_screenshot_11.jpg"><img src="./screenshots/macma_screenshot_11.jpg" width="400" alt="Cart â€“ Step 1: Products" /></a><br />
+      <b>Cart â€“ Step 1: Products</b><br />
       <sub>Cart table with quantities, discounts and totals</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_12.jpg"><img src="./screenshots/macma_screenshot_12.jpg" width="400" alt="Cart – Step 2: Branding" /></a><br />
-      <b>Cart – Step 2: Branding</b><br />
+      <a href="./screenshots/macma_screenshot_12.jpg"><img src="./screenshots/macma_screenshot_12.jpg" width="400" alt="Cart â€“ Step 2: Branding" /></a><br />
+      <b>Cart â€“ Step 2: Branding</b><br />
       <sub>Branding technique selection and logo upload</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_13.jpg"><img src="./screenshots/macma_screenshot_13.jpg" width="400" alt="Cart – Step 3: Shipping" /></a><br />
-      <b>Cart – Step 3: Shipping</b><br />
+      <a href="./screenshots/macma_screenshot_13.jpg"><img src="./screenshots/macma_screenshot_13.jpg" width="400" alt="Cart â€“ Step 3: Shipping" /></a><br />
+      <b>Cart â€“ Step 3: Shipping</b><br />
       <sub>Order summary with branding costs and delivery date</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_14.jpg"><img src="./screenshots/macma_screenshot_14.jpg" width="400" alt="Cart – Step 4: Your details" /></a><br />
-      <b>Cart – Step 4: Your details</b><br />
+      <a href="./screenshots/macma_screenshot_14.jpg"><img src="./screenshots/macma_screenshot_14.jpg" width="400" alt="Cart â€“ Step 4: Your details" /></a><br />
+      <b>Cart â€“ Step 4: Your details</b><br />
       <sub>Billing, contact and shipping address forms</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_15.jpg"><img src="./screenshots/macma_screenshot_15.jpg" width="400" alt="Cart – Step 5: Checkout" /></a><br />
-      <b>Cart – Step 5: Checkout</b><br />
+      <a href="./screenshots/macma_screenshot_15.jpg"><img src="./screenshots/macma_screenshot_15.jpg" width="400" alt="Cart â€“ Step 5: Checkout" /></a><br />
+      <b>Cart â€“ Step 5: Checkout</b><br />
       <sub>Order total, delivery option, payment method and discount code</sub>
     </td>
     <td width="50%"></td>
@@ -303,8 +303,8 @@ Each screenshot shows the desktop layout with the mobile view in the frame on th
       <sub>Sign-up for new and existing customers</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_46.jpg"><img src="./screenshots/macma_screenshot_46.jpg" width="400" alt="Registration – branch finder" /></a><br />
-      <b>Registration – branch finder</b><br />
+      <a href="./screenshots/macma_screenshot_46.jpg"><img src="./screenshots/macma_screenshot_46.jpg" width="400" alt="Registration â€“ branch finder" /></a><br />
+      <b>Registration â€“ branch finder</b><br />
       <sub>Modal listing Macma branches by country</sub>
     </td>
   </tr>
@@ -315,111 +315,111 @@ Each screenshot shows the desktop layout with the mobile view in the frame on th
       <sub>Credit line, customer status, discounts and account manager</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_19.jpg"><img src="./screenshots/macma_screenshot_19.jpg" width="400" alt="Dashboard – Your details" /></a><br />
-      <b>Dashboard – Your details</b><br />
+      <a href="./screenshots/macma_screenshot_19.jpg"><img src="./screenshots/macma_screenshot_19.jpg" width="400" alt="Dashboard â€“ Your details" /></a><br />
+      <b>Dashboard â€“ Your details</b><br />
       <sub>Personal and company data form</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_20.jpg"><img src="./screenshots/macma_screenshot_20.jpg" width="400" alt="Dashboard – Newsletter" /></a><br />
-      <b>Dashboard – Newsletter</b><br />
+      <a href="./screenshots/macma_screenshot_20.jpg"><img src="./screenshots/macma_screenshot_20.jpg" width="400" alt="Dashboard â€“ Newsletter" /></a><br />
+      <b>Dashboard â€“ Newsletter</b><br />
       <sub>Newsletter subscription settings</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_21.jpg"><img src="./screenshots/macma_screenshot_21.jpg" width="400" alt="Dashboard – Loyalty program" /></a><br />
-      <b>Dashboard – Loyalty program</b><br />
+      <a href="./screenshots/macma_screenshot_21.jpg"><img src="./screenshots/macma_screenshot_21.jpg" width="400" alt="Dashboard â€“ Loyalty program" /></a><br />
+      <b>Dashboard â€“ Loyalty program</b><br />
       <sub>Customer tier progress and program benefits</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_22.jpg"><img src="./screenshots/macma_screenshot_22.jpg" width="400" alt="Dashboard – Orders" /></a><br />
-      <b>Dashboard – Orders</b><br />
+      <a href="./screenshots/macma_screenshot_22.jpg"><img src="./screenshots/macma_screenshot_22.jpg" width="400" alt="Dashboard â€“ Orders" /></a><br />
+      <b>Dashboard â€“ Orders</b><br />
       <sub>Order history with status tracking</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_23.jpg"><img src="./screenshots/macma_screenshot_23.jpg" width="400" alt="Dashboard – Invoices &amp; waybills" /></a><br />
-      <b>Dashboard – Invoices &amp; waybills</b><br />
+      <a href="./screenshots/macma_screenshot_23.jpg"><img src="./screenshots/macma_screenshot_23.jpg" width="400" alt="Dashboard â€“ Invoices &amp; waybills" /></a><br />
+      <b>Dashboard â€“ Invoices &amp; waybills</b><br />
       <sub>Invoices with payment status and downloads</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_24.jpg"><img src="./screenshots/macma_screenshot_24.jpg" width="400" alt="Dashboard – Delivery addresses" /></a><br />
-      <b>Dashboard – Delivery addresses</b><br />
+      <a href="./screenshots/macma_screenshot_24.jpg"><img src="./screenshots/macma_screenshot_24.jpg" width="400" alt="Dashboard â€“ Delivery addresses" /></a><br />
+      <b>Dashboard â€“ Delivery addresses</b><br />
       <sub>Saved delivery addresses management</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_25.jpg"><img src="./screenshots/macma_screenshot_25.jpg" width="400" alt="Dashboard – Visualizations" /></a><br />
-      <b>Dashboard – Visualizations</b><br />
+      <a href="./screenshots/macma_screenshot_25.jpg"><img src="./screenshots/macma_screenshot_25.jpg" width="400" alt="Dashboard â€“ Visualizations" /></a><br />
+      <b>Dashboard â€“ Visualizations</b><br />
       <sub>Downloadable product visualizations</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_26.jpg"><img src="./screenshots/macma_screenshot_26.jpg" width="400" alt="Dashboard – Logos" /></a><br />
-      <b>Dashboard – Logos</b><br />
+      <a href="./screenshots/macma_screenshot_26.jpg"><img src="./screenshots/macma_screenshot_26.jpg" width="400" alt="Dashboard â€“ Logos" /></a><br />
+      <b>Dashboard â€“ Logos</b><br />
       <sub>Uploaded logo library with drag &amp; drop upload</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_27.jpg"><img src="./screenshots/macma_screenshot_27.jpg" width="400" alt="Dashboard – Commercial offers" /></a><br />
-      <b>Dashboard – Commercial offers</b><br />
+      <a href="./screenshots/macma_screenshot_27.jpg"><img src="./screenshots/macma_screenshot_27.jpg" width="400" alt="Dashboard â€“ Commercial offers" /></a><br />
+      <b>Dashboard â€“ Commercial offers</b><br />
       <sub>Offers prepared for the customer</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_28.jpg"><img src="./screenshots/macma_screenshot_28.jpg" width="400" alt="Dashboard – Your offers" /></a><br />
-      <b>Dashboard – Your offers</b><br />
+      <a href="./screenshots/macma_screenshot_28.jpg"><img src="./screenshots/macma_screenshot_28.jpg" width="400" alt="Dashboard â€“ Your offers" /></a><br />
+      <b>Dashboard â€“ Your offers</b><br />
       <sub>Offers created in the offer builder</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_29.jpg"><img src="./screenshots/macma_screenshot_29.jpg" width="400" alt="Dashboard – Calculations" /></a><br />
-      <b>Dashboard – Calculations</b><br />
+      <a href="./screenshots/macma_screenshot_29.jpg"><img src="./screenshots/macma_screenshot_29.jpg" width="400" alt="Dashboard â€“ Calculations" /></a><br />
+      <b>Dashboard â€“ Calculations</b><br />
       <sub>Saved price calculations</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_30.jpg"><img src="./screenshots/macma_screenshot_30.jpg" width="400" alt="Dashboard – Negotiations" /></a><br />
-      <b>Dashboard – Negotiations</b><br />
+      <a href="./screenshots/macma_screenshot_30.jpg"><img src="./screenshots/macma_screenshot_30.jpg" width="400" alt="Dashboard â€“ Negotiations" /></a><br />
+      <b>Dashboard â€“ Negotiations</b><br />
       <sub>Price negotiation history</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_31.jpg"><img src="./screenshots/macma_screenshot_31.jpg" width="400" alt="Dashboard – Price lists" /></a><br />
-      <b>Dashboard – Price lists</b><br />
+      <a href="./screenshots/macma_screenshot_31.jpg"><img src="./screenshots/macma_screenshot_31.jpg" width="400" alt="Dashboard â€“ Price lists" /></a><br />
+      <b>Dashboard â€“ Price lists</b><br />
       <sub>Downloadable price lists (XLSX / PDF)</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_32.jpg"><img src="./screenshots/macma_screenshot_32.jpg" width="400" alt="Dashboard – Catalogs" /></a><br />
-      <b>Dashboard – Catalogs</b><br />
+      <a href="./screenshots/macma_screenshot_32.jpg"><img src="./screenshots/macma_screenshot_32.jpg" width="400" alt="Dashboard â€“ Catalogs" /></a><br />
+      <b>Dashboard â€“ Catalogs</b><br />
       <sub>Product catalogs to download or preview</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_33.jpg"><img src="./screenshots/macma_screenshot_33.jpg" width="400" alt="Dashboard – Newsletters" /></a><br />
-      <b>Dashboard – Newsletters</b><br />
+      <a href="./screenshots/macma_screenshot_33.jpg"><img src="./screenshots/macma_screenshot_33.jpg" width="400" alt="Dashboard â€“ Newsletters" /></a><br />
+      <b>Dashboard â€“ Newsletters</b><br />
       <sub>Newsletter archive</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_34.jpg"><img src="./screenshots/macma_screenshot_34.jpg" width="400" alt="Dashboard – Videos" /></a><br />
-      <b>Dashboard – Videos</b><br />
+      <a href="./screenshots/macma_screenshot_34.jpg"><img src="./screenshots/macma_screenshot_34.jpg" width="400" alt="Dashboard â€“ Videos" /></a><br />
+      <b>Dashboard â€“ Videos</b><br />
       <sub>Video library</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_35.jpg"><img src="./screenshots/macma_screenshot_35.jpg" width="400" alt="Dashboard – Marketing materials" /></a><br />
-      <b>Dashboard – Marketing materials</b><br />
+      <a href="./screenshots/macma_screenshot_35.jpg"><img src="./screenshots/macma_screenshot_35.jpg" width="400" alt="Dashboard â€“ Marketing materials" /></a><br />
+      <b>Dashboard â€“ Marketing materials</b><br />
       <sub>Brand assets to download</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_36.jpg"><img src="./screenshots/macma_screenshot_36.jpg" width="400" alt="Dashboard – Web API" /></a><br />
-      <b>Dashboard – Web API</b><br />
+      <a href="./screenshots/macma_screenshot_36.jpg"><img src="./screenshots/macma_screenshot_36.jpg" width="400" alt="Dashboard â€“ Web API" /></a><br />
+      <b>Dashboard â€“ Web API</b><br />
       <sub>Product data feed in XML, CSV, JSON and TXT</sub>
     </td>
     <td width="50%"></td>
@@ -431,37 +431,37 @@ Each screenshot shows the desktop layout with the mobile view in the frame on th
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_37.jpg"><img src="./screenshots/macma_screenshot_37.jpg" width="400" alt="Offer builder – Step 1: Products" /></a><br />
-      <b>Offer builder – Step 1: Products</b><br />
+      <a href="./screenshots/macma_screenshot_37.jpg"><img src="./screenshots/macma_screenshot_37.jpg" width="400" alt="Offer builder â€“ Step 1: Products" /></a><br />
+      <b>Offer builder â€“ Step 1: Products</b><br />
       <sub>Select products and quantities (up to 30 items)</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_38.jpg"><img src="./screenshots/macma_screenshot_38.jpg" width="400" alt="Offer builder – Step 2: Branding" /></a><br />
-      <b>Offer builder – Step 2: Branding</b><br />
+      <a href="./screenshots/macma_screenshot_38.jpg"><img src="./screenshots/macma_screenshot_38.jpg" width="400" alt="Offer builder â€“ Step 2: Branding" /></a><br />
+      <b>Offer builder â€“ Step 2: Branding</b><br />
       <sub>Branding options and logo upload per product</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_39.jpg"><img src="./screenshots/macma_screenshot_39.jpg" width="400" alt="Offer builder – Step 3: Pricing" /></a><br />
-      <b>Offer builder – Step 3: Pricing</b><br />
+      <a href="./screenshots/macma_screenshot_39.jpg"><img src="./screenshots/macma_screenshot_39.jpg" width="400" alt="Offer builder â€“ Step 3: Pricing" /></a><br />
+      <b>Offer builder â€“ Step 3: Pricing</b><br />
       <sub>Set markups and see profit per item</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_40.jpg"><img src="./screenshots/macma_screenshot_40.jpg" width="400" alt="Offer builder – Step 4: Descriptions" /></a><br />
-      <b>Offer builder – Step 4: Descriptions</b><br />
+      <a href="./screenshots/macma_screenshot_40.jpg"><img src="./screenshots/macma_screenshot_40.jpg" width="400" alt="Offer builder â€“ Step 4: Descriptions" /></a><br />
+      <b>Offer builder â€“ Step 4: Descriptions</b><br />
       <sub>Edit names, codes and product specifications</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_41.jpg"><img src="./screenshots/macma_screenshot_41.jpg" width="400" alt="Offer builder – Step 5: Offer details" /></a><br />
-      <b>Offer builder – Step 5: Offer details</b><br />
+      <a href="./screenshots/macma_screenshot_41.jpg"><img src="./screenshots/macma_screenshot_41.jpg" width="400" alt="Offer builder â€“ Step 5: Offer details" /></a><br />
+      <b>Offer builder â€“ Step 5: Offer details</b><br />
       <sub>Validity date, colour theme and client data</sub>
     </td>
     <td align="center" width="50%">
-      <a href="./screenshots/macma_screenshot_42.jpg"><img src="./screenshots/macma_screenshot_42.jpg" width="400" alt="Offer builder – Step 6: Summary" /></a><br />
-      <b>Offer builder – Step 6: Summary</b><br />
+      <a href="./screenshots/macma_screenshot_42.jpg"><img src="./screenshots/macma_screenshot_42.jpg" width="400" alt="Offer builder â€“ Step 6: Summary" /></a><br />
+      <b>Offer builder â€“ Step 6: Summary</b><br />
       <sub>Export to PDF, print, send or convert into an order</sub>
     </td>
   </tr>
