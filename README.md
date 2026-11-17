@@ -74,23 +74,23 @@ The project is built with a combination of modern web technologies and establish
 
 ```text
 MACMA/
-├── assets/                 # Static assets (images, icons)
-│   ├── icons/
-│   └── img/
-├── components/             # Reusable PHP components
+├── assets/
+│   ├── icons/                     # SVG icons, grouped by page/component
+│   └── img/                       # Images, grouped by page/component
+├── components/                    # PHP partials included by the pages
+│   ├── common/                    # Topbar, nav, footer, shared blocks
+│   ├── main_page/                 # Home page sections and swipers
 │   ├── blog/
 │   ├── branding_page/
 │   ├── calculator/
 │   ├── cart/
 │   ├── catalogs/
 │   ├── category/
-│   ├── common/
 │   ├── contact/
 │   ├── dashboard/
 │   ├── e_leaflet/
 │   ├── faq/
 │   ├── import_page/
-│   ├── main_page/
 │   ├── negotiator/
 │   ├── news/
 │   ├── news_article/
@@ -100,12 +100,37 @@ MACMA/
 │   ├── register/
 │   ├── shop_creator/
 │   └── usb_configurator/
-├── css/                    # Compiled CSS assets
-├── js/                     # JavaScript libraries and application scripts
-├── scss/                   # SCSS source files
-├── screenshots/            # Product screenshots
-├── gif/                    # Demo GIFs
-├── *.php                   # Main application pages
+├── css/                           # Vendor CSS (Bootstrap, Select2, Swiper, Magnific Popup)
+├── js/
+│   ├── article_gallery/
+│   ├── category/
+│   ├── dashboard/
+│   ├── import_page/
+│   ├── products_card_gallery/
+│   ├── swiper/                    # Swiper bundle and per-section carousels
+│   ├── text_editor/               # CKEditor
+│   ├── script.js                  # Main application script
+│   └── *.min.js                   # Vendor libraries (jQuery, Bootstrap, Bootbox, Select2, ...)
+├── scss/
+│   ├── _breakpoints.scss
+│   ├── _global.scss
+│   ├── _reset.scss
+│   ├── _variables.scss
+│   ├── <component>/               # Partials mirroring components/
+│   ├── main.scss                  # SCSS entry point
+│   └── main.css                   # Compiled stylesheet loaded by every page
+├── screenshots/                   # Product screenshots
+├── gif/                           # Demo GIFs
+├── index.php                      # Home page
+├── blog.php, news.php, news-article.php, faq.php, contact.php, ...
+├── category.php, product-card.php, catalogs.php, import.php, branding.php, ...
+├── cart-step-*.php                # Checkout flow
+├── offertspage-step-*.php         # Offer builder flow
+├── shop-creator-step-*.php        # Shop creator flow
+├── usb-configurator-step-*.php    # USB configurator flow
+├── register-*.php                 # Registration pages
+├── dashboard*.php                 # Customer dashboard pages
+├── newsletter*.php                # Newsletter sign-up and result pages
 ├── LICENSE.md
 └── README.md
 ```
